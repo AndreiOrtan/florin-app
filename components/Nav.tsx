@@ -3,7 +3,7 @@ import MenuHeader from "./MenuHeader";
 
 const Nav = () => {
   return (
-    <nav className="bg-offwhite">
+    <nav className="bg-lightgray">
       <div className="px-4">
         <div className="flex justify-center h-16">
           <div className="flex items-center">
@@ -14,7 +14,7 @@ const Nav = () => {
           <div className="flex">
             <div className="ml-6 flex items-center">
               <MenuHeader
-                header="Fizio Terapie"
+                header="Fizioterapie"
                 content={[
                   "Electro & Ultrasound",
                   "Lase Therapy",
@@ -24,7 +24,7 @@ const Nav = () => {
                 ]}
               />
               <MenuHeader
-                header="Mecanoterapie cu MTT&CTT"
+                header="Mecanoterapie"
                 content={[
                   "Masini Isokinetice - MTT",
                   "Dinamometre Digitale Isokinetice - CTT",

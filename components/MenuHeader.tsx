@@ -2,7 +2,9 @@
 import { IMenuHeader } from "@/types";
 import {
   Button,
+  Divider,
   Grow,
+  Link,
   MenuItem,
   MenuList,
   Paper,
@@ -16,60 +18,67 @@ const MenuHeader = ({ header, content }: IMenuHeader) => {
   const anchorRef = useRef<HTMLButtonElement>(null);
 
   return (
-    <>
-      <Stack direction="row" spacing={2}>
-        <div
-          onMouseEnter={() => setOpen(true)}
-          onMouseLeave={() => setOpen(false)}
+    // <Stack direction="row" spacing={2}>
+    <div onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
+      <button
+        ref={anchorRef}
+        id="composition-button"
+        aria-controls={open ? "composition-menu" : undefined}
+        aria-expanded={open ? "true" : undefined}
+        aria-haspopup="true"
+      >
+        <Link
+          href={`/${header?.toLocaleLowerCase()}`}
+          className="no-underline text-sm block py-2 pl-3 pr-4 text-gray900 rounded hover:bg-gray100 hover:bg-transparent border-0 hover:text-blue700 p-0"
         >
-          <Button
-            ref={anchorRef}
-            id="composition-button"
-            aria-controls={open ? "composition-menu" : undefined}
-            aria-expanded={open ? "true" : undefined}
-            aria-haspopup="true"
-          >
-            {header}
-          </Button>
-          {content && (
-            <Popper
-              open={open}
-              anchorEl={anchorRef.current}
-              role={undefined}
-              placement="bottom-start"
-              transition
-              disablePortal
-            >
-              {({ TransitionProps, placement }) => (
-                <Grow
-                  {...TransitionProps}
-                  style={{
-                    transformOrigin:
-                      placement === "bottom-start" ? "left top" : "left bottom",
-                  }}
+          {header}
+        </Link>
+      </button>
+      {content && (
+        <Popper
+          open={open}
+          anchorEl={anchorRef.current}
+          role={undefined}
+          placement="auto"
+          transition
+          disablePortal
+          className={`${open ? "menu-container" : ""}`}
+        >
+          {({ TransitionProps }) => (
+            <Grow {...TransitionProps} className="mt-3.5">
+              <Paper>
+                <MenuList
+                  id="composition-menu"
+                  aria-labelledby="composition-button"
+                  className="py-1"
                 >
-                  <Paper>
-                    <MenuList
-                      autoFocusItem={open}
-                      id="composition-menu"
-                      aria-labelledby="composition-button"
-                    >
-                      {content?.map((item, index) => {
-                        return (
-                          <MenuItem onClick={() => setOpen(false)} key={index}>
-                            {item}
-                          </MenuItem>
-                        );
-                      })}
-                    </MenuList>
-                  </Paper>
-                </Grow>
-              )}
-            </Popper>
+                  {content?.map((item, index) => {
+                    return (
+                      <div key={index}>
+                        <MenuItem
+                          onClick={() => setOpen(false)}
+                          key={index}
+                          className={`text-xs font-light px-4`}
+                        >
+                          {item}
+                        </MenuItem>
+                        {index !== content.length - 1 ? (
+                          <Divider
+                            variant="middle"
+                            sx={{ my: "0!important" }}
+                            light
+                          />
+                        ) : null}
+                      </div>
+                    );
+                  })}
+                </MenuList>
+              </Paper>
+            </Grow>
           )}
-        </div>
-      </Stack>
-    </>
+        </Popper>
+      )}
+    </div>
   );
 };
 
