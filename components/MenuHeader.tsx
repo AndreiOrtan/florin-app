@@ -4,7 +4,6 @@ import {
   Button,
   Divider,
   Grow,
-  Link,
   MenuItem,
   MenuList,
   Paper,
@@ -12,14 +11,26 @@ import {
   Stack,
 } from "@mui/material";
 import { useRef, useState } from "react";
+import Link from "next/link";
 
 const MenuHeader = ({ header, content }: IMenuHeader) => {
   const [open, setOpen] = useState(false);
   const anchorRef = useRef<HTMLButtonElement>(null);
 
+  function getRoute(str: string) {
+    return str.replace(/[\W_]+/g, "-").toLowerCase();
+  }
+
+  function handleMouseEnter() {
+    setOpen(true);
+  }
+
+  function handleMouseLeave() {
+    setOpen(false);
+  }
+
   return (
-    // <Stack direction="row" spacing={2}>
-    <div onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
+    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <button
         ref={anchorRef}
         id="composition-button"
@@ -29,7 +40,9 @@ const MenuHeader = ({ header, content }: IMenuHeader) => {
       >
         <Link
           href={`/${header?.toLocaleLowerCase()}`}
-          className="no-underline text-sm block py-2 pl-3 pr-4 text-gray900 rounded hover:bg-gray100 hover:bg-transparent border-0 hover:text-blue700 p-0"
+          className={`no-underline text-sm block py-2 pl-3 pr-4 rounded hover:bg-gray100 hover:bg-transparent border-0 p-0 ${
+            open ? "text-blue700" : "text-gray900"
+          }`}
         >
           {header}
         </Link>
@@ -55,13 +68,15 @@ const MenuHeader = ({ header, content }: IMenuHeader) => {
                   {content?.map((item, index) => {
                     return (
                       <div key={index}>
-                        <MenuItem
-                          onClick={() => setOpen(false)}
-                          key={index}
-                          className={`text-xs font-light px-4`}
-                        >
-                          {item}
-                        </MenuItem>
+                        <Link href={`/fizioterapie/${getRoute(item)}`}>
+                          <MenuItem
+                            onClick={() => setOpen(false)}
+                            key={index}
+                            className={`text-xs font-light px-4`}
+                          >
+                            {item}
+                          </MenuItem>
+                        </Link>
                         {index !== content.length - 1 ? (
                           <Divider
                             variant="middle"

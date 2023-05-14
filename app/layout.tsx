@@ -1,8 +1,6 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
 import Nav from "../components/Nav";
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Suhard Biomedical",
@@ -16,9 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-body">
+      <body>
         <Nav />
-        {children}
+
+        <div className="mt-16">{children}</div>
+        <Footer />
       </body>
     </html>
   );

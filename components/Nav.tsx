@@ -3,7 +3,7 @@ import MenuHeader from "./MenuHeader";
 
 const Nav = () => {
   return (
-    <nav className="bg-lightgray">
+    <nav className="bg-lightgray fixed top-0 left-0 right-0">
       <div className="px-4">
         <div className="flex justify-center h-16">
           <div className="flex items-center">
@@ -17,7 +17,7 @@ const Nav = () => {
                 header="Fizioterapie"
                 content={[
                   "Electro & Ultrasound",
-                  "Lase Therapy",
+                  "Laser Therapy",
                   "Shockwave Therapy",
                   "High Energy Inductive Therapy",
                   "Diathermy Therapy",
