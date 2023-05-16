@@ -1,8 +1,12 @@
 "use client";
 import React from "react";
 
-const Lasertherapy = () => {
-  return <div>Lasertherapy</div>;
-};
-
-export default Lasertherapy;
+export default function Lasertherapy() {
+  return (
+    <header className="py-4">
+      <div className="container mx-auto px-4">
+        <h1 className="text-blue700 text-3xl font-bold">Laser Therapy</h1>
+      </div>
+    </header>
+  );
+}

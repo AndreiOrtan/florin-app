@@ -33,10 +33,11 @@ const MenuHeader = ({ header, content }: IMenuHeader) => {
         aria-controls={open ? "composition-menu" : undefined}
         aria-expanded={open ? "true" : undefined}
         aria-haspopup="true"
+        className="hover:animate-pulse hover:font-bold"
       >
         <Link
           href={`/${header?.toLocaleLowerCase()}`}
-          className={`no-underline text-sm block py-2 pl-3 pr-4 rounded hover:bg-gray100 hover:bg-transparent border-0 p-0 ${
+          className={`no-underline text-sm block py-2 pl-3 pr-4 rounded border-0 p-0 ${
             open ? "text-blue700" : "text-gray900"
           }`}
         >
@@ -64,7 +65,11 @@ const MenuHeader = ({ header, content }: IMenuHeader) => {
                   {content?.map((item, index) => {
                     return (
                       <div key={index}>
-                        <Link href={`/fizioterapie/${getRoute(item)}`}>
+                        <Link
+                          href={`/${header?.toLocaleLowerCase()}/${getRoute(
+                            item
+                          )}`}
+                        >
                           <MenuItem
                             onClick={() => setOpen(false)}
                             key={index}
