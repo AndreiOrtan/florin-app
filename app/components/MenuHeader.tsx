@@ -1,15 +1,11 @@
 "use client";
 import { IMenuHeader } from "@/types";
-import {
-  Button,
-  Divider,
-  Grow,
-  MenuItem,
-  MenuList,
-  Paper,
-  Popper,
-  Stack,
-} from "@mui/material";
+import Divider from "@mui/material/Divider";
+import Grow from "@mui/material/Grow";
+import MenuItem from "@mui/material/MenuItem";
+import MenuList from "@mui/material/MenuList";
+import Paper from "@mui/material/Paper";
+import Popper from "@mui/material/Popper";
 import { useRef, useState } from "react";
 import Link from "next/link";
 

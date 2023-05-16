@@ -1,7 +1,5 @@
 import React from "react";
 
-const Contact = () => {
+export default function Contact() {
   return <div className="flex justify-center">contact</div>;
-};
-
-export default Contact;
+}

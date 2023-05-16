@@ -1,16 +1,20 @@
+import Image from "next/image";
 import Link from "next/link";
-
 export default function PhysicalTherapy() {
   return (
-    <div className="flex flex-col items-center">
-      <div className="cards grid grid-cols-4 max-w-4xl">
-        <div className="card-container rounded w-56">
-          <Link href="/fizioterapie/electro-ultrasound">
-            <div className="w-full rounded hover:shadow-2xl shadow duration-300 bg-transparent">
-              <img
-                className="w-full object-cover"
+    <div className="flex flex-col items-center my-4 max-w-4xl px-4">
+      <div className="flex flex-col sm:flex-row flex-wrap w-full items-center justify-center">
+        <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <Link href="/fizioterapie/electro-ultrasound" className="relative">
+            <div className="w-full">
+              <Image
                 src="/electro-sound.jpg"
-                alt="Card Image"
+                className="w-full h-56"
+                alt="Any Text"
+                width={500}
+                height={500}
+                blurDataURL="URL"
+                placeholder="blur"
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-xl mb-1">
@@ -22,16 +26,21 @@ export default function PhysicalTherapy() {
                 </p>
               </div>
             </div>
+            <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
           </Link>
         </div>
 
-        <div className="card-container rounded w-56">
-          <Link href="/fizioterapie/laser-therapy">
-            <div className="w-full rounded hover:shadow-2xl shadow duration-300 bg-transparent">
-              <img
-                className="w-full object-cover"
+        <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2">
+          <Link href="/fizioterapie/laser-therapy" className="relative">
+            <div className="w-full rounded-lg bg-white">
+              <Image
+                className="w-full h-56"
                 src="/laser-therapy.jpeg"
-                alt="Card Image"
+                alt="Any Text"
+                width={500}
+                height={500}
+                blurDataURL="URL"
+                placeholder="blur"
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-xl mb-1">
@@ -43,16 +52,21 @@ export default function PhysicalTherapy() {
                 </p>
               </div>
             </div>
+            <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
           </Link>
         </div>
 
-        <div className="card-container rounded w-56">
-          <Link href="/fizioterapie/shockwave-therapy">
-            <div className="w-full rounded hover:shadow-2xl shadow duration-300 bg-transparent">
-              <img
-                className="w-full object-cover"
+        <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2">
+          <Link href="/fizioterapie/shockwave-therapy" className="relative">
+            <div className="w-full rounded-lg bg-white">
+              <Image
+                className="w-full h-56"
                 src="/shockwave-therapy.jpg"
-                alt="Card Image"
+                alt="Any Text"
+                width={500}
+                height={500}
+                blurDataURL="URL"
+                placeholder="blur"
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-xl mb-1">
@@ -64,16 +78,24 @@ export default function PhysicalTherapy() {
                 </p>
               </div>
             </div>
+            <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
           </Link>
         </div>
 
-        <div className="card-container rounded w-56">
-          <Link href="/fizioterapie/high-energy-inductive-therapy">
-            <div className="w-full rounded hover:shadow-2xl shadow duration-300 bg-transparent">
-              <img
-                className="w-full object-cover"
+        <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2">
+          <Link
+            href="/fizioterapie/high-energy-inductive-therapy"
+            className="relative"
+          >
+            <div className="w-full rounded-lg bg-white">
+              <Image
+                className="w-full h-56"
                 src="/high-energy-inductive.jpg"
-                alt="Card Image"
+                alt="Any Text"
+                width={500}
+                height={500}
+                blurDataURL="URL"
+                placeholder="blur"
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-xl mb-1">
@@ -84,16 +106,21 @@ export default function PhysicalTherapy() {
                 </p>
               </div>
             </div>
+            <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
           </Link>
         </div>
 
-        <div className="card-container rounded w-56">
-          <Link href="/fizioterapie/diathermy-therapy">
-            <div className="w-full rounded hover:shadow-2xl shadow duration-300 bg-transparent">
-              <img
-                className="w-full object-cover"
+        <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2">
+          <Link href="/fizioterapie/diathermy-therapy" className="relative">
+            <div className="w-full rounded-lg bg-white">
+              <Image
+                className="w-full h-56"
                 src="/diathermy-therapy.jpg"
-                alt="Card Image"
+                alt="Any Text"
+                width={500}
+                height={500}
+                blurDataURL="URL"
+                placeholder="blur"
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-xl mb-1">
@@ -105,16 +132,21 @@ export default function PhysicalTherapy() {
                 </p>
               </div>
             </div>
+            <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
           </Link>
         </div>
 
-        <div className="card-container rounded w-56">
-          <Link href="/fizioterapie/cryotherapy">
-            <div className="w-full rounded hover:shadow-2xl shadow duration-300 bg-transparent">
-              <img
-                className="w-full object-cover"
+        <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2">
+          <Link href="/fizioterapie/cryotherapy" className="relative">
+            <div className="w-full rounded-lg bg-white">
+              <Image
+                className="w-full h-56"
                 src="/cryotherapy.jpeg"
-                alt="Card Image"
+                alt="Any Text"
+                width={500}
+                height={500}
+                blurDataURL="URL"
+                placeholder="blur"
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-xl mb-1">
@@ -126,16 +158,21 @@ export default function PhysicalTherapy() {
                 </p>
               </div>
             </div>
+            <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
           </Link>
         </div>
 
-        <div className="card-container rounded w-56">
-          <Link href="/fizioterapie/aquatizer">
-            <div className="w-full rounded hover:shadow-2xl shadow duration-300 bg-transparent">
-              <img
-                className="w-full object-cover"
+        <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2">
+          <Link href="/fizioterapie/aquatizer" className="relative">
+            <div className="w-full rounded-lg bg-white">
+              <Image
+                className="w-full h-56"
                 src="/aquatizer.png"
-                alt="Card Image"
+                alt="Any Text"
+                width={500}
+                height={500}
+                blurDataURL="URL"
+                placeholder="blur"
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-xl mb-1">
@@ -147,40 +184,46 @@ export default function PhysicalTherapy() {
                 </p>
               </div>
             </div>
+            <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
           </Link>
         </div>
       </div>
 
-      <section className="max-w-4xl">
-        <div className="">
-          <h1>
-            Physical therapy: proven processes with the most modern technology
-          </h1>
+      <section className="my-16">
+        <h1 className="mb-8 text-4xl font-semibold leading-none tracking-tight text-gray900">
+          Physical therapy: proven processes with the most modern technology
+        </h1>
 
+        <div>
+          <Image
+            src="/physical-therapy-man.jpeg"
+            alt="Any Text"
+            width={500}
+            height={500}
+            blurDataURL="URL"
+            placeholder="blur"
+            className="mb-8"
+          />
           <div>
-            <img src="/physical-therapy-man.jpeg" alt="" />
-            <div>
-              <p>
-                Therapies that are based on physical methods such as light,
-                heat, cold, sound, shock or current, are called physical
-                therapies. These forms of therapy have been used for a long time
-                for pain therapy, rehabilitation, to support the healing process
-                as well as for prevention
-              </p>
-              <p>
-                Zimmer MedizinSysteme consistently works on further advancing
-                these processes and establishing new methods of physical
-                therapy.
-              </p>
-              <p>
-                Each of our products is designed in strict scientific fashion
-                and at the same time related to practice. The close cooperation
-                with universities and colleges characterises us as well as how
-                we permanently look over user’s shoulders. Thus, for our users,
-                scientific studies and practical experience add up to exactly
-                the added value that is important in everyday practice.
-              </p>
-            </div>
+            <p>
+              Therapies that are based on physical methods such as light, heat,
+              cold, sound, shock or current, are called physical therapies.
+              These forms of therapy have been used for a long time for pain
+              therapy, rehabilitation, to support the healing process as well as
+              for prevention
+            </p>
+            <p>
+              Zimmer MedizinSysteme consistently works on further advancing
+              these processes and establishing new methods of physical therapy.
+            </p>
+            <p>
+              Each of our products is designed in strict scientific fashion and
+              at the same time related to practice. The close cooperation with
+              universities and colleges characterises us as well as how we
+              permanently look over user’s shoulders. Thus, for our users,
+              scientific studies and practical experience add up to exactly the
+              added value that is important in everyday practice.
+            </p>
           </div>
         </div>
       </section>

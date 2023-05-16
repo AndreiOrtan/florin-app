@@ -1,7 +1,6 @@
+"use client";
 import React from "react";
 
-const DiathermyTherapy = () => {
+export default function DiathermyTherapy() {
   return <div>DiathermyTherapy</div>;
-};
-
-export default DiathermyTherapy;
+}

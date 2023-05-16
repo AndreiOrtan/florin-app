@@ -1,7 +1,6 @@
+"use client";
 import React from "react";
 
-const ElectroAndFizioterapie = () => {
+export default function ElectroAndFizioterapie() {
   return <div>ElectroAndFizioterapie</div>;
-};
-
-export default ElectroAndFizioterapie;
+}

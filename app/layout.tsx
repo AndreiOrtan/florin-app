@@ -1,6 +1,6 @@
 import "./globals.css";
-import Nav from "../components/Nav";
-import Footer from "@/components/Footer";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 export const metadata = {
   title: "Suhard Biomedical",
@@ -16,8 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Nav />
-
-        <div className="mt-16">{children}</div>
+        <div className="mt-16 flex justify-center">{children}</div>
         <Footer />
       </body>
     </html>

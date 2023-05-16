@@ -1,7 +1,6 @@
+"use client";
 import React from "react";
 
-const Cryotherapy = () => {
+export default function Cryotherapy() {
   return <div>Cryotherapy</div>;
-};
-
-export default Cryotherapy;
+}

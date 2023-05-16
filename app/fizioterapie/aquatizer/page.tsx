@@ -1,7 +1,5 @@
-import React from "react";
+"use client";
 
-const Aquatizer = () => {
+export default function Aquatizer() {
   return <div>Aquatizer</div>;
-};
-
-export default Aquatizer;
+}
