@@ -16,7 +16,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Nav />
-        <div className="mt-16 flex justify-center">{children}</div>
+        <div className="main-container">
+          <div className="mt-32 flex justify-center">{children}</div>
+        </div>
         <Footer />
       </body>
     </html>

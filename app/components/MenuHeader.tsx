@@ -1,99 +1,86 @@
 "use client";
-import { IMenuHeader } from "@/types";
-import Divider from "@mui/material/Divider";
-import Grow from "@mui/material/Grow";
-import MenuItem from "@mui/material/MenuItem";
-import MenuList from "@mui/material/MenuList";
-import Paper from "@mui/material/Paper";
-import Popper from "@mui/material/Popper";
-import { useRef, useState } from "react";
-import Link from "next/link";
 
-const MenuHeader = ({ header, content }: IMenuHeader) => {
-  const [open, setOpen] = useState(false);
-  const anchorRef = useRef<HTMLButtonElement>(null);
+import Link from "next/link";
+import React, { useState, useRef, useEffect } from "react";
+import { AiFillCaretDown } from "react-icons/ai";
+import { AiFillCaretUp } from "react-icons/ai";
+
+interface DropdownI {
+  options?: string[];
+  header?: string;
+}
+
+const MenuHeader = ({ options, header }: DropdownI) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (
+        ref.current &&
+        !(ref.current as HTMLElement).contains(event.target as Node)
+      ) {
+        setIsOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [ref]);
 
   function getRoute(str: string) {
     return str.replace(/[\W_]+/g, "-").toLowerCase();
   }
 
-  function handleMouseEnter() {
-    setOpen(true);
-  }
-
-  function handleMouseLeave() {
-    setOpen(false);
-  }
-
   return (
-    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <button
-        ref={anchorRef}
-        id="composition-button"
-        aria-controls={open ? "composition-menu" : undefined}
-        aria-expanded={open ? "true" : undefined}
-        aria-haspopup="true"
-        className="hover:animate-pulse hover:font-bold"
-      >
-        <Link
-          href={`/${header?.toLocaleLowerCase()}`}
-          className={`no-underline text-sm block py-2 pl-3 pr-4 rounded border-0 p-0 ${
-            open ? "text-blue700" : "text-gray900"
-          }`}
+    <div onClick={() => setIsOpen((prev) => !prev)}>
+      <div className="relative" ref={ref}>
+        <button
+          className={`${
+            isOpen && "text-blue700"
+          } rounded-lg text-lg font-semibold px-4 hover:text-blue700 py-2.5 text-center flex justify-center items-center`}
+          type="button"
         >
           {header}
-        </Link>
-      </button>
-      {content && (
-        <Popper
-          open={open}
-          anchorEl={anchorRef.current}
-          role={undefined}
-          placement="auto"
-          transition
-          disablePortal
-          className={`${open ? "menu-container" : ""}`}
-        >
-          {({ TransitionProps }) => (
-            <Grow {...TransitionProps} className="mt-3.5">
-              <Paper>
-                <MenuList
-                  id="composition-menu"
-                  aria-labelledby="composition-button"
-                  className="py-1"
-                >
-                  {content?.map((item, index) => {
-                    return (
-                      <div key={index}>
-                        <Link
-                          href={`/${header?.toLocaleLowerCase()}/${getRoute(
-                            item
-                          )}`}
-                        >
-                          <MenuItem
-                            onClick={() => setOpen(false)}
-                            key={index}
-                            className={`text-xs font-light px-4`}
-                          >
-                            {item}
-                          </MenuItem>
-                        </Link>
-                        {index !== content.length - 1 ? (
-                          <Divider
-                            variant="middle"
-                            sx={{ my: "0!important" }}
-                            light
-                          />
-                        ) : null}
-                      </div>
-                    );
-                  })}
-                </MenuList>
-              </Paper>
-            </Grow>
+          {options && (
+            <span
+              className={`px-2 transition-transform duration-500 transform ${
+                isOpen ? "rotate-180" : "rotate-0"
+              }`}
+              onClick={(event) => {
+                event.stopPropagation(); // Stop event propagation
+                setIsOpen((prev) => !prev);
+              }}
+            >
+              <AiFillCaretDown />
+            </span>
           )}
-        </Popper>
-      )}
+        </button>
+        {isOpen && (
+          <div
+            id="dropdownDivider"
+            className="menu-container shadow-2xl mt-8 z-10 bg-white divide-y divide-gray-100 rounded-lg w-44 dark:bg-gray-700 dark:divide-gray-600 absolute left-1/2 transform -translate-x-1/2"
+          >
+            <ul className="py-2 text-sm text-gray-700">
+              {options &&
+                options.map((item, index) => {
+                  return (
+                    <li key={index} className="py-1">
+                      <Link
+                        href={`/${getRoute(item)}`}
+                        className="block px-4 py-2 hover:bg-gray100"
+                      >
+                        {item}
+                      </Link>
+                    </li>
+                  );
+                })}
+            </ul>
+          </div>
+        )}
+      </div>
     </div>
   );
 };
