@@ -13,7 +13,7 @@ const Nav = () => {
         <div className="flex mx-16">
           <div className="ml-6 flex items-center">
             <MenuHeader
-              options={["Fizioterapie", "Mecanoterapie", "Aquatizer"]}
+              options={["Fizioterapie", "Aquatizer", "Mecanoterapie"]}
               header="Produse"
             />
             <MenuHeader header="Companie" options={["Despre noi"]} />

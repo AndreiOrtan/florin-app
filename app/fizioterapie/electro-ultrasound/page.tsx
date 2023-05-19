@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function ElectroAndUltrasound() {
   return (
-    <div className="flex flex-col items-center my-4 max-w-5xl px-4">
+    <div className="flex flex-col items-center my-4">
       <header className="py-4">
         <div className="container mx-auto px-4">
           <h1 className="text-blue700 text-3xl font-bold">
@@ -45,7 +45,10 @@ export default function ElectroAndUltrasound() {
           </div>
 
           <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-            <Link href="/fizioterapie/electro-ultrasound" className="relative">
+            <Link
+              href="/fizioterapie/electro-ultrasound/soleo-sonostim"
+              className="relative"
+            >
               <div className="w-full">
                 <Image
                   src="/fizioterapiePhotos/electro-ultrasound/soleo-sonostim.jpg"
@@ -71,7 +74,10 @@ export default function ElectroAndUltrasound() {
           </div>
 
           <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-            <Link href="/fizioterapie/electro-ultrasound" className="relative">
+            <Link
+              href="/fizioterapie/electro-ultrasound/sonoone"
+              className="relative h-full"
+            >
               <div className="w-full">
                 <Image
                   src="/fizioterapiePhotos/electro-ultrasound/sonoone.jpg"
@@ -94,6 +100,53 @@ export default function ElectroAndUltrasound() {
           </div>
         </div>
       </div>
+
+      <section className="my-16 flex justify-center">
+        <div className="w-9/12">
+          <h1 className="mb-8 text-4xl font-semibold leading-none tracking-wide text-gray-900">
+            Ultrasound-, Electro- and Combined Therapy
+          </h1>
+
+          <div className="">
+            <div className="flex sm:flex-row flex-col justify-center mb-4">
+              <Image
+                src="/fizioterapiePhotos/electro-ultrasound/electro-ultrasound-man.jpeg"
+                alt="Any Text"
+                width={500}
+                height={500}
+                blurDataURL="URL"
+                placeholder="blur"
+                className="mr-4 rounded-lg"
+              />
+              <p className="text-lg leading-relaxed ml-1 text-justify">
+                Electrotherapy and ultrasound therapy – an important branch of
+                physical medicine – today plays an important role in the
+                treatment and rehabilitation of many diseases.
+              </p>
+            </div>
+            <div>
+              <p className="mb-4 text-lg leading-relaxed text-justify">
+                Applications include pain management, muscle therapy, muscle
+                rehabilitation, circulation improvement and trophism
+                improvement.
+              </p>
+              <p className="mb-4 text-lg leading-relaxed text-justify">
+                In the simulation process, the combined use is highly efficient
+                in the treatment of functional disorders, for example in
+                connection with myofascial pain syndromes.
+              </p>
+              <p className="mb-4 text-lg leading-relaxed text-justify">
+                Numerous innovations make the Zimmer MedizinSysteme systems the
+                perfect therapy partner in your practice: besides special
+                programmes for muscle and sports rehabilitation, the patented
+                SonoSwing process offers the possibility of determining the
+                penetration depth and the site of action of your ultrasound
+                therapy yourself.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

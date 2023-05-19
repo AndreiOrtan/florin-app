@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function PhysicalTherapy() {
   return (
-    <div className="flex flex-col items-center my-4 max-w-5xl px-4">
+    <div className="flex flex-col items-center my-4">
       <header className="py-4">
         <div className="container mx-auto px-4">
           <h1 className="text-blue700 text-3xl font-bold">
@@ -10,7 +10,7 @@ export default function PhysicalTherapy() {
           </h1>
         </div>
       </header>
-      <div className="flex flex-col sm:flex-row flex-wrap w-full items-center justify-center">
+      <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12">
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
           <Link href="/fizioterapie/electro-ultrasound" className="relative">
             <div className="w-full">
@@ -170,12 +170,12 @@ export default function PhysicalTherapy() {
         </div>
       </div>
 
-      <section className="my-16">
-        <h1 className="mb-8 text-4xl font-semibold leading-none tracking-wide text-gray-900">
-          Physical therapy: proven processes with the most modern technology
-        </h1>
+      <section className="my-16 bg-lightgray flex justify-center">
+        <div className="w-9/12">
+          <h1 className="mb-8 text-4xl font-semibold leading-none tracking-wide text-gray-900">
+            Physical therapy: proven processes with the most modern technology
+          </h1>
 
-        <div className="">
           <div className="flex sm:flex-row flex-col justify-center mb-4">
             <Image
               src="/fizioterapiePhotos/physical-therapy-man.jpeg"
