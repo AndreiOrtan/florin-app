@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function PhysicalTherapy() {
   return (
-    <div className="flex flex-col items-center my-4">
+    <div className="flex flex-col items-center mt-4">
       <header className="py-4">
         <div className="container mx-auto px-4">
           <h1 className="text-blue700 text-3xl font-bold">
@@ -170,8 +170,8 @@ export default function PhysicalTherapy() {
         </div>
       </div>
 
-      <section className="my-16 bg-lightgray flex justify-center">
-        <div className="w-9/12">
+      <section className="mt-16 flex justify-center">
+        <div className="w-9/12 py-8">
           <h1 className="mb-8 text-4xl font-semibold leading-none tracking-wide text-gray-900">
             Physical therapy: proven processes with the most modern technology
           </h1>
