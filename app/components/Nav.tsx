@@ -4,6 +4,7 @@ import MenuHeader from "./MenuHeader";
 import { MdClose } from "react-icons/md";
 import { MdOutlineMenu } from "react-icons/md";
 import { useState } from "react";
+import Image from "next/image";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,13 @@ const Nav = () => {
       <div className="flex sm:justify-center h-[114px] justify-between">
         <div className="flex items-center ml-8">
           <Link href="/">
-            <img src="/logo2.png" alt="text" className="" />
+            <Image
+              src="/logo2.png"
+              alt="text"
+              className="h-auto w-44 max-w-full"
+              height={200}
+              width={200}
+            />
           </Link>
         </div>
 

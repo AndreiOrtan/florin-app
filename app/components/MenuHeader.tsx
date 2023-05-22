@@ -12,6 +12,7 @@ interface DropdownI {
 const MenuHeader = ({ options, header }: DropdownI) => {
   const [isOpen, setIsOpen] = useState(false);
   const ref = useRef(null);
+  console.log(isOpen);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -49,6 +50,7 @@ const MenuHeader = ({ options, header }: DropdownI) => {
               isOpen ? "rotate-180" : "rotate-0"
             }`}
             onClick={(event) => {
+              console.log("run?");
               event.stopPropagation(); // Stop event propagation
               setIsOpen((prev) => !prev);
             }}
@@ -70,6 +72,7 @@ const MenuHeader = ({ options, header }: DropdownI) => {
                     <Link
                       href={`/${getRoute(item)}`}
                       className="block px-4 py-2 hover:bg-gray100"
+                      onClick={() => setIsOpen((prev) => !prev)}
                     >
                       {item}
                     </Link>
