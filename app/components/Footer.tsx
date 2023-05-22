@@ -7,12 +7,10 @@ const Footer = () => {
       <div className="w-full">
         <div className="flex justify-center py-2 text-blue700">
           <div className="flex justify-center flex-col">
-            <Image
-              src="/logo2.png"
+            <img
+              src="/logo.png"
               alt="text"
               className="h-auto w-44 max-w-full"
-              height={200}
-              width={200}
             />
           </div>
           <div className="flex justify-center flex-col">

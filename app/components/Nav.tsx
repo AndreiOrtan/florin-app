@@ -13,12 +13,10 @@ const Nav = () => {
       <div className="flex sm:justify-center h-[114px] justify-between">
         <div className="flex items-center ml-8">
           <Link href="/">
-            <Image
-              src="/logo2.png"
+            <img
+              src="/logo.png"
               alt="text"
               className="h-auto w-44 max-w-full"
-              height={200}
-              width={200}
             />
           </Link>
         </div>

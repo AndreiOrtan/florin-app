@@ -59,7 +59,7 @@ const MenuHeader = ({ options, header }: DropdownI) => {
           </span>
         )}
       </button>
-      {isOpen && (
+      {isOpen && options && (
         <div
           id="dropdownDivider"
           className="menu-container shadow-2xl mt-14 z-10 bg-white divide-y divide-gray-100 rounded-lg w-44 dark:bg-gray-700 dark:divide-gray-600 absolute left-1/2 transform -translate-x-1/2"
