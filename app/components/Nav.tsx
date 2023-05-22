@@ -12,7 +12,7 @@ const Nav = () => {
       <div className="flex sm:justify-center h-[114px] justify-between">
         <div className="flex items-center ml-8">
           <Link href="/">
-            <img src="/logo2.png" alt="text" className="w-44" />
+            <img src="/logo2.png" alt="text" className="" />
           </Link>
         </div>
 
