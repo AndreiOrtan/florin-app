@@ -17,23 +17,25 @@ export default function enPuls() {
           <h1 className="text-blue700 text-3xl font-bold">CryoMini</h1>
         </div>
       </header>
-      <div className="flex w-9/12 mb-8">
-        <img
-          src="/fizioterapiePhotos/cryotherapy/cryomini/cryomini-machine.png"
-          alt="PhySys"
-          className="w-[270px]"
-        />
-        <div className="text-container my-8 pr-12">
-          <h1 className="text-4xl font-semibold mb-4">
-            Simple, easy and quick to use – cryotherapy with -10°C air
-          </h1>
+      <div className="w-full">
+        <div className="flex flex-col sm:flex-row mx-auto justify-center items-center w-9/12 mb-8">
+          <img
+            src="/fizioterapiePhotos/cryotherapy/cryomini/cryomini-machine.png"
+            alt="PhySys"
+            className="w-[270px]"
+          />
+          <div className="text-container my-8 sm:pr-12">
+            <h1 className="text-4xl font-semibold mb-4 text-center">
+              Simple, easy and quick to use – cryotherapy with -10°C air
+            </h1>
 
-          <div className="my-auto text-justify text-lg">
-            <p className="py-1">
-              With the CryoMini Zimmer MedizinSysteme offers a compact medical
-              system to a more compact and flexible cold air system for short
-              and less painful treatments.
-            </p>
+            <div className="my-auto text-justify text-lg">
+              <p className="py-1">
+                With the CryoMini Zimmer MedizinSysteme offers a compact medical
+                system to a more compact and flexible cold air system for short
+                and less painful treatments.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -57,7 +59,7 @@ export default function enPuls() {
             with less risk of skin burns and keeps a constant dosage throughout
             the entire treatment time.
           </p>
-          <div className="flex justify-between">
+          <div className="flex flex-col sm:flex-row justify-between">
             <img
               src="/fizioterapiePhotos/cryotherapy/cryomini/man1.jpeg"
               alt="PhySys"
@@ -126,27 +128,23 @@ export default function enPuls() {
       </div>
 
       <div className="w-full bg-blue700">
-        <div className="flex flex-col items-center py-24">
-          <div className="videos flex">
+        <div className="flex justify-center py-24">
+          <div className="videos flex flex-col items-center justify-center sm:flex-row ">
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/UdsU6GMmVYg"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="mx-8"
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
             ></iframe>
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/eWe77R3ty-U"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="mx-8"
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
             ></iframe>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function enPulsPro() {
           <h1 className="text-blue700 text-3xl font-bold">enShock</h1>
         </div>
       </header>
-      <div className="flex w-9/12 mb-8">
+      <div className="flex w-9/12 mb-8 flex-col sm:flex-row justify-center items-center">
         <img
           src="/fizioterapiePhotos/shockwave-therapy/enShock/en-shock-machine.png"
           alt="PhySys"
@@ -54,7 +54,7 @@ export default function enPulsPro() {
             free, for example, to palpate pain points.
           </h2>
 
-          <div className="flex py-4">
+          <div className="flex py-4 flex-col sm:flex-row">
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enShock/convenient1.jpeg"
               alt="PhySys"
@@ -63,7 +63,7 @@ export default function enPulsPro() {
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enShock/convenient2.jpeg"
               alt="PhySys"
-              className="rounded-lg w-[350px] ml-16"
+              className="rounded-lg w-[350px] sm:ml-16"
             />
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function enPulsPro() {
             More and more doctors are therefore expanding their therapeutic
             spectrum with this effective method.
           </p>
-          <div className="flex">
+          <div className="flex flex-col sm:flex-row">
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enShock/proven1.jpeg"
               alt="PhySys"
@@ -176,12 +176,12 @@ export default function enPulsPro() {
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enShock/proven2.jpeg"
               alt="PhySys"
-              className="w-80 rounded-lg ml-4"
+              className="w-80 rounded-lg sm:ml-4"
             />
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enShock/proven3.jpeg"
               alt="PhySys"
-              className="w-80 rounded-lg ml-4"
+              className="w-80 rounded-lg sm:ml-4"
             />
           </div>
         </div>
@@ -229,7 +229,7 @@ export default function enPulsPro() {
                 key={index}
                 src={image}
                 alt={`Image ${index + 1}`}
-                className="w-[150px] rounded-lg m-2"
+                className="w-[150px] rounded-lg sm:m-2"
               />
             ))}
           </div>

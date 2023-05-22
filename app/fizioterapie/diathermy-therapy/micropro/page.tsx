@@ -13,22 +13,24 @@ export default function enPuls() {
           <h1 className="text-blue700 text-3xl font-bold">MicroPro</h1>
         </div>
       </header>
-      <div className="flex w-9/12 mb-8">
-        <img
-          src="/fizioterapiePhotos/diathermy-therapy/micropro/micropro-machine.png"
-          alt="PhySys"
-          className="w-[270px]"
-        />
-        <div className="text-container my-8 pr-12">
-          <h1 className="text-4xl font-semibold mb-4">
-            Microwave Therapy – the gentle heat therapy
-          </h1>
+      <div className="w-full">
+        <div className="flex flex-col sm:flex-row mx-auto justify-center items-center w-9/12 mb-8">
+          <img
+            src="/fizioterapiePhotos/diathermy-therapy/micropro/micropro-machine.png"
+            alt="PhySys"
+            className="w-[270px]"
+          />
+          <div className="text-container my-8 sm:pr-12">
+            <h1 className="text-4xl font-semibold mb-4 text-center">
+              Microwave Therapy – the gentle heat therapy
+            </h1>
 
-          <div className="my-auto text-justify text-lg">
-            <p className="py-1">
-              The therapy with MicroPro leads to a mild warming of muscles and
-              skin. This results in a relaxing and soothing feeling of warmth.
-            </p>
+            <div className="my-auto text-justify text-lg">
+              <p className="py-1">
+                The therapy with MicroPro leads to a mild warming of muscles and
+                skin. This results in a relaxing and soothing feeling of warmth.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -102,7 +104,7 @@ export default function enPuls() {
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">Radiators</h1>
-          <div className="flex justify-between">
+          <div className="flex flex-col sm:flex-row mx-auto items-center justify-between">
             <div className="flex flex-col items-center">
               <img
                 src="/fizioterapiePhotos/diathermy-therapy/micropro/radiator1.png"

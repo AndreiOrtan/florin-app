@@ -21,7 +21,7 @@ export default function OptonPro() {
               </div>
             </header>
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-center items-center sm:flex-row flex-col">
             <Image
               src="/fizioterapiePhotos/laser-therapy/optonpro/optonpro-machine.png"
               width={150}
@@ -62,7 +62,7 @@ export default function OptonPro() {
           <h2 className="text-2xl font-semibold mb-4">
             Laser therapy – Achieve therapeutic success with the speed of light
           </h2>
-          <div className="flex">
+          <div className="flex sm:flex-row flex-col">
             <div>
               <p className="py-4">
                 Therapy with laser light is a widely used method in physical
@@ -118,7 +118,7 @@ export default function OptonPro() {
               the laser applicator at a defined distance from the skin.
             </p>
           </div>
-          <div className="mb-4 flex">
+          <div className="mb-4 flex sm:flex-row flex-col">
             <div>
               <h2 className="text-xl font-medium">
                 Skin temperature measurement
@@ -158,7 +158,7 @@ export default function OptonPro() {
           adapt the therapy individually to the patient and achieve the best
           possible treatment results.
         </h3>
-        <div className="flex my-8">
+        <div className="flex my-8 sm:flex-row flex-col">
           <Image
             src="/fizioterapiePhotos/laser-therapy/optonpro/individual.jpeg"
             alt="Any Text"
@@ -168,7 +168,7 @@ export default function OptonPro() {
             placeholder="blur"
             className="mr-4 rounded-lg"
           />
-          <div className="ml-12">
+          <div className="sm:ml-12">
             <p className="py-6">OptonPro 25 Watt – 810 nm | 980 nm | 1064 nm</p>
             <p className="py-6">OptonPro 15 Watt – 810 nm | 980 nm | 1064 nm</p>
             <p className="py-6">OptonPro 10 Watt – 810 nm | 980 nm</p>
@@ -179,7 +179,7 @@ export default function OptonPro() {
       <div className="w-9/12 mx-auto flex flex-col mb-16">
         <h1 className="text-2xl font-semibold mb-4">Features</h1>
 
-        <div className="flex my-8">
+        <div className="flex my-8 flex-col sm:flex-row">
           <div>
             <h2 className="text-xl font-medium mb-4">
               Skin temperature measurement
@@ -317,26 +317,22 @@ export default function OptonPro() {
 
       <div className="w-full bg-blue700">
         <div className="flex flex-col items-center py-24">
-          <div className="videos flex">
+          <div className="videos flex flex-col sm:flex-row">
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/0yzVwaB0KEQ"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="mx-8"
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
             ></iframe>
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/nMdYbLKdI20"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="mx-8"
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
             ></iframe>
           </div>
         </div>

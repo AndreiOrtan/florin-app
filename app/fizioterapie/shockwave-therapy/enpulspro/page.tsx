@@ -15,7 +15,7 @@ export default function enPulsPro() {
           <h1 className="text-blue700 text-3xl font-bold">enPulsPro</h1>
         </div>
       </header>
-      <div className="flex w-9/12 mb-8">
+      <div className="flex w-9/12 mb-8 flex-col sm:flex-row items-center justify-center">
         <img
           src="/fizioterapiePhotos/shockwave-therapy/enPulsPro/en-puls-pro-machine.png"
           alt="PhySys"
@@ -56,7 +56,7 @@ export default function enPulsPro() {
             Higher treatment comfort and time saving by the opportunity to
             connect two handpieces with different applicators at the same time.
           </h2>
-          <div className="flex py-4">
+          <div className="flex py-4 flex-col sm:flex-row">
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPulsPro/modern1.jpeg"
               alt="PhySys"
@@ -65,12 +65,12 @@ export default function enPulsPro() {
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPulsPro/modern2.jpeg"
               alt="PhySys"
-              className="rounded-lg w-[350px] ml-16"
+              className="rounded-lg w-[350px] sm:ml-16"
             />
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPulsPro/modern3.jpeg"
               alt="PhySys"
-              className="rounded-lg w-[350px] ml-16"
+              className="rounded-lg w-[350px] sm:ml-16"
             />
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function enPulsPro() {
             Radial Shockwaves – Unique and powerful technology
           </h1>
 
-          <div className="flex">
+          <div className="flex flex-col sm:flex-row">
             <div className="text-justify">
               <p className="py-1">
                 Radial shockwave therapy (RSWT) is a method for the treatment of
@@ -110,7 +110,7 @@ export default function enPulsPro() {
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/radial1.jpeg" // same photo as enPuls
               alt="PhySys"
-              className="w-[350px] rounded-lg ml-8"
+              className="w-[350px] rounded-lg sm:ml-8"
             />
           </div>
         </div>
@@ -133,7 +133,7 @@ export default function enPulsPro() {
             <li className="pb-1"> Myofascial syndromes</li>
             <li className="pb-1"> Hemotoma treatments </li>
           </ul>
-          <div className="flex">
+          <div className="flex flex-col sm:flex-row">
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/appliance1.jpeg"
               alt="PhySys"
@@ -142,12 +142,12 @@ export default function enPulsPro() {
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/appliance2.jpeg"
               alt="PhySys"
-              className="w-80 rounded-lg ml-4"
+              className="w-80 rounded-lg sm:ml-4"
             />
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/appliance3.jpeg"
               alt="PhySys"
-              className="w-80 rounded-lg ml-4"
+              className="w-80 rounded-lg sm:ml-4"
             />
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function enPulsPro() {
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4 py-4">softshot – pulse</h1>
 
-          <div className="flex">
+          <div className="flex flex-col sm:flex-row">
             <div className="text-justify">
               <p className="py-1">
                 enPulsPro generates a special form of shockwave with a
@@ -286,7 +286,7 @@ export default function enPulsPro() {
                 key={index}
                 src={image}
                 alt={`Image ${index + 1}`}
-                className="w-[150px] rounded-lg m-2"
+                className="w-[150px] rounded-lg sm:m-2"
               />
             ))}
           </div>
@@ -295,26 +295,22 @@ export default function enPulsPro() {
 
       <div className="w-full bg-blue700">
         <div className="flex flex-col items-center py-24">
-          <div className="videos flex">
+          <div className="videos flex flex-col sm:flex-row">
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/rpnrDzWU6yk"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="mx-8"
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
             ></iframe>
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/Qvb4XzCUcwo"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="mx-8"
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
             ></iframe>
           </div>
         </div>

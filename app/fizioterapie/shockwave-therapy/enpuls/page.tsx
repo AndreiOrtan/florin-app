@@ -26,23 +26,25 @@ export default function enPuls() {
           </h1>
         </div>
       </header>
-      <div className="flex w-9/12 mb-8">
-        <img
-          src="/fizioterapiePhotos/shockwave-therapy/enPuls/en-puls-machine.png"
-          alt="PhySys"
-          className="w-[350px]"
-        />
-        <div className="text-container my-8 pr-12">
-          <h1 className="text-4xl font-semibold mb-4">
-            Radial Shockwave Therapy – Efficient. Easy to use. Mobile.
-          </h1>
+      <div className="w-full">
+        <div className="flex w-9/12 mb-8 flex-col sm:flex-row items-center justify-center mx-auto">
+          <img
+            src="/fizioterapiePhotos/shockwave-therapy/enPuls/en-puls-machine.png"
+            alt="PhySys"
+            className="w-[350px]"
+          />
+          <div className="text-container my-8 pr-12">
+            <h1 className="text-4xl font-semibold mb-4">
+              Radial Shockwave Therapy – Efficient. Easy to use. Mobile.
+            </h1>
 
-          <p className="my-auto text-left text-lg">
-            Mobile radial shockwave therapy system with ballistic, high-energy
-            pulses. For treatment of biological tissues and structures in
-            various pathologies and medical conditions. Unique, easy-to-use
-            system offering shockwave therapy access to all therapists.
-          </p>
+            <p className="my-auto text-left text-lg">
+              Mobile radial shockwave therapy system with ballistic, high-energy
+              pulses. For treatment of biological tissues and structures in
+              various pathologies and medical conditions. Unique, easy-to-use
+              system offering shockwave therapy access to all therapists.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -62,7 +64,7 @@ export default function enPuls() {
             New capacitive touch screen technology provides even simpler
             operation and application.
           </h2>
-          <div className="flex py-4">
+          <div className="flex py-4 flex-col sm:flex-row">
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/modern1.jpeg"
               alt="PhySys"
@@ -71,7 +73,7 @@ export default function enPuls() {
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/modern2.jpeg"
               alt="PhySys"
-              className="rounded-lg w-[350px] ml-16"
+              className="rounded-lg w-[350px] sm:ml-16 "
             />
           </div>
         </div>
@@ -83,7 +85,7 @@ export default function enPuls() {
             Radial Shockwaves – Unique and powerful technology
           </h1>
 
-          <div className="flex">
+          <div className="flex flex-col sm:flex-row">
             <div className="text-justify">
               <p className="py-1">
                 Radial shockwave therapy (RSWT) is a method for the treatment of
@@ -111,7 +113,7 @@ export default function enPuls() {
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/radial1.jpeg"
               alt="PhySys"
-              className="w-[350px] rounded-lg ml-8"
+              className="w-[350px] rounded-lg sm:ml-8"
             />
           </div>
         </div>
@@ -134,7 +136,7 @@ export default function enPuls() {
             <li className="pb-1"> Myofascial syndromes</li>
             <li className="pb-1"> Hemotoma treatments </li>
           </ul>
-          <div className="flex">
+          <div className="flex flex-col sm:flex-row">
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/appliance1.jpeg"
               alt="PhySys"
@@ -143,12 +145,12 @@ export default function enPuls() {
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/appliance2.jpeg"
               alt="PhySys"
-              className="w-80 rounded-lg ml-4"
+              className="w-80 rounded-lg sm:ml-4"
             />
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/appliance3.jpeg"
               alt="PhySys"
-              className="w-80 rounded-lg ml-4"
+              className="w-80 rounded-lg sm:ml-4"
             />
           </div>
         </div>
@@ -158,7 +160,7 @@ export default function enPuls() {
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4 py-4">softshot – pulse</h1>
 
-          <div className="flex">
+          <div className="flex flex-col sm:flex-row">
             <div className="text-justify">
               <p className="py-1">
                 enPuls 2.0 generates a special form of shockwave with a
@@ -281,7 +283,7 @@ export default function enPuls() {
             Low maintenance and long life
           </h1>
           <h2 className="font-bold mb-2">Move cart</h2>
-          <div className="flex">
+          <div className="flex flex-col sm:flex-row">
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/practical1.jpeg"
               alt="PhySys"
@@ -304,7 +306,7 @@ export default function enPuls() {
                 key={index}
                 src={image}
                 alt={`Image ${index + 1}`}
-                className="w-[150px] rounded-lg m-2"
+                className="w-[150px] rounded-lg sm:m-2"
               />
             ))}
           </div>
@@ -313,26 +315,22 @@ export default function enPuls() {
 
       <div className="w-full bg-blue700">
         <div className="flex flex-col items-center py-24">
-          <div className="videos flex">
+          <div className="videos flex flex-col sm:flex-row">
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/rpnrDzWU6yk"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="mx-8"
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
             ></iframe>
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/Qvb4XzCUcwo"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="mx-8"
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
             ></iframe>
           </div>
         </div>

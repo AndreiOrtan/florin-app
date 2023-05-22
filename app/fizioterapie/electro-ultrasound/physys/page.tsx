@@ -18,13 +18,12 @@ export default function Physys() {
         </div>
       </header>
 
-      <div className="w-9/12">
-        <div className="flex justify-between">
-          <Image
+      <div className="w-9/12 my-8">
+        <div className="flex flex-col sm:flex-row items-center">
+          <img
             src="/fizioterapiePhotos/electro-ultrasound/physys/physysMachine.png"
-            width={150}
-            height={100}
             alt="PhySys"
+            className="w-[150px]"
           />
           <div className="text-container my-auto">
             <h1 className="text-4xl font-semibold mb-4">
@@ -38,23 +37,6 @@ export default function Physys() {
               quick, simple, and user-friendly. PhySys provides all features for
               successful treatments in a fantastic design.
             </p>
-          </div>
-        </div>
-      </div>
-
-      {/* {PICTURE GALLERY} */}
-      <div className="w-full">
-        <div className="w-9/12 mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">Picture gallery</h2>
-          <div className="flex flex-wrap justify-between">
-            {images.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                alt={`Image ${index + 1}`}
-                className="max-w-[150px]"
-              />
-            ))}
           </div>
         </div>
       </div>
@@ -76,7 +58,7 @@ export default function Physys() {
               programs in mono or dual channels.
             </p>
           </div>
-          <div className="flex">
+          {/* <div className="flex">
             <Image
               src="/fizioterapiePhotos/electro-ultrasound/physys/physysMAN1.jpeg"
               width={200}
@@ -105,6 +87,77 @@ export default function Physys() {
               alt="man"
               className="m-1"
             ></Image>
+          </div> */}
+        </div>
+      </div>
+
+      <div className="w-full py-8">
+        <div className="w-9/12 mx-auto">
+          <h2 className="text-xl font-bold mb-2">
+            Combined Treatment & SonoSwing
+          </h2>
+          <p className="mb-4">
+            PhySys provides preset programmes related to effects for quick and
+            easy use of the effective combination of ultrasound and
+            electrostimulation.
+          </p>
+          <p>
+            Patent SonoSwing: Multifrequency heads provide both frequencies (0.8
+            MHz and 2.4 MHz) simultaneously in parallel with a selected ratio.
+            The user can therefore determine exactly the desired treatment
+            depth. These features enable the therapist to focus the treatment
+            precisely on his or her plan for achieving pain reduction, or
+            hyperaemia or for improving restoration processes by increased
+            metabolism.
+          </p>
+          <h2 className="text-xl font-bold my-2">
+            Practical extensions and accessories
+          </h2>
+          <p className="mb-4">Vaco: Electrotherapy plus suction massage</p>
+          <p>
+            Vaco allows you to apply electrodes with ease. Your patients will
+            certainly enjoy the therapeutic effects of a suction massage during
+            electrotherapy.
+          </p>
+        </div>
+      </div>
+
+      {/* {PICTURE GALLERY} */}
+      <div className="w-full bg-lightgray">
+        <div className="w-9/12 mx-auto py-8">
+          <h2 className="text-2xl font-semibold mb-4">Picture gallery</h2>
+          <div className="flex flex-wrap justify-between">
+            {images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Image ${index + 1}`}
+                className="max-w-[150px] rounded-lg"
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full bg-blue700">
+        <div className="flex flex-col items-center py-24">
+          <div className="videos flex sm:flex-row flex-col items-center">
+            <iframe
+              src="https://www.youtube.com/embed/F_pEaofmFOM"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
+            ></iframe>
+            <iframe
+              src="https://www.youtube.com/embed/7SIY_sCT9KU"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
+            ></iframe>
           </div>
         </div>
       </div>
@@ -112,7 +165,7 @@ export default function Physys() {
       {/* {TECHNICAL DATA} */}
 
       <div className="w-full flex justify-center">
-        <div className="py-8 px-4 flex justify-center w-9/12">
+        <div className="py-8 flex justify-center w-9/12">
           <section>
             <h2 className="text-2xl font-semibold mb-4">Technical Data</h2>
             <div className="grid grid-cols-2 gap-4">
@@ -222,52 +275,6 @@ export default function Physys() {
               </div>
             </div>
           </section>
-        </div>
-      </div>
-      <div className="w-full bg-blue700">
-        <div className="flex flex-col items-center py-24">
-          <div className="videos flex">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/F_pEaofmFOM"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-              className="mx-8"
-            ></iframe>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/7SIY_sCT9KU"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-              className="mx-8"
-            ></iframe>
-          </div>
-        </div>
-      </div>
-
-      {/* {LAYOUT} */}
-
-      <div className="w-full py-8">
-        <div className="w-9/12 mx-auto">
-          <h1 className="text-2xl font-semibold">
-            Practical extensions and accessories
-          </h1>
-
-          <h2 className="text-xl font-normal mb-4">
-            Vaco: Electrotherapy plus suction massage
-          </h2>
-
-          <p>
-            Vaco allows you to apply electrodes with ease. Your patients will
-            certainly enjoy the therapeutic effects of a suction massage during
-            electrotherapy.
-          </p>
         </div>
       </div>
     </div>

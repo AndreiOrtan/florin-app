@@ -17,14 +17,14 @@ export default function enPuls() {
           <h1 className="text-blue700 text-3xl font-bold">Cryo6</h1>
         </div>
       </header>
-      <div className="flex w-9/12 mb-8">
+      <div className="flex flex-col sm:flex-row mx-auto justify-center items-center w-9/12 mb-8">
         <img
           src="/fizioterapiePhotos/cryotherapy/cryo6/cryo6-machine.png"
           alt="PhySys"
           className="w-[270px]"
         />
-        <div className="text-container my-8 pr-12">
-          <h1 className="text-4xl font-semibold mb-4">
+        <div className="text-container my-8 sm:pr-12">
+          <h1 className="text-4xl font-semibold mb-4 text-center">
             State of the art cryotherapy with -30°C air
           </h1>
 
@@ -76,7 +76,7 @@ export default function enPuls() {
             </li>
           </ul>
 
-          <div className="flex justify-between">
+          <div className="flex flex-col sm:flex-row justify-between">
             <img
               src="/fizioterapiePhotos/cryotherapy/cryomini/man1.jpeg" // same photos as mini
               alt="PhySys"
@@ -146,26 +146,22 @@ export default function enPuls() {
 
       <div className="w-full bg-blue700">
         <div className="flex flex-col items-center py-24">
-          <div className="videos flex">
+          <div className="videos flex flex-col sm:flex-row items-center justify-center">
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/UdsU6GMmVYg"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="mx-8 rounded-lg"
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
             ></iframe>
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/eWe77R3ty-U" //SAME VIDEOUS AS MINI
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="mx-8 rounded-lg"
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
             ></iframe>
           </div>
         </div>

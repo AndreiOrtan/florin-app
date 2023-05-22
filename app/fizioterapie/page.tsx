@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 export default function PhysicalTherapy() {
   return (
-    <div className="flex flex-col items-center mt-4">
-      <header className="py-4">
+    <div className="flex flex-col items-center mt-4 w-full text-gray600">
+      <header className="py-4 w-9/12">
         <div className="container mx-auto px-4">
-          <h1 className="text-blue700 text-3xl font-bold">
+          <h1 className="text-blue700 text-3xl font-bold text-center">
             Physical Therapy Equipment
           </h1>
         </div>
@@ -172,7 +172,7 @@ export default function PhysicalTherapy() {
 
       <section className="mt-16 flex justify-center">
         <div className="w-9/12 py-8">
-          <h1 className="mb-8 text-4xl font-semibold leading-none tracking-wide text-gray-900">
+          <h1 className="mb-8 text-3xl font-semibold leading-none text-center text-gray-900 ">
             Physical therapy: proven processes with the most modern technology
           </h1>
 
@@ -186,23 +186,25 @@ export default function PhysicalTherapy() {
               placeholder="blur"
               className="mr-4 rounded-lg"
             />
-            <p className="text-lg leading-relaxed ml-1 text-justify">
-              Each of our products is designed in strict scientific fashion and
-              at the same time related to practice. The close cooperation with
-              universities and colleges characterizes us as well as how we
-              permanently look over users' shoulders. Thus, for our users,
-              scientific studies and practical experience add up to exactly the
-              added value that is important in everyday practice.
-            </p>
+            <div>
+              <p className="leading-relaxed mb-8 text-justify">
+                Each of our products is designed in strict scientific fashion
+                and at the same time related to practice. The close cooperation
+                with universities and colleges characterizes us as well as how
+                we permanently look over users' shoulders. Thus, for our users,
+                scientific studies and practical experience add up to exactly
+                the added value that is important in everyday practice.
+              </p>
+              <p className="leading-relaxed text-justify">
+                Therapies that are based on physical methods such as light,
+                heat, cold, sound, shock, or current are called physical
+                therapies. These forms of therapy have been used for a long time
+                for pain therapy, rehabilitation, to support the healing
+                process, as well as for prevention.
+              </p>
+            </div>
           </div>
           <div>
-            <p className="mb-4 text-lg leading-relaxed text-justify">
-              Therapies that are based on physical methods such as light, heat,
-              cold, sound, shock, or current are called physical therapies.
-              These forms of therapy have been used for a long time for pain
-              therapy, rehabilitation, to support the healing process, as well
-              as for prevention.
-            </p>
             <p className="mb-4 text-lg leading-relaxed text-justify">
               Zimmer MedizinSysteme consistently works on further advancing
               these processes and establishing new methods of physical therapy.

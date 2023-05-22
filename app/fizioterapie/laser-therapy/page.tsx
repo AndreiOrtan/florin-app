@@ -12,8 +12,8 @@ export default function ElectroAndUltrasound() {
         </div>
       </header>
       <div>
-        <div className="flex flex-col sm:flex-row">
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+        <div className="flex flex-col sm:flex-row w-full">
+          <div className="card-container rounded-lg shadow-lg w-9/12 sm:mx-2 overflow-hidden my-2 hover:opacity-100 mx-auto">
             <Link
               href="/fizioterapie/laser-therapy/optonpro"
               className="relative"

@@ -23,32 +23,35 @@ export default function enPuls() {
           <h1 className="text-blue700 text-3xl font-bold">emFieldPro</h1>
         </div>
       </header>
-      <div className="flex w-9/12 mb-8">
-        <img
-          src="/fizioterapiePhotos/high-energy-inductive-therapy/emfieldpro/emfieldpro-machine.png"
-          alt="PhySys"
-          className="w-[270px]"
-        />
-        <div className="text-container my-8 pr-12">
-          <h1 className="text-4xl font-semibold mb-4">
-            Healing in a natural way – Quality through expertise
-          </h1>
+      <div className="w-full">
+        <div className="flex w-9/12 mb-8 mx-auto flex-col sm:flex-row justify-center items-center">
+          <img
+            src="/fizioterapiePhotos/high-energy-inductive-therapy/emfieldpro/emfieldpro-machine.png"
+            alt="PhySys"
+            className="w-[270px]"
+          />
+          <div className="text-container my-8 sm:pr-12">
+            <h1 className="text-4xl font-semibold mb-4">
+              Healing in a natural way – Quality through expertise
+            </h1>
 
-          <div className="my-auto text-justify text-lg">
-            <p className="py-1">
-              Now you can experience the power of High Energy Inductive Therapy.
-              Pain is one of the most increasing health issues in the world.
-            </p>
-            <p className="py-1">
-              Studies suggest that around 20% of adults suffer from pain. Zimmer
-              introduces with their innovative High Energy Inductive Therapy a
-              new standard in pain reducing therapies.
-            </p>
-            <p className="py-1">
-              Besides effective pain treatment High Energy Inductive Therapy is
-              widely used to inference muscle tone, enhance blood circulation
-              and activate the regeneration process.
-            </p>
+            <div className="my-auto text-justify text-lg">
+              <p className="py-1">
+                Now you can experience the power of High Energy Inductive
+                Therapy. Pain is one of the most increasing health issues in the
+                world.
+              </p>
+              <p className="py-1">
+                Studies suggest that around 20% of adults suffer from pain.
+                Zimmer introduces with their innovative High Energy Inductive
+                Therapy a new standard in pain reducing therapies.
+              </p>
+              <p className="py-1">
+                Besides effective pain treatment High Energy Inductive Therapy
+                is widely used to inference muscle tone, enhance blood
+                circulation and activate the regeneration process.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -59,7 +62,7 @@ export default function enPuls() {
             High Energy Inductive Therapy
           </h1>
 
-          <div className="flex">
+          <div className="flex flex-col sm:flex-row">
             <div className="text-justify">
               <p className="py-1">
                 The human body is a good conducting medium and also conductive
@@ -90,7 +93,7 @@ export default function enPuls() {
             <img
               src="/fizioterapiePhotos/high-energy-inductive-therapy/emfieldpro/inductive1.jpeg"
               alt="PhySys"
-              className="w-[350px] rounded-lg ml-8"
+              className="w-[350px] rounded-lg sm:ml-8"
             />
           </div>
         </div>
@@ -157,7 +160,7 @@ export default function enPuls() {
             </p>
           </div>
 
-          <div className="flex  py-6">
+          <div className="flex flex-col sm:flex-row py-6">
             <div className="text-justify">
               <div>
                 <h2 className="font-bold mb-1">Static treatment</h2>
@@ -174,10 +177,10 @@ export default function enPuls() {
             <img
               src="/fizioterapiePhotos/high-energy-inductive-therapy/emfieldpro/treatment1.jpeg"
               alt="PhySys"
-              className="w-[300px] rounded-lg ml-8"
+              className="w-[300px] rounded-lg sm:ml-8"
             />
           </div>
-          <div className="flex py-6">
+          <div className="flex flex-col sm:flex-row py-6">
             <div className="text-justify">
               <div>
                 <h2 className="font-bold mb-1">Dynamic treatment</h2>
@@ -193,7 +196,7 @@ export default function enPuls() {
             <img
               src="/fizioterapiePhotos/high-energy-inductive-therapy/emfieldpro/treatment2.jpeg"
               alt="PhySys"
-              className="w-[300px] rounded-lg ml-8"
+              className="w-[300px] rounded-lg sm:ml-8"
             />
           </div>
 
@@ -285,7 +288,7 @@ export default function enPuls() {
           <h1 className="text-4xl font-semibold mb-4">
             Increase your therapeutic results
           </h1>
-          <div className="flex justify-between mx-16">
+          <div className="flex flex-col sm:flex-row justify-between mx-16">
             <img
               src="/fizioterapiePhotos/high-energy-inductive-therapy/emfieldpro/increase1.png"
               alt="Recomandations"
@@ -302,26 +305,22 @@ export default function enPuls() {
 
       <div className="w-full bg-blue700">
         <div className="flex flex-col items-center py-24">
-          <div className="videos flex">
+          <div className="videos flex-col sm:flex-row flex">
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/MTBRI8jvyVk"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="mx-8"
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
             ></iframe>
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/QD_hLRd7kUQ"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="mx-8"
+              className="mx-8 sm:w-[560px] sm:h-[380px] rounded-lg w-9/12 my-4"
             ></iframe>
           </div>
         </div>

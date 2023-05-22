@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function ElectroAndUltrasound() {
   return (
-    <div className="flex flex-col items-center my-4">
+    <div className="flex flex-col items-center my-4 text-gray800">
       <header className="py-4">
         <div className="container mx-auto px-4">
           <h1 className="text-blue700 text-3xl font-bold">
@@ -13,8 +13,8 @@ export default function ElectroAndUltrasound() {
           </h1>
         </div>
       </header>
-      <div>
-        <div className="flex flex-col sm:flex-row">
+      <div className="w-full">
+        <div className="flex flex-col sm:flex-row w-9/12 justify-center items-center mx-auto">
           <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
             <Link
               href="/fizioterapie/electro-ultrasound/physys"
@@ -101,10 +101,10 @@ export default function ElectroAndUltrasound() {
         </div>
       </div>
 
-      <section className="my-16 flex justify-center">
+      <section className="mt-16 flex justify-center">
         <div className="w-9/12">
-          <h1 className="mb-8 text-4xl font-semibold leading-none tracking-wide text-gray-900">
-            Ultrasound-, Electro- and Combined Therapy
+          <h1 className="mb-8 text-4xl font-semibold leading-none tracking-wide text-gray-900 sm:text-left text-center">
+            Ultrasound, Electro and Combined Therapy
           </h1>
 
           <div className="">
@@ -116,25 +116,27 @@ export default function ElectroAndUltrasound() {
                 height={500}
                 blurDataURL="URL"
                 placeholder="blur"
-                className="mr-4 rounded-lg"
+                className="mr-4 rounded-lg mb-4"
               />
-              <p className="text-lg leading-relaxed ml-1 text-justify">
-                Electrotherapy and ultrasound therapy – an important branch of
-                physical medicine – today plays an important role in the
-                treatment and rehabilitation of many diseases.
-              </p>
+              <div>
+                <p className="text-lg mb-2 leading-relaxed text-justify">
+                  Electrotherapy and ultrasound therapy – an important branch of
+                  physical medicine – today plays an important role in the
+                  treatment and rehabilitation of many diseases.
+                </p>
+                <p className="mb-2 text-lg leading-relaxed text-justify">
+                  Applications include pain management, muscle therapy, muscle
+                  rehabilitation, circulation improvement and trophism
+                  improvement.
+                </p>
+                <p className="mb-2 text-lg leading-relaxed text-justify">
+                  In the simulation process, the combined use is highly
+                  efficient in the treatment of functional disorders, for
+                  example in connection with myofascial pain syndromes.
+                </p>
+              </div>
             </div>
             <div>
-              <p className="mb-4 text-lg leading-relaxed text-justify">
-                Applications include pain management, muscle therapy, muscle
-                rehabilitation, circulation improvement and trophism
-                improvement.
-              </p>
-              <p className="mb-4 text-lg leading-relaxed text-justify">
-                In the simulation process, the combined use is highly efficient
-                in the treatment of functional disorders, for example in
-                connection with myofascial pain syndromes.
-              </p>
               <p className="mb-4 text-lg leading-relaxed text-justify">
                 Numerous innovations make the Zimmer MedizinSysteme systems the
                 perfect therapy partner in your practice: besides special

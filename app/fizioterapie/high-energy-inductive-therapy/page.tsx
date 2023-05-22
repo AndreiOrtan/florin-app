@@ -8,7 +8,7 @@ export default function ShockwaveTherapy() {
     <div className="flex flex-col items-center mt-4 text-gray600 w-full">
       <header className="py-4">
         <div className="container mx-auto px-4">
-          <h1 className="text-blue700 text-3xl font-bold">
+          <h1 className="text-blue700 text-3xl font-bold text-center">
             High Energy Inductive Therapy
           </h1>
         </div>

@@ -22,7 +22,7 @@ export default function Physys() {
               </div>
             </header>
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-center items-center sm:flex-row flex-col">
             <Image
               src="/fizioterapiePhotos/electro-ultrasound/sonoone/sonoone-machine.png"
               width={150}
@@ -75,7 +75,22 @@ export default function Physys() {
           </div>
         </div>
       </div>
-      <hr />
+
+      <div className="w-full py-10">
+        <div className="w-9/12 mx-auto">
+          <h2 className="text-2xl font-semibold mb-4">Picture gallery</h2>
+          <div className="flex flex-wrap justify-between">
+            {images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Image ${index + 1}`}
+                className="max-w-[150px]"
+              />
+            ))}
+          </div>
+        </div>
+      </div>
 
       {/* {TECHNICAL DATA} */}
 
@@ -111,22 +126,6 @@ export default function Physys() {
               <p className="mb-4">23.8 cm x 13.8 cm x 9.5 cm / 1 kg</p>
             </div>
           </section>
-        </div>
-      </div>
-
-      <div className="w-full py-10">
-        <div className="w-9/12 mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">Picture gallery</h2>
-          <div className="flex flex-wrap justify-between">
-            {images.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                alt={`Image ${index + 1}`}
-                className="max-w-[150px]"
-              />
-            ))}
-          </div>
         </div>
       </div>
     </div>

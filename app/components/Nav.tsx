@@ -4,7 +4,7 @@ import MenuHeader from "./MenuHeader";
 const Nav = () => {
   return (
     <nav className="bg-lightgray fixed top-0 left-0 right-0 z-50">
-      <div className="flex justify-center h-min">
+      <div className="flex justify-center h-[114px]">
         <div className="flex items-center">
           <Link href="/">
             <img src="/logo2.png" alt="text" className="w-44" />

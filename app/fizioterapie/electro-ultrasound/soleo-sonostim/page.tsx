@@ -25,7 +25,7 @@ export default function Physys() {
               </div>
             </header>
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-center items-center flex-col sm:flex-row">
             <Image
               src="/fizioterapiePhotos/electro-ultrasound/soleo-sonostim/soleo-sonostim-machine.png"
               width={150}
@@ -105,7 +105,7 @@ export default function Physys() {
               the range of application.
             </p>
           </div>
-          <div className="flex">
+          <div className="flex flex-wrap justify-center">
             <Image
               src="/fizioterapiePhotos/electro-ultrasound/soleo-sonostim/MAN1.jpeg"
               width={200}
@@ -160,9 +160,63 @@ export default function Physys() {
         </div>
       </div>
 
+      <div className="w-full py-8">
+        <div className="w-9/12 mx-auto">
+          <h1 className="text-2xl font-semibold">
+            Practical extensions and accessories
+          </h1>
+
+          <h2 className="text-xl font-normal mb-4">
+            Vaco: Electrotherapy plus suction massage
+          </h2>
+
+          <p>
+            Vaco allows you to apply electrodes with ease. Your patients will
+            certainly enjoy the therapeutic effects of a suction massage during
+            electrotherapy.
+          </p>
+
+          <h2 className="text-xl font-medium mt-4">Move cart</h2>
+
+          <ul className="list-disc ml-6 mb-4">
+            <li>smoothly movable</li>
+            <li>modern design</li>
+          </ul>
+          <div className="flex justify-between">
+            <img
+              src="/fizioterapiePhotos/electro-ultrasound/soleo-sonostim/practical1.jpeg"
+              alt="man"
+              className="sm:w-[200px] w-[150px] rounded-lg"
+            />
+
+            <img
+              src="/fizioterapiePhotos/electro-ultrasound/soleo-sonostim/practical2.jpeg"
+              alt="man"
+              className="sm:w-[200px] w-[150px] rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full py-10 bg-lightgray">
+        <div className="w-9/12 mx-auto">
+          <h2 className="text-2xl font-semibold mb-4">Picture gallery</h2>
+          <div className="flex flex-wrap justify-between">
+            {images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Image ${index + 1}`}
+                className="max-w-[150px]"
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+
       {/* {TECHNICAL DATA} */}
 
-      <div className="w-full bg-lightgray">
+      <div className="w-full">
         <div className="mx-auto py-8 px-4 flex justify-center">
           <section className="w-9/12">
             <div>
@@ -188,64 +242,6 @@ export default function Physys() {
               <p className="mb-4">Weight: ~3 kg</p>
             </div>
           </section>
-        </div>
-      </div>
-
-      <div className="w-full py-8">
-        <div className="w-9/12 mx-auto">
-          <h1 className="text-2xl font-semibold">
-            Practical extensions and accessories
-          </h1>
-
-          <h2 className="text-xl font-normal mb-4">
-            Vaco: Electrotherapy plus suction massage
-          </h2>
-
-          <p>
-            Vaco allows you to apply electrodes with ease. Your patients will
-            certainly enjoy the therapeutic effects of a suction massage during
-            electrotherapy.
-          </p>
-
-          <h2 className="text-xl font-medium mt-4">Move cart</h2>
-
-          <ul className="list-disc ml-6 mb-4">
-            <li>smoothly movable</li>
-            <li>modern design</li>
-          </ul>
-          <div className="flex justify-between">
-            <Image
-              src="/fizioterapiePhotos/electro-ultrasound/soleo-sonostim/practical1.jpeg"
-              width={200}
-              height={200}
-              alt="man"
-              className="m-1"
-            ></Image>
-
-            <Image
-              src="/fizioterapiePhotos/electro-ultrasound/soleo-sonostim/practical2.jpeg"
-              width={200}
-              height={200}
-              alt="man"
-              className="m-1"
-            ></Image>
-          </div>
-        </div>
-      </div>
-
-      <div className="w-full py-10">
-        <div className="w-9/12 mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">Picture gallery</h2>
-          <div className="flex flex-wrap justify-between">
-            {images.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                alt={`Image ${index + 1}`}
-                className="max-w-[150px]"
-              />
-            ))}
-          </div>
         </div>
       </div>
     </div>

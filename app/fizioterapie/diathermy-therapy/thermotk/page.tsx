@@ -17,26 +17,28 @@ export default function enPuls() {
           <h1 className="text-blue700 text-3xl font-bold">ThermoTk</h1>
         </div>
       </header>
-      <div className="flex w-9/12 mb-8">
-        <img
-          src="/fizioterapiePhotos/diathermy-therapy/thermotk/thermotk-machine.png"
-          alt="PhySys"
-          className="w-[270px]"
-        />
-        <div className="text-container my-8 pr-12">
-          <h1 className="text-4xl font-semibold mb-4">
-            Deep heat through high-frequency electrotherapy
-          </h1>
+      <div className="w-full">
+        <div className="flex w-9/12 flex-col sm:flex-row mx-auto justify-center items-centermb-8">
+          <img
+            src="/fizioterapiePhotos/diathermy-therapy/thermotk/thermotk-machine.png"
+            alt="PhySys"
+            className="w-[270px]"
+          />
+          <div className="text-container my-8 sm:pr-12">
+            <h1 className="text-4xl font-semibold mb-4">
+              Deep heat through high-frequency electrotherapy
+            </h1>
 
-          <div className="my-auto text-justify text-lg">
-            <p className="py-1">
-              Deep heat through high-frequency electrotherapy is an
-              internationally widely used and proven method in physical therapy.
-              We work continuously along with experts to further develop this
-              form of therapy. As a result, we are able to set new standards
-              again and again, whether in performance, safety during use, or
-              simplicity of operation
-            </p>
+            <div className="my-auto text-justify text-lg">
+              <p className="py-1">
+                Deep heat through high-frequency electrotherapy is an
+                internationally widely used and proven method in physical
+                therapy. We work continuously along with experts to further
+                develop this form of therapy. As a result, we are able to set
+                new standards again and again, whether in performance, safety
+                during use, or simplicity of operation
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -47,7 +49,7 @@ export default function enPuls() {
             Inspired by the highest standards
           </h1>
 
-          <div className="flex">
+          <div className="flex flex-col sm:flex-row">
             <div className="text-justify">
               <p className="py-1">
                 ThermoTK generates adjustable, deeply penetrating heat.
@@ -67,7 +69,7 @@ export default function enPuls() {
             <img
               src="/fizioterapiePhotos/diathermy-therapy/thermotk/inspired1.jpeg"
               alt="PhySys"
-              className="w-[350px] rounded-lg ml-8"
+              className="w-[350px] rounded-lg sm:ml-8"
             />
           </div>
         </div>
@@ -160,33 +162,33 @@ export default function enPuls() {
             </p>
           </div>
 
-          <div className="flex justify-between">
+          <div className="flex flex-col sm:flex-row items-center justify-between">
             <img
               src="/fizioterapiePhotos/diathermy-therapy/thermotk/working2.jpeg"
               alt=""
-              className="w-[250px] rounded-lg"
+              className="w-[250px] rounded-lg py-1"
             />
             <img
               src="/fizioterapiePhotos/diathermy-therapy/thermotk/working1.jpeg"
               alt=""
-              className="w-[250px] rounded-lg"
+              className="w-[250px] rounded-lg py-1"
             />
             <img
               src="/fizioterapiePhotos/diathermy-therapy/thermotk/working3.jpeg"
               alt=""
-              className="w-[250px] rounded-lg"
+              className="w-[250px] rounded-lg py-1"
             />
             <img
               src="/fizioterapiePhotos/diathermy-therapy/thermotk/working4.jpeg"
               alt=""
-              className="w-[250px] rounded-lg"
+              className="w-[250px] rounded-lg py-1"
             />
           </div>
         </div>
       </div>
 
       <div className="w-full">
-        <div className="w-9/12 mx-auto">
+        <div className="w-9/12 flex-col sm:flex-row mx-auto">
           <h1 className="text-4xl font-semibold my-4">
             Quality in every detail
           </h1>
