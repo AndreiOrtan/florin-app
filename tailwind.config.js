@@ -44,6 +44,7 @@ module.exports = {
       gray100: "#f3f4f6",
       gray800: "#27272a",
       gray600: "#52525b",
+      gray500: "F9FAFB",
     },
   },
   plugins: [],
