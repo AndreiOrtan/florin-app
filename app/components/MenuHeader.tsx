@@ -7,9 +7,10 @@ import { AiFillCaretDown } from "react-icons/ai";
 interface DropdownI {
   options?: string[];
   header?: string;
+  collapseDropdown?: () => void;
 }
 
-const MenuHeader = ({ options, header }: DropdownI) => {
+const MenuHeader = ({ options, header, collapseDropdown }: DropdownI) => {
   const [isOpen, setIsOpen] = useState(false);
   const ref = useRef(null);
   console.log(isOpen);
@@ -72,7 +73,13 @@ const MenuHeader = ({ options, header }: DropdownI) => {
                     <Link
                       href={`/${getRoute(item)}`}
                       className="block px-4 py-2 hover:bg-gray100"
-                      onClick={() => setIsOpen((prev) => !prev)}
+                      onClick={() => {
+                        setIsOpen((prev) => !prev);
+
+                        {
+                          collapseDropdown && collapseDropdown();
+                        }
+                      }}
                     >
                       {item}
                     </Link>

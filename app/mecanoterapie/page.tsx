@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Mecanoterapie = () => {
   return (
-    <div className="flex flex-col items-center my-4 max-w-5xl px-4">
+    <div className="flex flex-col items-center my-4 w-full px-4">
       <header className="py-4">
         <div className="container mx-auto px-4">
           <h1 className="text-blue700 text-3xl font-bold">
@@ -12,7 +12,7 @@ const Mecanoterapie = () => {
           </h1>
         </div>
       </header>
-      <div className="flex">
+      <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12">
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
           <Link href="/fizioterapie/electro-ultrasound" className="relative">
             <div className="w-full">

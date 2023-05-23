@@ -8,6 +8,10 @@ import Image from "next/image";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  function collapseDropdown() {
+    setIsOpen((prev) => !prev);
+  }
   return (
     <nav className="bg-lightgray fixed top-0 left-0 right-0 z-50">
       <div className="flex sm:justify-center h-[114px] justify-between">
@@ -29,6 +33,7 @@ const Nav = () => {
           <MenuHeader
             options={["Fizioterapie", "Aquatizer", "Mecanoterapie"]}
             header="Produse"
+            collapseDropdown={collapseDropdown}
           />
           <MenuHeader header="Companie" options={["Despre noi"]} />
           <MenuHeader header="Contact" />
