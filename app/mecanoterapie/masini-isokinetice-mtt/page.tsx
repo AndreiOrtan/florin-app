@@ -551,32 +551,6 @@ export default function ShockwaveTherapy() {
           </Link>
         </div>
       </div>
-
-      <div className="w-full bg-lightgray">
-        <div className="w-9/12 mx-auto flex flex-col py-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            R2000 Bancă pentru exerciţii divizată în trei părţi
-          </h2>
-          <img
-            src="/fizioterapiePhotos/diathermy-therapy/diathermy1.jpeg"
-            alt=""
-            className="rounded-lg mb-2"
-          />
-          <p className="py-2">
-            Proven therapy and state of the art as well – Diathermy is easy to
-            use and comfortable for patients. Diathermy Therapy is determined
-            for the support of healing processes in the tissue. Several modes of
-            action are used here:
-          </p>
-          <ul className="list-disc ml-6 mb-4">
-            <li> Pain relief</li>
-            <li> Muscle relaxation</li>
-            <li>Improvement in function</li>
-            <li>Increase in mobility</li>
-            <li>Stimulation of blood circulation </li>
-          </ul>
-        </div>
-      </div>
     </div>
   );
 }
