@@ -14,10 +14,13 @@ const Mecanoterapie = () => {
       </header>
       <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12">
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link href="/fizioterapie/electro-ultrasound" className="relative">
+          <Link
+            href="/mecanoterapie/masini-isokinetice-mtt"
+            className="relative"
+          >
             <div className="w-full">
               <Image
-                src="/fizioterapiePhotos/electro-sound.jpg"
+                src="/mecanoterapie/isokinetic.jpeg"
                 className="w-full h-56"
                 alt="Any Text"
                 width={500}
@@ -40,10 +43,13 @@ const Mecanoterapie = () => {
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link href="/fizioterapie/electro-ultrasound" className="relative">
+          <Link
+            href="/mecanoterapie/dinamometre-digitale-isokinetice-ctt"
+            className="relative"
+          >
             <div className="w-full">
               <Image
-                src="/fizioterapiePhotos/electro-sound.jpg"
+                src="/mecanoterapie/dinamometru.jpeg"
                 className="w-full h-56"
                 alt="Any Text"
                 width={500}
