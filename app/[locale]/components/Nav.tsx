@@ -4,9 +4,15 @@ import MenuHeader from "./MenuHeader";
 import { MdClose } from "react-icons/md";
 import { MdOutlineMenu } from "react-icons/md";
 import { useState } from "react";
+import { usePathname } from "next-intl/client";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+import LocaleSwitcher from "./LocaleSwitcher";
 
-const Nav = () => {
+export default function Nav() {
+  const pathname = usePathname();
+  const t = useTranslations("navbar");
+
   const [isOpen, setIsOpen] = useState(false);
 
   function collapseDropdown() {
@@ -31,22 +37,35 @@ const Nav = () => {
           }`}
         >
           <MenuHeader
-            options={["Fizioterapie", "Aquatizer", "Mecanoterapie"]}
-            header="Produse"
+            options={[
+              `${t("physiotherapy")}`,
+              "Aquatizer",
+              `${t("mechanotherapy")}`,
+            ]}
+            header={t("header1")}
             collapseDropdown={collapseDropdown}
+            routes={["Fizioterapie", "Aquatizer", "Mecanoterapie"]}
           />
-          <MenuHeader header="Companie" options={["Despre noi"]} />
+          <MenuHeader
+            header={t("header2")}
+            options={[`${t("about-us")}`]}
+            collapseDropdown={collapseDropdown}
+            routes={["Despre noi"]}
+          />
           <MenuHeader header="Contact" />
         </div>
-        <span
-          className="flex items-center sm:hidden mr-8"
-          onClick={() => setIsOpen((prev) => !prev)}
-        >
-          {isOpen ? <MdClose size={50} /> : <MdOutlineMenu size={50} />}
-        </span>
+        <div className="flex justify-center mr-8">
+          <span
+            className="flex items-center sm:hidden mx-2"
+            onClick={() => setIsOpen((prev) => !prev)}
+          >
+            {isOpen ? <MdClose size={50} /> : <MdOutlineMenu size={50} />}
+          </span>
+          <span className="flex items-center mx-2">
+            <LocaleSwitcher />
+          </span>
+        </div>
       </div>
     </nav>
   );
-};
-
-export default Nav;
+}

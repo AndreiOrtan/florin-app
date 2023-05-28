@@ -1,0 +1,16 @@
+{
+  "Index": {
+    "title": "Salutare lume!"
+  },
+  "navbar": {
+    "header1": "Produse",
+    "header2": "Companie",
+    "physiotherapy": "Fizioterapie",
+    "mechanotherapy": "Mecanoterapie",
+    "about-us": "Despre noi"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, en {Engleza} ro {Romana} other {necunoscut}}"
+  }
+}

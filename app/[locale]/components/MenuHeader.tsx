@@ -8,12 +8,17 @@ interface DropdownI {
   options?: string[];
   header?: string;
   collapseDropdown?: () => void;
+  routes?: string[];
 }
 
-const MenuHeader = ({ options, header, collapseDropdown }: DropdownI) => {
+const MenuHeader = ({
+  options,
+  header,
+  collapseDropdown,
+  routes,
+}: DropdownI) => {
   const [isOpen, setIsOpen] = useState(false);
   const ref = useRef(null);
-  console.log(isOpen);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -51,7 +56,6 @@ const MenuHeader = ({ options, header, collapseDropdown }: DropdownI) => {
               isOpen ? "rotate-180" : "rotate-0"
             }`}
             onClick={(event) => {
-              console.log("run?");
               event.stopPropagation(); // Stop event propagation
               setIsOpen((prev) => !prev);
             }}
@@ -66,12 +70,13 @@ const MenuHeader = ({ options, header, collapseDropdown }: DropdownI) => {
           className="menu-container shadow-2xl mt-14 z-10 bg-white divide-y divide-gray-100 rounded-lg w-44 dark:bg-gray-700 dark:divide-gray-600 absolute left-1/2 transform -translate-x-1/2"
         >
           <ul className="py-2 text-sm text-gray-700">
-            {options &&
+            {routes &&
+              options &&
               options.map((item, index) => {
                 return (
                   <li key={index} className="py-1">
                     <Link
-                      href={`/${getRoute(item)}`}
+                      href={`/${getRoute(routes[index])}`}
                       className="block px-4 py-2 hover:bg-gray100"
                       onClick={() => {
                         setIsOpen((prev) => !prev);

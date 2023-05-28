@@ -1,0 +1,16 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "navbar": {
+    "header1": "Products",
+    "header2": "Company",
+    "physiotherapy": "Physiotherapy",
+    "mechanotherapy": "Mechanotherapy",
+    "about-us": "About us"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {German} en {English} ro {Romanian} other {Unknown}}"
+  }
+}
