@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import NavigationLink from "../../components/NavigationLink";
 
 export default function ShockwaveTherapy() {
   return (
@@ -15,7 +16,7 @@ export default function ShockwaveTherapy() {
       </header>
       <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12 mb-8">
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/fizioterapie/high-energy-inductive-therapy/emfieldpro"
             className="relative"
           >
@@ -36,7 +37,7 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
       </div>
 

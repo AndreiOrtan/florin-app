@@ -8,6 +8,7 @@ import { usePathname } from "next-intl/client";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import LocaleSwitcher from "./LocaleSwitcher";
+import NavigationLink from "./NavigationLink";
 
 export default function Nav() {
   const pathname = usePathname();
@@ -22,13 +23,13 @@ export default function Nav() {
     <nav className="bg-lightgray fixed top-0 left-0 right-0 z-50">
       <div className="flex sm:justify-center h-[114px] justify-between">
         <div className="flex items-center ml-8">
-          <Link href="/">
+          <NavigationLink href="/">
             <img
               src="/logo.png"
               alt="text"
               className="h-auto w-44 max-w-full"
             />
-          </Link>
+          </NavigationLink>
         </div>
 
         <div

@@ -1,7 +1,11 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Physys() {
+  const t = useTranslations("physiotherapy");
+
   const images = [
     "/fizioterapiePhotos/electro-ultrasound/physys/galery1.png",
     "/fizioterapiePhotos/electro-ultrasound/physys/galery2.jpeg",
@@ -27,16 +31,10 @@ export default function Physys() {
           />
           <div className="text-container my-auto">
             <h1 className="text-4xl font-semibold mb-4">
-              Physiotherapy at your fingertips
+              {t("cards.card1.card1.header1")}
             </h1>
 
-            <p className="my-auto text-left">
-              Over 45 years of experience in physiotherapy at your disposal. The
-              innovative device for electrostimulation, ultrasound therapy, and
-              combined therapy. Up-to-date color touch screen technology that is
-              quick, simple, and user-friendly. PhySys provides all features for
-              successful treatments in a fantastic design.
-            </p>
+            <p className="my-auto text-left">{t("cards.card1.card1.p1")}</p>
           </div>
         </div>
       </div>
@@ -94,31 +92,16 @@ export default function Physys() {
       <div className="w-full py-8">
         <div className="w-9/12 mx-auto">
           <h2 className="text-xl font-bold mb-2">
-            Combined Treatment & SonoSwing
+            {t("cards.card1.card1.h2-1")}
           </h2>
-          <p className="mb-4">
-            PhySys provides preset programmes related to effects for quick and
-            easy use of the effective combination of ultrasound and
-            electrostimulation.
-          </p>
-          <p>
-            Patent SonoSwing: Multifrequency heads provide both frequencies (0.8
-            MHz and 2.4 MHz) simultaneously in parallel with a selected ratio.
-            The user can therefore determine exactly the desired treatment
-            depth. These features enable the therapist to focus the treatment
-            precisely on his or her plan for achieving pain reduction, or
-            hyperaemia or for improving restoration processes by increased
-            metabolism.
-          </p>
+          <p className="mb-4">{t("cards.card1.card1.p2")}</p>
+          <p>{t("cards.card1.card1.p3")}</p>
           <h2 className="text-xl font-bold my-2">
-            Practical extensions and accessories
+            {t("cards.card1.card1.p4")}
           </h2>
-          <p className="mb-4">Vaco: Electrotherapy plus suction massage</p>
-          <p>
-            Vaco allows you to apply electrodes with ease. Your patients will
-            certainly enjoy the therapeutic effects of a suction massage during
-            electrotherapy.
-          </p>
+          {t("cards.card1.card1.h2-2")}
+          <p className="mb-4"></p>
+          <p>{t("cards.card1.card1.p5")}</p>
         </div>
       </div>
 

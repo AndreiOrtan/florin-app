@@ -1,6 +1,9 @@
+"use client";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Physys() {
+  const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/electro-ultrasound/sonoone/galery1.png",
     "/fizioterapiePhotos/electro-ultrasound/sonoone/galery2.jpeg",
@@ -31,14 +34,10 @@ export default function Physys() {
             />
             <div className="text-container my-auto">
               <h1 className="text-4xl font-semibold mb-4">
-                Ultrasound therapy
+                {t("cards.card1.card3.header1")}
               </h1>
 
-              <p className="my-auto text-left">
-                For many decades, ultrasound therapy has been successfully
-                established as treatment for chronic and degenerative diseases
-                of the musculoskelettal and support system.
-              </p>
+              <p className="my-auto text-left">{t("cards.card1.card3.p1")}</p>
             </div>
           </div>
         </div>
@@ -49,28 +48,25 @@ export default function Physys() {
         <div className="mx-auto py-8 flex flex-col items-center">
           <div className="w-9/12">
             <h1 className="text-2xl font-bold mb-4">
-              Hand-held ultrasound therapy
+              {t("cards.card1.card3.header2")}
             </h1>
 
-            <h2 className="text-xl font-bold mb-2">SonoOne – always there</h2>
-            <p>
-              Ergonomic and high-performance. The small, compact system is ideal
-              for mobile use.
-            </p>
-            <h2 className="text-xl font-bold mb-2">Efficient treatment</h2>
-            <p>
-              1 and 3 MHz, unpulsed and pulsed emission of ultrasound offers
-              every possibility for modern, effective ultrasound therapy.
-            </p>
-            <h2 className="text-xl font-bold mb-2">Functionality</h2>
-            <p>
-              Intuitive, clearly arranged and quick to operate. The colour touch
-              operation makes treatment an enjoyable experience.
-            </p>
-            <p className="py-8">Move cart</p>
+            <h2 className="text-xl font-bold mb-2">
+              {t("cards.card1.card3.p2")}
+            </h2>
+            <p>{t("cards.card1.card3.p3")}</p>
+            <h2 className="text-xl font-bold mb-2">
+              {t("cards.card1.card3.header3")}
+            </h2>
+            <p>{t("cards.card1.card3.p4")}</p>
+            <h2 className="text-xl font-bold mb-2">
+              {t("cards.card1.card3.header4")}
+            </h2>
+            <p>{t("cards.card1.card3.p5")}</p>
+            <p className="py-8">{t("cards.card1.card3.header5")}</p>
             <ul className="list-disc list-inside">
-              <li>smoothly movable</li>
-              <li>modern design</li>
+              <li>{t("cards.card1.card3.p6")}</li>
+              <li>{t("cards.card1.card3.p7")}</li>
             </ul>
           </div>
         </div>

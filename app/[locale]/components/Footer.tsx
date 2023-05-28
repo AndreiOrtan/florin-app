@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import NavigationLink from "./NavigationLink";
 
 const Footer = () => {
   return (
@@ -21,27 +22,33 @@ const Footer = () => {
             </div>
             <div className="ml-auto my-auto">
               <div className="flex">
-                <Link href="https://www.minato-med.co.jp/en/" target="_blank">
+                <NavigationLink
+                  href="https://www.minato-med.co.jp/en/"
+                  target="_blank"
+                >
                   <img
                     src="/minatologo.png"
                     alt="text"
                     className="h-auto w-[140px] max-w-full mx-4"
                   />
-                </Link>
-                <Link href="https://www.zimmer.de/en/" target="_blank">
+                </NavigationLink>
+                <NavigationLink
+                  href="https://www.zimmer.de/en/"
+                  target="_blank"
+                >
                   <img
                     src="/zimmer-logo.png"
                     alt="text"
                     className="h-auto w-[140px] max-w-full mx-4"
                   />
-                </Link>
-                <Link href="https://mkb-system.ro/" target="_blank">
+                </NavigationLink>
+                <NavigationLink href="https://mkb-system.ro/" target="_blank">
                   <img
                     src="/mkb-logo.png"
                     alt="text"
                     className="h-auto w-[140px] max-w-full mx-4"
                   />
-                </Link>
+                </NavigationLink>
               </div>
             </div>
           </div>

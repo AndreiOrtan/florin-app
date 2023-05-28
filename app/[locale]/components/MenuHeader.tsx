@@ -3,6 +3,7 @@
 import Link from "next/link";
 import React, { useState, useRef, useEffect } from "react";
 import { AiFillCaretDown } from "react-icons/ai";
+import NavigationLink from "./NavigationLink";
 
 interface DropdownI {
   options?: string[];
@@ -75,7 +76,7 @@ const MenuHeader = ({
               options.map((item, index) => {
                 return (
                   <li key={index} className="py-1">
-                    <Link
+                    <NavigationLink
                       href={`/${getRoute(routes[index])}`}
                       className="block px-4 py-2 hover:bg-gray100"
                       onClick={() => {
@@ -87,7 +88,7 @@ const MenuHeader = ({
                       }}
                     >
                       {item}
-                    </Link>
+                    </NavigationLink>
                   </li>
                 );
               })}

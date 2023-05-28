@@ -10,7 +10,115 @@
     "about-us": "Despre noi"
   },
   "LocaleSwitcher": {
-    "label": "Sprache ändern",
-    "locale": "{locale, select, en {Engleza} ro {Romana} other {necunoscut}}"
+    "label": "Schimba limba",
+    "locale": "{locale, select, ro {Romana} en {Engleza} other {Necunoscut}}"
+  },
+  "physiotherapy": {
+    "mainHeader": "Echipament Fizioterapie",
+    "cards": {
+      "card1": {
+        "header": "Electro și Ultrasunete",
+        "description": "Tratament foarte eficient prin utilizarea combinată a ultrasunetelor și stimulării electrice",
+        "card1": {
+          "header": "PhySys",
+          "description": "Centrul de tratament high-tech într-un sistem orientat către practică.",
+          "header1": "Fizioterapie la îndemâna dumneavoastră",
+          "p1": "Peste 45 de ani de experiență în fizioterapie la dispoziția dumneavoastră. Dispozitivul inovator pentru electrostimulare, terapie cu ultrasunete și terapie combinată. Tehnologia modernă a ecranului tactil color, rapidă, simplă și ușor de utilizat. PhySys oferă toate caracteristicile pentru tratamente de succes într-un design fantastic.",
+          "h2-1": "Tratament combinat și SonoSwing",
+          "p2": "PhySys oferă programe preconfigurate legate de efecte pentru utilizare rapidă și ușoară a combinației eficiente de ultrasunete și electrostimulare.",
+          "p3": "Brevet SonoSwing: Capetele multifrecvență furnizează simultan ambele frecvențe (0,8 MHz și 2,4 MHz) în paralel, cu un raport selectat. Utilizatorul poate astfel determina exact adâncimea de tratament dorită. Aceste caracteristici permit terapeutului să focalizeze tratamentul în mod precis pe planul său pentru reducerea durerii, hiperemie sau îmbunătățirea proceselor de restaurare prin creșterea metabolismului.",
+          "h2-2": "Extensii și accesorii practice",
+          "p4": "Vaco: Electroterapie plus masaj cu aspirație",
+          "p5": "Vaco vă permite să aplicați electrozi cu ușurință. Pacienții dumneavoastră cu siguranță vor aprecia efectele terapeutice ale unui masaj cu aspirație în timpul electroterapiei."
+        },
+        "card2": {
+          "header": "Soleo SonoStim",
+          "description": "Stimulare cu curent, ultrasunete și terapie combinată într-un singur dispozitiv.",
+          "header1": "Ultrasunet, electroterapie și terapie combinată - toate într-un singur dispozitiv",
+          "p1": "O combinație subtilă de tehnologie de vârf și peste 45 de ani de experiență, Soleo SonoStim îndeplinește toate cerințele fizioterapiei moderne: Compact. Ergonomic. Performant.",
+          "header2": "Design inteligent - stabilește standarde noi",
+          "p2": "Experiență pentru orice problemă medicală. Tratamente recomandate prezentate clar, disponibile în orice moment pentru diverse terapii.",
+          "header3": "Personalizat pentru cabinetul tău",
+          "p3": "Setările personalizate ale programului economisesc timp prețios de tratament.",
+          "p4": "Schimbă programele predefinite și salvează-le pentru a se potrivi pacienților tăi.",
+          "p5": "Setările tale personalizate sunt salvate pe un card SD.",
+          "header4": "Simplu frumos",
+          "p6": "Un aspect elegant și un ecran tactil atractiv, cu tehnologie capacitivă, asigură faptul că Soleo Sono, Soleo Galva și Soleo SonoStim ies cu adevărat în evidență în cabinetul tău.",
+          "header5": "Simplu și frumos",
+          "p7": "Interfața utilizatorului din noua generație Soleoline a fost reproiectată pentru a fi clară și intuitivă. Este chiar distractivă de utilizat în fiecare aplicație.",
+          "header6": "Utilizare",
+          "p8": "Terapie pentru durere",
+          "p9": "Reabilitare musculară",
+          "p10": "Creștere metabolică",
+          "p11": "Îmbunătățirea circulației",
+          "p12": "Soleo SonoStim face tot ceea ce fac Soleo Sono și Soleo Galva, și îți permite să combini terapia cu ultrasunete cu electroterapia. Cu tehnologia sa inovatoare, cu peste 300 de indicații, acest dispozitiv mobil și high-tech are o gamă largă de aplicații.",
+          "p13": "Posibilități variate de combinație cu 2 canale măresc gama de aplicare.",
+          "header7": "Tratament combinat și SonoSwing",
+          "header8": "Extensii și accesorii practice",
+          "header9": "Vaco: Electroterapie plus masaj prin suflare",
+          "p14": "Soleo SonoStim oferă programe presetate legate de efecte pentru utilizarea rapidă și ușoară a combinației eficiente de ultrasunete și electrostimulare.",
+          "p15": "Brevet SonoSwing: Capetele multifrecvență furnizează simultan ambele frecvențe (0,8 MHz și 2,4 MHz) cu un raport selectat. Utilizatorul poate astfel determina adâncimea tratamentului dorit. Aceste caracteristici permit terapeutului să se concentreze pe planul său pentru reducerea durerii, hiperemie sau îmbunătățirea proceselor de refacere prin creșterea metabolismului.",
+          "p16": "Vaco îți permite să aplici electrozii cu ușurință. Pacienții tăi vor beneficia cu siguranță de efectele terapeutice ale unui masaj prin suflare în timpul electroterapiei.",
+          "p17": "deplasare lină",
+          "p18": "design modern"
+        },
+        "card3": {
+          "header": "SonoOne",
+          "description": "Terapie cu ultrasunete portabilă.",
+          "header1": "Terapie cu ultrasunete",
+          "p1": "Dezvoltată și utilizată cu succes de multe decenii, terapia cu ultrasunete este recunoscută ca tratament eficient pentru afecțiunile cronice și degenerative ale sistemului musculo-scheletic și de suport.",
+          "header2": "Terapie portabilă cu ultrasunete",
+          "p2": "SonoOne - întotdeauna la îndemână",
+          "p3": "Ergonomic și performant. Sistemul mic și compact este ideal pentru utilizare mobilă.",
+          "header3": "Tratament eficient",
+          "p4": "Emisia de ultrasunete la frecvențe de 1 și 3 MHz, pulsate sau nepulsate, oferă toate posibilitățile pentru o terapie modernă și eficientă cu ultrasunete.",
+          "header4": "Funcționalitate",
+          "p5": "Interfața intuitivă, clar structurată și ușor de utilizat. Ecranul tactil color face ca tratamentul să fie o experiență plăcută.",
+          "header5": "Mută căruciorul",
+          "p6": "Deplasare lină",
+          "p7": "Design modern"
+        },
+        "header2": "Terapie cu ultrasunete, electroterapie și terapie combinată",
+        "p1": "Electroterapia și terapia cu ultrasunete - o ramură importantă a medicinei fizice - joacă astăzi un rol important în tratamentul și reabilitarea multor boli.",
+        "p2": "Aplicațiile includ gestionarea durerii, terapia musculară, reabilitarea musculară, îmbunătățirea circulației și îmbunătățirea trofismului.",
+        "p3": "În procesul de simulare, utilizarea combinată este foarte eficientă în tratarea tulburărilor funcționale, de exemplu în legătură cu sindroamele de durere miofascială.",
+        "p4": "Numeroase inovații fac din sistemele Zimmer MedizinSysteme partenerul terapeutic perfect în practica dumneavoastră: în afară de programele speciale pentru reabilitarea musculară și sportivă, procesul patentat SonoSwing oferă posibilitatea de a determina adâncimea de penetrare și locul acțiunii terapiei cu ultrasunete de unul singur."
+      },
+      "card2": {
+        "header": "Terapie cu Laser",
+        "description": "Vindecare naturală cu puterea luminii: Terapie cu laser de înaltă putere de până la 25W",
+        "card1": "Opton Pro",
+        "cardDescription": "Terapie cu laser de înaltă putere. Până la 25W pentru zonele de tratament mai adânci.",
+        "headerBig": "Laseroterapie: vindecare naturală cu puterea luminii.",
+        "header1": "Biostimulare",
+        "p1": "O parte din energia laserului este convertită în energie de reacție chimică, stimulând moleculele direct prin transferul de electroni și indirect prin formarea de radicali de oxigen. De o importanță primordială sunt moleculele colorate din lanțul respirator, cum ar fi flavoproteinele și citocromii. Rezultatul este creșterea activității metabolismului energetic, numită „biostimulare”. Stimularea metabolismului energetic în lanțul respirator celular se manifestă și ca vindecare mai rapidă a leziunilor tisulare. Acest efect este independent de efectele termice ale luminii laser.",
+        "header2": "Efecte regenerative",
+        "p2": "Accelerarea proceselor de vindecare se manifestă în primul rând prin activarea fibroblastelor. Este important de menționat natura non-termică a acestei activări, ceea ce înseamnă că sunt necesare doar cantități mici de energie laser. Atenuarea luminii laser în țesut depinde de localizarea leziunii și determină puterea laserului necesară, astfel încât structuri mai profunde precum tendoanele sau capsulele articulare pot necesita aplicarea unor doze mari la suprafață.",
+        "header3": "Efecte reflexe",
+        "p3": "Reflexele segmentare activate de lumina laserului determină relaxarea musculară și inhibarea durerii. Acest lucru necesită stimuli termici puternici.",
+        "header4": "Efecte analgezice",
+        "p4": "Lumina laserului este dispersată și absorbită în piele și, prin urmare, în mare parte convertită în căldură. Un stimul termic ușor asupra nociceptorilor pielii declanșează reflexele cunoscute de inhibare a durerii segmentare prin neuronul de prim ordin și neuronul de al doilea ordin, conform teoriei controlului porții. Stimulii termici puternici activează sistemul de inhibare a durerii neuronale și umorale endorfinergice. Ambele mecanisme sunt potrivite pentru tratarea durerii în sistemul musculo-scheletic."
+      },
+      "card3": {
+        "header": "Terapie cu Ondă de Șoc",
+        "description": "Terapie focalizată și radială cu undă de șoc - mobilă și confortabilă, cu interfață de utilizator de ultimă generație"
+      },
+      "card4": {
+        "header": "Terapie Inductivă de Înaltă Energie",
+        "description": "Experimentați puterea unui câmp magnetic de până la 3 Tesla"
+      },
+      "card5": {
+        "header": "Terapie de Diatermie",
+        "description": "Căldură vindecătoare prin diatermie cu undă scurtă, microunde sau electroterapie de frecvență înaltă"
+      },
+      "card6": {
+        "header": "Crioterapie",
+        "description": "Crioterapie de ultimă generație: Cryo6 cu aer rece la -30 °C și cameră de crioterapie pentru întregul corp, icelab la -110 °C"
+      }
+    },
+    "secondHeader": "Terapie fizică: procese dovedite cu cea mai modernă tehnologie",
+    "p1": "Fiecare dintre produsele noastre este conceput într-un mod strict științific și în același timp legat de practică. Cooperarea strânsă cu universitățile și colegiile ne caracterizează, la fel cum ne uităm permanent peste umărul utilizatorilor noștri. Astfel, pentru utilizatorii noștri, studiile științifice și experiența practică se adaugă exact la valoarea adăugată care este importantă în practica de zi cu zi.",
+    "p2": "Terapiile bazate pe metode fizice precum lumină, căldură, frig, sunet, șoc sau curent sunt numite terapii fizice. Aceste forme de terapie sunt utilizate de mult timp pentru terapia durerii, reabilitare, susținerea procesului de vindecare, precum și pentru prevenție.",
+    "p3": "Zimmer MedizinSysteme lucrează consecvent pentru avansarea acestor procese și stabilirea de noi metode de terapie fizică."
   }
 }

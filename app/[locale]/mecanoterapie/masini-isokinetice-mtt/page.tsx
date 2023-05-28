@@ -15,7 +15,7 @@ export default function ShockwaveTherapy() {
       </header>
       <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12 mb-8">
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r18"
             className="relative"
           >
@@ -39,11 +39,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r31"
             className="relative"
           >
@@ -67,11 +67,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r17"
             className="relative"
           >
@@ -95,11 +95,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r14"
             className="relative"
           >
@@ -123,11 +123,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r10"
             className="relative"
           >
@@ -151,11 +151,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r7"
             className="relative"
           >
@@ -179,11 +179,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r3"
             className="relative"
           >
@@ -207,11 +207,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r27"
             className="relative"
           >
@@ -236,11 +236,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r11"
             className="relative"
           >
@@ -265,11 +265,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r16"
             className="relative"
           >
@@ -293,11 +293,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r6sl"
             className="relative"
           >
@@ -321,11 +321,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r12e"
             className="relative"
           >
@@ -361,11 +361,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r32"
             className="relative"
           >
@@ -389,11 +389,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r8"
             className="relative"
           >
@@ -418,11 +418,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r5"
             className="relative"
           >
@@ -446,11 +446,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r19"
             className="relative"
           >
@@ -474,11 +474,11 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
 
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r1000"
             className="relative"
           >
@@ -499,10 +499,10 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/r1000"
             className="relative"
           >
@@ -523,10 +523,10 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
         <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-          <Link
+          <NavigationLink
             href="/mecanoterapie/masini-isokinetice-mtt/rr28"
             className="relative"
           >
@@ -548,7 +548,7 @@ export default function ShockwaveTherapy() {
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-          </Link>
+          </NavigationLink>
         </div>
       </div>
     </div>

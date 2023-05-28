@@ -20,21 +20,20 @@ export default function LocaleSwitcher() {
   }
 
   return (
-    <label>
-      <p className="sr-only">{t("label")}</p>
+    <div className="relative">
       <select
-        className="inline-flex appearance-none bg-transparent py-3 pl-2 pr-6"
+        className="inline-flex appearance-none bg-transparent py-3 pl-2"
         defaultValue={locale}
         disabled={isPending}
         onChange={onSelectChange}
       >
-        {["en", "ro"].map((cur) => (
+        {["ro", "en"].map((cur) => (
           <option key={cur} value={cur}>
             {t("locale", { locale: cur })}
           </option>
         ))}
       </select>
-      <span className="pointer-events-none absolute top-[8px] right-2">⌄</span>
-    </label>
+      <span className="pointer-events-none absolute top-[8px]">⌄</span>
+    </div>
   );
 }

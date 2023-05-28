@@ -2,8 +2,12 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+import NavigationLink from "../../components/NavigationLink";
 
 export default function ElectroAndUltrasound() {
+  const t = useTranslations("physiotherapy");
+
   return (
     <div className="flex flex-col items-center my-4 text-gray800">
       <header className="py-4">
@@ -16,7 +20,7 @@ export default function ElectroAndUltrasound() {
       <div className="w-full">
         <div className="flex flex-col sm:flex-row w-9/12 justify-center items-center mx-auto">
           <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-            <Link
+            <NavigationLink
               href="/fizioterapie/electro-ultrasound/physys"
               className="relative"
             >
@@ -32,20 +36,19 @@ export default function ElectroAndUltrasound() {
                 />
                 <div className="py-2 px-2">
                   <div className="font-bold text-blue700 text-xl mb-1">
-                    PhySys
+                    {t("cards.card1.card1.header")}
                   </div>
                   <p className="text-xs">
-                    The high-tech treatment centre in a practice orientated
-                    system.
+                    {t("cards.card1.card1.description")}
                   </p>
                 </div>
               </div>
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
+            </NavigationLink>
           </div>
 
           <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-            <Link
+            <NavigationLink
               href="/fizioterapie/electro-ultrasound/soleo-sonostim"
               className="relative"
             >
@@ -61,20 +64,19 @@ export default function ElectroAndUltrasound() {
                 />
                 <div className="py-2 px-2">
                   <div className="font-bold text-blue700 text-xl mb-1">
-                    Soleo SonoStim
+                    {t("cards.card1.card2.header")}
                   </div>
                   <p className="text-xs">
-                    Current stimulation, ultrasound and combination therapy in
-                    one device
+                    {t("cards.card1.card2.description")}
                   </p>
                 </div>
               </div>
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
+            </NavigationLink>
           </div>
 
           <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
-            <Link
+            <NavigationLink
               href="/fizioterapie/electro-ultrasound/sonoone"
               className="relative h-full"
             >
@@ -90,13 +92,16 @@ export default function ElectroAndUltrasound() {
                 />
                 <div className="py-2 px-2">
                   <div className="font-bold text-blue700 text-xl mb-1">
-                    SonoOne
+                    {t("cards.card1.card3.header")}
                   </div>
-                  <p className="text-xs">Hand-held ultrasound therapy</p>
+                  <p className="text-xs">
+                    {" "}
+                    {t("cards.card1.card3.description")}
+                  </p>
                 </div>
               </div>
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
+            </NavigationLink>
           </div>
         </div>
       </div>
@@ -104,7 +109,7 @@ export default function ElectroAndUltrasound() {
       <section className="mt-16 flex justify-center">
         <div className="w-9/12">
           <h1 className="mb-8 text-4xl font-semibold leading-none tracking-wide text-gray-900 sm:text-left text-center">
-            Ultrasound, Electro and Combined Therapy
+            {t("cards.card1.header2")}
           </h1>
 
           <div className="">
@@ -120,30 +125,19 @@ export default function ElectroAndUltrasound() {
               />
               <div>
                 <p className="text-lg mb-2 leading-relaxed text-justify">
-                  Electrotherapy and ultrasound therapy – an important branch of
-                  physical medicine – today plays an important role in the
-                  treatment and rehabilitation of many diseases.
+                  {t("cards.card1.p1")}
                 </p>
                 <p className="mb-2 text-lg leading-relaxed text-justify">
-                  Applications include pain management, muscle therapy, muscle
-                  rehabilitation, circulation improvement and trophism
-                  improvement.
+                  {t("cards.card1.p2")}
                 </p>
                 <p className="mb-2 text-lg leading-relaxed text-justify">
-                  In the simulation process, the combined use is highly
-                  efficient in the treatment of functional disorders, for
-                  example in connection with myofascial pain syndromes.
+                  {t("cards.card1.p3")}
                 </p>
               </div>
             </div>
             <div>
               <p className="mb-4 text-lg leading-relaxed text-justify">
-                Numerous innovations make the Zimmer MedizinSysteme systems the
-                perfect therapy partner in your practice: besides special
-                programmes for muscle and sports rehabilitation, the patented
-                SonoSwing process offers the possibility of determining the
-                penetration depth and the site of action of your ultrasound
-                therapy yourself.
+                {t("cards.card1.p4")}
               </p>
             </div>
           </div>

@@ -1,6 +1,9 @@
+"use client";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Physys() {
+  const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/electro-ultrasound/soleo-sonostim/galery1.jpeg",
     "/fizioterapiePhotos/electro-ultrasound/soleo-sonostim/galery2.jpeg",
@@ -34,15 +37,10 @@ export default function Physys() {
             />
             <div className="text-container my-8">
               <h1 className="text-4xl font-semibold mb-4">
-                Ultrasound, electrotherapy & combined therapy – all in one
-                device
+                {t("cards.card1.card2.header1")}
               </h1>
 
-              <p className="my-auto text-left">
-                A subtle combination of high-tech and over 45 years experience,
-                Soleo SonoStim meets all the demands of modern physiotherapy:
-                Compact. Ergonomic. High-performance.
-              </p>
+              <p className="my-auto text-left">{t("cards.card1.card2.p1")}</p>
             </div>
           </div>
         </div>
@@ -53,57 +51,41 @@ export default function Physys() {
         <div className="mx-auto py-8 flex flex-col items-center w-9/12">
           <div className="w-full py-4">
             <h1 className="text-2xl font-bold mb-4">
-              Intelligent design – sets new standards
+              {t("cards.card1.card2.header2")}
             </h1>
-            <p className="mb-4">
-              Expertise for any medical problem Clearly presented, recommended
-              treatments for various therapies available at all times.
-            </p>
+            <p className="mb-4">{t("cards.card1.card2.p2")}</p>
             <h2 className="text-xl font-bold mb-2">
-              Tailored to your practice
+              {t("cards.card1.card2.header3")}
             </h2>
             <ul className="list-disc list-inside">
-              <li>
-                The programme‘s customised start settings save you precious
-                treatment time.
-              </li>
-              <li>
-                Change pre-set programmes and save them to fit your patients.
-              </li>
-              <li>Your custom settings are saved to an SD card.</li>
+              <li>{t("cards.card1.card2.p3")}</li>
+              <li>{t("cards.card1.card2.p4")}</li>
+              <li> {t("cards.card1.card2.p5")}</li>
             </ul>
-            <h2 className="text-xl font-bold mb-2">Simply beautiful.</h2>
-            <p className="mb-4">
-              A sleek case and an attractive, capacitive glass touchscreen
-              ensure that Soleo Sono, Soleo Galva und Soleo SonoStim really
-              stand out in your practice.
-            </p>
-            <h2 className="text-xl font-bold mb-2">Beautifully simple.</h2>
-            <p className="mb-4">
-              The user interface of the new Soleoline generation has been
-              redesigned to be clear and self-explanatory. It’s even fun to use
-              with every application.
-            </p>
+
+            <h2 className="text-xl font-bold mb-2">
+              {t("cards.card1.card2.header4")}
+            </h2>
+            <p className="mb-4">{t("cards.card1.card2.p6")}</p>
+
+            <h2 className="text-xl font-bold mb-2">
+              {" "}
+              {t("cards.card1.card2.header5")}
+            </h2>
+            <p className="mb-4">{t("cards.card1.card2.p7")}</p>
           </div>
           <div>
-            <h2 className="text-2xl font-semibold mb-4">Appliance</h2>
+            <h2 className="text-2xl font-semibold mb-4">
+              {t("cards.card1.card2.header6")}
+            </h2>
             <ul className="list-disc list-inside">
-              <li>Pain Therapy</li>
-              <li>Muscle Rehabilitation</li>
-              <li>Metabolic Increase</li>
-              <li>Encouraging of circulation</li>
+              <li>{t("cards.card1.card2.p8")}</li>
+              <li> {t("cards.card1.card2.p9")}</li>
+              <li> {t("cards.card1.card2.p10")}</li>
+              <li> {t("cards.card1.card2.p11")}</li>
             </ul>
-            <p className="mt-4">
-              Soleo SonoStim does everything that Soleo Sono and Soleo Galva do,
-              and it also allows you to combine ultrasound therapy with
-              electrotherapy. With its innovative technology, more than 300
-              indications, this mobile and high-tech device has a huge range of
-              applications.
-            </p>
-            <p className="my-2">
-              Multifarious possibilities of combination with 2 channels enlarge
-              the range of application.
-            </p>
+            <p className="mt-4">{t("cards.card1.card2.p12")}</p>
+            <p className="my-2">{t("cards.card1.card2.p13")}</p>
           </div>
           <div className="flex flex-wrap justify-center">
             <Image
@@ -142,45 +124,30 @@ export default function Physys() {
       <div className="flex justify-center py-8">
         <div className="w-9/12">
           <h2 className="text-xl font-bold mb-2">
-            Combined Treatment & SonoSwing
+            {t("cards.card1.card2.header7")}
           </h2>
-          <p className="mb-4">
-            Soleo SonoStim provides preset programmes related to effects for
-            quick and easy use of the effective combination of ultrasound and
-            electrostimulation.
-          </p>
-          <p>
-            Patent SonoSwing: Multifrequency heads provide both frequencies (0.8
-            MHz and 2.4 MHz) simultaneously with a selected ratio. The user can
-            therefore determine the treatment depth desired. These features
-            enable the therapist to focus the treatment on his or her plan for
-            achieving pain reduction, or hyperaemia, or for improving
-            restoration processes by increased metabolism.
-          </p>
+          <p className="mb-4">{t("cards.card1.card2.p14")}</p>
+          <p>{t("cards.card1.card2.p15")}</p>
         </div>
       </div>
 
       <div className="w-full py-8">
         <div className="w-9/12 mx-auto">
           <h1 className="text-2xl font-semibold">
-            Practical extensions and accessories
+            {t("cards.card1.card2.header8")}
           </h1>
 
           <h2 className="text-xl font-normal mb-4">
-            Vaco: Electrotherapy plus suction massage
+            {t("cards.card1.card2.header9")}
           </h2>
 
-          <p>
-            Vaco allows you to apply electrodes with ease. Your patients will
-            certainly enjoy the therapeutic effects of a suction massage during
-            electrotherapy.
-          </p>
+          <p>{t("cards.card1.card2.p16")}</p>
 
           <h2 className="text-xl font-medium mt-4">Move cart</h2>
 
           <ul className="list-disc ml-6 mb-4">
-            <li>smoothly movable</li>
-            <li>modern design</li>
+            <li>{t("cards.card1.card2.p18")}</li>
+            <li> {t("cards.card1.card2.p17")}</li>
           </ul>
           <div className="flex justify-between">
             <img
