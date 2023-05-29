@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 export default function enPuls() {
+  const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/diathermy-therapy/micropro/galery1.jpeg",
     "/fizioterapiePhotos/diathermy-therapy/micropro/galery2.jpeg",
@@ -22,14 +25,11 @@ export default function enPuls() {
           />
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4 text-center">
-              Microwave Therapy – the gentle heat therapy
+              {t("cards.card5.card2.p1")}
             </h1>
 
             <div className="my-auto text-justify text-lg">
-              <p className="py-1">
-                The therapy with MicroPro leads to a mild warming of muscles and
-                skin. This results in a relaxing and soothing feeling of warmth.
-              </p>
+              <p className="py-1">{t("cards.card5.card2.p2")}</p>
             </div>
           </div>
         </div>
@@ -38,72 +38,40 @@ export default function enPuls() {
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            The safe microwave therapy
+            {t("cards.card5.card2.p3")}
           </h1>
-          <p className="font-light py-2">
-            {" "}
-            With the MicroPro you have a powerful microwave therapy device at
-            your disposal, the functional principle of which has proven itself
-            in everyday practice for many years.
-          </p>
+          <p className="font-light py-2"> {t("cards.card5.card2.p4")}</p>
 
-          <p className="font-light py-2">
-            {" "}
-            The microwave energy is transferred to the tissue with the help of a
-            radiator and is then converted into heat. Depending on the type of
-            treatment, the user can choose between different types of radiator:
-            large-area, round, trough-shaped or point-type. A freely adjustable
-            swivel arm is provided to focus the radiator on the body part to be
-            treated.
-          </p>
+          <p className="font-light py-2"> {t("cards.card5.card2.p5")}</p>
 
-          <p className="font-light py-2">
-            {" "}
-            To guarantee ease of use as well as convenient and efficient
-            operation and adjustment of parameters, the unit features a
-            12“-display with capacitive touch-screen.
-          </p>
+          <p className="font-light py-2"> {t("cards.card5.card2.p6")}</p>
 
-          <p className="font-light py-2">
-            {" "}
-            The treatment time can be set digitally between 1and 30 minutes. At
-            the end of the treatment, the set power is automatically switched
-            off and the end of the treatment is signalled visually and
-            acoustically. By means of the heat-effective output power value that
-            is constantly displayed, the user can exactly adjust parameters and
-            has full visual control over the therapy.{" "}
-          </p>
+          <p className="font-light py-2"> {t("cards.card5.card2.p7")} </p>
 
-          <p className="font-light py-2">
-            {" "}
-            In addition to the continuous operating mode, the MicroPro offers a
-            pulse function for the treatment of deeper tissue layers with
-            simultaneous low thermal surface exposure. Thus MicroPro can be used
-            across a broad range of applications. As a result, MicroPro has a
-            wide range of applications in hospitals, among doctors and
-            physiotherapists.
-          </p>
+          <p className="font-light py-2"> {t("cards.card5.card2.p8")}</p>
         </div>
       </div>
 
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
-          <h1 className="text-4xl font-semibold mb-4">Additional features</h1>
+          <h1 className="text-4xl font-semibold mb-4">
+            {t("cards.card5.card2.p9")}
+          </h1>
           <ul className="list-disc ml-6 mb-4">
-            <li className="pb-1"> Regulated fans</li>
-            <li className="pb-1"> Modern user interface</li>
-            <li className="pb-1"> Modern housing </li>
-            <li className="pb-1"> Favourites can be saved</li>
-            <li className="pb-1">
-              Favourites can be exported via USB and SD-card
-            </li>
+            <li className="pb-1"> {t("cards.card5.card2.p10")}</li>
+            <li className="pb-1"> {t("cards.card5.card2.p11")}</li>
+            <li className="pb-1"> {t("cards.card5.card2.p12")} </li>
+            <li className="pb-1"> {t("cards.card5.card2.p13")}</li>
+            <li className="pb-1">{t("cards.card5.card2.p14")}</li>
           </ul>
         </div>
       </div>
 
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto py-8">
-          <h1 className="text-4xl font-semibold mb-4">Radiators</h1>
+          <h1 className="text-4xl font-semibold mb-4">
+            {t("cards.card5.card2.p15")}
+          </h1>
           <div className="flex flex-col sm:flex-row mx-auto items-center justify-between">
             <div className="flex flex-col items-center">
               <img
@@ -111,7 +79,7 @@ export default function enPuls() {
                 alt="PhySys"
                 className="w-[200px]"
               />
-              <p>Longitudinal-field radiator</p>
+              <p>{t("cards.card5.card2.p16")}</p>
             </div>
             <div className="flex flex-col text-center">
               <img
@@ -119,7 +87,7 @@ export default function enPuls() {
                 alt="PhySys"
                 className="w-[200px]"
               />
-              <p>Circular-field radiator</p>
+              <p>{t("cards.card5.card2.p17")}</p>
             </div>
             <div className="flex flex-col text-center">
               <img
@@ -127,7 +95,7 @@ export default function enPuls() {
                 alt="PhySys"
                 className="w-[200px]"
               />
-              <p>Cradle radiator</p>
+              <p>{t("cards.card5.card2.p18")}</p>
             </div>
             <div className="flex flex-col text-center">
               <img
@@ -135,7 +103,7 @@ export default function enPuls() {
                 alt="PhySys"
                 className="w-[200px]"
               />
-              <p>Focus radiator</p>
+              <p>{t("cards.card5.card2.p19")}</p>
             </div>
           </div>
         </div>

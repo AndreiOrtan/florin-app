@@ -1,6 +1,9 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 export default function OptonPro() {
+  const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/laser-therapy/optonpro/galery1.jpeg",
     "/fizioterapiePhotos/laser-therapy/optonpro/galery2.jpeg",
@@ -30,28 +33,12 @@ export default function OptonPro() {
             />
             <div className="text-container my-8">
               <h1 className="text-4xl font-semibold mb-4">
-                Zimmer MedizinSysteme – Made in Germany
+                {t("cards.card2.card1.p1")}
               </h1>
 
-              <p className="my-auto text-left">
-                In the field of high-energy laser therapy, Zimmer MedizinSysteme
-                is one of the pioneers on the market – the first high-power
-                laser was already launched on the market in the 1990s.
-              </p>
-              <p className="my-auto text-left">
-                Since that time, we have been working continuously to further
-                develop this form of therapy and the devices – together with
-                experts from research and application. As a result, we set new
-                standards again and again, whether in output and wavelength, in
-                safety during use, or in simplicity of operation.{" "}
-              </p>
-              <p className="my-auto text-left">
-                With over 20 years of experience and more than 10,000 systems
-                sold worldwide, Zimmer MedizinSysteme is one of today’s leading
-                providers. Hospitals, physiotherapists and physicians throughout
-                the world use our high-energy Opton lasers every day and rely on
-                their therapeutic effect.
-              </p>
+              <p className="my-auto text-left">{t("cards.card2.card1.p2")}</p>
+              <p className="my-auto text-left">{t("cards.card2.card1.p3")}</p>
+              <p className="my-auto text-left">{t("cards.card2.card1.p4")}</p>
             </div>
           </div>
         </div>
@@ -60,28 +47,14 @@ export default function OptonPro() {
       <div className="w-full py-10 bg-lightgray">
         <div className="w-9/12 mx-auto">
           <h2 className="text-2xl font-semibold mb-4">
-            Laser therapy – Achieve therapeutic success with the speed of light
+            {t("cards.card2.card1.p5")}
           </h2>
           <div className="flex sm:flex-row flex-col">
             <div>
-              <p className="py-4">
-                Therapy with laser light is a widely used method in physical
-                therapy.
-              </p>
-              <p className="py-4">
-                Laser therapy is a treatment with high-energy light which
-                introduces large quantities of light into the tissue. As a
-                result, healing is stimulated in a sustained manner.
-              </p>
-              <p className="py-4">
-                In particular, high-power laser therapy in which high
-                intensities are used is becoming increasingly important.
-              </p>
-              <p className="py-4">
-                With laser therapy systems up to 25 W which are equipped with
-                the most modern technology, Zimmer MedizinSysteme is setting new
-                standards in the field of laser therapy.
-              </p>
+              <p className="py-4">{t("cards.card2.card1.p6")}</p>
+              <p className="py-4">{t("cards.card2.card1.p7")}</p>
+              <p className="py-4">{t("cards.card2.card1.p8")}</p>
+              <p className="py-4">{t("cards.card2.card1.p9")}</p>
             </div>
             <Image
               src="/fizioterapiePhotos/laser-therapy/optonpro/speed-of-light.jpeg"
@@ -99,37 +72,26 @@ export default function OptonPro() {
       <div className="w-full py-10">
         <div className="w-9/12 mx-auto flex flex-col mb-16">
           <h1 className="text-2xl font-semibold mb-4">
-            Maximum operating convenience
+            {t("cards.card2.card1.p10")}
           </h1>
           <div className="mb-4">
-            <h2 className="text-xl font-medium">Laser applicator</h2>
-            <p>
-              The laser light is output via an ergonomically shaped laser
-              applicator which is equipped with an adjustable manual switch. By
-              double-clicking once, the laser light is now emitted continuously,
-              without any further action needed from the user. This ensures
-              maximum convenience in handling for the user.
-            </p>
+            <h2 className="text-xl font-medium">
+              {t("cards.card2.card1.p11")}
+            </h2>
+            <p>{t("cards.card2.card1.p12")}</p>
           </div>
           <div className="mb-4">
-            <h2 className="text-xl font-medium">Spacers</h2>
-            <p>
-              2 different spacers which can be quickly and easily exchanged hold
-              the laser applicator at a defined distance from the skin.
-            </p>
+            <h2 className="text-xl font-medium">
+              {t("cards.card2.card1.p13")}
+            </h2>
+            <p>{t("cards.card2.card1.p14")}</p>
           </div>
           <div className="mb-4 flex sm:flex-row flex-col">
             <div>
               <h2 className="text-xl font-medium">
-                Skin temperature measurement
+                {t("cards.card2.card1.p15")}
               </h2>
-              <p>
-                A temperature sensor integrated in the laser applicator enables
-                the skin temperature to be monitored during the therapy. In
-                particular, this provides more safety during application in the
-                case of different skin types and helps avoid undesirably high
-                skin temperatures.
-              </p>
+              <p>{t("cards.card2.card1.p16")}</p>
             </div>
             <Image
               src="/fizioterapiePhotos/laser-therapy/optonpro/measurement.jpeg"
@@ -142,22 +104,20 @@ export default function OptonPro() {
             />
           </div>
           <div className="mb-4">
-            <h2 className="text-xl font-medium">Professional screen</h2>
-            <p>The screen allows quick, direct access to the therapy screen.</p>
+            <h2 className="text-xl font-medium">
+              {t("cards.card2.card1.p17")}
+            </h2>
+            <p>{t("cards.card2.card1.p18")}</p>
           </div>
         </div>
       </div>
 
       <div className="w-9/12 mx-auto flex flex-col mb-16">
         <h1 className="text-2xl font-semibold mb-4">
-          Individual therapeutic requirements
+          {t("cards.card2.card1.p19")}
         </h1>
 
-        <h3 className="text-sm">
-          Different combinations of the treatment parameters allow the user to
-          adapt the therapy individually to the patient and achieve the best
-          possible treatment results.
-        </h3>
+        <h3 className="text-sm">{t("cards.card2.card1.p20")}</h3>
         <div className="flex my-8 sm:flex-row flex-col">
           <Image
             src="/fizioterapiePhotos/laser-therapy/optonpro/individual.jpeg"
@@ -177,23 +137,17 @@ export default function OptonPro() {
       </div>
 
       <div className="w-9/12 mx-auto flex flex-col mb-16">
-        <h1 className="text-2xl font-semibold mb-4">Features</h1>
+        <h1 className="text-2xl font-semibold mb-4">
+          {t("cards.card2.card1.p21")}
+        </h1>
 
         <div className="flex my-8 flex-col sm:flex-row">
           <div>
             <h2 className="text-xl font-medium mb-4">
-              Skin temperature measurement
+              {t("cards.card2.card1.p22")}
             </h2>
-            <p>
-              Therapy with 3 wavelengths enables stimulation of different target
-              sites: Pain receptors at the surface as well as deeper tissue
-              structures are stimulated at the same time.
-            </p>
-            <p>
-              In particular, the wavelength of 1064 nm which has the lowest
-              scatter in the tissue promotes penetration of the radiation into
-              the deep layers of tissue.
-            </p>
+            <p>{t("cards.card2.card1.p23")}</p>
+            <p>{t("cards.card2.card1.p24")}</p>
           </div>
           <Image
             src="/fizioterapiePhotos/laser-therapy/optonpro/feature.jpeg"
@@ -209,44 +163,30 @@ export default function OptonPro() {
 
       <div className="w-9/12 mx-auto flex flex-col mb-8">
         <div className="mb-4">
-          <h2 className="text-xl font-medium">
-            The advantage of laser therapy with high power
-          </h2>
-          <p>
-            More power increases the power density in the tissue and this
-            results in an increase in the thermal effect in deeper layers as
-            well.
-          </p>
-          <p>
-            As a result of the high power of the OptonPro, the distance to the
-            tissue and thus the radius of the treatment area can be greatly
-            enlarged. This can mean a significant time savings for the user.
-          </p>
+          <h2 className="text-xl font-medium">{t("cards.card2.card1.p25")}</h2>
+          <p>{t("cards.card2.card1.p26")}</p>
+          <p>{t("cards.card2.card1.p27")}</p>
         </div>
       </div>
 
       <div className="w-9/12 mx-auto flex flex-col mb-8">
         <div className="mb-4">
-          <h2 className="text-xl font-medium">Broad treatment spectrum</h2>
-          <p>
-            The simultaneous output of laser light with three wavelengths opens
-            up a broad field of therapeutic options for the user.
-          </p>
+          <h2 className="text-xl font-medium">{t("cards.card2.card1.p28")}</h2>
+          <p>{t("cards.card2.card1.p29")}</p>
         </div>
       </div>
 
       <div className="w-full py-10 bg-lightgray">
         <div className="w-9/12 mx-auto my-8">
           <h2 className="text-2xl font-semibold mb-4">
-            Most modern user interface
+            {t("cards.card2.card1.p30")}
           </h2>
 
           <div className="mb-12">
-            <h1 className="text-lg font-semibold">Visual analogue scale</h1>
-            <p className="mb-4">
-              The integrated VAS provides information about the patient’s pain
-              perception.
-            </p>
+            <h1 className="text-lg font-semibold">
+              {t("cards.card2.card1.p31")}
+            </h1>
+            <p className="mb-4">{t("cards.card2.card1.p32")}</p>
             <Image
               src="/fizioterapiePhotos/laser-therapy/optonpro/interface1.jpeg"
               alt="Any Text"
@@ -259,12 +199,9 @@ export default function OptonPro() {
           </div>
           <div className="mb-12">
             <h1 className="text-lg font-semibold">
-              Operating philosophy at the highest level
+              {t("cards.card2.card1.p33")}
             </h1>
-            <p className="mb-4">
-              The large, colourful display and the ultramodern operation ensure
-              enjoyment and motivation during use.
-            </p>
+            <p className="mb-4">{t("cards.card2.card1.p34")}</p>
             <Image
               src="/fizioterapiePhotos/laser-therapy/optonpro/interface2.jpeg"
               alt="Any Text"
@@ -276,15 +213,13 @@ export default function OptonPro() {
             />
           </div>
           <div className="mb-12">
-            <h1 className="text-lg font-semibold">Therapy Assistant</h1>
-            <p>
-              Recommended parameters are automatically saved. The amount of
-              energy to be applied is recommended depending on the area to be
-              treated, the pain condition and skin type.
-            </p>
+            <h1 className="text-lg font-semibold">
+              {t("cards.card2.card1.p35")}
+            </h1>
+            <p>{t("cards.card2.card1.p36")}</p>
             <ul className="list-disc ml-6 mb-4">
-              <li>smoothly movable</li>
-              <li>modern design</li>
+              <li>{t("cards.card2.card1.p37")}</li>
+              <li>{t("cards.card2.card1.p38")}</li>
             </ul>
             <Image
               src="/fizioterapiePhotos/laser-therapy/optonpro/interface1.jpeg"

@@ -14,7 +14,7 @@ export default function ElectroAndUltrasound() {
           <h1 className="text-blue700 text-3xl font-bold">Laser Therapy</h1>
         </div>
       </header>
-      <div>
+      <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center mb-8">
         <div className="card-container rounded-lg shadow-lg w-9/12 sm:mx-2 overflow-hidden my-2 hover:opacity-100 mx-auto">
           <NavigationLink
             href="/fizioterapie/laser-therapy/optonpro"
@@ -68,13 +68,21 @@ export default function ElectroAndUltrasound() {
               Lasertherapy: Effect
             </h1>
 
-            <h2 className="text-2xl font-medium">{t("cards.card2.header1")}</h2>
+            <h2 className="text-2xl font-semibold">
+              {t("cards.card2.header1")}
+            </h2>
             <p>{t("cards.card2.p1")}</p>
-            <h2 className="text-2xl font-medium">{t("cards.card2.header2")}</h2>
+            <h2 className="text-2xl font-semibold">
+              {t("cards.card2.header2")}
+            </h2>
             <p>{t("cards.card2.p2")}</p>
-            <h2 className="text-2xl font-medium">{t("cards.card2.header3")}</h2>
+            <h2 className="text-2xl font-semibold">
+              {t("cards.card2.header3")}
+            </h2>
             <p>{t("cards.card2.p3")}</p>
-            <h2 className="text-2xl font-medium">{t("cards.card2.header4")}</h2>
+            <h2 className="text-2xl font-semibold">
+              {t("cards.card2.header4")}
+            </h2>
             <p>{t("cards.card2.p4")}</p>
           </div>
         </div>

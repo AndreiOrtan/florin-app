@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 export default function enPuls() {
+  const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/diathermy-therapy/thermotk/galery1.png",
     "/fizioterapiePhotos/diathermy-therapy/thermotk/galery2.png",
@@ -26,18 +29,11 @@ export default function enPuls() {
           />
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4">
-              Deep heat through high-frequency electrotherapy
+              {t("cards.card5.card1.p1")}
             </h1>
 
             <div className="my-auto text-justify text-lg">
-              <p className="py-1">
-                Deep heat through high-frequency electrotherapy is an
-                internationally widely used and proven method in physical
-                therapy. We work continuously along with experts to further
-                develop this form of therapy. As a result, we are able to set
-                new standards again and again, whether in performance, safety
-                during use, or simplicity of operation
-              </p>
+              <p className="py-1">{t("cards.card5.card1.p2")}</p>
             </div>
           </div>
         </div>
@@ -46,25 +42,14 @@ export default function enPuls() {
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Inspired by the highest standards
+            {t("cards.card5.card1.p3")}
           </h1>
 
           <div className="flex flex-col sm:flex-row">
             <div className="text-justify">
-              <p className="py-1">
-                ThermoTK generates adjustable, deeply penetrating heat.
-              </p>
-              <p className="py-1">
-                The deep heat which develops in the tissue causes a local
-                increase in circulation and dilation of blood vessels. Treatment
-                techniques specific to the therapist can have a positive effect
-                on the elasticity of the connective tissue.
-              </p>
-              <p className="py-1">
-                Through the effect of heat alone, the tone in the muscles
-                decreases, which has a positive effect on pain relief for the
-                patient.
-              </p>
+              <p className="py-1">{t("cards.card5.card1.p4")}</p>
+              <p className="py-1">{t("cards.card5.card1.p5")}</p>
+              <p className="py-1">{t("cards.card5.card1.p6")}</p>
             </div>
             <img
               src="/fizioterapiePhotos/diathermy-therapy/thermotk/inspired1.jpeg"
@@ -115,51 +100,26 @@ export default function enPuls() {
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4 py-4">
-            Working together with your patient
+            {t("cards.card5.card1.p7")}
           </h1>
-          <p className="mb-2">
-            Therapist-specific motions during the therapy can help additionally
-            relax tissue. ThermoTK has a broad spectrum of indications and can
-            be used for acute as well as chronic conditions. Deep heat therapy
-            combined with the use of manual therapy offer you outstanding
-            treatment options. Expand your range of services and treat your
-            patients even more effectively.
-          </p>
+          <p className="mb-2">{t("cards.card5.card1.p8")}</p>
 
           <div className="text-justify mb-4">
-            <h2 className="font-bold ">Areas of application</h2>
-            <p className="font-light">
-              Traditional physiotherapy practice, rehabilitation, and
-              competitive sports. ThermoTK is used for all acute and chronic
-              musculoskeletal conditions.
-            </p>
+            <h2 className="font-bold ">{t("cards.card5.card1.p9")}</h2>
+            <p className="font-light">{t("cards.card5.card1.p10")}</p>
           </div>
 
           <div className="text-justify mb-4">
-            <h2 className="font-bold">Application options</h2>
-            <p className="font-light">
-              A variety of application options – passive, active, and assistive
-              – enable therapy for the patient which is individually adapted to
-              the condition.
-            </p>
+            <h2 className="font-bold">{t("cards.card5.card1.p11")}</h2>
+            <p className="font-light">{t("cards.card5.card1.p12")}</p>
           </div>
           <div className="text-justify mb-4">
-            <h2 className="font-bold mb-1">Application options</h2>
-            <p className="font-light">
-              A variety of application options – passive, active, and assistive
-              – enable therapy for the patient which is individually adapted to
-              the condition.
-            </p>
+            <h2 className="font-bold mb-1">{t("cards.card5.card1.p13")}</h2>
+            <p className="font-light">{t("cards.card5.card1.p14")}</p>
           </div>
           <div className="text-justify mb-4">
-            <h2 className="font-bold">
-              ThermoTK – a part of your therapeutic concept
-            </h2>
-            <p className="font-light">
-              Unique possibility to combine the therapeutic effect of active
-              therapy with the circulation-stimulating and analgesic effect of
-              current and the feel-good factor of a massage.
-            </p>
+            <h2 className="font-bold">{t("cards.card5.card1.p15")}</h2>
+            <p className="font-light">{t("cards.card5.card1.p16")}</p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-between">
@@ -190,7 +150,7 @@ export default function enPuls() {
       <div className="w-full">
         <div className="w-9/12 flex-col sm:flex-row mx-auto">
           <h1 className="text-4xl font-semibold my-4">
-            Quality in every detail
+            {t("cards.card5.card1.p17")}
           </h1>
           <img
             src="/fizioterapiePhotos/diathermy-therapy/thermotk/quality1.png"
@@ -202,13 +162,13 @@ export default function enPuls() {
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Practical extensions and accessories
+            {t("cards.card5.card1.p18")}
           </h1>
-          <h2 className="font-bold mb-2">Move cart</h2>
+          <h2 className="font-bold mb-2">{t("cards.card5.card1.p19")}</h2>
 
           <ul className="list-disc ml-6 mb-4">
-            <li>smoothly movable</li>
-            <li>modern design</li>
+            <li>{t("cards.card5.card1.p20")}</li>
+            <li>{t("cards.card5.card1.p21")}</li>
           </ul>
           <img
             src="/fizioterapiePhotos/shockwave-therapy/enPuls/practical1.jpeg"

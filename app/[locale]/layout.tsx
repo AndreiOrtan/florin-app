@@ -32,7 +32,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body>
+      <body className="text-gray600">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Nav />
 

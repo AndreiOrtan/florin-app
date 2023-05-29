@@ -1,7 +1,9 @@
+"use client";
 import React from "react";
-import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function enPuls() {
+  const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/shockwave-therapy/enPuls/galery1.jpeg",
     "/fizioterapiePhotos/shockwave-therapy/enPuls/galery2.jpeg",
@@ -35,14 +37,11 @@ export default function enPuls() {
           />
           <div className="text-container my-8 pr-12">
             <h1 className="text-4xl font-semibold mb-4">
-              Radial Shockwave Therapy – Efficient. Easy to use. Mobile.
+              {t("cards.card3.card1.p1")}
             </h1>
 
             <p className="my-auto text-left text-lg">
-              Mobile radial shockwave therapy system with ballistic, high-energy
-              pulses. For treatment of biological tissues and structures in
-              various pathologies and medical conditions. Unique, easy-to-use
-              system offering shockwave therapy access to all therapists.
+              {t("cards.card3.card1.p2")}
             </p>
           </div>
         </div>
@@ -51,19 +50,10 @@ export default function enPuls() {
       <div className="bg-lightgray w-full py-8">
         <div className="w-9/12 mx-auto">
           <h1 className="text-4xl font-semibold mb-4">
-            Modern technology, innovatively designed
+            {t("cards.card3.card1.p3")}
           </h1>
-          <h2>
-            The new enPuls user interface is highly intuitive and easy-to-use.
-            All parameters are optimally designed for a clear layout. Ready for
-            your therapy.
-          </h2>
-          <h2>
-            Zimmer MedizinSysteme has created something really special with this
-            new generation of enPuls products. An entire new user experience.
-            New capacitive touch screen technology provides even simpler
-            operation and application.
-          </h2>
+          <h2>{t("cards.card3.card1.p4")}</h2>
+          <h2>{t("cards.card3.card1.p5")}</h2>
           <div className="flex py-4 flex-col sm:flex-row">
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/modern1.jpeg"
@@ -82,33 +72,14 @@ export default function enPuls() {
       <div className=" w-full">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Radial Shockwaves – Unique and powerful technology
+            {t("cards.card3.card1.p6")}
           </h1>
 
           <div className="flex flex-col sm:flex-row">
             <div className="text-justify">
-              <p className="py-1">
-                Radial shockwave therapy (RSWT) is a method for the treatment of
-                superficial orthopedic disorders developed over the past 20
-                years. A projectile accelerated in the handpiece generates a
-                mechanical pressure wave, which is transferred to the human body
-                by an applicator head and which radiates out in the tissue.
-              </p>
-              <p className="py-1">
-                The mechanical energy is absorbed by the tissue and decreases as
-                the distance from the application site increases. The mechanical
-                stress triggers reactions in the tissue that have a positive
-                influence on a wide range of orthopedic and neurological
-                conditions.
-              </p>
-              <p className="py-1">
-                The method is used by therapists all over the world with great
-                success. With the enPuls 2.0, Zimmer MedizinSysteme now offers a
-                system that bundles all the advantages of the application in a
-                compact form with the lowest downstream and operating costs that
-                is easy to operate and apply with maximum flexibility and
-                mobility.
-              </p>
+              <p className="py-1">{t("cards.card3.card1.p7")}</p>
+              <p className="py-1">{t("cards.card3.card1.p8")}</p>
+              <p className="py-1">{t("cards.card3.card1.p9")}</p>
             </div>
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/radial1.jpeg"
@@ -123,18 +94,17 @@ export default function enPuls() {
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">Appliance</h1>
           <p className="pb-2">
-            en<span className="font-extrabold">Puls</span> 2.0 is ideal as a
-            system for radial shockwave therapy, for superficial orthopedic
-            problems such as:
+            en<span className="font-extrabold">Puls</span>{" "}
+            {t("cards.card3.card1.list")}
           </p>
 
           <ul className="list-disc ml-6 mb-4">
-            <li className="pb-1">Insertion tendinopathy</li>
-            <li className="pb-1"> Tendon problems</li>
-            <li className="pb-1"> Chronic inflammation</li>
-            <li className="pb-1"> Hypertonic muscle systems</li>
-            <li className="pb-1"> Myofascial syndromes</li>
-            <li className="pb-1"> Hemotoma treatments </li>
+            <li className="pb-1">{t("cards.card3.card1.li1")}</li>
+            <li className="pb-1"> {t("cards.card3.card1.li2")}</li>
+            <li className="pb-1"> {t("cards.card3.card1.li3")}</li>
+            <li className="pb-1"> {t("cards.card3.card1.li4")}</li>
+            <li className="pb-1"> {t("cards.card3.card1.li5")}</li>
+            <li className="pb-1"> {t("cards.card3.card1.li6")} </li>
           </ul>
           <div className="flex flex-col sm:flex-row">
             <img
@@ -158,34 +128,16 @@ export default function enPuls() {
 
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
-          <h1 className="text-4xl font-semibold mb-4 py-4">softshot – pulse</h1>
+          <h1 className="text-4xl font-semibold mb-4 py-4">
+            {t("cards.card3.card1.p10")}
+          </h1>
 
           <div className="flex flex-col sm:flex-row">
             <div className="text-justify">
-              <p className="py-1">
-                enPuls 2.0 generates a special form of shockwave with a
-                relatively heavy projectile and a comparatively low impact speed
-                – the enPuls 2.0 softshot shockwave.
-              </p>
-              <p className="py-1">
-                The energy is primarily generated by the volume of the pulse and
-                not by the high amplitude and the extremely short rise
-                characteristic of comparable compressed-air devices.
-              </p>
-              <p className="py-1">
-                This requires that the shockwaves with rise times of approx. 3.5
-                µs and the typical energy settings also generated by
-                compressed-air devices pass through the tissue without any
-                change in the form of the wave, because the stress is within the
-                moment of inertia and the module of elasticity of the tissue.
-              </p>
-              <p className="py-1">
-                Different from focused shockwaves, which have rise times less
-                than 100 ns and which results in a desired gradation of the wave
-                in the tissue causing cavitation and tissue destruction, with
-                radial shockwaves it is not the exponential effect but simply
-                the amount of energy that triggers the reactive processes.
-              </p>
+              <p className="py-1">{t("cards.card3.card1.p11")}</p>
+              <p className="py-1">{t("cards.card3.card1.p12")}</p>
+              <p className="py-1">{t("cards.card3.card1.p13")}</p>
+              <p className="py-1">{t("cards.card3.card1.p14")}</p>
             </div>
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/pulse1.jpeg"
@@ -193,28 +145,17 @@ export default function enPuls() {
               className="w-[350px] rounded-lg ml-8"
             />
           </div>
-          <p>
-            The slower rise of the wave (approx. 13.5 µs) and the significantly
-            lower peak amplitude mean that enPuls 2.0 does not generate the
-            typical whiplash effect of the shockwave, which makes it easier for
-            the patient to tolerate.{" "}
-          </p>
+          <p>{t("cards.card3.card1.p15")}</p>
         </div>
       </div>
 
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Energy applied—pressure comparison
+            {t("cards.card3.card1.p16")}
           </h1>
-          <p>
-            Comprehensive comparative tests in the laboratory have demonstrated
-            that enPuls 2.0 with equivalent energy settings releases kinetic
-            energy via the applicator comparable to that of a
-            compressed-air-driven system, in which the air pressure applied to
-            accelerate the projectile is the dosage.
-          </p>
-          <p>The similarity is shown in the following table</p>
+          <p>{t("cards.card3.card1.p17")}</p>
+          <p>{t("cards.card3.card1.p18")}</p>
           <div className="flex my-4">
             <div>
               <h2 className="font-bold mb-2">enPuls 2.0</h2>
@@ -231,45 +172,24 @@ export default function enPuls() {
               <p className="py-0.5">5 bar</p>
             </div>
           </div>
-          <p>
-            Because the kinetic energy is applied to the tissue with
-            similar-sized applicators, the standard units such as mJ/mm² (energy
-            density) can be used because that closely related.
-          </p>
-          <p>
-            Dosage information from treatment protocols can thus be used 1:1.
-          </p>
+          <p>{t("cards.card3.card1.p19")}</p>
+          <p>{t("cards.card3.card1.p20")}</p>
         </div>
       </div>
 
       <div className="w-full">
         <div className="w-9/12 mx-auto my-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Low maintenance and long life
+            {t("cards.card3.card1.p21")}
           </h1>
-          <p>
-            The special technology of the enPuls 2.0 and the softshot shock
-            source means that the system has the lowest maintenance costs and
-            the longest handpiece and shockwave generator service life compared
-            to compressed-air systems.
-          </p>
-          <p>
-            Zimmer MedizinSysteme offers a minimum guarantee of 2.000.000 shocks
-            per generator, corresponding to about 1-000 treatments. The
-            generator should be replaced if there is a significant reduction in
-            performance (shock power is reduced, misfire, etc.). This is
-            generally noticed long after the minimum guarantee period has
-            expired.
-          </p>
+          <p>{t("cards.card3.card1.p22")}</p>
+          <p>{t("cards.card3.card1.p23")}</p>
         </div>
       </div>
       <div className="w-full">
         <div className="w-9/12 mx-auto mb-8">
           <h1 className="text-4xl font-semibold mb-4">Mobility</h1>
-          <p className="mb-2">
-            The complete system with all required accessories fits into an
-            easily carried aluminum case, making it very mobile.
-          </p>
+          <p className="mb-2">{t("cards.card3.card1.p24")}</p>
           <img
             src="/fizioterapiePhotos/shockwave-therapy/enPuls/mobility1.jpeg"
             alt="PhySys"
@@ -280,9 +200,9 @@ export default function enPuls() {
       <div className="w-full">
         <div className="w-9/12 mx-auto mb-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Low maintenance and long life
+            {t("cards.card3.card1.p25")}
           </h1>
-          <h2 className="font-bold mb-2">Move cart</h2>
+          <h2 className="font-bold mb-2">{t("cards.card3.card1.p26")}</h2>
           <div className="flex flex-col sm:flex-row">
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/practical1.jpeg"
@@ -290,8 +210,8 @@ export default function enPuls() {
               className="w-80 rounded-lg"
             />
             <ul className="list-disc ml-6 mb-4">
-              <li>smoothly movable</li>
-              <li>modern design</li>
+              <li>{t("cards.card3.card1.p27")}</li>
+              <li>{t("cards.card3.card1.p28")}</li>
             </ul>
           </div>
         </div>

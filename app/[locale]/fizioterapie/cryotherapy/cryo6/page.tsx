@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 export default function enPuls() {
+  const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/cryotherapy/cryo6/galery1.jpeg",
     "/fizioterapiePhotos/cryotherapy/cryo6/galery2.jpeg",
@@ -25,19 +28,11 @@ export default function enPuls() {
         />
         <div className="text-container my-8 sm:pr-12">
           <h1 className="text-4xl font-semibold mb-4 text-center">
-            State of the art cryotherapy with -30°C air
+            {t("cards.card6.card2.p1")}
           </h1>
 
           <div className="my-auto text-justify text-lg">
-            <p className="py-1">
-              Newest generation cryotherapy system with cooled air for efficient
-              pain treatment and swelling reduction, as well as relaxation of
-              muscle tone. The system enables cryotherapy with precise placement
-              and constant dosage at every time you need it. The high power
-              output enables a quick decrease of the superficial skin
-              temperature thus provides the desired treatment effects. Working
-              without consumables provides all day operation capacity.
-            </p>
+            <p className="py-1">{t("cards.card6.card2.p2")}</p>
           </div>
         </div>
       </div>
@@ -45,35 +40,15 @@ export default function enPuls() {
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Broad spectrum of applications
+            {t("cards.card6.card2.p3")}
           </h1>
 
-          <p>
-            Cold air therapy is suitable for brief, fast and intensive cooling
-            of the skin as well as for longer periods of moderate cooling in
-            order to decrease the temperature to therapeutically relevant levels
-            even in deeper layers of tissue.
-          </p>
-          <p className="pt-4">Cold air therapy has been proven in:</p>
+          <p>{t("cards.card6.card2.p4")}</p>
+          <p className="pt-4">{t("cards.card6.card2.p5")}</p>
           <ul className="list-disc ml-6 mb-4">
-            <li className="pb-1">
-              Painful conditions of the musculoskeletal system (acute and
-              chronic) such as arthritis, bursitis, tendinitis, tenosynovitis,
-              myositis, fibrositis, muscle tension, cervical syndrome,
-              post-whiplash disorders, lumbar syndrome or injuries (bruises,
-              strains, sprains) of the muscles or joints
-            </li>
-            <li className="pb-1">
-              {" "}
-              Pain reduction, improvement in mobility and reduction of joint
-              stiffness in rheumatic diseases as well as in the case of
-              rheumatoid arthritis (progressively chronic polyarthritis)
-            </li>
-            <li className="pb-1">
-              {" "}
-              Neurological diseases for decreasing spasticity (such as multiple
-              sclerosis or postapoplectic hemiplegia)
-            </li>
+            <li className="pb-1">{t("cards.card6.card2.p6")}</li>
+            <li className="pb-1"> {t("cards.card6.card2.p7")}</li>
+            <li className="pb-1"> {t("cards.card6.card2.p8")}</li>
           </ul>
 
           <div className="flex flex-col sm:flex-row justify-between">

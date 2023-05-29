@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 export default function enPulsPro() {
+  const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/shockwave-therapy/enPulsPro/galery1.jpeg",
     "/fizioterapiePhotos/shockwave-therapy/enPulsPro/galery2.jpeg",
@@ -23,15 +26,11 @@ export default function enPulsPro() {
         />
         <div className="text-container my-8 pr-12">
           <h1 className="text-4xl font-semibold mb-4">
-            Progressive therapy system with comfortable housing for all needed
-            accessories
+            {t("cards.card3.card2.p1")}
           </h1>
 
           <p className="my-auto text-left text-lg">
-            enPulsPro – a Radial Shockwave Therapy System with ballistic, high
-            energy pulses. For treatment of biological tissues and structures in
-            various pathologies and medical conditions. An unique, easy-to-use
-            system offering shockwave therapy access to all therapists.
+            {t("cards.card3.card2.p2")}
           </p>
         </div>
       </div>
@@ -39,23 +38,11 @@ export default function enPulsPro() {
       <div className="bg-lightgray w-full py-8">
         <div className="w-9/12 mx-auto">
           <h1 className="text-4xl font-semibold mb-4">
-            Modern technology, innovatively designed
+            {t("cards.card3.card2.p3")}
           </h1>
-          <h2 className="py-1">
-            The new enPuls user interface is highly intuitive and easy-to-use.
-            All parameters are optimally designed for a clear layout. Ready for
-            your therapy.
-          </h2>
-          <h2 className="py-1">
-            Zimmer MedizinSysteme has created something really special with this
-            new generation of enPuls products. An entire new user experience.
-            New capacitive touch screen technology provides even simpler
-            operation and application.
-          </h2>
-          <h2 className="py-1">
-            Higher treatment comfort and time saving by the opportunity to
-            connect two handpieces with different applicators at the same time.
-          </h2>
+          <h2 className="py-1">{t("cards.card3.card2.p4")}</h2>
+          <h2 className="py-1">{t("cards.card3.card2.p5")}</h2>
+          <h2 className="py-1">{t("cards.card3.card2.p6")}</h2>
           <div className="flex py-4 flex-col sm:flex-row">
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPulsPro/modern1.jpeg"
@@ -79,33 +66,14 @@ export default function enPulsPro() {
       <div className=" w-full">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Radial Shockwaves – Unique and powerful technology
+            {t("cards.card3.card2.p7")}
           </h1>
 
           <div className="flex flex-col sm:flex-row">
             <div className="text-justify">
-              <p className="py-1">
-                Radial shockwave therapy (RSWT) is a method for the treatment of
-                superficial orthopedic disorders developed over the past 20
-                years. A projectile accelerated in the handpiece generates a
-                mechanical pressure wave, which is transferred to the human body
-                by an applicator head and which radiates out in the tissue.
-              </p>
-              <p className="py-1">
-                The mechanical energy is absorbed by the tissue and decreases as
-                the distance from the application site increases. The mechanical
-                stress triggers reactions in the tissue that have a positive
-                influence on a wide range of orthopedic and neurological
-                conditions.
-              </p>
-              <p className="py-1">
-                The method is used by therapists all over the world with great
-                success. With the enPulsPro, Zimmer MedizinSysteme now offers a
-                system that bundles all the advantages of the application in a
-                compact form with the lowest downstream and operating costs that
-                is easy to operate and apply with maximum flexibility and
-                mobility.
-              </p>
+              <p className="py-1">{t("cards.card3.card2.p8")}</p>
+              <p className="py-1">{t("cards.card3.card2.p9")}</p>
+              <p className="py-1">{t("cards.card3.card2.p10")}</p>
             </div>
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/radial1.jpeg" // same photo as enPuls
@@ -155,34 +123,16 @@ export default function enPulsPro() {
 
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
-          <h1 className="text-4xl font-semibold mb-4 py-4">softshot – pulse</h1>
+          <h1 className="text-4xl font-semibold mb-4 py-4">
+            {t("cards.card3.card2.p11")}
+          </h1>
 
           <div className="flex flex-col sm:flex-row">
             <div className="text-justify">
-              <p className="py-1">
-                enPulsPro generates a special form of shockwave with a
-                relatively heavy projectile and a comparatively low impact
-                speed—the enPulsPro softshot shockwave.
-              </p>
-              <p className="py-1">
-                The energy is primarily generated by the volume of the pulse and
-                not by the high amplitude and the extremely short rise
-                characteristic of comparable compressed-air devices.
-              </p>
-              <p className="py-1">
-                This requires that the shockwaves with rise times of approx. 3.5
-                µs and the typical energy settings also generated by
-                compressed-air devices pass through the tissue without any
-                change in the form of the wave, because the stress is within the
-                moment of inertia and the module of elasticity of the tissue.
-              </p>
-              <p className="py-1">
-                Different from focused shockwaves, which have rise times less
-                than 100 ns and which results in a desired gradation of the wave
-                in the tissue causing cavitation and tissue destruction, with
-                radial shockwaves it is not the exponential effect but simply
-                the amount of energy that triggers the reactive processes.
-              </p>
+              <p className="py-1">{t("cards.card3.card2.p12")}</p>
+              <p className="py-1">{t("cards.card3.card2.p13")}</p>
+              <p className="py-1">{t("cards.card3.card2.p14")}</p>
+              <p className="py-1">{t("cards.card3.card2.p15")}</p>
             </div>
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enPuls/pulse1.jpeg" //same photo as enPuls
@@ -190,28 +140,17 @@ export default function enPulsPro() {
               className="w-[350px] rounded-lg ml-8"
             />
           </div>
-          <p>
-            The slower rise of the wave (approx. 13.5 µs) and the significantly
-            lower peak amplitude mean that enPulsPro does not generate the
-            typical whiplash effect of the shockwave, make it easier for the
-            patient to tolerate.
-          </p>
+          <p>{t("cards.card3.card2.p16")}</p>
         </div>
       </div>
 
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Energy applied—pressure comparison
+            {t("cards.card3.card2.p17")}
           </h1>
-          <p>
-            Comprehensive comparative tests in the laboratory have demonstrated
-            that enPulsPro with equivalent energy settings releases kinetic
-            energy via the applicator comparable to that of a
-            compressed-air-driven system, in which the air pressure applied to
-            accelerate the projectile is the dosage.
-          </p>
-          <p>The similarity is shown in the following table</p>
+          <p>{t("cards.card3.card2.p18")}</p>
+          <p>{t("cards.card3.card2.p19")}</p>
           <div className="flex my-4">
             <div>
               <h2 className="font-bold mb-2">enPuls 2.0</h2>
@@ -228,47 +167,25 @@ export default function enPulsPro() {
               <p className="py-0.5">5 bar</p>
             </div>
           </div>
-          <p>
-            Because the kinetic energy is applied to the tissue with
-            similar-sized applicators, the standard units such as mJ/mm² (energy
-            density) can be used because that closely related.
-          </p>
-          <p>
-            Dosage information from treatment protocols can thus be used 1:1.
-          </p>
+          <p>{t("cards.card3.card2.p20")}</p>
+          <p>{t("cards.card3.card2.p21")}</p>
         </div>
       </div>
 
       <div className="w-full">
         <div className="w-9/12 mx-auto my-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Low maintenance and long life
+            {t("cards.card3.card2.p22")}
           </h1>
-          <p>
-            The special technology of the enPulsPro and the softshot shock
-            source result in low maintenance costs of the system as well as the
-            longest handpiece and shockwave generator service life compared to
-            compressed-air systems.
-          </p>
-          <p>
-            Zimmer MedizinSysteme offers a minimum guarantee of 2.000.000 shocks
-            per generator, corresponding to about 1.000 treatments. The
-            generator should be replaced if there is a significant reduction in
-            performance (shock power is reduced, misfire, etc.). This is
-            generally noticed long after the minimum guarantee period has
-            expired.
-          </p>
+          <p>{t("cards.card3.card2.p23")}</p>
+          <p>{t("cards.card3.card2.p24")}</p>
         </div>
       </div>
 
       <div className="w-full">
         <div className="w-9/12 mx-auto my-8">
           <h1 className="text-4xl font-semibold mb-5">VAS-Scale</h1>
-          <p>
-            The assessment of pain intensity with the integrated VAS scale
-            provides a precise and traceable view on the progress of the therapy
-            to both therapist and patient.
-          </p>
+          <p>{t("cards.card3.card2.p25")}</p>
           <img
             src="/fizioterapiePhotos/shockwave-therapy/enPulsPro/vas1.jpeg"
             alt="PhySys"

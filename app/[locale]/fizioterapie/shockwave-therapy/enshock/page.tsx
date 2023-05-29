@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 export default function enPulsPro() {
+  const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/shockwave-therapy/enShock/galery1.jpeg",
     "/fizioterapiePhotos/shockwave-therapy/enShock/galery2.jpeg",
@@ -26,14 +29,11 @@ export default function enPulsPro() {
         />
         <div className="text-container my-8 pr-12">
           <h1 className="text-4xl font-semibold mb-4">
-            Focused shock waves therapy – Focus on healing
+            {t("cards.card3.card3.p1")}
           </h1>
 
           <p className="my-auto text-left text-lg">
-            enShock from Zimmer MedizinSysteme sets new standards in therapy
-            with extracorporeal, focused shock waves: Because enShock is the
-            first quiet shock wave. And it runs and runs. Guaranteed
-            maintenance-free. For many years.
+            {t("cards.card3.card3.p2")}
           </p>
         </div>
       </div>
@@ -41,18 +41,9 @@ export default function enPulsPro() {
       <div className="bg-lightgray w-full py-8">
         <div className="w-9/12 mx-auto">
           <h1 className="text-4xl font-semibold mb-4">
-            Convenient operation is a priority
+            {t("cards.card3.card3.p3")}
           </h1>
-          <h2 className="py-1">
-            Thanks to the straightforward menu navigation and the clearly
-            arranged touch display, enShock can be operated quickly and
-            intuitively. Indicationbased therapy protocols provide extra
-            treatment security. The enShock is also optionally available with a
-            3-pedal foot switch for start/stop and for adjusting frequency and
-            energy. As a result, you are independent of the terminal during
-            therapy, and you can turn towards your patient and have one hand
-            free, for example, to palpate pain points.
-          </h2>
+          <h2 className="py-1">{t("cards.card3.card3.p4")}</h2>
 
           <div className="flex py-4 flex-col sm:flex-row">
             <img
@@ -72,54 +63,22 @@ export default function enPulsPro() {
       <div className=" w-full">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Works deep in the tissue
+            {t("cards.card3.card3.p5")}
           </h1>
-          <p>
-            The innovative therapy system is an addition to the shock wave
-            product family of the renowned medical device manufacturer. The
-            high-energy, focused shock waves from enShock have a healing effect
-            in deeper layers of tissue. Precisely where the pain is.
-          </p>
-          <p>
-            Incidentally: The gentle radial shock wave enPuls from Zimmer, with
-            its shallower depth of penetration, is very suitable for treating
-            muscle tension. Ideal after a therapy session with focused shock
-            waves!
-          </p>
+          <p>{t("cards.card3.card3.p6")}</p>
+          <p>{t("cards.card3.card3.p7")}</p>
 
           <h1 className="text-4xl font-semibold mt-8">
-            The gentle way for chronic pain
+            {t("cards.card3.card3.p8")}
           </h1>
 
-          <p className="pb-2 mt-4">
-            Incidentally: The gentle radial shock wave enPuls from Zimmer, with
-            its shallower depth of penetration, is very suitable for treating
-            muscle tension. Ideal after a therapy session with focused shock
-            waves!
-          </p>
+          <p className="pb-2 mt-4">{t("cards.card3.card3.p9")}</p>
 
           <ul className="list-disc ml-6 mb-4">
-            <li className="py-0.5">
-              {" "}
-              The treatment takes place on an outpatient basis,
-            </li>
-            <li className="py-0.5">
-              {" "}
-              without the risks of anaesthesia, side effects, or allergies.
-            </li>
-            <li className="py-0.5">
-              {" "}
-              Noticeable pain relief, often after just 1 or 2 treatments,{" "}
-            </li>
-            <li className="py-0.5">
-              {" "}
-              no preparation, no postoperative monitoring,
-            </li>
-            <li className="py-0.5">
-              {" "}
-              no limitations in ability to perform work or sports following
-              therapy.
-            </li>
+            <li className="py-0.5"> {t("cards.card3.card3.p10")}</li>
+
+            <li className="py-0.5"> {t("cards.card3.card3.p11")} </li>
+            <li className="py-0.5"> {t("cards.card3.card3.p12")}</li>
           </ul>
         </div>
       </div>
@@ -128,45 +87,18 @@ export default function enPulsPro() {
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Proven to be highly effective
+            {t("cards.card3.card3.p13")}
           </h1>
-          <p className="pb-2">
-            In the most common indications in orthopaedic practice, therapy with
-            focused shock waves has quick and lasting effects.
-          </p>
+          <p className="pb-2">{t("cards.card3.card3.p14")}</p>
           <p className="mt-8 mb-2">Studies show:</p>
           <ul className="list-disc ml-6 mb-4">
-            <li className="pb-1">
-              ong-term pain relief, often even during or immediately after the
-              treatment,
-            </li>
-            <li className="pb-1">
-              {" "}
-              a noticeably positive effect on inflammatory reactions in
-              musculoskeletal discomfort/conditions,
-            </li>
-            <li className="pb-1">
-              {" "}
-              very good effects on bone healing, especially also in the
-              treatment of nonhealing fractures and pseudoarthroses{" "}
-            </li>
-            <li className="pb-1">
-              {" "}
-              as well as in the elimination of calcification in tendons, for
-              example, in the case of shoulder calcification.
-            </li>
+            <li className="pb-1">{t("cards.card3.card3.p15")}</li>
+            <li className="pb-1"> {t("cards.card3.card3.p16")}</li>
+            <li className="pb-1"> {t("cards.card3.card3.p17")} </li>
+            <li className="pb-1"> {t("cards.card3.card3.p18")}</li>
           </ul>
-          <p>
-            ESWT expands blood vessels, stimulates the formation of new blood
-            vessels, and thus promotes circulation. An important precondition
-            for supplying the tissue with nutrients and detoxifying it and for
-            rapid healing of diseased, injured, or inflamed tissue structures/of
-            diseased muscle, tendon, or bone tissue.
-          </p>
-          <p className="py-4">
-            More and more doctors are therefore expanding their therapeutic
-            spectrum with this effective method.
-          </p>
+          <p>{t("cards.card3.card3.p19")}</p>
+          <p className="py-4">{t("cards.card3.card3.p20")}</p>
           <div className="flex flex-col sm:flex-row">
             <img
               src="/fizioterapiePhotos/shockwave-therapy/enShock/proven1.jpeg"
@@ -190,28 +122,16 @@ export default function enPulsPro() {
       <div className="w-full">
         <div className="w-9/12 mx-auto mb-16">
           <h1 className="text-4xl font-semibold mb-4">
-            enShock opens up new target groups
+            {t("cards.card3.card3.p21")}
           </h1>
-          <p>
-            People with chronic pain and bone healing problems are the largest
-            patient group in orthopaedic practice. Therapy with focused shock
-            waves is particularly effective in these conditions. This also
-            applies to many other indications, such as for the three most common
-            musculoskeletal problems: heel spurs, shoulder calcification, and
-            tennis or golfer’s elbow. In addition, in many diseases, ESWT is the
-            only noninvasive option and thus has no alternative for elderly or
-            ill persons who cannot expose themselves to the risk of surgery. All
-            in all, most of your patients benefit from enShock. And thanks to
-            many satisfied patients, the innovative therapy system also pays for
-            itself quickly for your practice.
-          </p>
+          <p>{t("cards.card3.card3.p22")}</p>
         </div>
       </div>
 
       <div className="w-full">
         <div className="w-9/12 mx-auto">
           <h1 className="text-4xl font-semibold my-4">
-            Treatment recomandations
+            {t("cards.card3.card3.p23")}
           </h1>
           <img
             src="/fizioterapiePhotos/shockwave-therapy/enShock/recomandation.jpeg"

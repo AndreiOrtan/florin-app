@@ -37,9 +37,9 @@ const Footer = () => {
                   target="_blank"
                 >
                   <img
-                    src="/zimmer-logo.png"
+                    src="/zimmer-logo2.jpg"
                     alt="text"
-                    className="h-auto w-[140px] max-w-full mx-4"
+                    className="h-auto w-[140px] max-w-full mx-4 "
                   />
                 </NavigationLink>
                 <NavigationLink href="https://mkb-system.ro/" target="_blank">

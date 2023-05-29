@@ -3,8 +3,10 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import NavigationLink from "../../components/NavigationLink";
+import { useTranslations } from "next-intl";
 
 export default function ShockwaveTherapy() {
+  const t = useTranslations("physiotherapy");
   return (
     <div className="flex flex-col items-center mt-4 text-gray600 w-full">
       <header className="py-4">
@@ -43,61 +45,30 @@ export default function ShockwaveTherapy() {
 
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto flex flex-col py-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Now you can experience the power of High Engergy Inductive Therapy
-          </h2>
+          <h2 className="text-2xl font-semibold mb-4">{t("cards.card4.h1")}</h2>
           <img
             src="/fizioterapiePhotos/high-energy-inductive-therapy/masage1.jpeg"
             alt=""
             className="rounded-lg mb-2"
           />
-          <p className="py-2">
-            Pain is one of the most increasing health issues in the world.
-            Studies suggest that around 20% of adults suffer from pain.
-          </p>
-          <p className="py-2">
-            Zimmer introduces with their innovative High Energy Inductive
-            Therapy a new standard in pain reducing therapies.
-          </p>
-          <p className="py-2">
-            Besides effective pain treatment High Energy Inductive Therapy is
-            widely used to inference muscle tone, enhance blood circulation and
-            activate the regeneration process.
-          </p>
+          <p className="py-2">{t("cards.card4.h2")}</p>
+          <p className="py-2">{t("cards.card4.h3")}</p>
+          <p className="py-2">{t("cards.card4.h4")}</p>
         </div>
       </div>
 
       <div className="w-full bg-blue700 text-white font-medium">
         <div className="w-9/12 mx-auto flex flex-col py-8">
-          <p className="py-2">
-            The human body is a good conducting medium and also conductive to
-            magnetic fields. Since ions in a cell have a charge, the cell
-            membrane also needs a certain charge.
-          </p>
-          <p className="py-2">
-            The membrane charge of normal, healthy cells is higher than that of
-            diseased or aged cells, including bacteria and viruses. When the
-            cell membrane charge is low, the cell has too little energy to
-            perform its normal function.
-          </p>
-          <p className="py-2">
-            Hence, cells need energy, and electromagnetic field stimulation is
-            known to increase this energy and optimize the function of the cell.
-          </p>
+          <p className="py-2">{t("cards.card4.h5")}</p>
+          <p className="py-2">{t("cards.card4.h6")}</p>
+          <p className="py-2">{t("cards.card4.h7")}</p>
           <img
             src="/fizioterapiePhotos/high-energy-inductive-therapy/magent.jpeg"
             alt=""
             className="rounded-lg mb-2"
           />
-          <p className="py-2">
-            Electromagnetic fields can pass through cells, tissues, organs and
-            bones without any deformation or loss, activate the electrochemistry
-            of tissues, and improve cell and cell membrane function.
-          </p>
-          <p className="py-2">
-            The emFieldPro generates a magnetic field of 3 Tesla, which is about
-            600 times stronger than a normal magnet bar.
-          </p>
+          <p className="py-2">{t("cards.card4.h8")}</p>
+          <p className="py-2">{t("cards.card4.h9")}</p>
         </div>
       </div>
     </div>

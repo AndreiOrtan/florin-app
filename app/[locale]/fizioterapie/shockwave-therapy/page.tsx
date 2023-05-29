@@ -3,8 +3,10 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import NavigationLink from "../../components/NavigationLink";
+import { useTranslations } from "next-intl";
 
 export default function ShockwaveTherapy() {
+  const t = useTranslations("physiotherapy");
   return (
     <div className="flex flex-col items-center my-4 w-full">
       <header className="py-4">
@@ -32,10 +34,7 @@ export default function ShockwaveTherapy() {
                 <div className="font-bold text-blue700 text-xl mb-1">
                   enPuls
                 </div>
-                <p className="text-xs">
-                  Efficient, easy & mobile: Fight the pain with Radial Shockwave
-                  Therapy – up to 22 Hz.
-                </p>
+                <p className="text-xs">{t("cards.card3.card1.description")}</p>
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
@@ -61,10 +60,7 @@ export default function ShockwaveTherapy() {
                 <div className="font-bold text-blue700 text-xl mb-1">
                   enPulsPro
                 </div>
-                <p className="text-xs">
-                  Innovative ballistic high-tech device with up to two
-                  handpieces & powerful Softshot Technology.
-                </p>
+                <p className="text-xs">{t("cards.card3.card2.description")}</p>
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
@@ -90,10 +86,7 @@ export default function ShockwaveTherapy() {
                 <div className="font-bold text-blue700 text-xl mb-1">
                   enShock
                 </div>
-                <p className="text-xs">
-                  enShock sets new standards in therapy with focused shock
-                  waves.
-                </p>
+                <p className="text-xs">{t("cards.card3.card3.description")}</p>
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
@@ -103,69 +96,37 @@ export default function ShockwaveTherapy() {
 
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto flex flex-col py-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Laser therapy – Achieve therapeutic success with the speed of light
-          </h2>
+          <h2 className="text-2xl font-semibold mb-4">{t("cards.card3.h1")}</h2>
           <img
             src="/fizioterapiePhotos/shockwave-therapy/man.jpeg"
             alt=""
             className="rounded-lg mb-2"
           />
-          <h2 className="mb-4">
-            A projectile accelerated in the handpiece generates a mechanical
-            pressure wave, which is transferred to the human body by an
-            applicator head and which radiates out in the tissue. The mechanical
-            energy is absorbed by the tissue and decreases as the distance from
-            the application site increases. The mechanical stress triggers
-            reactions in the tissue that have a positive influence on a wide
-            range of orthopedic and neurological conditions:
-          </h2>
+          <h2 className="mb-4">{t("cards.card3.h2")}</h2>
           <ul className="list-disc ml-6 mb-4">
-            <li> Insertion tendinopathy</li>
-            <li> Tendon problems</li>
-            <li> Chronic inflammation</li>
-            <li> Hypertonic muscle systems</li>
-            <li> Myofascial syndromes</li>
-            <li> Hemotoma treatments</li>
+            <li> {t("cards.card3.li1")}</li>
+            <li> {t("cards.card3.li2")}</li>
+            <li> {t("cards.card3.li3")}</li>
+            <li> {t("cards.card3.li4")}</li>
+            <li> {t("cards.card3.li5")}</li>
+            <li> {t("cards.card3.li6")}</li>
           </ul>
-          <p>
-            Successful treatment has been conducted and documented in all these
-            areas. This is an impressive confirmation of the efficacy of this
-            easy-to-use therapeutic procedure and shows that a wide range of
-            additional indications can also be treated.
-          </p>
+          <p>{t("cards.card3.h3")}</p>
         </div>
       </div>
 
       <div className="w-full mt-8">
         <div className="w-9/12 mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">
-            Focused shock wave therapy: Proven to be highly effective
-          </h2>
-          <h2>
-            In the most common indications in orthopaedic practice, therapy with
-            focused shock waves has quick and lasting effects.
-          </h2>
+          <h2 className="text-2xl font-semibold mb-4">{t("cards.card3.h4")}</h2>
+          <h2>{t("cards.card3.h5")}</h2>
           <div>
-            <h2 className="font-semibold">Studies show</h2>
+            <h2 className="font-semibold">{t("cards.card3.h6")}</h2>
 
             <ul className="list-disc ml-6 mb-4">
-              <li>
-                long-term pain relief, often even during or immediately after
-                the treatment,
-              </li>
-              <li>
-                a noticeably positive effect on inflammatory reactions in
-                musculoskeletal discomfort/conditions,
-              </li>
-              <li>
-                very good effects on bone healing, especially also in the
-                treatment of nonhealing fractures and pseudoarthroses
-              </li>
-              <li>
-                as well as in the elimination of calcification in tendons, for
-                example, in the case of shoulder calcification.
-              </li>
+              <li>{t("cards.card3.li7")}</li>
+              <li>{t("cards.card3.li8")}</li>
+              <li>{t("cards.card3.li9")}</li>
+              <li>{t("cards.card3.li10")}</li>
             </ul>
           </div>
         </div>

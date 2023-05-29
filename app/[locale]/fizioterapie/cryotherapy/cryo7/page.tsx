@@ -1,6 +1,10 @@
+"use client";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 export default function enPuls() {
+  const t = useTranslations("physiotherapy");
+
   const images = [
     "/fizioterapiePhotos/cryotherapy/cryo7/galery1.jpeg",
     "/fizioterapiePhotos/cryotherapy/cryo7/galery2.jpeg",
@@ -27,15 +31,11 @@ export default function enPuls() {
         /> */}
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4 text-center">
-              State of the art cryotherapy with -30°C air
+              {t("cards.card6.card3.p1")}
             </h1>
 
             <div className="my-auto text-justify text-lg">
-              <p className="py-1">
-                Cryo 7 is the perfect system for cooling tissue and skin. An
-                important therapeutic characteristic of cold air therapy is
-                contact-free cooling.
-              </p>
+              <p className="py-1">{t("cards.card6.card3.p2")}</p>
             </div>
           </div>
         </div>
@@ -44,35 +44,15 @@ export default function enPuls() {
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Broad spectrum of applications
+            {t("cards.card6.card3.p3")}
           </h1>
 
-          <p>
-            Cold air therapy is suitable for brief, fast and intensive cooling
-            of the skin as well as for longer periods of moderate cooling in
-            order to decrease the temperature to therapeutically relevant levels
-            even in deeper layers of tissue.
-          </p>
-          <p className="pt-4">Cold air therapy has been proven in:</p>
+          <p>{t("cards.card6.card3.p4")}</p>
+          <p className="pt-4">{t("cards.card6.card3.p5")}:</p>
           <ul className="list-disc ml-6 mb-4">
-            <li className="pb-1">
-              Painful conditions of the musculoskeletal system (acute and
-              chronic) such as arthritis, bursitis, tendinitis, tenosynovitis,
-              myositis, fibrositis, muscle tension, cervical syndrome,
-              post-whiplash disorders, lumbar syndrome or injuries (bruises,
-              strains, sprains) of the muscles or joints
-            </li>
-            <li className="pb-1">
-              {" "}
-              Pain reduction, improvement in mobility and reduction of joint
-              stiffness in rheumatic diseases as well as in the case of
-              rheumatoid arthritis (progressively chronic polyarthritis)
-            </li>
-            <li className="pb-1">
-              {" "}
-              Neurological diseases for decreasing spasticity (such as multiple
-              sclerosis or postapoplectic hemiplegia)
-            </li>
+            <li className="pb-1">{t("cards.card6.card3.p6")}</li>
+            <li className="pb-1"> {t("cards.card6.card3.p7")}</li>
+            <li className="pb-1"> {t("cards.card6.card3.p8")}</li>
           </ul>
 
           <div className="flex flex-col sm:flex-row justify-between">
@@ -93,101 +73,59 @@ export default function enPuls() {
       <div className="w-full ">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            Combinations with cold air therapy
+            {t("cards.card6.card3.p9")}
           </h1>
 
           <h2 className="text-2xl font-semibold mb-4">
-            Treatment support through combination with cold air
+            {t("cards.card6.card3.p10")}
           </h2>
-          <p>
-            Cryotherapy can be combined with a variety of other treatments, for
-            example, to improve movement therapy by prior application of cold
-            air (15-20 min). Other combination possibilities include:
-          </p>
+          <p>{t("cards.card6.card3.p11")}</p>
           <ul className="list-disc ml-6 mb-4">
-            <li> Combination with compression in cases of acute injuries</li>
-            <li>
-              Treatment of muscular trigger points in combination with
-              stretching
-            </li>
+            <li> {t("cards.card6.card3.p12")}</li>
+            <li>{t("cards.card6.card3.p13")}</li>
           </ul>
 
           <h2 className="text-2xl font-semibold mb-4">
-            Sports medicine and traumatology
+            {t("cards.card6.card3.p14")}
           </h2>
-          <p>
-            Many sports physiotherapists and sports medicine specialists use
-            cold air preventively for prophylactic early-stage treatment
-            immediately following major exertion during sports before symptoms
-            occur, such as after a competitive event.
-          </p>
+          <p>{t("cards.card6.card3.p15")}</p>
         </div>
       </div>
 
       <div className="w-full bg-lightgray">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">
-            The new Cryo 7 – Perfected from A to Z
+            {t("cards.card6.card3.p16")}
           </h1>
           <img
             src="/fizioterapiePhotos/cryotherapy/cryo7/a-z.png"
             alt="PhySys"
           />
           <h1 className="text-4xl font-semibold mb-4">
-            In your practice – User-friendly, ecological & low-maintenance
+            {t("cards.card6.card3.p17")}
           </h1>
 
           <h2 className="text-2xl font-semibold mb-2 mt-4 ">
             {" "}
-            Ease of use – Redesigned
+            {t("cards.card6.card3.p18")}
           </h2>
 
-          <p className="font-light py-1">
-            {" "}
-            The Cryo 7 is operated using a brilliant, high-resolution, 10-inch
-            touch display. Individual programmes can be stored. All of the
-            important operating elements are clearly arranged and easy to reach,
-            thanks to the higher, ergonomic design. This allows successful
-            operation from the very start.
-          </p>
+          <p className="font-light py-1"> {t("cards.card6.card3.p19")}</p>
 
-          <p className="font-light py-1">
-            {" "}
-            The optional supporting arm facilitates hands-free operation,
-            especially during long treatment periods. The air stream can be
-            easily controlled by the user.
-          </p>
+          <p className="font-light py-1"> {t("cards.card6.card3.p20")}</p>
 
-          <p className="font-light py-1">
-            {" "}
-            The practical glass shelf plate is ideally suited for use as a tray
-            for additional devices.
-          </p>
+          <p className="font-light py-1"> {t("cards.card6.card3.p21")}</p>
 
           <h2 className="text-2xl font-semibold  mt-4 mb-2">
             {" "}
-            Energy- and cost-efficient{" "}
+            {t("cards.card6.card3.p22")}{" "}
           </h2>
 
-          <p className="font-light py-1">
-            {" "}
-            The operation of the new Cryo 7 does not result in any significant
-            consumption costs. The amount of defrost water is monitored and the
-            defrosting function ensures smooth operation. The air filter is
-            readily accessible and can be easily replaced if soiled.
-          </p>
+          <p className="font-light py-1"> {t("cards.card6.card3.p23")}</p>
 
-          <p className="font-light py-1">
-            {" "}
-            The new standby mode further improves the energy efficiency of the
-            Cryo 7, which is designed for reliable all-day operation.{" "}
-          </p>
+          <p className="font-light py-1"> {t("cards.card6.card3.p24")} </p>
 
-          <p className="font-light py-1">
-            {" "}
-            Through the numerous technical innovations, the Cryo 7 is a
-            significant comfort factor for patients and therapists.
-          </p>
+          <p className="font-light py-1"> {t("cards.card6.card3.p25")}</p>
         </div>
       </div>
 

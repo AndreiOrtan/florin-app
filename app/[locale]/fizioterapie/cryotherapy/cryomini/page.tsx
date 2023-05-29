@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 export default function enPuls() {
+  const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/cryotherapy/cryomini/galery1.jpeg",
     "/fizioterapiePhotos/cryotherapy/cryomini/galery2.jpeg",
@@ -11,7 +14,7 @@ export default function enPuls() {
     "/fizioterapiePhotos/cryotherapy/cryomini/galery7.jpeg",
   ];
   return (
-    <div className="flex flex-col items-center my-4 text-gray600 font-medium">
+    <div className="flex flex-col items-center w-full text-gray600 font-medium">
       <header className="py-4">
         <div className="container mx-auto px-4">
           <h1 className="text-blue700 text-3xl font-bold">CryoMini</h1>
@@ -26,15 +29,11 @@ export default function enPuls() {
           />
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4 text-center">
-              Simple, easy and quick to use – cryotherapy with -10°C air
+              {t("cards.card6.card1.p1")}
             </h1>
 
             <div className="my-auto text-justify text-lg">
-              <p className="py-1">
-                With the CryoMini Zimmer MedizinSysteme offers a compact medical
-                system to a more compact and flexible cold air system for short
-                and less painful treatments.
-              </p>
+              <p className="py-1">{t("cards.card5.card1.p2")}</p>
             </div>
           </div>
         </div>
@@ -44,21 +43,14 @@ export default function enPuls() {
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-semibold mb-4">Appliance</h1>
           <ul className="list-disc ml-6 mb-4">
-            <li className="pb-1">
-              Acute/chronic diseases of the skeletal and muscular apparatus
-            </li>
-            <li className="pb-1"> Inflammations</li>
-            <li className="pb-1"> Muscular contractures</li>
-            <li className="pb-1"> Sports injuries</li>
-            <li className="pb-1"> Postoperative conditions</li>
-            <li className="pb-1"> Neurological disorders</li>
+            <li className="pb-1">{t("cards.card5.card1.p3")}</li>
+            <li className="pb-1"> {t("cards.card5.card1.p4")}</li>
+            <li className="pb-1"> {t("cards.card5.card1.p5")}</li>
+            <li className="pb-1"> {t("cards.card5.card1.p6")}</li>
+            <li className="pb-1"> {t("cards.card5.card1.p7")}</li>
+            <li className="pb-1"> {t("cards.card5.card1.p8")}</li>
           </ul>
-          <p className="font-light py-4">
-            Unlike other cooling methods, such as contact cooling, cryogen spray
-            or ice packs, the CryoMini decreases the skin temperature quicker,
-            with less risk of skin burns and keeps a constant dosage throughout
-            the entire treatment time.
-          </p>
+          <p className="font-light py-4">{t("cards.card5.card1.p9")}</p>
           <div className="flex flex-col sm:flex-row justify-between">
             <img
               src="/fizioterapiePhotos/cryotherapy/cryomini/man1.jpeg"

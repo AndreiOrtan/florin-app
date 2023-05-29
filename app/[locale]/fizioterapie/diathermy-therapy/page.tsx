@@ -3,8 +3,10 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import NavigationLink from "../../components/NavigationLink";
+import { useTranslations } from "next-intl";
 
 export default function ShockwaveTherapy() {
+  const t = useTranslations("physiotherapy");
   return (
     <div className="flex flex-col items-center mt-4 text-gray600 w-full">
       <header className="py-4">
@@ -32,10 +34,7 @@ export default function ShockwaveTherapy() {
                 <div className="font-bold text-blue700 text-xl mb-1">
                   ThermoTK
                 </div>
-                <p className="text-xs">
-                  Deep Heating through high-frequency electrotherapy – Essential
-                  for modern physiotherapy
-                </p>
+                <p className="text-xs">{t("cards.card5.card1Description")}</p>
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
@@ -61,9 +60,7 @@ export default function ShockwaveTherapy() {
                 <div className="font-bold text-blue700 text-xl mb-1">
                   MicroPro
                 </div>
-                <p className="text-xs">
-                  Microwave Therapy – the gentle heat therapy
-                </p>
+                <p className="text-xs">{t("cards.card5.card2Description")}</p>
               </div>
             </div>
             <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
@@ -71,28 +68,21 @@ export default function ShockwaveTherapy() {
         </div>
       </div>
 
-      <div className="w-full bg-lightgray">
+      <div className="w-full">
         <div className="w-9/12 mx-auto flex flex-col py-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Now you can experience the power of High Engergy Inductive Therapy
-          </h2>
+          <h2 className="text-2xl font-semibold mb-4">{t("cards.card5.h1")}</h2>
           <img
             src="/fizioterapiePhotos/diathermy-therapy/diathermy1.jpeg"
             alt=""
             className="rounded-lg mb-2"
           />
-          <p className="py-2">
-            Proven therapy and state of the art as well – Diathermy is easy to
-            use and comfortable for patients. Diathermy Therapy is determined
-            for the support of healing processes in the tissue. Several modes of
-            action are used here:
-          </p>
+          <p className="py-2">{t("cards.card5.h2")}</p>
           <ul className="list-disc ml-6 mb-4">
-            <li> Pain relief</li>
-            <li> Muscle relaxation</li>
-            <li>Improvement in function</li>
-            <li>Increase in mobility</li>
-            <li>Stimulation of blood circulation </li>
+            <li> {t("cards.card5.li1")}</li>
+            <li> {t("cards.card5.li2")}</li>
+            <li>{t("cards.card5.li3")}</li>
+            <li>{t("cards.card5.li4")}</li>
+            <li>{t("cards.card5.li5")} </li>
           </ul>
         </div>
       </div>
