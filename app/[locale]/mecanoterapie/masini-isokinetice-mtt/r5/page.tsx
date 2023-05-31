@@ -4,7 +4,7 @@ export default function R18() {
   return (
     <div className="flex flex-col items-center my-4 text-gray600 font-medium w-full">
       <header className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-blue700 text-3xl font-bold">
             R5 Maşină Isokinetică pentru ridicarea / coborârea centurii
             scapulohumerale
@@ -21,7 +21,7 @@ export default function R18() {
               width={380}
               className="rounded-lg"
             />
-            <div className="sm:ml-16">
+            <div className="sm:ml-16 mt-8 sm:mt-0">
               <h2 className="font-semibold">DIMENSIUNE SETARE PASIVĂ:</h2>
               <p className="font-light">200 X 1130 X 196 CM</p>
               <h2 className="font-semibold">DIMENSIUNE SETARE ACTIVĂ:</h2>

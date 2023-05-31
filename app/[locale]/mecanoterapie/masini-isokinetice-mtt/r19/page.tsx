@@ -4,7 +4,7 @@ export default function R18() {
   return (
     <div className="flex flex-col items-center my-4 text-gray600 font-medium w-full">
       <header className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-blue700 text-3xl font-bold">
             R19 Maşină isokinetică pentru umăr /Flexia/Extensia umarului
           </h1>
@@ -20,7 +20,7 @@ export default function R18() {
               width={380}
               className="rounded-lg"
             />
-            <div className="sm:ml-16">
+            <div className="sm:ml-16 mt-8 sm:mt-0">
               <h2 className="font-semibold">DIMENSIUNE:</h2>
               <p className="font-light">120 X 130 X 205 CM</p>
 

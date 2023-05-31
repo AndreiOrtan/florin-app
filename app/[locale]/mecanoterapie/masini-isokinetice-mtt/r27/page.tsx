@@ -1,12 +1,15 @@
+"use client";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function R18() {
+  const t = useTranslations("mecanoterapie");
   return (
     <div className="flex flex-col items-center my-4 text-gray600 font-medium w-full">
       <header className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-blue700 text-3xl font-bold">
-            R27 Maşină Isokinetică pentru şold
+            {t("masiniIso.card8.h")}
           </h1>
         </div>
       </header>
@@ -20,7 +23,7 @@ export default function R18() {
               width={380}
               className="rounded-lg"
             />
-            <div className="sm:ml-16">
+            <div className="sm:ml-16 mt-8 sm:mt-0">
               <h2 className="font-semibold">DIMENSIUNE SETARE PASIVĂ:</h2>
               <p className="font-light">120 X 160 X 196 CM</p>
               <h2 className="font-semibold">DIMENSIUNE SETARE ACTIVĂ:</h2>
@@ -37,11 +40,9 @@ export default function R18() {
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-medium mb-4">Descriere</h1>
-          <h1 className="font-medium mb-2">ȘOLD</h1>
-          <h1 className="font-medium mb-2">
-            FLEXIA / EXTENSIA CU GENUNCHIUL EXTINS
-          </h1>
-          <h1 className="font-medium mb-2">ABDUCȚIA / ADDUCȚIA ȘOLDULUI</h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card8.p1")}</h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card8.p2")}</h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card8.p3")}</h1>
         </div>
       </div>
 
@@ -54,12 +55,8 @@ export default function R18() {
                 <span className="font-light">ILIOPSOAS.</span>
               </p>
               <p>
-                MUŞCHI ACCESORI::{" "}
-                <span className="font-light">
-                  DREPTUL ANTERIOR, CROITORUL, TENSORUL FASCIEI LATĂ, PECTINEUL,
-                  ADDUCTORII (FIBRELE OBLICE), FLECTEAZĂ COAPSA PÂNĂ LA
-                  ORIZONTALĂ.
-                </span>
+                MUŞCHI ACCESORI:{" "}
+                <span className="font-light">{t("masiniIso.card8.p4")}</span>
               </p>
             </div>
             <Image
@@ -85,7 +82,7 @@ export default function R18() {
                   width={150}
                   className="rounded-lg mx-auto py-4"
                 />
-                <p className="font-bold">Abducția / Adducția șoldului</p>
+                <p className="font-bold">{t("masiniIso.card8.p5")}</p>
               </div>
               <div className="text-center">
                 <Image
@@ -95,9 +92,7 @@ export default function R18() {
                   width={120}
                   className="rounded-lg mx-auto py-4"
                 />
-                <p className="font-bold">
-                  Flexia șoldului cu genunchiul extins
-                </p>
+                <p className="font-bold">{t("masiniIso.card8.p6")}</p>
               </div>
               <div className="text-center">
                 <Image
@@ -107,9 +102,7 @@ export default function R18() {
                   width={150}
                   className="rounded-lg mx-auto py-4"
                 />
-                <p className="font-bold">
-                  Extensia șoldului cu genunchiul extins
-                </p>
+                <p className="font-bold">{t("masiniIso.card8.p7")}</p>
               </div>
               <div className="text-center">
                 <Image
@@ -119,30 +112,14 @@ export default function R18() {
                   width={150}
                   className="rounded-lg mx-auto py-4"
                 />
-                <p className="font-bold">
-                  Extensia șoldului cu genunchiul flexat
-                </p>
+                <p className="font-bold">{t("masiniIso.card8.p8")}</p>
               </div>
             </div>
             <div>
-              <p className="py-1">
-                Această mașină isokinetică, cu acționare din picioare, permite
-                mai multe opțiuni de exerciţii.
-              </p>
-              <p className="py-1">
-                Dacă ne poziționăm cu fața la brațul pârghiei mașinii, se
-                accentuează părțile ventrale (din față) ale feselor și ale
-                mușchilor adductori.
-              </p>
-              <p className="py-1">
-                Dacă ne poziționăm cu fața la brațul pârghiei mașinii, se
-                accentuează părțile ventrale (din față) ale feselor și ale
-                mușchilor adductori.
-              </p>
-              <p className="py-1">
-                Dacă ne poziționăm în partea laterală a brațului pârghiei, se
-                practică flexia sau extensia șoldului în funcție de setare.
-              </p>
+              <p className="py-1">{t("masiniIso.card8.p9")}</p>
+              <p className="py-1">{t("masiniIso.card8.p10")}</p>
+
+              <p className="py-1">{t("masiniIso.card8.p12")}</p>
             </div>
           </div>
         </div>

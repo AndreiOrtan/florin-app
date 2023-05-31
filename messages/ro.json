@@ -13,6 +13,17 @@
     "label": "Schimba limba",
     "locale": "{locale, select, ro {Romana} en {Engleza} other {Necunoscut}}"
   },
+  "contactForm": {
+    "header": "Contactează-ne!",
+    "email": "Adresă de email",
+    "firstName": "Prenume",
+    "lastName": "Nume",
+    "phoneNumber": "Număr de telefon",
+    "company": "Companie",
+    "message": "Mesajul tău",
+    "messPlaceHolder": "Lasă un mesaj...",
+    "submit": "Trimite"
+  },
   "physiotherapy": {
     "mainHeader": "Echipament Fizioterapie",
     "cards": {
@@ -421,7 +432,8 @@
     "p3": "Zimmer MedizinSysteme lucrează consecvent pentru avansarea acestor procese și stabilirea de noi metode de terapie fizică."
   },
   "aquatizer": {
-    "p1": "Seria „Aquatizer QZ” furnizată de Minato Medical Science, care a oferit întotdeauna dispozitive avansate cu concepte originale de design în domeniul patului de masaj cu jet hidro uscat. Utilizând aceste rezultate și tehnologie, am creat noul pat de masaj cu jet hidro uscat. Acesta este „QZ-240”, în care funcții avansate, cum ar fi 4 duze, perne cu aer pentru picioare și o funcție automată de reglare a înălțimii, au fost adăugate la un design futurist. Aici veți găsi un pat de masaj cu jet hidro uscat cu cel mai evoluat simț al tratamentului, confort și operabilitate.",
+    "p1": "Seria",
+    "p1Rest": "furnizată de Minato Medical Science, care a oferit întotdeauna dispozitive avansate cu concepte originale de design în domeniul patului de masaj cu jet hidro uscat. Utilizând aceste rezultate și tehnologie, am creat noul pat de masaj cu jet hidro uscat. Acesta este „QZ-240”, în care funcții avansate, cum ar fi 4 duze, perne cu aer pentru picioare și o funcție automată de reglare a înălțimii, au fost adăugate la un design futurist. Aici veți găsi un pat de masaj cu jet hidro uscat cu cel mai evoluat simț al tratamentului, confort și operabilitate.",
     "p2": "De la acea dată, lucrăm continuu pentru a dezvolta în continuare această formă de terapie și dispozitivele - împreună cu experți din domeniul cercetării și aplicării. Ca rezultat, stabilim mereu noi standarde, fie în privința puterii și lungimii de undă, a siguranței în utilizare, fie a simplității de operare.",
     "p3": "Cu peste 20 de ani de experiență și peste 10.000 de sisteme vândute în întreaga lume, Zimmer MedizinSysteme este unul dintre principalii furnizori de astăzi. Spitalele, fizioterapeuții și medicii din întreaga lume folosesc în fiecare zi laserele noastre Opton de înaltă energie și se bazează pe efectul lor terapeutic.",
     "p4": "Caracteristici",
@@ -489,5 +501,204 @@
     "p66": "Gama diversă de variații de tratament și moduri de masaj ale QZ-240 pot fi setate simplu de pe panoul de operare cu afișaj LED. Timpul de tratament, programul și intensitatea de masaj pot fi setate în detaliu doar prin atingerea panoului. Acest lucru permite furnizarea de masaje optimizate pentru a se potrivi condițiilor respective ale pacienților într-un mod lin. În plus, panoul de operare este la o înălțime la care poate fi utilizat în timp ce stă în picioare, iar unghiul poate fi ajustat liber în 360° în funcție de locația instalată.",
     "p67": "Funcția de temporizare pentru a preîncălzi în funcție de ora de începere a tratamentului",
     "p68": "Dacă ora de începere a tratamentului este setată pentru fiecare zi, funcția de preîncălzire va funcționa în conformitate cu acea oră și va fi în modul de așteptare, într-o stare instantaneu utilizabilă când începe tratamentul. Timpul nu este pierdut ajustând temperatura."
+  },
+  "mecanoterapie": {
+    "card1Description": "Masini Isokinetice",
+    "card2Description": "Dinamometre Isokinetice",
+    "masiniIso": {
+      "card1": {
+        "h": "R18 Maşină isokinetică pentru coloana toracică",
+        "li1": "Extensia trunchiului",
+        "p1": "Descriere",
+        "p2": "COLOANA DORSO – LOMBARĂ",
+        "p3": "FLEXIA / EXTENSIA COLOANEI CERVICALE",
+        "p4": "MUŞCHIUL ERECTOR (M ILEOCOSTAL+ M. LONGISSIMUS) MUŞCHIUL SPLENIUS CERVICIS ŞI SPLENIUS CAPITIS",
+        "p5": "MUŞCHII INTERSPINALES, MUŞCHII INTERTRANSVERSARII",
+        "p6": "O construcție complet nouă care provoacă o tensiune de bază a mușchilor spatelui prin poziția de plecare. În această poziție pacientul e aşezat cu partea superioară a corpului aplecată ceea ce duce la autostabilizarea imediată a regiunii lombare inferioare.",
+        "p7": "Ceea ce este complet nou este faptul că această poziție de pornire permite exersarea asistată pe maşina isokinetică în poziție verticală și, astfel, pentru prima dată împotriva gravitației."
+      },
+      "card2": {
+        "h": "R31 Maşină isokinetică pentru coloana toracică",
+        "li1": "Flexia trunchiului",
+        "p1": "Descriere",
+        "p2": "FLEXIA TRUNCHIULUI",
+        "p3": "DREPŢII ABDOMINALI, TRANSVERSUL",
+        "p4": "OBLICII ABDOMINALI",
+        "p5": "Această mașină isokinetică le permite chiar și pacienților cu probleme la coloana cervicală să lucreze mușchii abdominali fără niciun risc deoarece capul este bine sprijinit de pernă pe toată durata mișcării.",
+        "p6": "Mușchii abdomenului inferior și superior, drepţii abdominali, transversul și oblicii abdominali pot fi lucrați la un nivel de precizie fără precedent."
+      },
+      "card3": {
+        "h": "R17 Maşină isokinetică pentru coloana toracică",
+        "li1": "Înclinarea trunchiului",
+        "p1": "Descriere",
+        "p2": "COLOANA DORSO – LOMBARĂ",
+        "p3": "ÎNCLINAREA TRUNCHIULUI",
+        "p4": "OBLICII INTERNI ŞI EXTERNI ABDOMINALI",
+        "p5": "DREPŢII ABDOMINALI",
+        "p6": "Înălțimea scaunului și dimensiunile suportului din spate pot fi reglate independent compensând astfel diferențele de norme antropometrice în ceea ce privește dimensiunea corpului și lungimea picioarelor.",
+        "p7": "Conform ultimelor măsurători, poziția de pornire este mai sigură ca niciodată, deoarece nu se plasează o sarcină mai mare pe discurile intervertebrale decât pe picioare.",
+        "p8": "Mașina isokinetică este ușor de folosit de către pacienți. Reglajele de control permit pacientului să își găsească singur manetele de ajustare."
+      },
+      "card4": {
+        "h": "R14 Maşină isokinetică pentru coloana lombară",
+        "li1": "Extensia trunchiului",
+        "p1": "Descriere",
+        "p2": "COLOANA DORSO – LOMBARĂ",
+        "p3": "EXTENSIA TRUNCHIULUI",
+        "p4": "PARAVERTEBRALII DIN SEGMENTUL TORACIC ŞI LOMBAR, MARELE DORSAL.",
+        "p5": "Această mașină isokinetică este creată pentru imobilizarea segmentară a coloanei dorso-lombare permițând astfel atât tratarea mușchilor abdominali cât și a mușchilor spatelui.",
+        "p6": "Mașina isokinetică poate fi ajustată oricărei dimensiuni corporale.",
+        "p7": "Coloana dorso-lombară este imobilizată în poziția culcat astfel se asigură o poziție optimă de pornire a exercițiului."
+      },
+      "card5": {
+        "h": "R10 Maşină isokinetică pentru coloana sacrală",
+        "li1": "Extensia trunchiului – mişcare complexă",
+        "p1": "Descriere",
+        "p2": "COLOANA DORSO – LOMBARĂ",
+        "p3": "EXTENSIA TRUNCHIULUI – MIȘCARE COMPLEXĂ",
+        "p4": "PARAVERTEBRALII DIN SEGMENTUL TORACIC ȘI LOMBAR, MARELE DORSAL.",
+        "p5": "PERONIER SCURT, PERONIER LUNG, EXTENSOR LUNG AL DEGETELOR.",
+        "p6": "Maşina isokinetică permite exerciţiul de extensie complexă pentru: coloana vertebrală în cele 3 secțiuni ale sale (coloană cervicală, toracică și lombară) și articulațiile membrelor inferioare.",
+        "p7": "Procedura complexă de extensie a coloanei vertebrale și mișcarea în combinație cu membrele inferioare, maşina isokinetică este unică în această configurație.",
+        "p8": "Complet nou – este fixarea dorsală a articulației genunchiului pe toată durata efectuării mişcării."
+      },
+      "card6": {
+        "h": "R7 Maşină isokinetică pentru coloana toracică",
+        "li1": "Rotaţia trunchiului",
+        "p1": "Descriere",
+        "p2": "COLOANA DORSO – LOMBARĂ",
+        "p3": "ROTAȚIA TRUNCHIULUI",
+        "p4": "OBLICII INTERNI ȘI EXTERNI ABDOMINALI",
+        "p5": "Funcția specială a acestei mașini isokinetice este tratarea mușchilor profunzi ai spatelui (mușchii statici).",
+        "p6": "Până în prezent știința nu a determinat geneza durerilor de spate în toată diversitatea și manifestarea lor. Cauzele sunt diverse și variază de la o boală genetică până la leziuni traumatice.",
+        "p7": "Deși exercițiile unidimensionale izolate ale mușchilor spatelui duc la o îmbunătățire musculară pe direcțiile de flexie și extensie, siguranța articulațiilor coloanei vertebrale este determinată în mare măsură de stabilizarea tridimensională (flexie, extensie, rotație) a acestora."
+      },
+      "card7": {
+        "h": "R3 Maşină isokinetică pentru şold",
+        "li1": "Flexia / Extensia şolduluisd",
+        "p1": "ȘOLD",
+        "p2": "FLEXIA / EXTENSIA ȘOLDULUI",
+        "p3": "ILIOPSOAS",
+        "p4": "DREPTUL ANTERIOR, CROITORUL, TENSORUL FASCIEI LATĂ, PECTINEUL, ADDUCTORII (FIBRELE OBLICE), FLECTEAZĂ COAPSA PÂNĂ LA ORIZONTALĂ",
+        "p5": "Flexia șoldului",
+        "p6": "Extensia șoldului",
+        "p7": "Extensia șoldului",
+        "p8": "Extensia șoldului se poate face cu unul sau ambele picioare. Această mișcare de extensie antrenează mușchiul iliopsoas și, în funcție de poziția genunchiului, accentuează mușchii spatelui.",
+        "p9": "Mișcarea poate fi realizată bilateral sau unilateral.",
+        "p10": "Într-o versiune bilaterală (ambele picioare se mișcă în extensia șoldului), o tensiune musculară pronunțată a spatelui se dezvoltă până la tranziția toraco-lombară (tranziție de la torace la coloana lombară)."
+      },
+      "card8": {
+        "h": "R27 Maşină isokinetică pentru şold",
+        "li1": "Flexia / Extensia cu genunchiul extins",
+        "li2": "Abducţia /Adducţia şoldului",
+        "p1": "ȘOLD",
+        "p2": "FLEXIA / EXTENSIA CU GENUNCHIUL EXTINS",
+        "p3": "ABDUCȚIA / ADDUCȚIA ȘOLDULUI",
+        "p4": "DREPTUL ANTERIOR, CROITORUL, TENSORUL FASCIEI LATĂ, PECTINEUL, ADDUCTORII (FIBRELE OBLICE), FLECTEAZĂ COAPSA PÂNĂ LA ORIZONTALĂ.",
+        "p5": "Abducția / Adducția șoldului",
+        "p6": "Flexia șoldului cu genunchiul extins",
+        "p7": "Extensia șoldului cu genunchiul extins",
+        "p8": "Extensia șoldului cu genunchiul flexat",
+        "p9": "Această mașină isokinetică, cu acționare din picioare, permite mai multe opțiuni de exerciții.",
+        "p10": "Dacă ne poziționăm cu fața la brațul pârghiei mașinii, se accentuează părțile ventrale (din față) ale feselor și ale mușchilor adductori.",
+        "p11": "Dacă ne poziționăm cu fața la brațul pârghiei mașinii, se accentuează părțile ventrale (din față) ale feselor și ale mușchilor adductori.",
+        "p12": "Dacă ne poziționăm în partea laterală a brațului pârghiei, se practică flexia sau extensia șoldului în funcție de setare."
+      },
+      "card9": {
+        "h": "R11 Maşină isokinetică pentru şold",
+        "li1": "Abducţia / Adducţia şoldului",
+        "li2": "Rotaţia internă / Externă a şoldului",
+        "p1": "ȘOLD",
+        "p2": "ABDUCŢIA / ADDUCŢIA ŞOLDULUI ROTAŢIA INTERNĂ / EXTERNĂ A ŞOLDULUI",
+        "p3": "ILIOPSOAS, ADDUCTORUL LUNG, ADDUCTORUL SCURT, ADDUCTORUL MARE/OBTURATOR EXTERN, OBTURATOR INTERN, PĂTRAT FEMURAL, PIRIFORM, GEMEN SUPERIOR, GEMEN INFERIOR, FESIER MARE.",
+        "p4": "BICEPS FEMURAL ŞI CROITOR, SEMITENDINOS, SEMIMEMBRANOS.",
+        "p5": "Adducţia/Rotaţia internă şoldului",
+        "p6": "Abducţia/Rotaţia externa şoldului",
+        "p7": "Spătarul poate fi reglat de la poziția culcat la poziția de șezut.",
+        "p8": "Mașina isokinetică funcționează cu brațele independent unul față de celălalt și promovează în mod optim secvența coordonatoare a mișcărilor.",
+        "p9": "Pentru îmbunătățirea dezechilibrului muscular, exerciţiul se poate realiza şi cu un singur picior (membru inferior).",
+        "p10": "Datorită ajustării variabile, atât mușchii cu aducție scurtă, cât și mușchii cu aducție lungă pot fi abordați."
+      },
+      "card10": {
+        "h": " R16 Maşină isokinetică pentru genunchi",
+        "li1": "Flexia/Extensia genunchiului",
+        "p1": "ȘOLD",
+        "p2": "Flexia/ Extensia genunchiului",
+        "p3": "FLEXIA",
+        "p4": "BICEPS FEMURAL, SEMITENDINOS, SEMIMEMBRANOS.",
+        "p5": "POPLITEUS, SARTORIUS, GASTROCNEMIUS",
+        "p6": "EXTENSIA",
+        "p7": "QUADRICEPS (RECTUS FEMORIS (ANTERIOR), VASTUS INTERNUS, VASTUS LATERALIS, VASTUS MEDIALIS)",
+        "p8": "TENSOR FASCIAE LATAE",
+        "p9": "Flexia genunchiului",
+        "p10": "Extensia genunchiului",
+        "p11": "This exercise primarily targets knee extension.",
+        "p12": "The isokinetic machine has a gradual adjustment of the starting angle in the exercise. The seated position can be easily and precisely adjusted to fit the body dimensions.",
+        "p13": "The range of motion can be limited to concentric and eccentric movements.",
+        "p14": "Without changing the seated position, the isokinetic machine can switch its function (flexion/extension) by simply moving the actuator arm."
+      },
+      "card11": {
+        "h": "R6SL Maşină isokinetică multifuncţională pentru picioare",
+        "li1": "Mişcare complexă gleznă – genunchi – şold",
+        "p1": "GLEZNA, PICIORUL",
+        "p2": "FLEXIA / EXTENSIA / EVERSIA / INVERSIA GLEZNEI, PICIORULUI",
+        "p3": "PERONIER SCURT, PERONIER LUNG",
+        "p4": "EXTENSOR LUNG AL DEGETELOR",
+        "p5": "Exercițiile se pot face din poziția culcat sau din șezut.",
+        "p6": "Prin reglarea plăcuței, a accesoriilor, a limitatoarelor de mișcare și a înălțimii spătarului, se pot efectua o multitudine de exerciții funcționale pentru membrele inferioare.",
+        "p7": "Marea varietate a acestor exerciții pot fi abordate nu numai în funcție de sfera de aplicare, ci și în funcție de dificultatea de coordonare.",
+        "p8": "Este o mașină care are o gamă foarte largă de exerciții."
+      },
+      "card12": {
+        "h": "R12e Scripete dublu pentru membrele superioare şi inferioare",
+        "li1": "Flexia/Extensia, Abducția/Adducția, Rotația externă/internă",
+        "li2": "Ridicarea/Coborarea, Abducția/Adducția scapulei",
+        "li3": "Supinația/Pronația antebratului",
+        "li4": "Flexia cotului",
+        "li5": "Flexia/Extensia, Abductia/Adductia pumnului",
+        "p1": "UMĂR",
+        "p2": "FLEXIA COTULUI",
+        "p3": "FLEXIA / EXTENSIA ABDUCŢIA / ADDUCŢIA PUMNULUI",
+        "p4": "DELTOID ANTERIOR, CORACOBRAHIAL, BICEPS BRAHIAL (CAPUL LUNG).",
+        "p5": "TRAPEZ SUPERIOR",
+        "p6": "Diversitatea opțiunilor de exerciții este atât de mare încât o descriere detaliată a tuturor acestora ar fi prea vastă.",
+        "p7": "Toate articulațiile mari ale corpului pot fi lucrate individual sau în lanț fiziologic funcțional cu această mașină isokinetică.",
+        "p8": "Gama de poziții de pornire include toate pozițiile imaginabile, poziția supină, poziția predispusă (cu bancă suplimentară), poziția laterală etc."
+      },
+      "card13": {
+        "h": "R32 Maşină isokinetică pentru coloana cervicală",
+        "li1": "Flexia / Extensia / Inclinarea capului şi gâtului",
+        "p1": "COLOANA CERVICALĂ",
+        "p2": "FLEXIA / EXTENSIA / ÎNCLINAREA CAPULUI ȘI GÂTULUI",
+        "p3": "STERNOCLEIDOMASTOIDIAN, SCALENI",
+        "p4": "LUNGUL GÂTULUI",
+        "p5": "Această mașină isokinetică inovatoare face mușchii din zona coloanei cervicale, foarte greu de lucrat, accesibili tratamentului. Aceasta poate fi folosită pe tot parcursul procesului de reabilitare, încă din faza incipientă.",
+        "p6": "Axa de mișcare a mașinii poate fi reglată la regiunea dorită a coloanei vertebrale cervicale. Limitatoarele de mișcare permit izolarea tuturor celor 4 direcții de mișcare (extensie, flexie, înclinare stânga/ dreapta).",
+        "p7": "Rezistența poate fi setată separat pentru fiecare direcție."
+      },
+      "card14": {
+        "h": "R8 Maşină isokinetică butterfly cu funcţie dublă",
+        "li1": "Abducția/Adducția orizontală a umărului",
+        "li2": "Rotația externă/internă a umărului"
+      },
+      "card15": {
+        "h": "R5 Maşină isokinetică pentru centura scapulo-humerală",
+        "li1": "Ridicarea/Coborârea scapulei"
+      },
+      "card16": {
+        "h": "R19 Maşină isokinetică pentru umăr",
+        "li1": "Flexia / Extensia umărului"
+      },
+      "card17": {
+        "h": "R2000 Bancă pentru exerciţii divizată în trei părţi"
+      },
+      "card18": {
+        "h": "R1000 Masă inclinată kinetoterapie divizată în două părţi"
+      },
+      "card19": {
+        "h": "RR28 - 28 de Proceduri într-un singur dispozitiv cu acţionare din scaunul cu rotile"
+      }
+    },
+    "card2": {}
   }
 }

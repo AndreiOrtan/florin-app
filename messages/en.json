@@ -18,6 +18,18 @@
 
   "common": "",
 
+  "contactForm": {
+    "header": "Get in touch with us!",
+    "email": "Email address",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phoneNumber": "Phone number",
+    "company": "Company",
+    "message": "Your message",
+    "messPlaceHolder": "Leave a message...",
+    "submit": "Submit"
+  },
+
   "physiotherapy": {
     "mainHeader": "Physiotherapy Equipment",
     "cards": {
@@ -433,7 +445,8 @@
     "p3": "Zimmer MedizinSysteme consistently works on further advancing these processes and establishing new methods of physical therapy."
   },
   "aquatizer": {
-    "p1": "The “Aquatizer QZ series” provided by Minato Medical Science who have always provided advanced devices with original design concepts in the dry hydro jet massage bed field. Using these results and technology, we have created the new dry hydro jet massage bed. This is the \"QZ-240\", in which advanced functions, such as 4 nozzles, foot airbags and an automatic height setting function, have been added to a futuristic design. You can find here a dry hydro jet massage bed with the most highly evolved sense of treatment, comfort and operability.",
+    "p1": "The",
+    "p1Rest": "series provided by Minato Medical Science who have always provided advanced devices with original design concepts in the dry hydro jet massage bed field. Using these results and technology, we have created the new dry hydro jet massage bed. This is the \"QZ-240\", in which advanced functions, such as 4 nozzles, foot airbags and an automatic height setting function, have been added to a futuristic design. You can find here a dry hydro jet massage bed with the most highly evolved sense of treatment, comfort and operability.",
     "p2": "Since that time, we have been working continuously to further develop this form of therapy and the devices – together with experts from research and application. As a result, we set new standards again and again, whether in output and wavelength, in safety during use, or in simplicity of operation.",
     "p3": "With over 20 years of experience and more than 10,000 systems sold worldwide, Zimmer MedizinSysteme is one of today’s leading providers. Hospitals, physiotherapists and physicians throughout the world use our high-energy Opton lasers every day and rely on their therapeutic effect.",
     "p4": "Characteristics",
@@ -501,5 +514,204 @@
     "p66": "The diverse range of treatment variations and massage modes of the QZ-240 can be set simply from the operating panel with the LED display. The treatment time, program, and massage intensity can be set in detail simply by touching the panel. This enables the provision of massages optimized to suit the respective conditions of the patients in a smooth way. In addition, the operating panel is at a height where it can be used while standing, and the angle can be adjusted freely within 360° in accordance with the installed location.",
     "p67": "Timer function to preheat in line with the treatment start time",
     "p68": "If the treatment start time is set for each day, the preheat function will operate in accordance with that time, and it will be in standby, in an instantly usable state when treatment begins. Time is not taken up adjusting the temperature."
-  }
+  },
+  "mecanoterapie": {
+    "card1Description": "Isokinetic Machines",
+    "card2Description": "Isokinetic Dynamometers",
+    "masiniIso": {
+      "card1": {
+        "h": "R18 Isokinetic Machine for the Thoracic Spine",
+        "li1": "Trunk Extension",
+        "p1": "Description",
+        "p2": "DORSO-LUMBAR COLUMN",
+        "p3": "FLEXION / EXTENSION OF THE CERVICAL SPINE",
+        "p4": "ERECTOR SPINAE MUSCLE (ILEOCOSTAL MUSCLE + LONGISSIMUS MUSCLE), SPLENIUS CERVICIS MUSCLE, AND SPLENIUS CAPITIS MUSCLE",
+        "p5": "INTERSPINAL MUSCLES, INTERTRANSVERSARIUS MUSCLES",
+        "p6": "A completely new construction that provokes a baseline tension of the back muscles through the starting position. In this position, the patient is positioned with the upper part of the body bent, which immediately leads to self-stabilization of the lower lumbar region.",
+        "p7": "What is completely new is the fact that this starting position allows for assisted exercise on the isokinetic machine in a vertical position and, thus, for the first time against gravity."
+      },
+      "card2": {
+        "h": "R31 Isokinetic Machine for the Thoracic Spine",
+        "li1": "Trunk Flexion",
+        "p1": "Description",
+        "p2": "TRUNK FLEXION",
+        "p3": "RECTUS ABDOMINIS, TRANSVERSUS",
+        "p4": "OBLIQUE ABDOMINALS",
+        "p5": "This isokinetic machine allows even patients with cervical spine problems to work their abdominal muscles without any risk because the head is well supported by a pillow throughout the movement.",
+        "p6": "The lower and upper abdominal muscles, rectus abdominis, transversus, and oblique abdominal muscles can be worked with an unprecedented level of precision."
+      },
+      "card3": {
+        "h": "R17 Isokinetic Machine for the Thoracic Spine",
+        "li1": "Trunk Inclination",
+        "p1": "Description",
+        "p2": "DORSO-LUMBAR COLUMN",
+        "p3": "TRUNK INCLINATION",
+        "p4": "INTERNAL AND EXTERNAL OBLIQUE ABDOMINALS",
+        "p5": "RECTUS ABDOMINIS",
+        "p6": "The height of the seat and the dimensions of the back support can be independently adjusted, compensating for differences in anthropometric norms regarding body size and leg length.",
+        "p7": "According to the latest measurements, the starting position is safer than ever because there is no greater load placed on the intervertebral discs than on the legs.",
+        "p8": "The isokinetic machine is easy for patients to use. The control adjustments allow the patient to find the adjustment levers on their own."
+      },
+      "card4": {
+        "h": "R14 Isokinetic Machine for the Lumbar Spine",
+        "li1": "Trunk Extension",
+        "p1": "Description",
+        "p2": "DORSO-LUMBAR COLUMN",
+        "p3": "TRUNK EXTENSION",
+        "p4": "THORACIC AND LUMBAR PARAVERTEBRALS, LATISSIMUS DORSI.",
+        "p5": "This isokinetic machine is designed for segmental immobilization of the dorso-lumbar spine, allowing for the treatment of both abdominal and back muscles.",
+        "p6": "The isokinetic machine can be adjusted to any body size.",
+        "p7": "The dorso-lumbar spine is immobilized in a lying position, ensuring an optimal starting position for the exercise."
+      },
+      "card5": {
+        "h": "R10 Isokinetic Machine for the Sacral Spine",
+        "li1": "Trunk Extension - Complex Movement",
+        "p1": "Description",
+        "p2": "DORSO-LUMBAR COLUMN",
+        "p3": "TRUNK EXTENSION - COMPLEX MOVEMENT",
+        "p4": "THORACIC AND LUMBAR PARAVERTEBRALS, LATISSIMUS DORSI.",
+        "p5": "SHORT PERONEUS, LONG PERONEUS, LONG EXTENSOR OF THE TOES.",
+        "p6": "The isokinetic machine allows for complex extension exercise for the vertebral column in its 3 sections (cervical, thoracic, and lumbar spine) and the joints of the lower limbs.",
+        "p7": "The complex procedure of spinal extension and movement in combination with the lower limbs makes the isokinetic machine unique in this configuration.",
+        "p8": "Completely new - it is the dorsal fixation of the knee joint throughout the movement."
+      },
+      "card6": {
+        "h": "R7 Isokinetic Machine for the Thoracic Spine",
+        "li1": "Trunk Rotation",
+        "p1": "Description",
+        "p2": "DORSO-LUMBAR COLUMN",
+        "p3": "TRUNK ROTATION",
+        "p4": "INTERNAL AND EXTERNAL ABDOMINAL OBLIQUES",
+        "p5": "The special function of this isokinetic machine is the treatment of deep back muscles (static muscles).",
+        "p6": "Until now, science has not determined the genesis of back pain in all its diversity and manifestations. The causes are diverse, ranging from genetic diseases to traumatic injuries.",
+        "p7": "Although isolated one-dimensional exercises of the back muscles lead to muscular improvement in flexion and extension directions, the safety of the spinal joints is largely determined by their three-dimensional stabilization (flexion, extension, rotation)."
+      },
+      "card7": {
+        "h": "R3 Isokinetic Machine for the Hip",
+        "li1": "Hip Flexion / Extension",
+        "p1": "HIP",
+        "p2": "HIP FLEXION / EXTENSION",
+        "p3": "ILIOPSOAS",
+        "p4": "RECTUS FEMORIS, SARTORIUS, TENSOR FASCIAE LATAE, PECTINEUS, ADDUCTORS (OBLIQUE FIBERS), FLEXES THE THIGH TO HORIZONTAL",
+        "p5": "Hip flexion",
+        "p6": "Hip extension",
+        "p7": "Hip extension",
+        "p8": "Hip extension can be done with one or both legs. This extension movement engages the iliopsoas muscle and, depending on the position of the knee, emphasizes the back muscles.",
+        "p9": "The movement can be performed bilaterally or unilaterally.",
+        "p10": "In a bilateral version (both legs moving in hip extension), a pronounced muscular tension develops in the back up to the thoracolumbar transition (transition from thorax to lumbar spine)."
+      },
+      "card8": {
+        "h": "R27 Isokinetic Machine for the Hip",
+        "li1": "Hip Flexion / Extension with Extended Knee",
+        "li2": "Hip Abduction / Adduction",
+        "p1": "HIP",
+        "p2": "HIP FLEXION / EXTENSION WITH KNEE EXTENDED",
+        "p3": "HIP ABDUCTION / ADDUCTION",
+        "p4": "RECTUS FEMORIS, SARTORIUS, TENSOR FASCIAE LATAE, PECTINEUS, ADDUCTORS (OBLIQUE FIBERS), FLEXES THE THIGH TO HORIZONTAL",
+        "p5": "Hip abduction / adduction",
+        "p6": "Hip flexion with knee extended",
+        "p7": "Hip extension with knee extended",
+        "p8": "Hip extension with knee flexed",
+        "p9": "This isokinetic machine, operated from the foot, allows for multiple exercise options.",
+        "p10": "If we position ourselves facing the lever arm of the machine, it emphasizes the ventral (frontal) parts of the buttocks and adductor muscles.",
+        "p11": "If we position ourselves facing the lever arm of the machine, it emphasizes the ventral (frontal) parts of the buttocks and adductor muscles.",
+        "p12": "If we position ourselves on the side of the lever arm, hip flexion or extension can be performed depending on the settings."
+      },
+      "card9": {
+        "h": "R11 Isokinetic Machine for the Hip",
+        "li1": "Hip Abduction / Adduction",
+        "li2": "Hip Internal / External Rotation",
+        "p1": "HIP",
+        "p2": "HIP ABDUCTION / ADDUCTION INTERNAL / EXTERNAL ROTATION OF THE HIP",
+        "p3": "ILIOPSOAS, ADDUCTOR LONGUS, ADDUCTOR BREVIS, ADDUCTOR MAGNUS / EXTERNAL OBTURATOR, INTERNAL OBTURATOR, PIRIFORMIS, SUPERIOR GEMELLUS, INFERIOR GEMELLUS, GLUTEUS MAXIMUS.",
+        "p4": "BICEPS FEMORIS AND SARTORIUS, SEMITENDINOSUS, SEMIMEMBRANOSUS.",
+        "p5": "Adduction/Internal rotation of the hip",
+        "p6": "Abduction/External rotation of the hip",
+        "p7": "The backrest can be adjusted from lying position to sitting position.",
+        "p8": "The isokinetic machine operates with independently moving arms and optimally promotes the coordinated sequence of movements.",
+        "p9": "To improve muscular imbalance, the exercise can also be performed with a single leg (lower limb).",
+        "p10": "Due to the variable adjustment, both muscles with short adduction and muscles with long adduction can be targeted."
+      },
+      "card10": {
+        "h": "R16 Isokinetic Machine for the Knee",
+        "li1": "Knee Flexion / Extension",
+        "p1": "HIP",
+        "p2": "Knee Flexion/Extension",
+        "p3": "FLEXION",
+        "p4": "BICEPS FEMORIS, SEMITENDINOSUS, SEMIMEMBRANOSUS.",
+        "p5": "POPLITEUS, SARTORIUS, GASTROCNEMIUS",
+        "p6": "EXTENSION",
+        "p7": "QUADRICEPS (RECTUS FEMORIS (ANTERIOR), VASTUS INTERNUS, VASTUS LATERALIS, VASTUS MEDIALIS)",
+        "p8": "TENSOR FASCIAE LATAE",
+        "p9": "Knee flexion",
+        "p10": "Knee extension",
+        "p11": "This exercise primarily targets knee extension.",
+        "p12": "The isokinetic machine has a gradual adjustment of the starting angle in the exercise. The seated position can be easily and precisely adjusted to fit the body dimensions.",
+        "p13": "The range of motion can be limited to concentric and eccentric movements.",
+        "p14": "Without changing the seated position, the isokinetic machine can switch its function (flexion/extension) by simply moving the actuator arm."
+      },
+      "card11": {
+        "h": "R6SL Multifunctional Isokinetic Machine for Legs",
+        "li1": "Complex Movement Ankle - Knee - Hip",
+        "p1": "ANKLE, FOOT",
+        "p2": "Ankle/Foot Flexion/Extension/Eversion/Inversion",
+        "p3": "PERONEUS BREVIS, PERONEUS LONGUS",
+        "p4": "EXTENSOR DIGITORUM LONGUS",
+        "p5": "The exercises can be performed lying down or sitting.",
+        "p6": "By adjusting the plate, accessories, motion limiters, and backrest height, a multitude of functional exercises for the lower limbs can be performed.",
+        "p7": "The great variety of these exercises can be approached not only based on the scope but also based on the coordination difficulty.",
+        "p8": "It is a machine that has a wide range of exercises."
+      },
+      "card12": {
+        "h": "R12e Dual Pulley for Upper and Lower Limbs",
+        "li1": "Flexion / Extension, Abduction / Adduction, External / Internal Rotation",
+        "li2": "Elevation / Depression, Scapular Abduction / Adduction",
+        "li3": "Supination / Pronation of Forearm",
+        "li4": "Elbow Flexion",
+        "li5": "Flexion / Extension, Abduction / Adduction of Wrist",
+        "p1": "SHOULDER",
+        "p2": "ELBOW FLEXION",
+        "p3": "WRIST FLEXION/EXTENSION/ABDUCTION/ADDUCTION",
+        "p4": "ANTERIOR DELTOID, CORACOBRACHIALIS, BICEPS BRACHII (LONG HEAD)",
+        "p5": "UPPER TRAPEZIUS",
+        "p6": "The diversity of exercise options is so great that a detailed description of all of them would be too vast.",
+        "p7": "All major joints of the body can be worked individually or in a functional physiological chain with this isokinetic machine.",
+        "p8": "The range of starting positions includes all imaginable positions, supine position, prone position (with additional bench), lateral position, etc."
+      },
+      "card13": {
+        "h": "R32 Isokinetic Machine for the Cervical Spine",
+        "li1": "Head and Neck Flexion / Extension / Inclination",
+        "p1": "CERVICAL SPINE",
+        "p2": "HEAD AND NECK FLEXION/EXTENSION/INCLINATION",
+        "p3": "STERNOCLEIDOMASTOID, SCALENE",
+        "p4": "LONGUS COLLI",
+        "p5": "This innovative isokinetic machine makes the muscles in the cervical spine area, which are very difficult to work, accessible for treatment. It can be used throughout the rehabilitation process, even in the early stages.",
+        "p6": "The axis of movement of the machine can be adjusted to the desired region of the cervical spine. Motion limiters allow for isolation of all 4 directions of movement (extension, flexion, left/right inclination).",
+        "p7": "Resistance can be set separately for each direction."
+      },
+      "card14": {
+        "h": "R8 Isokinetic Butterfly Machine with Dual Function",
+        "li1": "Horizontal Abduction / Adduction of Shoulder",
+        "li2": "External / Internal Rotation of Shoulder"
+      },
+      "card15": {
+        "h": "R5 Isokinetic Machine for the Scapulo-Humeral Belt",
+        "li1": "Elevation / Depression of Scapula"
+      },
+      "card16": {
+        "h": "R19 Isokinetic Machine for the Shoulder",
+        "li1": "Shoulder Flexion / Extension"
+      },
+      "card17": {
+        "h": "R2000 Exercise Bench Divided into Three Parts"
+      },
+      "card18": {
+        "h": "R1000 Inclined Therapy Table Divided into Two Parts"
+      },
+      "card19": {
+        "h": "RR28 - 28 Procedures in a Single Device with Wheelchair Drive"
+      }
+    }
+  },
+  "card2": {}
 }

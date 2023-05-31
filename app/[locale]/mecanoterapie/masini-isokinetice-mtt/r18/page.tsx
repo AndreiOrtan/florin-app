@@ -1,12 +1,15 @@
+"use client";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function R18() {
+  const t = useTranslations("mecanoterapie");
   return (
     <div className="flex flex-col items-center my-4 text-gray600 font-medium w-full">
       <header className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-blue700 text-3xl font-bold">
-            R18 Maşină isokinetică pentru coloana toracică
+            {t("masiniIso.card1.h")}
           </h1>
         </div>
       </header>
@@ -20,7 +23,7 @@ export default function R18() {
               width={380}
               className="rounded-lg"
             />
-            <div className="sm:ml-16">
+            <div className="sm:ml-16 mt-8 sm:mt-0">
               <h2 className="font-semibold">GREUTATE TOTALĂ:</h2>
               <p className="font-light">280kg</p>
               <h2 className="font-semibold">DIMENSIUNE SETARE PASIVĂ:</h2>
@@ -36,11 +39,11 @@ export default function R18() {
 
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
-          <h1 className="text-4xl font-medium mb-4">Descriere</h1>
-          <h1 className="font-medium mb-2">COLOANA DORSO – LOMBARĂ</h1>
-          <h1 className="font-medium mb-2">
-            FLEXIA / EXTENSIA COLOANEI CERVICALE
+          <h1 className="text-4xl font-medium mb-4">
+            {t("masiniIso.card1.p1")}
           </h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card1.p2")}</h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card1.p3")}</h1>
         </div>
       </div>
 
@@ -49,12 +52,12 @@ export default function R18() {
           <div className="flex sm:flex-row flex-col justify-center items-center">
             <div>
               <p>
-                MUŞCHI PRINCIPALI: MUŞCHIUL ERECTOR (M ILEOCOSTAL+ M.
-                LONGISSIMUS) MUŞCHIUL SPLENIUS CERVICIS ŞI SPLENIUS CAPITIS
+                MUŞCHI PRINCIPALI:{" "}
+                <span className="font-light">{t("masiniIso.card1.p4")}</span>
               </p>
               <p>
-                MUŞCHII ACCESORI: MUŞCHII INTERSPINALES, MUŞCHII
-                INTERTRANSVERSARII
+                MUŞCHII ACCESORI:{" "}
+                <span className="font-light"> {t("masiniIso.card1.p5")}</span>
               </p>
             </div>
             <Image
@@ -72,19 +75,8 @@ export default function R18() {
         <div className="w-9/12 mx-auto py-8">
           <div className="flex sm:flex-row flex-col justify-center items-center">
             <div>
-              <p>
-                O construcție complet nouă care provoacă o tensiune de bază a
-                mușchilor spatelui prin poziția de plecare. În această poziție
-                pacientul e aşezat cu partea superioară a corpului aplecata ceea
-                ce duce la autostabilizarea imediată a regiunii lombare
-                inferioare.
-              </p>
-              <p>
-                Ceea ce este complet nou este faptul că această poziție de
-                pornire permite exersarea asistată pe maşinia isokinetică în
-                poziție verticală și, astfel, pentru prima dată împotriva
-                gravitației.
-              </p>
+              <p>{t("masiniIso.card1.p6")}</p>
+              <p>{t("masiniIso.card1.p7")}</p>
             </div>
             <Image
               src="/mecanoterapie/masini-isokinetice/r18/use1.png"

@@ -22,12 +22,12 @@ export default function Nav() {
   return (
     <nav className="bg-lightgray fixed top-0 left-0 right-0 z-50">
       <div className="flex sm:justify-center h-[114px] justify-between">
-        <div className="flex items-center ml-8">
+        <div className="flex items-center ml-8 mt-2">
           <NavigationLink href="/">
             <img
-              src="/logo.png"
+              src="/image00001.png"
               alt="text"
-              className="h-auto w-44 max-w-full"
+              className="h-auto w-[150px] max-w-full"
             />
           </NavigationLink>
         </div>

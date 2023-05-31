@@ -1,12 +1,15 @@
+"use client";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function R18() {
+  const t = useTranslations("mecanoterapie");
   return (
     <div className="flex flex-col items-center my-4 text-gray600 font-medium w-full">
       <header className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-blue700 text-3xl font-bold">
-            R3 Maşină Isokinetică pentru şold
+            {t("masiniIso.card7.h")}
           </h1>
         </div>
       </header>
@@ -20,7 +23,7 @@ export default function R18() {
               width={380}
               className="rounded-lg"
             />
-            <div className="sm:ml-16">
+            <div className="sm:ml-16 mt-8 sm:mt-0">
               <h2 className="font-semibold">DIMENSIUNE SETARE PASIVĂ:</h2>
               <p className="font-light">150 X 90 X 205 CM</p>
               <h2 className="font-semibold">DIMENSIUNE SETARE ACTIVĂ:</h2>
@@ -37,8 +40,8 @@ export default function R18() {
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-medium mb-4">Descriere</h1>
-          <h1 className="font-medium mb-2">ȘOLD</h1>
-          <h1 className="font-medium mb-2">FLEXIA / EXTENSIA ȘOLDULUI</h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card7.p1")}</h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card7.p2")}</h1>
         </div>
       </div>
 
@@ -48,15 +51,11 @@ export default function R18() {
             <div>
               <p>
                 MUŞCHI PRINCIPALI:{" "}
-                <span className="font-light">ILIOPSOAS.</span>
+                <span className="font-light">{t("masiniIso.card7.p3")}</span>
               </p>
               <p>
                 MUŞCHI ACCESORI::{" "}
-                <span className="font-light">
-                  DREPTUL ANTERIOR, CROITORUL, TENSORUL FASCIEI LATĂ, PECTINEUL,
-                  ADDUCTORII (FIBRELE OBLICE), FLECTEAZĂ COAPSA PÂNĂ LA
-                  ORIZONTALĂ
-                </span>
+                <span className="font-light">{t("masiniIso.card7.p4")}</span>
               </p>
             </div>
             <Image
@@ -82,7 +81,7 @@ export default function R18() {
                   width={300}
                   className="rounded-lg my-4"
                 />
-                <p className="font-bold">Flexia șoldului</p>
+                <p className="font-bold">{t("masiniIso.card7.p5")}</p>
               </div>
               <div className="text-center">
                 <Image
@@ -92,7 +91,7 @@ export default function R18() {
                   width={300}
                   className="rounded-lg my-4"
                 />
-                <p className="font-bold">Extensia șoldului</p>
+                <p className="font-bold">{t("masiniIso.card7.p6")}</p>
               </div>
               <div className="text-center">
                 <Image
@@ -102,24 +101,13 @@ export default function R18() {
                   width={300}
                   className="rounded-lg my-4"
                 />
-                <p className="font-bold">Extensia șoldului</p>
+                <p className="font-bold">{t("masiniIso.card7.p7")}</p>
               </div>
             </div>
             <div>
-              <p className="py-1">
-                Extensia șoldului se poate face cu unul sau ambele picioare.
-                Această mișcare de extensie antrenează mușchiul iliopsoas și, în
-                funcție de poziția genunchiului, accentuează mușchii spatelui.
-              </p>
-              <p className="py-1">
-                Mișcarea poate fi realizată bilateral sau unilateral.
-              </p>
-              <p className="py-1">
-                Într-o versiune bilaterală (ambele picioare se mișcă în extensia
-                șoldului), o tensiune musculară pronunțată a spatelui se
-                dezvoltă până la tranziția toraco-lombară (tranziție de la
-                torace la coloana lombară).
-              </p>
+              <p className="py-1">{t("masiniIso.card7.p8")}</p>
+              <p className="py-1">{t("masiniIso.card7.p9")}</p>
+              <p className="py-1">{t("masiniIso.card7.p10")}</p>
             </div>
           </div>
         </div>

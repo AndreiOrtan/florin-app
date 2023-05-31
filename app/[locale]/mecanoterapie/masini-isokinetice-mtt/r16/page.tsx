@@ -1,12 +1,15 @@
+"use client";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function R18() {
+  const t = useTranslations("mecanoterapie");
   return (
     <div className="flex flex-col items-center my-4 text-gray600 font-medium w-full">
       <header className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-blue700 text-3xl font-bold">
-            R16 Maşină isokinetică pentru genunchi
+            {t("masiniIso.card10.h")}
           </h1>
         </div>
       </header>
@@ -20,7 +23,7 @@ export default function R18() {
               width={380}
               className="rounded-lg"
             />
-            <div className="sm:ml-16">
+            <div className="sm:ml-16 mt-8 sm:mt-0">
               <h2 className="font-semibold">DIMENSIUNE SETARE PASIVĂ:</h2>
               <p className="font-light">120 X 110 X 196 CM</p>
               <h2 className="font-semibold">DIMENSIUNE SETARE ACTIVĂ:</h2>
@@ -37,8 +40,8 @@ export default function R18() {
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-medium mb-4">Descriere</h1>
-          <h1 className="font-medium mb-2">ȘOLD</h1>
-          <h1 className="font-medium mb-2">Flexia/ Extensia genunchiului</h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card10.p1")}</h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card10.p2")}</h1>
         </div>
       </div>
 
@@ -47,32 +50,25 @@ export default function R18() {
           <div className="flex sm:flex-row flex-col-reverse justify-center items-center">
             <div>
               <div className="my-2">
-                <h2>FLEXIA </h2>
+                <h2>{t("masiniIso.card10.p3")} </h2>
                 <p>
                   MUŞCHI PRINCIPALI:{" "}
-                  <span className="font-light">
-                    BICEPS FEMURAL, SEMITENDINOS, SEMIMEMBRANOS.
-                  </span>
+                  <span className="font-light">{t("masiniIso.card10.p4")}</span>
                 </p>
                 <p>
                   MUŞCHI ACCESORI:{" "}
-                  <span className="font-light">
-                    POPLITEU, CROITOR, GASTROCNEMIENI
-                  </span>
+                  <span className="font-light">{t("masiniIso.card10.p5")}</span>
                 </p>
               </div>
               <div className="my-2">
-                <h2>EXTENSIA</h2>
+                <h2>{t("masiniIso.card10.p6")}</h2>
                 <p>
                   MUŞCHI PRINCIPALI:{" "}
-                  <span className="font-light">
-                    CVADRICEPSUL (DREPT FEMURAL (ANTERIOR), VAST INTERN,
-                    LATERAL, MEDIAL)
-                  </span>
+                  <span className="font-light">{t("masiniIso.card10.p7")}</span>
                 </p>
                 <p>
                   MUŞCHI ACCESORI:{" "}
-                  <span className="font-light">TENSORUL FASCIA LATA</span>
+                  <span className="font-light">{t("masiniIso.card10.p8")}</span>
                 </p>
               </div>
             </div>
@@ -99,7 +95,7 @@ export default function R18() {
                   width={200}
                   className="rounded-lg mx-auto py-4 "
                 />
-                <p className="font-bold">Flexia genunchiului</p>
+                <p className="font-bold">{t("masiniIso.card10.p9")}</p>
               </div>
               <div className="text-center mx-16">
                 <Image
@@ -109,28 +105,14 @@ export default function R18() {
                   width={200}
                   className="rounded-lg mx-auto py-4"
                 />
-                <p className="font-bold">Extensia genunchiului</p>
+                <p className="font-bold">{t("masiniIso.card10.p10")}</p>
               </div>
             </div>
             <div>
-              <p className="py-1">
-                Prin acest exercițiu se lucrează în principal extensia
-                genunchiului.
-              </p>
-              <p className="py-1">
-                Mașina isokinetică are o ajustare graduală a unghiului de
-                pornire în exercițiu. Poziția de șezut poate fi ajustată ușor și
-                precis la dimensiunile corpului.
-              </p>
-              <p className="py-1">
-                Intervalul de mișcare poate fi limitat la mișcare concentrică și
-                excentrică.
-              </p>
-              <p className="py-1">
-                Fără a schimba poziția din șezut, mașina isokinetică îşi poate
-                schimba funcția (flexie/extensie) prin simpla mutare a brațului
-                de acționare.
-              </p>
+              <p className="py-1">{t("masiniIso.card10.p11")}</p>
+              <p className="py-1">{t("masiniIso.card10.p12")}</p>
+              <p className="py-1">{t("masiniIso.card10.p13")}</p>
+              <p className="py-1">{t("masiniIso.card10.p14")}</p>
             </div>
           </div>
         </div>

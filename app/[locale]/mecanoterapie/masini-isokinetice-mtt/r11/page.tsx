@@ -1,12 +1,15 @@
+"use client";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function R18() {
+  const t = useTranslations("mecanoterapie");
   return (
     <div className="flex flex-col items-center my-4 text-gray600 font-medium w-full">
       <header className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-blue700 text-3xl font-bold">
-            R11 Maşină Isokinetică pentru şold
+            {t("masiniIso.card9.h")}
           </h1>
         </div>
       </header>
@@ -20,7 +23,7 @@ export default function R18() {
               width={380}
               className="rounded-lg"
             />
-            <div className="sm:ml-16">
+            <div className="sm:ml-16 mt-8 sm:mt-0">
               <h2 className="font-semibold">DIMENSIUNE SETARE PASIVĂ:</h2>
               <p className="font-light">220 X 110 X 196 CM</p>
               <h2 className="font-semibold">DIMENSIUNE SETARE ACTIVĂ:</h2>
@@ -37,10 +40,8 @@ export default function R18() {
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-medium mb-4">Descriere</h1>
-          <h1 className="font-medium mb-2">ȘOLD</h1>
-          <h1 className="font-medium mb-2">
-            ABDUCŢIA / ADDUCŢIA ŞOLDULUI ROTAŢIA INTERNĂ / EXTERNĂ A ŞOLDULUI
-          </h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card9.p1")}</h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card9.p2")}</h1>
         </div>
       </div>
 
@@ -50,17 +51,11 @@ export default function R18() {
             <div>
               <p>
                 MUŞCHI PRINCIPALI:{" "}
-                <span className="font-light">
-                  ILIOPSOAS, ADDUCTORUL LUNG, ADDUCTORUL SCURT, ADDUCTORUL
-                  MARE/OBTURATOR EXTERN, OBTURATOR INTERN, PĂTRAT FEMURAL,
-                  PIRIFORM, GEMEN SUPERIOR, GEMEN INFERIOR, FESIER MARE.
-                </span>
+                <span className="font-light">{t("masiniIso.card9.p3")}</span>
               </p>
               <p>
                 MUŞCHI ACCESORI:{" "}
-                <span className="font-light">
-                  BICEPS FEMURAL ŞI CROITOR, SEMITENDINOS, SEMIMEMBRANOS.
-                </span>
+                <span className="font-light">{t("masiniIso.card9.p4")}</span>
               </p>
             </div>
             <Image
@@ -86,7 +81,7 @@ export default function R18() {
                   width={200}
                   className="rounded-lg mx-auto py-4 "
                 />
-                <p className="font-bold">Adducţia/Rotaţia internă şoldului</p>
+                <p className="font-bold">{t("masiniIso.card9.p5")}</p>
               </div>
               <div className="text-center mx-16">
                 <Image
@@ -96,27 +91,14 @@ export default function R18() {
                   width={200}
                   className="rounded-lg mx-auto py-4"
                 />
-                <p className="font-bold">Abducţia/Rotaţia externa şoldului</p>
+                <p className="font-bold">{t("masiniIso.card9.p6")}</p>
               </div>
             </div>
             <div>
-              <p className="py-1">
-                Spătarul poate fi reglat de la poziția culcat la poziția de
-                șezut.
-              </p>
-              <p className="py-1">
-                Mașina isokinetică funcționează cu brațele independent unul față
-                de celălalt și promovează în mod optim secvența coordonatoare a
-                mișcărilor.
-              </p>
-              <p className="py-1">
-                Pentru îmbunătățirea dezechilibrului muscular, exerciţiul se
-                poate realiza şi cu un singur picior (membru inferior).
-              </p>
-              <p className="py-1">
-                Datorită ajustării variabile, atât mușchii cu aducție scurtă,
-                cât și mușchii cu aducție lungă pot fi abordați.
-              </p>
+              <p className="py-1">{t("masiniIso.card9.p7")}</p>
+              <p className="py-1">{t("masiniIso.card9.p8")}</p>
+              <p className="py-1">{t("masiniIso.card9.p9")}</p>
+              <p className="py-1">{t("masiniIso.card9.p10")}</p>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import { ReactNode } from "react";
 
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
+import ContactForm from "./components/ContactForm";
 
 type Props = {
   children: ReactNode;
@@ -37,6 +38,7 @@ export default async function LocaleLayout({
           <Nav />
 
           <div className="mt-[114px] main-container">{children}</div>
+          <ContactForm />
           <Footer />
         </NextIntlClientProvider>
       </body>

@@ -1,12 +1,15 @@
+"use client";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function R18() {
+  const t = useTranslations("mecanoterapie");
   return (
     <div className="flex flex-col items-center my-4 text-gray600 font-medium w-full">
       <header className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-blue700 text-3xl font-bold">
-            R12E Scripete Dublu pentru membrele superioare şi inferioare
+            {t("masiniIso.card12.h")}
           </h1>
         </div>
       </header>
@@ -20,7 +23,7 @@ export default function R18() {
               width={380}
               className="rounded-lg"
             />
-            <div className="sm:ml-16">
+            <div className="sm:ml-16 mt-8 sm:mt-0">
               <h2 className="font-semibold">DIMENSIUNE</h2>
               <p className="font-light">30 X 30 X 230 CM</p>
 
@@ -34,11 +37,9 @@ export default function R18() {
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
           <h1 className="text-4xl font-medium mb-4">Descriere</h1>
-          <h1 className="font-medium mb-2">UMĂR</h1>
-          <h1 className="font-medium mb-2">FLEXIA COTULUI</h1>
-          <h1 className="font-medium mb-2">
-            FLEXIA/ EXTENSIA ABDUCŢIA/ ADDUCŢIA PUMNULUI
-          </h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card12.p1")}</h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card12.p2")}</h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card12.p3")}</h1>
         </div>
       </div>
 
@@ -48,13 +49,11 @@ export default function R18() {
             <div>
               <p>
                 MUŞCHI PRINCIPALI:{" "}
-                <span className="font-light">
-                  DELTOID ANTERIOR, CORACOBRAHIAL, BICEPS BRAHIAL (CAPUL LUNG).
-                </span>
+                <span className="font-light">{t("masiniIso.card12.p4")}</span>
               </p>
               <p>
                 MUŞCHI ACCESORI:{" "}
-                <span className="font-light">TRAPEZ SUPERIOR</span>
+                <span className="font-light">{t("masiniIso.card12.p5")}</span>
               </p>
             </div>
           </div>
@@ -103,19 +102,9 @@ export default function R18() {
               </div>
             </div>
             <div>
-              <p className="py-1">
-                Diversitatea opțiunilor de exerciţii este atât de mare încât o
-                descriere detaliată a tuturor acestora ar fi prea vastă.
-              </p>
-              <p className="py-1">
-                Toate articulațiile mari ale corpului pot fi lucrate individual
-                sau în lanț fiziologic funcțional cu această maşină isokinetică.
-              </p>
-              <p className="py-1">
-                Gama de poziții de pornire include toate pozițiile imaginabile,
-                poziția supină, poziția predispusă (cu bancă suplimentară),
-                poziția laterală etc.
-              </p>
+              <p className="py-1">{t("masiniIso.card12.p6")}</p>
+              <p className="py-1">{t("masiniIso.card12.p7")}</p>
+              <p className="py-1">{t("masiniIso.card12.p8")}</p>
             </div>
           </div>
         </div>

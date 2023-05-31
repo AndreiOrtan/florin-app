@@ -46,6 +46,7 @@ module.exports = {
       gray600: "#52525b",
       gray500: "#F9FAFB",
       purple: "#B68ABF",
+      blue800: "#1e40af",
     },
   },
   plugins: [],

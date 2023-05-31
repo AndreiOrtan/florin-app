@@ -11,9 +11,9 @@ const Footer = () => {
           <div className="flex">
             <div className="my-auto">
               <img
-                src="/logo.png"
+                src="/image00001.png"
                 alt="text"
-                className="h-auto w-44 max-w-full mx-auto"
+                className="h-auto w-[150px] max-w-full mx-auto"
               />
               <h1 className="font-medium">EUID ROONRC. J6/378/2021</h1>
               <h1 className="font-medium">
@@ -21,7 +21,7 @@ const Footer = () => {
               </h1>
             </div>
             <div className="ml-auto my-auto">
-              <div className="flex">
+              <div className="flex sm:flex-row flex-col">
                 <NavigationLink
                   href="https://www.minato-med.co.jp/en/"
                   target="_blank"
@@ -29,7 +29,7 @@ const Footer = () => {
                   <img
                     src="/minatologo.png"
                     alt="text"
-                    className="h-auto w-[140px] max-w-full mx-4"
+                    className="h-auto w-[140px] max-w-full mx-4 my-4"
                   />
                 </NavigationLink>
                 <NavigationLink
@@ -39,14 +39,14 @@ const Footer = () => {
                   <img
                     src="/zimmer-logo2.jpg"
                     alt="text"
-                    className="h-auto w-[140px] max-w-full mx-4 "
+                    className="h-auto w-[140px] max-w-full mx-4 my-4"
                   />
                 </NavigationLink>
                 <NavigationLink href="https://mkb-system.ro/" target="_blank">
                   <img
                     src="/mkb-logo.png"
                     alt="text"
-                    className="h-auto w-[140px] max-w-full mx-4"
+                    className="h-auto w-[140px] max-w-full mx-4 my-4"
                   />
                 </NavigationLink>
               </div>

@@ -23,6 +23,14 @@ export default function OptonPro() {
             </header>
           </div>
           <div className="flex justify-center items-center sm:flex-row flex-col">
+            <div className="text-container my-8">
+              <p className="my-auto text-left">
+                {t("p1")} <span className="font-bold">„Aquatizer QZ”</span>{" "}
+                {t("p1Rest")}
+              </p>
+              <p className="my-auto text-left">{t("p2")} </p>
+              <p className="my-auto text-left">{t("p3")}</p>
+            </div>
             <Image
               src="/aquatizer/aqua.jpeg"
               width={320}
@@ -30,11 +38,6 @@ export default function OptonPro() {
               alt="PhySys"
               className=""
             />
-            <div className="text-container my-8">
-              <p className="my-auto text-left">{t("p1")}</p>
-              <p className="my-auto text-left">{t("p2")} </p>
-              <p className="my-auto text-left">{t("p3")}</p>
-            </div>
           </div>
         </div>
       </div>
@@ -42,24 +45,24 @@ export default function OptonPro() {
       <div className="w-9/12 flex my-4 border-b">
         <button
           className={`sm:p-8 p-1 border w-full  ${
-            selectedContent === "1" ? "bg-blue700" : ""
-          } focus:text-white text-xl font-semibold  rounded-t-lg`}
+            selectedContent === "1" ? "bg-blue700 text-white" : ""
+          }  text-xl font-semibold  rounded-t-lg`}
           onClick={() => selectedContentHandle("1")}
         >
           {t("p4")}
         </button>
         <button
           className={`sm:p-8 p-1 border w-full mx-1 ${
-            selectedContent === "2" ? "bg-blue700" : ""
-          } focus:text-white text-xl font-semibold rounded-t-lg`}
+            selectedContent === "2" ? "bg-blue700 text-white" : ""
+          }  text-xl font-semibold rounded-t-lg`}
           onClick={() => selectedContentHandle("2")}
         >
           {t("p5")}
         </button>
         <button
           className={`sm:p-8 p-1 border w-full ${
-            selectedContent === "3" ? "bg-blue700" : ""
-          } focus:text-white text-xl font-semibold rounded-t-lg`}
+            selectedContent === "3" ? "bg-blue700 text-white" : ""
+          }  text-xl font-semibold rounded-t-lg`}
           onClick={() => selectedContentHandle("3")}
         >
           {t("p6")}

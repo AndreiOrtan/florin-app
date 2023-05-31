@@ -1,12 +1,15 @@
+"use client";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function R18() {
+  const t = useTranslations("mecanoterapie");
   return (
     <div className="flex flex-col items-center my-4 text-gray600 font-medium w-full">
       <header className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-blue700 text-3xl font-bold">
-            R7 Maşină isokinetică pentru coloana toracică
+            {t("masiniIso.card6.h")}
           </h1>
         </div>
       </header>
@@ -20,7 +23,7 @@ export default function R18() {
               width={380}
               className="rounded-lg"
             />
-            <div className="sm:ml-16">
+            <div className="sm:ml-16 mt-8 sm:mt-0">
               <h2 className="font-semibold">DIMENSIUNE SETARE PASIVĂ:</h2>
               <p className="font-light">150 X 105 X 196 CM</p>
               <h2 className="font-semibold">DIMENSIUNE SETARE ACTIVĂ:</h2>
@@ -36,9 +39,11 @@ export default function R18() {
 
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
-          <h1 className="text-4xl font-medium mb-4">Descriere</h1>
-          <h1 className="font-medium mb-2">COLOANA DORSO – LOMBARĂ</h1>
-          <h1 className="font-medium mb-2">ROTAȚIA TRUNCHIULUI</h1>
+          <h1 className="text-4xl font-medium mb-4">
+            {t("masiniIso.card6.p1")}
+          </h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card6.p2")}</h1>
+          <h1 className="font-medium mb-2">{t("masiniIso.card6.p3")}</h1>
         </div>
       </div>
 
@@ -48,9 +53,7 @@ export default function R18() {
             <div>
               <p>
                 MUŞCHI PRINCIPALI:{" "}
-                <span className="font-light">
-                  OBLICII INTERNI ŞI EXTERNI ABDOMINALI
-                </span>
+                <span className="font-light">{t("masiniIso.card6.p4")}</span>
               </p>
             </div>
             <Image
@@ -68,23 +71,9 @@ export default function R18() {
         <div className="w-9/12 mx-auto py-8">
           <div className="flex sm:flex-row flex-col justify-center items-center">
             <div>
-              <p className="py-1">
-                Funcția specială a acestei mașini isokinetice este tratarea
-                mușchilor profunzi ai spatelui (mușchii statici).
-              </p>
-              <p className="py-1">
-                Până în prezent știința nu a determinat geneza durerilor de
-                spate în toată diversitatea și manifestarea lor. Cauzele sunt
-                diverse și variază de la o boală genetică până la leziuni
-                traumatice.
-              </p>
-              <p className="py-1">
-                Deși exercițiile unidimensionale izolate ale mușchilor spatelui
-                duc la o îmbunătățire musculară pe direcțiile de flexie și
-                extensie, siguranța articulațiilor coloanei vertebrale este
-                determinată în mare măsură de stabilizarea tridimensională
-                (flexie, extensie, rotație) a acestora
-              </p>
+              <p className="py-1">{t("masiniIso.card6.p5")}</p>
+              <p className="py-1">{t("masiniIso.card6.p6")}</p>
+              <p className="py-1">{t("masiniIso.card6.p7")}</p>
             </div>
             <Image
               src="/mecanoterapie/masini-isokinetice/r7/use1.png"

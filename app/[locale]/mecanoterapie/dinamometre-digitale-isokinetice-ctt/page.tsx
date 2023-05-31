@@ -8,7 +8,7 @@ export default function ShockwaveTherapy() {
   return (
     <div className="flex flex-col items-center mt-4 text-gray600 w-full">
       <header className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-blue700 text-3xl font-bold">
             Dinamometre Digitale Isokinetice
           </h1>

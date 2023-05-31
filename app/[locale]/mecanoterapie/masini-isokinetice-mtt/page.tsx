@@ -3,14 +3,16 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import NavigationLink from "../../components/NavigationLink";
+import { useTranslations } from "next-intl";
 
 export default function ShockwaveTherapy() {
+  const t = useTranslations("mecanoterapie");
   return (
     <div className="flex flex-col items-center mt-4 text-gray600 w-full">
       <header className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 text-center">
           <h1 className="text-blue700 text-3xl font-bold">
-            Mașini Isokinetice
+            {t("card1Description")}
           </h1>
         </div>
       </header>
@@ -32,10 +34,10 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R18 Maşină isokinetică pentru coloana toracică
+                  {t("masiniIso.card1.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Extensia trunchiului</li>
+                  <li>{t("masiniIso.card1.li1")}</li>
                 </ul>
               </div>
             </div>
@@ -60,10 +62,10 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R31 Maşină isokinetică pentru coloana toracică
+                  {t("masiniIso.card2.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Flexia trunchiului</li>
+                  <li> {t("masiniIso.card2.li1")}</li>
                 </ul>
               </div>
             </div>
@@ -88,10 +90,10 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R17 Maşină isokinetică pentru coloana toracică
+                  {t("masiniIso.card3.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Înclinarea trunchiului</li>
+                  <li> {t("masiniIso.card3.li1")}</li>
                 </ul>
               </div>
             </div>
@@ -116,10 +118,10 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R14 Maşină isokinetică pentru coloana lombară
+                  {t("masiniIso.card4.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Extensia trunchiului</li>
+                  <li> {t("masiniIso.card4.li1")}</li>
                 </ul>
               </div>
             </div>
@@ -144,10 +146,10 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R10 Maşină isokinetică pentru coloana sacrală
+                  {t("masiniIso.card5.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Extensia trunchiului – mişcare complexă</li>
+                  <li> {t("masiniIso.card5.li1")}</li>
                 </ul>
               </div>
             </div>
@@ -172,10 +174,10 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R7 Maşină isokinetică pentru coloana toracică
+                  {t("masiniIso.card6.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Rotaţia trunchiului</li>
+                  <li> {t("masiniIso.card6.li1")}</li>
                 </ul>
               </div>
             </div>
@@ -200,10 +202,10 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R3 Maşină isokinetică pentru şold
+                  {t("masiniIso.card7.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Flexia / Extensia şoldului</li>
+                  <li>{t("masiniIso.card7.li1")}</li>
                 </ul>
               </div>
             </div>
@@ -228,11 +230,11 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R27 Maşină isokinetică pentru şold
+                  {t("masiniIso.card8.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Flexia / Extensia cu genunchiul extins</li>
-                  <li>Abducţia /Adducţia şoldului</li>
+                  <li>{t("masiniIso.card8.li1")}</li>
+                  <li>{t("masiniIso.card8.li2")}</li>
                 </ul>
               </div>
             </div>
@@ -257,11 +259,11 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R11 Maşină isokinetică pentru şold
+                  {t("masiniIso.card9.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Abducţia / Adducţia şoldului</li>
-                  <li>Rotaţia internă / Externă a şoldului</li>
+                  <li>{t("masiniIso.card9.li1")}</li>
+                  <li>{t("masiniIso.card9.li2")}</li>
                 </ul>
               </div>
             </div>
@@ -286,10 +288,10 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R16 Maşină isokinetică pentru genunchi
+                  {t("masiniIso.card10.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Flexia/Extensia genunchiului</li>
+                  <li>{t("masiniIso.card10.li1")}</li>
                 </ul>
               </div>
             </div>
@@ -314,10 +316,10 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R6SL Maşină isokinetică multifuncţională pentru picioare
+                  {t("masiniIso.card11.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Mişcare complexă gleznă – genunchi – şold</li>
+                  <li>{t("masiniIso.card11.li1")}</li>
                 </ul>
               </div>
             </div>
@@ -342,22 +344,14 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R12e Scripete dublu pentru membrele superioare şi inferioare
+                  {t("masiniIso.card12.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li className="text-xs">
-                    Flexia/Extensia, Abducția/Adducția, Rotația externă/internă
-                  </li>
-                  <li className="text-xs">
-                    {" "}
-                    Ridicarea/Coborarea, Abducția/Adducția scapulei
-                  </li>
-                  <li className="text-xs"> Supinația/Pronația antebratului</li>
-                  <li className="text-xs"> Flexia cotului</li>
-                  <li className="text-xs">
-                    {" "}
-                    Flexia/Extensia, Abductia/Adductia pumnului
-                  </li>
+                  <li className="text-xs">{t("masiniIso.card12.li1")}</li>
+                  <li className="text-xs"> {t("masiniIso.card12.li2")}</li>
+                  <li className="text-xs"> {t("masiniIso.card12.li3")}</li>
+                  <li className="text-xs"> {t("masiniIso.card12.li4")}</li>
+                  <li className="text-xs"> {t("masiniIso.card12.li5")}</li>
                 </ul>
               </div>
             </div>
@@ -382,10 +376,10 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R32 Maşină isokinetică pentru coloana cervicală
+                  {t("masiniIso.card13.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Flexia / Extensia / Inclinarea capului şi gâtului</li>
+                  <li>{t("masiniIso.card13.li1")}</li>
                 </ul>
               </div>
             </div>
@@ -410,11 +404,11 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R8 Maşină isokinetică butterfly cu funcţie dublă
+                  {t("masiniIso.card14.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Abducția/Adducția orizontală a umărului</li>
-                  <li>Rotația externă/internă a umărului</li>
+                  <li>{t("masiniIso.card14.li1")}</li>
+                  <li>{t("masiniIso.card14.li2")}</li>
                 </ul>
               </div>
             </div>
@@ -439,10 +433,10 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R5 Maşină isokinetică pentru centura scapulo-humerală
+                  {t("masiniIso.card15.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Ridicarea/Coborârea scapulei</li>
+                  <li>{t("masiniIso.card15.li1")}</li>
                 </ul>
               </div>
             </div>
@@ -467,10 +461,10 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R19 Maşină isokinetică pentru umăr
+                  {t("masiniIso.card16.h")}
                 </div>
                 <ul className="list-disc ml-4 mb-4">
-                  <li>Flexia / Extensia umărului</li>
+                  <li>{t("masiniIso.card16.li1")}</li>
                 </ul>
               </div>
             </div>
@@ -495,7 +489,7 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R2000 Bancă pentru exerciţii divizată în trei părţi
+                  {t("masiniIso.card17.h")}
                 </div>
               </div>
             </div>
@@ -519,7 +513,7 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  R1000 Masă inclinată kinetoterapie divizată în două părţi
+                  {t("masiniIso.card18.h")}
                 </div>
               </div>
             </div>
@@ -543,8 +537,7 @@ export default function ShockwaveTherapy() {
               />
               <div className="py-2 px-2">
                 <div className="font-bold text-blue700 text-base mb-1">
-                  RR28 - 28 de Proceduri într-un singur dispozitiv cu acţionare
-                  din scaunul cu rotile
+                  {t("masiniIso.card19.h")}
                 </div>
               </div>
             </div>
