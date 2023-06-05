@@ -1,5 +1,8 @@
 "use client";
+import { readFile } from "fs/promises";
+import { GetStaticPropsContext } from "next";
 import { useTranslations } from "next-intl";
+import path from "path";
 
 export default function Home() {
   const t = useTranslations("Index");

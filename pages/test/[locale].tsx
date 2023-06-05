@@ -15,12 +15,23 @@ export default function Home({ locale }: { locale: string }) {
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
       <h1 className="text-4xl font-bold text-gray800">{t("title")}</h1>
-      hello {locale}
+      hello from: test/{locale}
     </main>
   );
 }
 
-export async function getStaticProps({ params }: GetStaticPropsContext) {
+export async function getStaticPaths() {
+  const paths = ["ro", "en"].map((lang) => ({
+    params: {
+      locale: lang,
+    },
+  }));
+  return { paths, fallback: false };
+}
+
+export async function getStaticProps({
+  params,
+}: GetStaticPropsContext<{ locale: string }>) {
   const locale = params?.locale || "ro";
   return {
     props: {
