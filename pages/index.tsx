@@ -1,27 +1,22 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import { useTranslations } from "next-intl";
+import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { GetStaticPropsContext } from "next";
 import { readFile } from "fs/promises";
 import path from "path";
 
-const inter = Inter({ subsets: ["latin"] });
+const RedirectToLocale = ({ locale }: { locale: string }) => {
+  const router = useRouter();
 
-export default function Home({ locale }: { locale: string }) {
-  const t = useTranslations("Index");
-  return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      <h1 className="text-4xl font-bold text-gray800">{t("title")}</h1>
-      hello {locale}
-    </main>
-  );
-}
+  useEffect(() => {
+    router.push(`/${locale}`);
+  }, []);
+
+  return null;
+};
 
 export async function getStaticProps({ params }: GetStaticPropsContext) {
   const locale = params?.locale || "ro";
+
   return {
     props: {
       messages: JSON.parse(
@@ -31,3 +26,5 @@ export async function getStaticProps({ params }: GetStaticPropsContext) {
     },
   };
 }
+
+export default RedirectToLocale;
