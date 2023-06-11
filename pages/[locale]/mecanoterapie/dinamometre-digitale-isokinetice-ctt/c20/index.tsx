@@ -1,12 +1,13 @@
 import Image from "next/image";
 
 export default function R18() {
+  const t = useTranslations("mecanoterapie");
   return (
     <div className="flex flex-col items-center my-4 text-gray600 font-medium w-full">
       <header className="py-4">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-blue700 text-3xl font-bold">
-            C20 Dinamometru Digital Isokinetic pentru piept/spate/umeri
+            {t("dinamometre.card10.h")}
           </h1>
         </div>
       </header>
@@ -21,21 +22,21 @@ export default function R18() {
               className="rounded-lg"
             />
             <div className="sm:ml-16 mt-8 sm:mt-0">
-              <h2 className="font-semibold">DIMENSIUNI:</h2>
+              <h2 className="font-semibold">{t("general.dimensiuni")}</h2>
               <p className="font-light">
-                lungime: 170cm / lățime: 160 cm / înălțime: 205 cm
+                {t("general.lungime")} 170cm / {t("general.latime")} 160 cm /
+                {t("general.inaltime")} 205 cm
               </p>
-              <h2 className="font-semibold">SUPRAFAȚA DE AMPLASARE:</h2>
+              <h2 className="font-semibold">
+                {t("general.suprafataAmplasare")}
+              </h2>
               <p className="font-light">cca. 3m2</p>
-              <h2 className="font-semibold">CONSUMUL DE ENERGIE:</h2>
-              <p className="font-light">3 euro / lună</p>
-              <h2 className="font-semibold">GREUTATE:</h2>
+              <h2 className="font-semibold">{t("general.consumEnergie")}</h2>
+              <p className="font-light">3 euro / {t("general.luna")}</p>
+              <h2 className="font-semibold">{t("general.greutate")}</h2>
               <p className="font-light">400 kg</p>
               <h2 className="font-semibold">COMPUTER:</h2>
-              <p className="font-light">
-                PC integrat, inclusiv software-ul ușor de controlat și monitor
-                touchscreen de 17 inch
-              </p>
+              <p className="font-light">{t("general.pcIntegrat")}</p>
             </div>
           </div>
         </div>
@@ -43,30 +44,24 @@ export default function R18() {
 
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
-          <h1 className="text-4xl font-medium mb-4">Descriere</h1>
-          <h1 className="font-medium mb-2">
-            DINAMOMETRU ISOKINETIC PENTRU PIEPT / UMERI – SPATE
+          <h1 className="text-4xl font-medium mb-4">
+            {t("general.description")}
           </h1>
+          <h1 className="font-medium mb-2">{t("dinamometre.card10.p1")}</h1>
           <div>
-            <h1 className="font-bold mb-1">
-              Proceduri complet automatizate – reglaje și fixări
-            </h1>
+            <h1 className="font-bold mb-1">{t("dinamometre.card10.p2")}</h1>
             <ul className="list-disc ml-6">
-              <li>
-                {" "}
-                Reglare automată a sarcinii de lucru și dispozitiv de
-                pretensionare a greutății patentat MKB-System
-              </li>
-              <li> Fixare CVC</li>
-              <li> Reglare automată a spătarului</li>
-              <li> Mânere ergonomice pentru membrele superioare</li>
-              <li> Ajustare automată a înălțimii scaunului</li>
-              <li> Reglarea pe înălțime a membrelor inferioare</li>
-              <li> Suport suplimentar pentru picioare</li>
-              <li> Fixare automată a membrelor inferioare</li>
-              <li> Braț mobil reglabil</li>
-              <li> Monitor rotativ de 17 inch</li>
-              <li> Amprentă biometrică</li>
+              <li> {t("dinamometre.card10.p3")}</li>
+              <li> {t("dinamometre.card10.p4")}</li>
+              <li> {t("dinamometre.card10.p5")}</li>
+              <li> {t("dinamometre.card10.p6")}</li>
+              <li> {t("dinamometre.card10.p7")}</li>
+              <li> {t("dinamometre.card10.p8")}</li>
+              <li> {t("dinamometre.card10.p9")}</li>
+              <li> {t("dinamometre.card10.p10")}</li>
+              <li> {t("dinamometre.card10.p11")}</li>
+              <li> {t("dinamometre.card10.p12")}</li>
+              <li> {t("dinamometre.card10.p13")}</li>
             </ul>
           </div>
         </div>
@@ -75,12 +70,7 @@ export default function R18() {
       <div className="w-full">
         <div className="w-9/12 mx-auto py-8">
           <div className="flex sm:flex-row flex-col-reverse justify-center items-center">
-            <p>
-              Oferă două tipuri de proceduri respectiv extensia/ rotația
-              umărului. Este un exercițiu de bază cu acțiune asupra mușchilor
-              pectorali, a musculaturii regiunii superioare a umărului și
-              regiunii mediene a spatelui.
-            </p>
+            <p>{t("dinamometre.card10.p14")}</p>
             <Image
               src="/mecanoterapie/dinamometre-isokinetice/c20/target1.png"
               alt="r18"
@@ -97,15 +87,8 @@ export default function R18() {
           <div className="flex flex-col justify-center items-center">
             <div className="flex sm:flex-row flex-col items-center">
               <div>
-                <h2 className="mb-1">
-                  PROCEDURI PENTRU MUSCULATURA PIEPTULUI (PECTORALI)
-                </h2>
-                <p className="py-1 font-light">
-                  Această procedură este importantă pentru stabilizarea
-                  musculaturii pectorale. Cu ajutorul diferitelor mânere de
-                  prindere pe lângă musculatura pectorală se acționează asupra
-                  mușchilor extensori/ rotatori ai brațului.
-                </p>
+                <h2 className="mb-1">{t("dinamometre.card10.p15")}</h2>
+                <p className="py-1 font-light">{t("dinamometre.card10.p16")}</p>
               </div>
               <Image
                 src="/mecanoterapie/dinamometre-isokinetice/c20/use1.png"
@@ -117,16 +100,8 @@ export default function R18() {
             </div>
             <div className="flex sm:flex-row flex-col items-center">
               <div>
-                <h2 className="mb-1">
-                  PROCEDURA PENTRU MUSCULATURA UMERILOR SI SPATELUI
-                </h2>
-                <p className="py-1 font-light">
-                  Această procedură este importantă pentru stabilizarea coloanei
-                  vertebrale. Prin intermediul mânerelor diferite de prindere se
-                  acționează asupra centurii scapulo-humerale, regiunii mediene
-                  a spatelui și în special asupra mușchilor flexori/ extensori
-                  și rotatori ai brațului
-                </p>
+                <h2 className="mb-1">{t("dinamometre.card10.p17")}</h2>
+                <p className="py-1 font-light">{t("dinamometre.card10.p18")}</p>
               </div>
               <Image
                 src="/mecanoterapie/dinamometre-isokinetice/c20/use2.png"
@@ -141,4 +116,29 @@ export default function R18() {
       </div>
     </div>
   );
+}
+import { GetStaticPropsContext } from "next";
+import path from "path";
+import { readFile } from "fs/promises";
+import { useTranslations } from "next-intl";
+
+export async function getStaticPaths() {
+  const paths = ["ro", "en"].map((lang) => ({
+    params: {
+      locale: lang,
+    },
+  }));
+  return { paths, fallback: false };
+}
+
+export async function getStaticProps({ params }: GetStaticPropsContext) {
+  const locale = params?.locale || "en";
+  return {
+    props: {
+      messages: JSON.parse(
+        await readFile(path.resolve(`./messages/${locale}.json`), "utf-8")
+      ),
+      locale,
+    },
+  };
 }

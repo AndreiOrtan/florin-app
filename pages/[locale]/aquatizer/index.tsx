@@ -380,7 +380,9 @@ export default function OptonPro() {
         <>
           <div className="w-full">
             <div className="w-9/12 mx-auto py-8">
-              <h2 className="text-2xl font-semibold mb-4">Technical data</h2>
+              <h2 className="text-2xl font-semibold mb-4">
+                {t("technicalData")}
+              </h2>
               <div className="flex">
                 <div>
                   <h2 className="font-semibold pb-0.5">Model Number</h2>
