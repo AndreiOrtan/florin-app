@@ -9,6 +9,7 @@ export default function LocaleSwitcher() {
   const [isPending, startTransition] = useTransition();
   const locale = useLocale();
   const router = useRouter();
+  console.log(locale);
 
   function onSelectChange(locale: string) {
     startTransition(() => {
