@@ -9,9 +9,9 @@ import LocaleSwitcher from "./LocaleSwitcher";
 export default function Nav({ locale }: { locale: string }) {
   const t = useTranslations("navbar");
   const [isOpen, setIsOpen] = useState(false);
-
+  console.log(isOpen);
   function collapseDropdown() {
-    setIsOpen((prev) => !prev);
+    setIsOpen(false);
   }
   return (
     <nav className="bg-lightgray fixed top-0 left-0 right-0 z-50">

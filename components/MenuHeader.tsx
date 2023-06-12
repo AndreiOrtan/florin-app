@@ -45,8 +45,8 @@ const MenuHeader = ({
       <button
         onClick={() => setIsOpen((prev) => !prev)}
         className={`${
-          isOpen && "text-blue700"
-        } rounded-lg text-lg font-semibold px-4 hover:text-blue700 py-2.5 text-center flex justify-center items-center text-gray900`}
+          isOpen ? "text-blue700" : "text-gray900"
+        } rounded-lg text-lg font-semibold px-4 hover:text-blue700 py-2.5 text-center flex justify-center items-center`}
         type="button"
       >
         {header}
