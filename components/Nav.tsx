@@ -9,7 +9,7 @@ import LocaleSwitcher from "./LocaleSwitcher";
 export default function Nav({ locale }: { locale: string }) {
   const t = useTranslations("navbar");
   const [isOpen, setIsOpen] = useState(false);
-  console.log(isOpen);
+
   function collapseDropdown() {
     setIsOpen(false);
   }
@@ -17,13 +17,22 @@ export default function Nav({ locale }: { locale: string }) {
     <nav className="bg-lightgray fixed top-0 left-0 right-0 z-50">
       <div className="flex sm:justify-center h-[114px] justify-between">
         <div className="flex items-center ml-8 mt-2">
-          <Link href={`/${locale}`}>
+          <Link href={`/${locale}`} className="flex">
             {" "}
             <img
-              src="/image00001.png"
+              src="/image00001 copy.png"
               alt="text"
-              className="h-auto w-[150px] max-w-full"
+              className="h-auto w-[100px] max-w-full"
             />
+            <div className="self-end relative h-12 ml-1">
+              <p className="text-blue500 text-lg tracking-wide font-bold">
+                Suhard Biomedical
+              </p>
+
+              <p className="text-gray600 absolute bottom-[6px] right-0 font-normal italic">
+                Aesthetic
+              </p>
+            </div>
           </Link>
         </div>
 
@@ -45,9 +54,10 @@ export default function Nav({ locale }: { locale: string }) {
           />
           <MenuHeader
             header={t("header2")}
-            options={[`${t("about-us")}`]}
+            options={[`${t("about-us")}`, "Cariere"]}
             collapseDropdown={collapseDropdown}
-            routes={["Despre noi"]}
+            routes={["Companie", "Companie"]}
+            locale={locale}
           />
           <MenuHeader header="Contact" />
         </div>

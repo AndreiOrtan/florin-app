@@ -572,6 +572,7 @@
     "p68": "If the treatment start time is set for each day, the preheat function will operate in accordance with that time, and it will be in standby, in an instantly usable state when treatment begins. Time is not taken up adjusting the temperature."
   },
   "mecanoterapie": {
+    "mainHeader": "Mechanotherapy Equipment",
     "card1Description": "Isokinetic Machines",
     "card2Description": "Isokinetic Dynamometers",
     "general": {

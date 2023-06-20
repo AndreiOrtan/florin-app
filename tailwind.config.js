@@ -27,7 +27,7 @@ module.exports = {
       // => @media (min-width: 1280px) { ... }
     },
     fontFamily: {
-      body: ["Roboto"],
+      roboto: ["Roboto"],
     },
     colors: {
       green: "#C9E6C7",

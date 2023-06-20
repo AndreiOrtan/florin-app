@@ -5,11 +5,9 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 
 export default function LocaleSwitcher() {
-  const t = useTranslations("LocaleSwitcher");
   const [isPending, startTransition] = useTransition();
   const locale = useLocale();
   const router = useRouter();
-  console.log(locale);
 
   function onSelectChange(locale: string) {
     startTransition(() => {
