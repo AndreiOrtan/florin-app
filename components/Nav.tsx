@@ -19,7 +19,7 @@ export default function Nav({ locale }: { locale: string }) {
         <div className="flex items-center ml-8">
           <Link
             href={`/${locale}`}
-            className="flex flex-col sm:flex-row items-center justify-center"
+            className="flex flex-row items-center justify-center"
           >
             {" "}
             <img
@@ -27,12 +27,12 @@ export default function Nav({ locale }: { locale: string }) {
               alt="text"
               className="h-auto sm:w-[100px] w-[60px] max-w-full"
             />
-            <div className="self-end relative sm:h-12 h-7 ml-1 min-w-[161px]">
-              <p className="text-blue500 sm:text-lg text-sm text-center tracking-wide font-bold">
+            <div className="self-end relative sm:h-12 h-9 ml-1 min-w-[161px]">
+              <p className="text-blue500 sm:text-lg text-sm sm:text-center tracking-wide font-bold">
                 Suhard Biomedical
               </p>
 
-              <p className="text-gray600 sm:text-base text-sm absolute sm:bottom-[6px] sm:right-0 bottom-[-5px] right-[17px] font-normal italic">
+              <p className="text-gray600 sm:text-base text-sm absolute sm:bottom-[7px] sm:right-0 bottom-[3px] right-[37px] font-normal italic">
                 Aesthetic
               </p>
             </div>
