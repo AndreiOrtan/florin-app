@@ -17,7 +17,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
           </div>
         </header>
         <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12 mb-8">
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 min-h-[320px]">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 min-h-[320px] hover:text-gray900 text-blue700">
             <Link
               href={`/${locale}/fizioterapie/diathermy-therapy/thermotk`}
               className="relative"
@@ -33,22 +33,22 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-xl mb-1">
-                    ThermoTK
-                  </div>
-                  <p className="text-xs">{t("cards.card5.card1Description")}</p>
+                  <div className="font-bold text-xl mb-1">ThermoTK</div>
+                  <p className="text-xs text-gray900">
+                    {t("cards.card5.card1Description")}
+                  </p>
                 </div>
               </div>
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 min-h-[320px]">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 hover:text-gray900 text-blue700">
             <Link
               href={`/${locale}/fizioterapie/diathermy-therapy/micropro`}
               className="relative"
             >
-              <div className="w-full">
+              <div className="w-full min-h-[320px]">
                 <Image
                   src="/fizioterapiePhotos/diathermy-therapy/micropro.jpg"
                   className="w-full h-56"
@@ -59,10 +59,10 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-xl mb-1">
-                    MicroPro
-                  </div>
-                  <p className="text-xs">{t("cards.card5.card2Description")}</p>
+                  <div className="font-bold text-xl mb-1">MicroPro</div>
+                  <p className="text-xs text-gray900">
+                    {t("cards.card5.card2Description")}
+                  </p>
                 </div>
               </div>
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>

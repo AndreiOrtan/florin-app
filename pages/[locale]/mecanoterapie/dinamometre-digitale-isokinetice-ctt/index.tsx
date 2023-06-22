@@ -15,7 +15,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
           </div>
         </header>
         <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12 mb-8">
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/dinamometre-digitale-isokinetice-ctt/c13`}
               className="relative"
@@ -31,7 +31,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-base mb-1">
+                  <div className="font-bold  text-base mb-1">
                     {t("dinamometre.card1D")}
                   </div>
                 </div>
@@ -40,7 +40,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/dinamometre-digitale-isokinetice-ctt/c6`}
               className="relative"
@@ -56,7 +56,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-base mb-1">
+                  <div className="font-bold  text-base mb-1">
                     {t("dinamometre.card2D")}
                   </div>
                 </div>
@@ -65,7 +65,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/dinamometre-digitale-isokinetice-ctt/c5`}
               className="relative"
@@ -81,7 +81,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-base mb-1">
+                  <div className="font-bold  text-base mb-1">
                     {t("dinamometre.card3D")}
                   </div>
                 </div>
@@ -90,7 +90,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/dinamometre-digitale-isokinetice-ctt/c17`}
               className="relative"
@@ -106,7 +106,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-base mb-1">
+                  <div className="font-bold  text-base mb-1">
                     {t("dinamometre.card4D")}
                   </div>
                 </div>
@@ -115,7 +115,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/dinamometre-digitale-isokinetice-ctt/c8`}
               className="relative"
@@ -131,7 +131,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-base mb-1">
+                  <div className="font-bold  text-base mb-1">
                     {t("dinamometre.card5D")}
                   </div>
                 </div>
@@ -140,7 +140,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/dinamometre-digitale-isokinetice-ctt/c11`}
               className="relative"
@@ -156,7 +156,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-base mb-1">
+                  <div className="font-bold  text-base mb-1">
                     {t("dinamometre.card6D")}
                   </div>
                 </div>
@@ -165,7 +165,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/dinamometre-digitale-isokinetice-ctt/c20`}
               className="relative"
@@ -181,7 +181,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-base mb-1">
+                  <div className="font-bold  text-base mb-1">
                     {t("dinamometre.card7D")}
                   </div>
                 </div>
@@ -190,7 +190,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/dinamometre-digitale-isokinetice-ctt/c16`}
               className="relative"
@@ -206,7 +206,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-base mb-1">
+                  <div className="font-bold  text-base mb-1">
                     {t("dinamometre.card8D")}
                   </div>
                 </div>
@@ -215,7 +215,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/dinamometre-digitale-isokinetice-ctt/c18`}
               className="relative"
@@ -231,7 +231,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-base mb-1">
+                  <div className="font-bold  text-base mb-1">
                     {t("dinamometre.card9D")}
                   </div>
                 </div>
@@ -240,7 +240,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/dinamometre-digitale-isokinetice-ctt/c12`}
               className="relative"
@@ -256,7 +256,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-base mb-1">
+                  <div className="font-bold  text-base mb-1">
                     {t("dinamometre.card10D")}
                   </div>
                 </div>

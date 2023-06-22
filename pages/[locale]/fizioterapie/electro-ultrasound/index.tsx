@@ -18,7 +18,7 @@ export default function ElectroAndUltrasound({ locale }: { locale: string }) {
         </header>
         <div className="w-full">
           <div className="flex flex-col sm:flex-row w-9/12 justify-center items-center mx-auto">
-            <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+            <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
               <Link
                 href={`/${locale}/fizioterapie/electro-ultrasound/physys`}
                 className="relative"
@@ -34,10 +34,10 @@ export default function ElectroAndUltrasound({ locale }: { locale: string }) {
                     placeholder="blur"
                   />
                   <div className="py-2 px-2">
-                    <div className="font-bold text-blue700 text-xl mb-1">
+                    <div className="font-bold text-xl mb-1">
                       {t("cards.card1.card1.header")}
                     </div>
-                    <p className="text-xs">
+                    <p className="text-xs text-gray900">
                       {t("cards.card1.card1.description")}
                     </p>
                   </div>
@@ -46,7 +46,7 @@ export default function ElectroAndUltrasound({ locale }: { locale: string }) {
               </Link>
             </div>
 
-            <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+            <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
               <Link
                 href={`/${locale}/fizioterapie/electro-ultrasound/soleo-sonostim`}
                 className="relative"
@@ -62,10 +62,10 @@ export default function ElectroAndUltrasound({ locale }: { locale: string }) {
                     placeholder="blur"
                   />
                   <div className="py-2 px-2">
-                    <div className="font-bold text-blue700 text-xl mb-1">
+                    <div className="font-bold text-xl mb-1">
                       {t("cards.card1.card2.header")}
                     </div>
-                    <p className="text-xs">
+                    <p className="text-xs text-gray900">
                       {t("cards.card1.card2.description")}
                     </p>
                   </div>
@@ -74,7 +74,7 @@ export default function ElectroAndUltrasound({ locale }: { locale: string }) {
               </Link>
             </div>
 
-            <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+            <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
               <Link
                 href={`/${locale}/fizioterapie/electro-ultrasound/sonoone`}
                 className="relative h-full"
@@ -90,10 +90,10 @@ export default function ElectroAndUltrasound({ locale }: { locale: string }) {
                     placeholder="blur"
                   />
                   <div className="py-2 px-2">
-                    <div className="font-bold text-blue700 text-xl mb-1">
+                    <div className="font-bold text-xl mb-1">
                       {t("cards.card1.card3.header")}
                     </div>
-                    <p className="text-xs">
+                    <p className="text-xs text-gray900">
                       {" "}
                       {t("cards.card1.card3.description")}
                     </p>

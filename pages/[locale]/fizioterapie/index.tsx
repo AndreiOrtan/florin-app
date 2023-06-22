@@ -20,7 +20,7 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
           </div>
         </header>
         <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12">
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden  my-2 text-blue700 hover:text-gray900  hover:opacity-100">
             <Link
               href={`/${locale}/fizioterapie/electro-ultrasound`}
               className="relative"
@@ -36,17 +36,19 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-xl mb-1">
+                  <div className="font-bold text-xl mb-1">
                     {t("cards.card1.header")}
                   </div>
-                  <p className="text-xs">{t("cards.card1.description")}</p>
+                  <p className=" text-gray900 text-xs">
+                    {t("cards.card1.description")}
+                  </p>
                 </div>
               </div>
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden  my-2 text-blue700 hover:text-gray900 ">
             <Link
               href={`/${locale}/fizioterapie/laser-therapy`}
               className="relative"
@@ -62,10 +64,10 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-xl mb-1">
+                  <div className="font-bold text-xl mb-1">
                     {t("cards.card2.header")}
                   </div>
-                  <p className="text-gray-700 text-xs">
+                  <p className="text-gray900 text-xs">
                     {t("cards.card2.description")}
                   </p>
                 </div>
@@ -74,7 +76,7 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden  my-2 text-blue700 hover:text-gray900 ">
             <Link
               href={`/${locale}/fizioterapie/shockwave-therapy`}
               className="relative"
@@ -90,10 +92,10 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-xl mb-1">
+                  <div className="font-bold text-xl mb-1">
                     {t("cards.card3.header")}
                   </div>
-                  <p className="text-gray-700 text-xs">
+                  <p className="text-gray900 text-xs">
                     {t("cards.card3.description")}
                   </p>
                 </div>
@@ -102,7 +104,7 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden  my-2 text-blue700 hover:text-gray900 ">
             <Link
               href={`/${locale}/fizioterapie/high-energy-inductive-therapy`}
               className="relative"
@@ -118,10 +120,10 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-xl mb-1">
+                  <div className="font-bold text-xl mb-1">
                     {t("cards.card4.header")}
                   </div>
-                  <p className="text-gray-700 text-xs">
+                  <p className="text-gray900 text-xs">
                     {t("cards.card4.description")}
                   </p>
                 </div>
@@ -130,7 +132,7 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden  my-2 text-blue700 hover:text-gray900 ">
             <Link
               href={`/${locale}/fizioterapie/diathermy-therapy`}
               className="relative"
@@ -146,10 +148,10 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-xl mb-1">
+                  <div className="font-bold text-xl mb-1">
                     {t("cards.card5.header")}
                   </div>
-                  <p className="text-gray-700 text-xs">
+                  <p className="text-gray900 text-xs">
                     {t("cards.card5.description")}
                   </p>
                 </div>
@@ -158,7 +160,7 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden  my-2 text-blue700 hover:text-gray900 ">
             <Link
               href={`/${locale}/fizioterapie/cryotherapy`}
               className="relative"
@@ -174,10 +176,10 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-xl mb-1">
+                  <div className="font-bold text-xl mb-1">
                     {t("cards.card6.header")}
                   </div>
-                  <p className="text-gray-700 text-xs">
+                  <p className="text-gray900 text-xs">
                     {t("cards.card6.description")}
                   </p>
                 </div>

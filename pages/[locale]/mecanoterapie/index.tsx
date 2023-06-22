@@ -16,7 +16,7 @@ const Mecanoterapie = ({ locale }: { locale: string }) => {
           </div>
         </header>
         <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12">
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/masini-isokinetice-mtt`}
               className="relative"
@@ -32,7 +32,7 @@ const Mecanoterapie = ({ locale }: { locale: string }) => {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2 my-auto">
-                  <div className="font-bold text-blue700 text-xl mb-1 text-center">
+                  <div className="font-bold  text-xl mb-1 text-center">
                     {t("card1Description")}
                   </div>
                 </div>
@@ -41,7 +41,7 @@ const Mecanoterapie = ({ locale }: { locale: string }) => {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/dinamometre-digitale-isokinetice-ctt`}
               className="relative"
@@ -57,7 +57,7 @@ const Mecanoterapie = ({ locale }: { locale: string }) => {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-xl mb-1 text-center">
+                  <div className="font-bold text-xl mb-1 text-center">
                     {t("card2Description")}
                   </div>
                 </div>

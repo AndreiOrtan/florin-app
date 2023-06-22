@@ -16,7 +16,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
           </div>
         </header>
         <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12 mb-8">
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 hover:text-gray900 text-blue700">
             <Link
               href={`/${locale}/fizioterapie/shockwave-therapy/enpuls`}
               className="relative"
@@ -32,10 +32,8 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-xl mb-1">
-                    enPuls
-                  </div>
-                  <p className="text-xs">
+                  <div className="font-bold text-xl mb-1">enPuls</div>
+                  <p className="text-xs text-gray900">
                     {t("cards.card3.card1.description")}
                   </p>
                 </div>
@@ -44,7 +42,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 ">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 hover:text-gray900 text-blue700">
             <Link
               href={`/${locale}/fizioterapie/shockwave-therapy/enpulspro`}
               className="relative"
@@ -60,10 +58,8 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-xl mb-1">
-                    enPulsPro
-                  </div>
-                  <p className="text-xs">
+                  <div className="font-bold text-xl mb-1">enPulsPro</div>
+                  <p className="text-xs text-gray900">
                     {t("cards.card3.card2.description")}
                   </p>
                 </div>
@@ -72,7 +68,7 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100]">
+          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 hover:text-gray900 text-blue700">
             <Link
               href={`/${locale}/fizioterapie/shockwave-therapy/enshock`}
               className="relative"
@@ -88,10 +84,8 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
                   placeholder="blur"
                 />
                 <div className="py-2 px-2">
-                  <div className="font-bold text-blue700 text-xl mb-1">
-                    enShock
-                  </div>
-                  <p className="text-xs">
+                  <div className="font-bold text-xl mb-1">enShock</div>
+                  <p className="text-xs text-gray900">
                     {t("cards.card3.card3.description")}
                   </p>
                 </div>
