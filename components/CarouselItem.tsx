@@ -43,7 +43,8 @@ export default function CarouselItem({
             muted
             onEnded={restart}
             className={`w-full ${styles.fadeeVideo}`}
-            poster={videoSrc}
+            // poster={videoSrc}
+            playsInline
           ></video>
         </div>
       ) : (
