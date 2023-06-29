@@ -32,8 +32,8 @@ export default function Nav({ locale }: { locale: string }) {
                 Suhard Biomedical
               </p>
 
-              <p className="text-gray600 sm:text-base text-sm absolute sm:bottom-[7px] sm:right-0 bottom-[3px] right-[37px] font-normal italic">
-                Aesthetic
+              <p className="text-gray600 sm:text-base text-xs absolute sm:bottom-[7px] sm:right-0 bottom-[3px] right-[37px] font-normal italic">
+                HighTech Medical Equipments
               </p>
             </div>
           </Link>

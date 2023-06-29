@@ -1,0 +1,16 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadee {
+  animation: fadeIn 1s;
+}
+
+.fadeeVideo {
+  animation: fadeIn 1s;
+}
