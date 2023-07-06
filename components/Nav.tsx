@@ -14,7 +14,7 @@ export default function Nav({ locale }: { locale: string }) {
     setIsOpen(false);
   }
   return (
-    <nav className="bg-lightgray fixed top-0 left-0 right-0 z-50">
+    <nav className="bg-lightgray fixed top-0 left-0 right-0 z-[9999]">
       <div className="flex lg:justify-center h-[114px] justify-between">
         <div className="flex items-center lg:mr-16 ml-4">
           <Link
