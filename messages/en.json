@@ -1043,5 +1043,59 @@
         "p18": "This procedure is important for stabilizing the spine. Through the use of different grip handles, it targets the scapulo-humeral girdle, the middle back region, and particularly the flexor/extensor and rotator muscles of the arm."
       }
     }
+  },
+  "aesthetics": {
+    "cards": {
+      "card1": {
+        "header": "ZCyro",
+        "description": "Cold air for highest patient´s comfort during laser, IPL treatments and injections",
+        "card1": {
+          "description": "The new Cryo 7: Ultramodern technology and over 25 years of experience."
+        },
+        "card2": {
+          "description": "Cryo 6 – the perfect system for skin cooling"
+        },
+        "card3": {
+          "description": "The compact system for short & less painful treatments"
+        }
+      },
+      "card2": {
+        "header": "ZLipo",
+        "description": "Send a cold message to your fat deposits"
+      },
+      "card3": {
+        "header": "ZField Dual",
+        "description": "Body Shaping with High-Energy Inductive Therapy"
+      },
+      "card4": {
+        "header": "ZTone",
+        "description": "Thousands of muscle contractions through electromagnetic pulses"
+      },
+      "card5": {
+        "header": "ZWave",
+        "description": "Shockwave for skin tightening and body contouring"
+      },
+      "card6": {
+        "header": "ContiCure",
+        "description": "Pelvic floor training – Start your training today and get your laughter back."
+      },
+      "card7": {
+        "header": "ZFill",
+        "description": "Hyaluronic acid dermal fillers for youthful, wrinkle-free skin",
+        "card1": {
+          "description": "Natural skin regeneration – Mesotherapy"
+        },
+        "card2": {
+          "description": "For the mid and deep dermis"
+        },
+        "card3": {
+          "description": "Gives new fullness and more volume"
+        }
+      },
+      "card8": {
+        "header": "GentlePro",
+        "description": "Shockwave treatment for erectile dysfunction"
+      }
+    }
   }
 }

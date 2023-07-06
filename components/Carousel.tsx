@@ -20,7 +20,7 @@ const Slider = () => {
       url: `/${router.query.locale}/fizioterapie/cryotherapy/cryo6`,
       header: "Cryo6",
       description:
-        "Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumloremlorem, Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumloremlorem,Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumloremlorem",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       videoSrc: "/aquatizer_video_cut.mp4",
     },
     {
@@ -28,7 +28,14 @@ const Slider = () => {
       url: `/${router.query.locale}/fizioterapie/cryotherapy/cryomini`,
       header: "Cryomini",
       description:
-        "Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumloremlorem",
+        "It is a long established fact that a reader will be distracted by the readable content of a page ",
+      videoSrc: "/aquatizer_video_cut.mp4",
+    },
+    {
+      imgPath: "/fizioterapiePhotos/cryotherapy/cryomini/cryomini-machine.png",
+      url: `/${router.query.locale}/fizioterapie/cryotherapy/cryomini`,
+      header: "Cryomini",
+      description: "Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum ",
       videoSrc: "/aquatizer_video_cut.mp4",
     },
     {
@@ -36,15 +43,7 @@ const Slider = () => {
       url: `/${router.query.locale}/fizioterapie/cryotherapy/cryomini`,
       header: "Cryomini",
       description:
-        "Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumloremloremLorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumloremloremLorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumloremloremLorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ",
-      videoSrc: "/aquatizer_video_cut.mp4",
-    },
-    {
-      imgPath: "/fizioterapiePhotos/cryotherapy/cryomini/cryomini-machine.png",
-      url: `/${router.query.locale}/fizioterapie/cryotherapy/cryomini`,
-      header: "Cryomini",
-      description:
-        "Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumloremloremLorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsum Lorem ipsumLorem ipsumLorem ipsumloremlorem",
+        "It is a long established fact that a reader will be distracted by the readable content of a page, lorem lorem",
       videoSrc: "/aquatizer_video_cut.mp4",
     },
   ];

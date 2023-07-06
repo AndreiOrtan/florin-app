@@ -18,90 +18,29 @@ export default function ElectroAndUltrasound({ locale }: { locale: string }) {
         </header>
         <div className="w-full">
           <div className="flex flex-col sm:flex-row w-9/12 justify-center items-center mx-auto">
-            <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
-              <Link
-                href={`/${locale}/fizioterapie/electro-ultrasound/physys`}
-                className="relative"
-              >
-                <div className="w-full min-h-[320px]">
-                  <Image
-                    src="/fizioterapiePhotos/electro-ultrasound/physys.jpg"
-                    className="w-full h-56"
-                    alt="Any Text"
-                    width={500}
-                    height={500}
-                    blurDataURL="URL"
-                    placeholder="blur"
-                  />
-                  <div className="py-2 px-2">
-                    <div className="font-bold text-xl mb-1">
-                      {t("cards.card1.card1.header")}
-                    </div>
-                    <p className="text-xs text-gray900">
-                      {t("cards.card1.card1.description")}
-                    </p>
-                  </div>
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-              </Link>
-            </div>
+            <Card
+              linkUrl={`/${locale}/fizioterapie/electro-ultrasound/physys`}
+              imageUrl="/fizioterapiePhotos/electro-ultrasound/physys.jpg"
+              cardHeader={t("cards.card1.card1.header")}
+              cardDescription={t("cards.card1.card1.description")}
+              minH={320}
+            />
 
-            <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
-              <Link
-                href={`/${locale}/fizioterapie/electro-ultrasound/soleo-sonostim`}
-                className="relative"
-              >
-                <div className="w-full min-h-[320px]">
-                  <Image
-                    src="/fizioterapiePhotos/electro-ultrasound/soleo-sonostim.jpg"
-                    className="w-full h-56"
-                    alt="Any Text"
-                    width={500}
-                    height={500}
-                    blurDataURL="URL"
-                    placeholder="blur"
-                  />
-                  <div className="py-2 px-2">
-                    <div className="font-bold text-xl mb-1">
-                      {t("cards.card1.card2.header")}
-                    </div>
-                    <p className="text-xs text-gray900">
-                      {t("cards.card1.card2.description")}
-                    </p>
-                  </div>
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-              </Link>
-            </div>
+            <Card
+              linkUrl={`/${locale}/fizioterapie/electro-ultrasound/soleo-sonostim`}
+              imageUrl="/fizioterapiePhotos/electro-ultrasound/soleo-sonostim.jpg"
+              cardHeader={t("cards.card1.card2.header")}
+              cardDescription={t("cards.card1.card2.description")}
+              minH={320}
+            />
 
-            <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
-              <Link
-                href={`/${locale}/fizioterapie/electro-ultrasound/sonoone`}
-                className="relative h-full"
-              >
-                <div className="w-full min-h-[320px]">
-                  <Image
-                    src="/fizioterapiePhotos/electro-ultrasound/sonoone.jpg"
-                    className="w-full h-56"
-                    alt="Any Text"
-                    width={500}
-                    height={500}
-                    blurDataURL="URL"
-                    placeholder="blur"
-                  />
-                  <div className="py-2 px-2">
-                    <div className="font-bold text-xl mb-1">
-                      {t("cards.card1.card3.header")}
-                    </div>
-                    <p className="text-xs text-gray900">
-                      {" "}
-                      {t("cards.card1.card3.description")}
-                    </p>
-                  </div>
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-              </Link>
-            </div>
+            <Card
+              linkUrl={`/${locale}/fizioterapie/electro-ultrasound/sonoone`}
+              imageUrl="/fizioterapiePhotos/electro-ultrasound/sonoone.jpg"
+              cardHeader={t("cards.card1.card3.header")}
+              cardDescription={t("cards.card1.card3.description")}
+              minH={320}
+            />
           </div>
         </div>
 
@@ -151,6 +90,7 @@ import { readFile } from "fs/promises";
 import { GetStaticPropsContext } from "next";
 import path from "path";
 import PhysioLayout from "@/components/PhysioLayout";
+import Card from "@/components/Card";
 
 export async function getStaticPaths() {
   const paths = ["ro", "en"].map((lang) => ({

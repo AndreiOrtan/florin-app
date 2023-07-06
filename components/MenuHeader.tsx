@@ -2,12 +2,13 @@ import Link from "next/link";
 import React, { useState, useRef, useEffect } from "react";
 import { AiFillCaretDown } from "react-icons/ai";
 
-interface DropdownI {
+interface MenuHeaderI {
   options?: string[];
   header?: string;
   collapseDropdown?: () => void;
   routes?: string[];
   locale?: string;
+  self?: boolean;
 }
 
 const MenuHeader = ({
@@ -16,7 +17,8 @@ const MenuHeader = ({
   collapseDropdown,
   routes,
   locale,
-}: DropdownI) => {
+  self,
+}: MenuHeaderI) => {
   const [isOpen, setIsOpen] = useState(false);
   const ref = useRef(null);
 
@@ -49,7 +51,13 @@ const MenuHeader = ({
         } rounded-lg text-lg font-semibold px-4 hover:text-blue700 py-2.5 text-center flex justify-center items-center`}
         type="button"
       >
-        {header}
+        {self ? (
+          <Link href={`/${locale}/${header?.toLocaleLowerCase()}`}>
+            {header}
+          </Link>
+        ) : (
+          header
+        )}
         {options && (
           <span
             className={`px-2 transition-transform duration-500 transform ${

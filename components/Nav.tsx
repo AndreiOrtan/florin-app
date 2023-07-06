@@ -15,8 +15,8 @@ export default function Nav({ locale }: { locale: string }) {
   }
   return (
     <nav className="bg-lightgray fixed top-0 left-0 right-0 z-50">
-      <div className="flex sm:justify-center h-[114px] justify-between">
-        <div className="flex items-center ml-8">
+      <div className="flex lg:justify-center h-[114px] justify-between">
+        <div className="flex items-center lg:mr-16 ml-4">
           <Link
             href={`/${locale}`}
             className="flex flex-row items-center justify-center"
@@ -25,22 +25,21 @@ export default function Nav({ locale }: { locale: string }) {
             <img
               src="/image00001 copy.png"
               alt="text"
-              className="h-auto sm:w-[100px] w-[60px] max-w-full"
+              className="h-auto lg:w-[100px] w-[60px] max-w-full"
             />
-            <div className="self-end relative sm:h-12 h-9 ml-1 min-w-[161px]">
-              <p className="text-blue500 sm:text-lg text-sm sm:text-center tracking-wide font-bold">
+            <div className="relative flex flex-col lg:items-center lg:h-12 h-9 min-w-[214px]">
+              <p className="text-blue500 lg:text-2xl text-lg tracking-wide font-bold">
                 Suhard Biomedical
               </p>
-
-              <p className="text-gray600 sm:text-base text-xs absolute sm:bottom-[7px] sm:right-0 bottom-[3px] right-[37px] font-normal italic">
-                HighTech Medical Equipments
+              <p className="text-gray600 lg:text-base text-xs font-normal italic absolute lg:bottom-[4.5px] lg:right-0 bottom-[2px] right-[55px]">
+                HighTech Medical Devices
               </p>
             </div>
           </Link>
         </div>
 
         <div
-          className={`sm:flex sm:w-min w-full justify-center bg-lightgray items-center sm:ml-16 sm:static absolute bottom-[-144px] ${
+          className={`lg:flex lg:w-min w-full justify-center bg-lightgray items-center lg:ml-24 lg:static absolute bottom-[-144px] ${
             isOpen ? "" : "hidden"
           }`}
         >
@@ -55,6 +54,7 @@ export default function Nav({ locale }: { locale: string }) {
             collapseDropdown={collapseDropdown}
             routes={["Fizioterapie", "Aquatizer", "Mecanoterapie"]}
           />
+          <MenuHeader header="Aesthetics" self locale={locale} />
           <MenuHeader
             header={t("header2")}
             options={[`${t("about-us")}`, "Cariere"]}
@@ -64,9 +64,9 @@ export default function Nav({ locale }: { locale: string }) {
           />
           <MenuHeader header="Contact" />
         </div>
-        <div className="flex justify-center mr-8">
+        <div className="flex justify-center mr-4">
           <span
-            className="flex items-center sm:hidden mx-2"
+            className="flex items-center lg:hidden mx-2"
             onClick={() => setIsOpen((prev) => !prev)}
           >
             {isOpen ? <MdClose size={50} /> : <MdOutlineMenu size={50} />}

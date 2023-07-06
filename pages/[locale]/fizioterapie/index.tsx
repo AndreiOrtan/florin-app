@@ -5,6 +5,7 @@ import { GetStaticPropsContext } from "next";
 import { readFile } from "fs/promises";
 import path from "path";
 import PhysioLayout from "@/components/PhysioLayout";
+import Card from "@/components/Card";
 
 export default function PhysicalTherapy({ locale }: { locale: string }) {
   const t = useTranslations("physiotherapy");
@@ -20,173 +21,53 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
           </div>
         </header>
         <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12">
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden  my-2 text-blue700 hover:text-gray900  hover:opacity-100">
-            <Link
-              href={`/${locale}/fizioterapie/electro-ultrasound`}
-              className="relative"
-            >
-              <div className="w-full min-h-[364px]">
-                <Image
-                  src="/fizioterapiePhotos/electro-sound.jpg"
-                  className="w-full h-56"
-                  alt="Any Text"
-                  width={500}
-                  height={500}
-                  blurDataURL="URL"
-                  placeholder="blur"
-                />
-                <div className="py-2 px-2">
-                  <div className="font-bold text-xl mb-1">
-                    {t("cards.card1.header")}
-                  </div>
-                  <p className=" text-gray900 text-xs">
-                    {t("cards.card1.description")}
-                  </p>
-                </div>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
-          </div>
+          <Card
+            linkUrl={`/${locale}/fizioterapie/electro-ultrasound`}
+            imageUrl="/fizioterapiePhotos/electro-sound.jpg"
+            cardHeader={t("cards.card1.header")}
+            cardDescription={t("cards.card1.description")}
+            minH={364}
+          />
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden  my-2 text-blue700 hover:text-gray900 ">
-            <Link
-              href={`/${locale}/fizioterapie/laser-therapy`}
-              className="relative"
-            >
-              <div className="w-full rounded-lg bg-white min-h-[364px]">
-                <Image
-                  className="w-full h-56"
-                  src="/fizioterapiePhotos/laser-therapy.jpeg"
-                  alt="Any Text"
-                  width={500}
-                  height={500}
-                  blurDataURL="URL"
-                  placeholder="blur"
-                />
-                <div className="py-2 px-2">
-                  <div className="font-bold text-xl mb-1">
-                    {t("cards.card2.header")}
-                  </div>
-                  <p className="text-gray900 text-xs">
-                    {t("cards.card2.description")}
-                  </p>
-                </div>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
-          </div>
+          <Card
+            linkUrl={`/${locale}/fizioterapie/laser-therapy`}
+            imageUrl="/fizioterapiePhotos/laser-therapy.jpeg"
+            cardHeader={t("cards.card2.header")}
+            cardDescription={t("cards.card2.description")}
+            minH={364}
+          />
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden  my-2 text-blue700 hover:text-gray900 ">
-            <Link
-              href={`/${locale}/fizioterapie/shockwave-therapy`}
-              className="relative"
-            >
-              <div className="w-full rounded-lg bg-white min-h-[364px]">
-                <Image
-                  className="w-full h-56"
-                  src="/fizioterapiePhotos/shockwave-therapy.jpg"
-                  alt="Any Text"
-                  width={500}
-                  height={500}
-                  blurDataURL="URL"
-                  placeholder="blur"
-                />
-                <div className="py-2 px-2">
-                  <div className="font-bold text-xl mb-1">
-                    {t("cards.card3.header")}
-                  </div>
-                  <p className="text-gray900 text-xs">
-                    {t("cards.card3.description")}
-                  </p>
-                </div>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
-          </div>
+          <Card
+            linkUrl={`/${locale}/fizioterapie/shockwave-therapy`}
+            imageUrl="/fizioterapiePhotos/shockwave-therapy.jpg"
+            cardHeader={t("cards.card3.header")}
+            cardDescription={t("cards.card3.description")}
+            minH={364}
+          />
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden  my-2 text-blue700 hover:text-gray900 ">
-            <Link
-              href={`/${locale}/fizioterapie/high-energy-inductive-therapy`}
-              className="relative"
-            >
-              <div className="w-full rounded-lg bg-white min-h-[364px]">
-                <Image
-                  className="w-full h-56"
-                  src="/fizioterapiePhotos/high-energy-inductive.jpg"
-                  alt="Any Text"
-                  width={500}
-                  height={500}
-                  blurDataURL="URL"
-                  placeholder="blur"
-                />
-                <div className="py-2 px-2">
-                  <div className="font-bold text-xl mb-1">
-                    {t("cards.card4.header")}
-                  </div>
-                  <p className="text-gray900 text-xs">
-                    {t("cards.card4.description")}
-                  </p>
-                </div>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
-          </div>
+          <Card
+            linkUrl={`/${locale}/fizioterapie/high-energy-inductive-therapy`}
+            imageUrl="/fizioterapiePhotos/high-energy-inductive.jpg"
+            cardHeader={t("cards.card4.header")}
+            cardDescription={t("cards.card4.description")}
+            minH={364}
+          />
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden  my-2 text-blue700 hover:text-gray900 ">
-            <Link
-              href={`/${locale}/fizioterapie/diathermy-therapy`}
-              className="relative"
-            >
-              <div className="w-full rounded-lg bg-white min-h-[364px]">
-                <Image
-                  className="w-full h-56"
-                  src="/fizioterapiePhotos/diathermy-therapy.jpg"
-                  alt="Any Text"
-                  width={500}
-                  height={500}
-                  blurDataURL="URL"
-                  placeholder="blur"
-                />
-                <div className="py-2 px-2">
-                  <div className="font-bold text-xl mb-1">
-                    {t("cards.card5.header")}
-                  </div>
-                  <p className="text-gray900 text-xs">
-                    {t("cards.card5.description")}
-                  </p>
-                </div>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
-          </div>
+          <Card
+            linkUrl={`/${locale}/fizioterapie/diathermy-therapy`}
+            imageUrl="/fizioterapiePhotos/diathermy-therapy.jpg"
+            cardHeader={t("cards.card5.header")}
+            cardDescription={t("cards.card5.description")}
+            minH={364}
+          />
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden  my-2 text-blue700 hover:text-gray900 ">
-            <Link
-              href={`/${locale}/fizioterapie/cryotherapy`}
-              className="relative"
-            >
-              <div className="w-full rounded-lg bg-white min-h-[364px]">
-                <Image
-                  className="w-full h-56"
-                  src="/fizioterapiePhotos/cryotherapy.jpeg"
-                  alt="Any Text"
-                  width={500}
-                  height={500}
-                  blurDataURL="URL"
-                  placeholder="blur"
-                />
-                <div className="py-2 px-2">
-                  <div className="font-bold text-xl mb-1">
-                    {t("cards.card6.header")}
-                  </div>
-                  <p className="text-gray900 text-xs">
-                    {t("cards.card6.description")}
-                  </p>
-                </div>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
-          </div>
+          <Card
+            linkUrl={`/${locale}/fizioterapie/cryotherapy`}
+            imageUrl="/fizioterapiePhotos/cryotherapy.jpeg"
+            cardHeader={t("cards.card6.header")}
+            cardDescription={t("cards.card6.description")}
+            minH={364}
+          />
         </div>
 
         <section className="mt-16 flex justify-center">

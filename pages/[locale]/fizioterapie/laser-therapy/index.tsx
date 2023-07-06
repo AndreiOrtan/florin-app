@@ -14,32 +14,13 @@ export default function ElectroAndUltrasound({ locale }: { locale: string }) {
             <h1 className="text-blue700 text-3xl font-bold">Laser Therapy</h1>
           </div>
         </header>
-        <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center mb-8 w-[300px]">
-          <div className="card-container rounded-lg shadow-lg w-9/12 sm:mx-2 overflow-hidden my-2 hover:opacity-100 mx-auto hover:text-gray900 text-blue700">
-            <Link
-              href={`/${locale}/fizioterapie/laser-therapy/optonpro`}
-              className="relative"
-            >
-              <div className="w-full">
-                <Image
-                  src="/fizioterapiePhotos/laser-therapy/optonpro.jpeg"
-                  className="w-full h-56"
-                  alt="Any Text"
-                  width={400}
-                  height={500}
-                  blurDataURL="URL"
-                  placeholder="blur"
-                />
-                <div className="py-2 px-2">
-                  <div className="font-bold text-xl mb-1">OptonPro</div>
-                  <p className="text-xs text-gray900">
-                    {t("cards.card2.cardDescription")}
-                  </p>
-                </div>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
-          </div>
+        <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center mb-8">
+          <Card
+            linkUrl={`/${locale}/fizioterapie/laser-therapy/optonpro`}
+            imageUrl="/fizioterapiePhotos/laser-therapy/optonpro.jpeg"
+            cardHeader="OptonPro"
+            cardDescription={t("cards.card2.cardDescription")}
+          />
         </div>
 
         <section className="my-16">
@@ -96,6 +77,7 @@ import { readFile } from "fs/promises";
 import { GetStaticPropsContext } from "next";
 import path from "path";
 import PhysioLayout from "@/components/PhysioLayout";
+import Card from "@/components/Card";
 
 export async function getStaticPaths() {
   const paths = ["ro", "en"].map((lang) => ({

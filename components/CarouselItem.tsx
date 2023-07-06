@@ -24,16 +24,15 @@ export default function CarouselItem({
     setIsEnd(true);
     setTimeout(() => {
       setIsEnd(false);
-    }, 10000);
+    }, 8000);
   }
 
-  console.log(isEnd);
   return (
-    <div className="relative h-full">
+    <div className="h-full">
       {" "}
       {!isEnd ? (
         <div
-          className={`max-w-full h-[480px] overflow-hidden transition-opacity duration-500 ${
+          className={`overflow-hidden transition-opacity duration-500 ${
             isEnd ? "opacity-0" : "opacity-100"
           }`}
         >
@@ -42,7 +41,7 @@ export default function CarouselItem({
             autoPlay
             muted
             onEnded={restart}
-            className={`w-full ${styles.fadeeVideo}`}
+            className={`w-full sm:h-[520px] h-[280px] ${styles.fadeeVideo} object-cover`}
             // poster={videoSrc}
             playsInline
           ></video>
@@ -50,35 +49,35 @@ export default function CarouselItem({
       ) : (
         <div className="h-full">
           <div
-            className={`w-9/12 h-full mx-auto flex flex-col sm:flex-row items-center justify-center z-50 ${styles.fadee}`}
+            className={`w-9/12 h-full relative mx-auto flex flex-col justify-start sm:justify-center pt-4 z-50 ${styles.fadee}`}
           >
-            <div>
+            <div className="flex sm:justify-center">
               <div>
-                <h1 className="text-2xl font-semibold">{header}</h1>
+                <h1 className="text-2xl font-semibold ">{header}</h1>
                 <p className="font-thin">{description}</p>
+                <div className="my-2 sm:static absolute bottom-0 w-full mb-8">
+                  <Link href={imgUrl}>
+                    <button className="p-4 bg-blue500 hover:bg-blue800 rounded-lg text-white font-medium w-full sm:max-w-max">
+                      Go to product
+                    </button>
+                  </Link>
+                </div>
               </div>
-              <div className="my-2">
-                <Link href={imgUrl}>
-                  <button className="p-4 bg-blue500 rounded-lg text-white font-medium">
-                    Go to product
-                  </button>
-                </Link>
-              </div>
+              <img
+                src={`${imgPath}`}
+                alt="asd"
+                className="sm:max-w-[200px] max-w-[50px] ml-auto "
+              />
             </div>
-            <img
-              src={`${imgPath}`}
-              alt="asd"
-              className="max-w-[200px] ml-auto"
-            />
           </div>
         </div>
       )}
       <Image
-        src="asx5.jpg"
+        src="ORJ58B0.jpg"
         alt=""
         width={"100"}
         height={"100"}
-        className={`h-[480px] w-full opacity-10 absolute top-0 left-0 -z-10`}
+        className={`h-full w-full opacity-5 absolute top-0 left-0 -z-10`}
       />
     </div>
   );
