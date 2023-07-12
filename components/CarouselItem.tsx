@@ -34,17 +34,21 @@ export default function CarouselItem({
       {" "}
       {!isEnd ? (
         <div
-          className={`overflow-hidden transition-opacity duration-500 ${
+          className={`overflow-hidden relative transition-opacity duration-500 ${
             isEnd ? "opacity-0" : "opacity-100"
           }`}
         >
-          {isLoading && <Spinner />}
+          {isLoading && (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <Spinner />
+            </div>
+          )}
           <video
             src={videoSrc}
             autoPlay
             muted
             onEnded={restart}
-            onCanPlay={() => setIsLoading(!isLoading)}
+            onCanPlay={() => setIsLoading(false)}
             className={`w-full sm:h-[520px] h-[280px] ${styles.fadeeVideo} object-cover`}
             // poster={videoSrc}
             playsInline
