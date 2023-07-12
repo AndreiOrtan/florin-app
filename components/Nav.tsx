@@ -32,7 +32,7 @@ export default function Nav({ locale }: { locale: string }) {
                 Suhard Biomedical
               </p>
               <p className="text-gray600 lg:text-base text-xs font-normal italic absolute lg:bottom-[4.5px] lg:right-0 bottom-[2px] right-[55px]">
-                HighTech Medical Devices
+                HighTech Medical Equipment
               </p>
             </div>
           </Link>

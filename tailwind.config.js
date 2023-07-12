@@ -50,6 +50,7 @@ module.exports = {
       gray500: "#F9FAFB",
       purple: "#B68ABF",
       blue800: "#1e40af",
+      orange: "#ED7003",
     },
   },
   plugins: [],

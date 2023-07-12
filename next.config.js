@@ -2,7 +2,7 @@
 
 const nextConfig = {
   output: "export",
-  images: { unoptimized: true },
+  images: { unoptimized: true, loader: "akamai", path: "" },
 };
 
 module.exports = nextConfig;

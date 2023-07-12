@@ -58,7 +58,7 @@ export default function CarouselItem({
                 <div className="my-2 sm:static absolute bottom-0 w-full mb-8">
                   <Link href={imgUrl}>
                     <button className="p-4 bg-blue500 hover:bg-blue800 rounded-lg text-white font-medium w-full sm:max-w-max">
-                      Go to product
+                      Mode details
                     </button>
                   </Link>
                 </div>

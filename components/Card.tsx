@@ -7,6 +7,7 @@ interface CardInterface {
   cardHeader: string;
   cardDescription?: string;
   minH?: number;
+  orange?: boolean;
 }
 
 export default function Card({
@@ -15,9 +16,14 @@ export default function Card({
   imageUrl,
   linkUrl,
   minH,
+  orange,
 }: CardInterface) {
   return (
-    <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 text-blue700 hover:text-gray900  hover:opacity-100">
+    <div
+      className={`card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 ${
+        orange ? "text-orange" : "text-blue700"
+      } hover:text-gray900  hover:opacity-100`}
+    >
       <Link href={linkUrl} className="relative">
         <div className="w-full" style={{ minHeight: minH }}>
           <Image

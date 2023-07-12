@@ -15,7 +15,7 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
       <div className="flex flex-col items-center mt-4 w-full text-gray600">
         <header className="py-4 w-9/12">
           <div className="container mx-auto px-4">
-            <h1 className="text-blue700 text-3xl font-bold text-center">
+            <h1 className="text-3xl font-bold text-center">
               {t("mainHeader")}
             </h1>
           </div>

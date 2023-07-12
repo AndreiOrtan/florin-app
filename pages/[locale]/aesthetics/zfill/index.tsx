@@ -10,30 +10,33 @@ export default function Aesthetic({ locale }: { locale: string }) {
     <div className="flex flex-col items-center mt-4 w-full text-gray600">
       <header className="py-4 w-9/12">
         <div className="container mx-auto px-4">
-          <h1 className="text-blue700 text-3xl font-bold text-center">ZFill</h1>
+          <h1 className="text-3xl font-bold text-center">ZFill</h1>
         </div>
       </header>
       <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12">
         <Card
           minH={320}
-          linkUrl={`/${locale}/fizioterapie/electro-ultrasound`}
-          imageUrl="/aesthetics/zcyro/cryo7.jpeg"
+          linkUrl={`/${locale}/aesthetics/zfill/zfill-refresh`}
+          imageUrl="/aesthetics/zfill/zfill-refresh.jpeg"
           cardHeader="Z Fill refresh²"
           cardDescription={t("cards.card7.card1.description")}
+          orange
         />
         <Card
           minH={320}
-          linkUrl={`/${locale}/fizioterapie/electro-ultrasound`}
-          imageUrl="/aesthetics/zcyro/cryo6.jpeg"
+          linkUrl={`/${locale}/aesthetics/zfill/zfill-contour`}
+          imageUrl="/aesthetics/zfill/zfill-contour.jpeg"
           cardHeader="Z Fill contour² | contour⁺"
           cardDescription={t("cards.card7.card2.description")}
+          orange
         />
         <Card
           minH={320}
-          linkUrl={`/${locale}/fizioterapie/electro-ultrasound`}
-          imageUrl="/aesthetics/zcyro/cryomini.jpeg"
-          cardHeader="CryoMini"
+          linkUrl={`/${locale}/aesthetics/zfill/zfill-deep`}
+          imageUrl="/aesthetics/zfill/zfill-deep.jpeg"
+          cardHeader="Z Fill deep² | deep⁺"
           cardDescription={t("cards.card7.card3.description")}
+          orange
         />
       </div>
     </div>

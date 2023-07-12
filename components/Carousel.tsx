@@ -16,35 +16,27 @@ const Slider = () => {
   const router = useRouter();
   const content = [
     {
-      imgPath: "/fizioterapiePhotos/cryotherapy/cryo6/cryo6-machine.png",
-      url: `/${router.query.locale}/fizioterapie/cryotherapy/cryo6`,
-      header: "Cryo6",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      videoSrc: "/aquatizer_video_cut.mp4",
-    },
-    {
       imgPath: "/fizioterapiePhotos/cryotherapy/cryomini/cryomini-machine.png",
-      url: `/${router.query.locale}/fizioterapie/cryotherapy/cryomini`,
-      header: "Cryomini",
+      url: `/${router.query.locale}/fizioterapie`,
+      header: "Zimmer",
       description:
         "It is a long established fact that a reader will be distracted by the readable content of a page ",
-      videoSrc: "/aquatizer_video_cut.mp4",
+      videoSrc: "/zimmer_video.mp4",
     },
     {
-      imgPath: "/fizioterapiePhotos/cryotherapy/cryomini/cryomini-machine.png",
-      url: `/${router.query.locale}/fizioterapie/cryotherapy/cryomini`,
-      header: "Cryomini",
-      description: "Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum ",
-      videoSrc: "/aquatizer_video_cut.mp4",
-    },
-    {
-      imgPath: "/fizioterapiePhotos/cryotherapy/cryomini/cryomini-machine.png",
-      url: `/${router.query.locale}/fizioterapie/cryotherapy/cryomini`,
-      header: "Cryomini",
+      imgPath: "/fizioterapiePhotos/cryotherapy/cryo6/cryo6-machine.png",
+      url: `/${router.query.locale}/aquatizer`,
+      header: "Aquatizer",
       description:
-        "It is a long established fact that a reader will be distracted by the readable content of a page, lorem lorem",
-      videoSrc: "/aquatizer_video_cut.mp4",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      videoSrc: "/aquatizer_video.mp4",
+    },
+    {
+      imgPath: "/fizioterapiePhotos/cryotherapy/cryomini/cryomini-machine.png",
+      url: `/${router.query.locale}/mecanoterapie`,
+      header: "MKB",
+      description: "Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum ",
+      videoSrc: "/mkb_video.mp4",
     },
   ];
 
