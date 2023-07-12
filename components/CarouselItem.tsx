@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "./CarouselItem.module.css";
+import Spinner from "./Spinner";
 
 interface CarouselItm {
   videoSrc: string;
@@ -19,6 +20,7 @@ export default function CarouselItem({
   imgPath,
 }: CarouselItm) {
   const [isEnd, setIsEnd] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   function restart() {
     setIsEnd(true);
@@ -36,11 +38,13 @@ export default function CarouselItem({
             isEnd ? "opacity-0" : "opacity-100"
           }`}
         >
+          {isLoading && <Spinner />}
           <video
             src={videoSrc}
             autoPlay
             muted
             onEnded={restart}
+            onCanPlay={() => setIsLoading(!isLoading)}
             className={`w-full sm:h-[520px] h-[280px] ${styles.fadeeVideo} object-cover`}
             // poster={videoSrc}
             playsInline
