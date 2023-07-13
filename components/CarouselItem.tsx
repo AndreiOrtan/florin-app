@@ -38,17 +38,18 @@ export default function CarouselItem({
             isEnd ? "opacity-0" : "opacity-100"
           }`}
         >
-          {isLoading && (
+          {/* {isLoading && (
             <div className="absolute inset-0 flex items-center justify-center">
               <Spinner />
             </div>
-          )}
+          )} */}
           <video
             src={videoSrc}
             autoPlay
             muted
             onEnded={restart}
-            onCanPlay={() => setIsLoading(false)}
+            onCanPlay={() => console.log("done can play")}
+            onLoadedData={() => console.log("done loading data")}
             className={`w-full sm:h-[520px] h-[280px] ${styles.fadeeVideo} object-cover`}
             // poster={videoSrc}
             playsInline

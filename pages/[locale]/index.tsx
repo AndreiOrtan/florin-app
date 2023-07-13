@@ -3,6 +3,7 @@ import { readFile } from "fs/promises";
 import { GetStaticPropsContext } from "next";
 import path from "path";
 import Carrousel from "@/components/Carousel";
+import Map from "@/components/Map";
 
 export default function Home() {
   const t = useTranslations("Index");
