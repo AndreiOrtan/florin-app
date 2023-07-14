@@ -18,64 +18,64 @@ export default function Aesthetic({ locale }: { locale: string }) {
           minH={320}
           linkUrl={`/${locale}/aesthetics/zcryo`}
           imageUrl="/aesthetics/zcryo.jpeg"
-          cardHeader={t("cards.card1.header")}
-          cardDescription={t("cards.card1.description")}
+          cardHeader="ZCryo"
+          cardDescription="Cold air for highest patient´s comfort during laser, IPL treatments and injections"
           orange
         />
         <Card
           minH={320}
           linkUrl={`/${locale}/aesthetics/zlipo`}
           imageUrl="/aesthetics/zlipo.jpeg"
-          cardHeader={t("cards.card2.header")}
-          cardDescription={t("cards.card2.description")}
+          cardHeader="ZLipo"
+          cardDescription="Send a cold message to your fat deposits"
           orange
         />
         <Card
           minH={320}
           linkUrl={`/${locale}/aesthetics/zfield-dual`}
           imageUrl="/aesthetics/zfield-dual.jpeg"
-          cardHeader={t("cards.card3.header")}
-          cardDescription={t("cards.card3.description")}
+          cardHeader="ZField Dual"
+          cardDescription="Body Shaping with High-Energy Inductive Therapy"
           orange
         />
         <Card
           minH={320}
           linkUrl={`/${locale}/aesthetics/ztone`}
           imageUrl="/aesthetics/ztone.jpeg"
-          cardHeader={t("cards.card4.header")}
-          cardDescription={t("cards.card4.description")}
+          cardHeader="ZTone"
+          cardDescription="Thousands of muscle contractions through electromagnetic pulses"
           orange
         />
         <Card
           minH={320}
           linkUrl={`/${locale}/aesthetics/zwave`}
           imageUrl="/aesthetics/zwave.jpeg"
-          cardHeader={t("cards.card5.header")}
-          cardDescription={t("cards.card5.description")}
+          cardHeader="ZWave"
+          cardDescription="Shockwave for skin tightening and body contouring"
           orange
         />
         <Card
           minH={320}
           linkUrl={`/${locale}/aesthetics/conti-cure`}
           imageUrl="/aesthetics/conti-cure.jpeg"
-          cardHeader={t("cards.card6.header")}
-          cardDescription={t("cards.card6.description")}
+          cardHeader="ContiCure"
+          cardDescription="Pelvic floor training – Start your training today and get your laughter back."
           orange
         />
         <Card
           minH={320}
           linkUrl={`/${locale}/aesthetics/zfill`}
           imageUrl="/aesthetics/zfill.jpeg"
-          cardHeader={t("cards.card7.header")}
-          cardDescription={t("cards.card7.description")}
+          cardHeader="ZFill"
+          cardDescription="Hyaluronic acid dermal fillers for youthful, wrinkle-free skin"
           orange
         />
         <Card
           minH={320}
           linkUrl={`/${locale}/aesthetics/gentlepro`}
           imageUrl="/aesthetics/gentlepro.jpeg"
-          cardHeader={t("cards.card8.header")}
-          cardDescription={t("cards.card8.description")}
+          cardHeader="GentlePro"
+          cardDescription="Shockwave treatment for erectile dysfunction"
           orange
         />
       </div>
