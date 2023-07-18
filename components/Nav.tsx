@@ -27,11 +27,11 @@ export default function Nav({ locale }: { locale: string }) {
               alt="text"
               className="h-auto lg:w-[100px] w-[60px] max-w-full"
             />
-            <div className="relative flex flex-col lg:items-center lg:h-12 h-9 min-w-[250px]">
+            <div className="relative flex flex-col lg:items-center lg:h-12 h-9 min-w-[200px]">
               <p className="text-blue500 lg:text-2xl text-lg tracking-wide font-bold">
                 Suhard Biomedical
               </p>
-              <p className="text-gray600 lg:text-base text-xs font-normal italic absolute lg:bottom-[3.5px] lg:right-1 bottom-[2px] right-[64px]">
+              <p className="text-gray600 lg:text-base text-xs font-normal italic absolute w-full lg:bottom-[3.5px] lg:right-[-5px] bottom-[2px] right-[-4px]">
                 HighTech Medical Equipment
               </p>
             </div>
