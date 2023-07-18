@@ -20,7 +20,7 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
             </h1>
           </div>
         </header>
-        <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center w-9/12">
+        <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center lg:w-1/2 w-2/3">
           <Card
             linkUrl={`/${locale}/fizioterapie/electro-ultrasound`}
             imageUrl="/fizioterapiePhotos/electro-sound.jpg"

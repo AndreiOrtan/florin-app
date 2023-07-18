@@ -31,7 +31,7 @@ export default function Nav({ locale }: { locale: string }) {
               <p className="text-blue500 lg:text-2xl text-lg tracking-wide font-bold">
                 Suhard Biomedical
               </p>
-              <p className="text-gray600 lg:text-base text-xs font-normal italic absolute lg:bottom-[4.5px] lg:right-0 bottom-[2px] right-[55px]">
+              <p className="text-gray600 lg:text-base text-xs font-normal italic absolute lg:bottom-[3.5px] lg:right-0 bottom-[2px] right-[55px]">
                 HighTech Medical Equipment
               </p>
             </div>
@@ -46,13 +46,14 @@ export default function Nav({ locale }: { locale: string }) {
           <MenuHeader
             options={[
               `${t("physiotherapy")}`,
+              "Kineto",
               "Aquatizer",
               `${t("mechanotherapy")}`,
             ]}
             locale={locale}
             header={t("header1")}
             collapseDropdown={collapseDropdown}
-            routes={["Fizioterapie", "Aquatizer", "Mecanoterapie"]}
+            routes={["Fizioterapie", "Kineto", "Aquatizer", "Mecanoterapie"]}
           />
           <MenuHeader header="Aesthetics" self locale={locale} />
           <MenuHeader
@@ -62,7 +63,15 @@ export default function Nav({ locale }: { locale: string }) {
             routes={["Companie", "Companie"]}
             locale={locale}
           />
-          <MenuHeader header="Contact" />
+
+          <button
+            className={`text-gray900 rounded-lg text-lg font-semibold px-4 hover:text-blue700 py-2.5 text-center flex justify-center items-center`}
+            type="button"
+          >
+            <Link href={`#contact-form`} scroll={false}>
+              Contact
+            </Link>
+          </button>
         </div>
         <div className="flex justify-center mr-4">
           <span

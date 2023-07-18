@@ -6,8 +6,8 @@ import Spinner from "./Spinner";
 
 interface CarouselItm {
   videoSrc: string;
-  header: string;
-  description: string;
+  header?: string;
+  description?: string;
   imgUrl: string;
   imgPath: string;
 }
@@ -26,7 +26,7 @@ export default function CarouselItem({
     setIsEnd(true);
     setTimeout(() => {
       setIsEnd(false);
-    }, 8000);
+    }, 16000);
   }
 
   return (
@@ -62,12 +62,12 @@ export default function CarouselItem({
           >
             <div className="flex sm:justify-center">
               <div>
-                <h1 className="text-2xl font-semibold ">{header}</h1>
+                <h1 className="text-2xl font-normal">{header}</h1>
                 <p className="font-thin">{description}</p>
                 <div className="my-2 sm:static absolute bottom-0 w-full mb-8">
                   <Link href={imgUrl}>
-                    <button className="p-4 bg-blue500 hover:bg-blue800 rounded-lg text-white font-medium w-full sm:max-w-max">
-                      Mode details
+                    <button className="py-4 px-8 bg-blue500 hover:bg-blue800 rounded-lg text-white font-medium w-full sm:max-w-max">
+                      Detalii
                     </button>
                   </Link>
                 </div>
@@ -75,7 +75,7 @@ export default function CarouselItem({
               <img
                 src={`${imgPath}`}
                 alt="asd"
-                className="sm:max-w-[200px] max-w-[50px] ml-auto "
+                className="sm:max-w-[350px] max-w-[150px] ml-auto "
               />
             </div>
           </div>

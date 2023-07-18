@@ -6,7 +6,7 @@ export default function MecanoLayout({ children }: { children: ReactNode }) {
       <img
         src="/mecanoterapie/layout-background.jpeg"
         alt="Zimmer"
-        className="w-full h-[440px]"
+        className="w-full sm:h-[440px]"
       />
       {children}
     </div>

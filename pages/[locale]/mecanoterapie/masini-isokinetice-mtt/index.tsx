@@ -329,38 +329,6 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
 
           <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
-              href={`/${locale}/mecanoterapie/masini-isokinetice-mtt/r12e`}
-              className="relative"
-            >
-              <div className="w-full min-h-[480px]">
-                <Image
-                  src="/mecanoterapie/masini-isokinetice/r12e.png"
-                  className="w-full h-[210px]"
-                  alt="Any Text"
-                  width={150}
-                  height={100}
-                  blurDataURL="URL"
-                  placeholder="blur"
-                />
-                <div className="py-2 px-2">
-                  <div className="font-bold text-base mb-1">
-                    {t("masiniIso.card12.h")}
-                  </div>
-                  <ul className="list-disc ml-4 mb-4 text-gray900">
-                    <li className="text-xs">{t("masiniIso.card12.li1")}</li>
-                    <li className="text-xs"> {t("masiniIso.card12.li2")}</li>
-                    <li className="text-xs"> {t("masiniIso.card12.li3")}</li>
-                    <li className="text-xs"> {t("masiniIso.card12.li4")}</li>
-                    <li className="text-xs"> {t("masiniIso.card12.li5")}</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
-          </div>
-
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
-            <Link
               href={`/${locale}/mecanoterapie/masini-isokinetice-mtt/r32`}
               className="relative"
             >
@@ -472,54 +440,6 @@ export default function ShockwaveTherapy({ locale }: { locale: string }) {
             </Link>
           </div>
 
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
-            <Link
-              href={`/${locale}/mecanoterapie/masini-isokinetice-mtt/r1000`}
-              className="relative"
-            >
-              <div className="w-full min-h-[480px]">
-                <Image
-                  src="/mecanoterapie/masini-isokinetice/r1000.png"
-                  className="w-full h-[300px]"
-                  alt="Any Text"
-                  width={500}
-                  height={500}
-                  blurDataURL="URL"
-                  placeholder="blur"
-                />
-                <div className="py-2 px-2">
-                  <div className="font-bold text-base mb-1">
-                    {t("masiniIso.card17.h")}
-                  </div>
-                </div>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
-          </div>
-          <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
-            <Link
-              href={`/${locale}/mecanoterapie/masini-isokinetice-mtt/r1000`}
-              className="relative"
-            >
-              <div className="w-full min-h-[480px]">
-                <Image
-                  src="/mecanoterapie/masini-isokinetice/r1000.png"
-                  className="w-full h-[300px]"
-                  alt="Any Text"
-                  width={500}
-                  height={500}
-                  blurDataURL="URL"
-                  placeholder="blur"
-                />
-                <div className="py-2 px-2">
-                  <div className="font-bold text-base mb-1">
-                    {t("masiniIso.card18.h")}
-                  </div>
-                </div>
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 hover:shadow-2xl"></div>
-            </Link>
-          </div>
           <div className="card-container rounded-lg shadow-lg w-full sm:w-56 sm:mx-2 overflow-hidden my-2 hover:opacity-100 text-blue700 hover:text-gray900">
             <Link
               href={`/${locale}/mecanoterapie/masini-isokinetice-mtt/rr28`}

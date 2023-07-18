@@ -16,27 +16,22 @@ const Slider = () => {
   const router = useRouter();
   const content = [
     {
-      imgPath: "/fizioterapiePhotos/cryotherapy/cryomini/cryomini-machine.png",
+      imgPath: "/carousel_mkb.png",
+      url: `/${router.query.locale}/mecanoterapie`,
+      header: "Inteligență artificială in recuperare medicală ",
+      videoSrc: "/mkb_video.mp4",
+    },
+    {
+      imgPath: "/carousel_zimmer.png",
       url: `/${router.query.locale}/fizioterapie`,
-      header: "Zimmer",
-      description:
-        "It is a long established fact that a reader will be distracted by the readable content of a page ",
+      header: "Dispozitive inovatoare de fizioterapie ",
       videoSrc: "/zimmer_video.mp4",
     },
     {
-      imgPath: "/fizioterapiePhotos/cryotherapy/cryo6/cryo6-machine.png",
+      imgPath: "/carousel_aquatizer.png",
       url: `/${router.query.locale}/aquatizer`,
-      header: "Aquatizer",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      header: "Robot de Hidromasaj de ultimă generație",
       videoSrc: "/aquatizer_video.mp4",
-    },
-    {
-      imgPath: "/fizioterapiePhotos/cryotherapy/cryomini/cryomini-machine.png",
-      url: `/${router.query.locale}/mecanoterapie`,
-      header: "MKB",
-      description: "Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum ",
-      videoSrc: "/mkb_video.mp4",
     },
   ];
 
@@ -53,7 +48,6 @@ const Slider = () => {
           return (
             <CarouselItem
               videoSrc={img.videoSrc}
-              description={img.description}
               header={img.header}
               imgPath={img.imgPath}
               imgUrl={img.url}

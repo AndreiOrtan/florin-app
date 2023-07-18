@@ -2,24 +2,35 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Footer = () => {
+const Footer = ({ locale }: { locale: string }) => {
   return (
     <footer className="bg-lightgray rounded-lg shadow">
       <div className="w-full">
-        <div className="w-9/12 mx-auto text-blue700 py-8">
-          <div className="flex">
+        <div className="w-9/12 mx-auto text-blue700 py-4">
+          <div className="flex justify-center sm:justify-start">
             <div className="my-auto">
-              <img
-                src="/image00001.png"
-                alt="text"
-                className="h-auto w-[150px] max-w-full mx-auto"
-              />
-              <h1 className="font-medium">EUID ROONRC. J6/378/2021</h1>
-              <h1 className="font-medium">
+              <Link href={`/${locale}`} className="flex flex-col items-center">
+                {" "}
+                <img
+                  src="/image00001 copy.png"
+                  alt="text"
+                  className="h-auto w-[60px] max-w-full"
+                />
+                <div className="relative flex flex-col h-12 min-w-[214px] text-center">
+                  <p className="text-blue500 text-lg tracking-wide font-bold">
+                    Suhard Biomedical
+                  </p>
+                  <p className="text-gray600 lg:text-base font-normal italic absolute bottom-[4.5px] right-0">
+                    HighTech Medical Equipment
+                  </p>
+                </div>
+              </Link>
+              <h1 className="font-medium text-sm">EUID ROONRC. J6/378/2021</h1>
+              <h1 className="font-medium text-sm">
                 Romania, Bistrita-Nasaud, Str. Lupeni Nr.11
               </h1>
             </div>
-            <div className="ml-auto my-auto">
+            {/* <div className="ml-auto my-auto">
               <div className="flex sm:flex-row flex-col">
                 <Link href="https://www.minato-med.co.jp/en/" target="_blank">
                   <img
@@ -43,7 +54,7 @@ const Footer = () => {
                   />
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

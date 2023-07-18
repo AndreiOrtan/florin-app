@@ -23,12 +23,12 @@ export default function OptonPro() {
           </div>
           <div className="flex justify-center items-center sm:flex-row flex-col">
             <div className="text-container my-8">
-              <p className="my-auto text-left">
+              <p className="my-auto text-justify">
                 {t("p1")} <span className="font-bold">„Aquatizer QZ”</span>{" "}
                 {t("p1Rest")}
               </p>
-              <p className="my-auto text-left">{t("p2")} </p>
-              <p className="my-auto text-left">{t("p3")}</p>
+              <p className="my-auto text-justify">{t("p2")} </p>
+              <p className="my-auto text-justify">{t("p3")}</p>
             </div>
             <Image
               src="/aquatizer/aqua.jpeg"
@@ -77,14 +77,11 @@ export default function OptonPro() {
                   <h2 className="text-2xl font-semibold mb-2">{t("p7")}</h2>
                   <p className="py-4">{t("p8")}</p>
                 </div>
-                <Image
+                <img
                   src="/aquatizer/widejet.jpeg"
                   alt="Any Text"
-                  width={420}
-                  height={370}
-                  blurDataURL="URL"
                   placeholder="blur"
-                  className="mr-4 rounded-lg"
+                  className="mr-4 rounded-lg w-[230px]"
                 />
               </div>
               <h2 className="text-2xl font-semibold my-8">{t("p9")}</h2>
@@ -110,14 +107,11 @@ export default function OptonPro() {
                   <h2 className="text-2xl font-semibold mb-4">{t("p17")}</h2>
                   <p className="py-4">{t("p18")}</p>
                 </div>
-                <Image
+                <img
                   src="/aquatizer/jet4.jpeg"
                   alt="Any Text"
-                  width={500}
-                  height={500}
-                  blurDataURL="URL"
                   placeholder="blur"
-                  className="mr-4 rounded-lg"
+                  className="mr-4 rounded-lg w-[300px]"
                 />
               </div>
               <div className="flex sm:flex-row flex-col py-2">
