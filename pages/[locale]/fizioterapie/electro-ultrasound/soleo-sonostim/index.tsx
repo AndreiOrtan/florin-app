@@ -141,8 +141,6 @@ export default function Physys() {
 
             <p>{t("cards.card1.card2.p16")}</p>
 
-            <h2 className="text-xl font-medium mt-4">Move cart</h2>
-
             <ul className="list-disc ml-6 mb-4">
               <li>{t("cards.card1.card2.p18")}</li>
               <li> {t("cards.card1.card2.p17")}</li>
@@ -174,7 +172,7 @@ export default function Physys() {
                   key={index}
                   src={image}
                   alt={`Image ${index + 1}`}
-                  className="max-w-[150px] rounded-lg"
+                  className="max-w-[110px] sm:max-w-[150px] rounded-lg"
                 />
               ))}
             </div>

@@ -92,7 +92,9 @@ export default function enPuls() {
 
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-8">
-            <h1 className="text-4xl font-semibold mb-4">Appliance</h1>
+            <h1 className="text-4xl font-semibold mb-4">
+              {t("cards.card1.card2.header6")}
+            </h1>
             <p className="pb-2">
               en<span className="font-extrabold">Puls</span>{" "}
               {t("cards.card3.card1.list")}

@@ -30,7 +30,9 @@ module.exports = {
       roboto: ["Montserrat", "sans-serif"],
     },
     colors: {
-      green: "#C9E6C7",
+      green50: "#f0fdf4",
+      green200: "#bbf7d0",
+      green800: "#166534",
       gray50: "#f9fafb",
       gray300: "#d1d5db",
       blue500: "#3b82f6",
@@ -51,6 +53,7 @@ module.exports = {
       purple: "#B68ABF",
       blue800: "#1e40af",
       orange: "#ED7003",
+      red500: "#ef4444",
     },
   },
   plugins: [],

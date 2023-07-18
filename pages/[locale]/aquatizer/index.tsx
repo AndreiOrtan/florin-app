@@ -17,7 +17,7 @@ export default function OptonPro() {
           <div>
             <header className="py-4">
               <div className="container mx-auto px-4">
-                <h1 className="text-blue700 text-3xl font-bold">Aquatizer</h1>
+                <h1 className="text-3xl font-bold">Aquatizer</h1>
               </div>
             </header>
           </div>
@@ -43,7 +43,7 @@ export default function OptonPro() {
 
       <div className="w-9/12 flex my-4 border-b">
         <button
-          className={`sm:p-8 p-1 border w-full  ${
+          className={`sm:p-8 p-1 border w-full sm:text-base text-xs ${
             selectedContent === "1" ? "bg-blue700 text-white" : ""
           }  text-xl font-semibold  rounded-t-lg`}
           onClick={() => selectedContentHandle("1")}
@@ -51,7 +51,7 @@ export default function OptonPro() {
           {t("p4")}
         </button>
         <button
-          className={`sm:p-8 p-1 border w-full mx-1 ${
+          className={`sm:p-8 p-1 border w-full mx-1 sm:text-base text-xs ${
             selectedContent === "2" ? "bg-blue700 text-white" : ""
           }  text-xl font-semibold rounded-t-lg`}
           onClick={() => selectedContentHandle("2")}
@@ -59,7 +59,7 @@ export default function OptonPro() {
           {t("p5")}
         </button>
         <button
-          className={`sm:p-8 p-1 border w-full ${
+          className={`sm:p-8 p-1 border w-full sm:text-base text-xs ${
             selectedContent === "3" ? "bg-blue700 text-white" : ""
           }  text-xl font-semibold rounded-t-lg`}
           onClick={() => selectedContentHandle("3")}

@@ -108,7 +108,7 @@ export default function ZLipo() {
                   key={index}
                   src={image}
                   alt={`Image ${index + 1}`}
-                  className="max-w-[150px] rounded-lg"
+                  className="max-w-[110px] sm:max-w-[150px] rounded-lg"
                 />
               ))}
             </div>

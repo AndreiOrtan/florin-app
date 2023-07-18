@@ -87,19 +87,18 @@ export default function enPulsPro() {
         {/* below is the same as enPuls with first <p> changed */}
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-8">
-            <h1 className="text-4xl font-semibold mb-4">Appliance</h1>
-            <p className="pb-2">
-              enPulsPro is ideal as a system for radial shockwave therapy, for
-              superficial orthopedic problems such as:
-            </p>
+            <h1 className="text-4xl font-semibold mb-4">
+              {t("cards.card1.card2.header6")}
+            </h1>
+            <p className="pb-2">{t("cards.card3.card1.list")}</p>
 
             <ul className="list-disc ml-6 mb-4">
-              <li className="pb-1">Insertion tendinopathy</li>
-              <li className="pb-1"> Tendon problems</li>
-              <li className="pb-1"> Chronic inflammation</li>
-              <li className="pb-1"> Hypertonic muscle systems</li>
-              <li className="pb-1"> Myofascial syndromes</li>
-              <li className="pb-1"> Hemotoma treatments </li>
+              <li className="pb-1">{t("cards.card3.card1.li1")}</li>
+              <li className="pb-1"> {t("cards.card3.card1.li2")}</li>
+              <li className="pb-1"> {t("cards.card3.card1.li3")}</li>
+              <li className="pb-1"> {t("cards.card3.card1.li4")}</li>
+              <li className="pb-1"> {t("cards.card3.card1.li5")}</li>
+              <li className="pb-1"> {t("cards.card3.card1.li6")} </li>
             </ul>
             <div className="flex flex-col sm:flex-row">
               <img

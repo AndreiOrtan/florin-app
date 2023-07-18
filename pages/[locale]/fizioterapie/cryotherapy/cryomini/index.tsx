@@ -41,7 +41,9 @@ export default function enPuls() {
 
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-8">
-            <h1 className="text-4xl font-semibold mb-4">Appliance</h1>
+            <h1 className="text-4xl font-semibold mb-4">
+              {t("cards.card1.card2.header6")}
+            </h1>
             <ul className="list-disc ml-6 mb-4">
               <li className="pb-1">{t("cards.card5.card1.p3")}</li>
               <li className="pb-1"> {t("cards.card5.card1.p4")}</li>
@@ -66,43 +68,6 @@ export default function enPuls() {
           </div>
         </div>
 
-        {/* <div className="w-full bg-lightgray">
-        <div className="w-9/12 mx-auto py-8">
-          <h1 className="text-4xl font-semibold mb-4">Appliance</h1>
-          <p className="pb-2">
-            en<span className="font-extrabold">Puls</span> 2.0 is ideal as a
-            system for radial shockwave therapy, for superficial orthopedic
-            problems such as:
-          </p>
-
-          <ul className="list-disc ml-6 mb-4">
-            <li className="pb-1">Insertion tendinopathy</li>
-            <li className="pb-1"> Tendon problems</li>
-            <li className="pb-1"> Chronic inflammation</li>
-            <li className="pb-1"> Hypertonic muscle systems</li>
-            <li className="pb-1"> Myofascial syndromes</li>
-            <li className="pb-1"> Hemotoma treatments </li>
-          </ul>
-          <div className="flex">
-            <img
-              src="/fizioterapiePhotos/shockwave-therapy/enPuls/appliance1.jpeg"
-              alt="PhySys"
-              className="w-80 rounded-lg"
-            />
-            <img
-              src="/fizioterapiePhotos/shockwave-therapy/enPuls/appliance2.jpeg"
-              alt="PhySys"
-              className="w-80 rounded-lg ml-4"
-            />
-            <img
-              src="/fizioterapiePhotos/shockwave-therapy/enPuls/appliance3.jpeg"
-              alt="PhySys"
-              className="w-80 rounded-lg ml-4"
-            />
-          </div>
-        </div>
-      </div> */}
-
         <div className="w-full py-10 ">
           <div className="w-9/12 mx-auto">
             <h2 className="text-2xl font-semibold mb-4">
@@ -114,7 +79,7 @@ export default function enPuls() {
                   key={index}
                   src={image}
                   alt={`Image ${index + 1}`}
-                  className="max-w-[150px] rounded-lg"
+                  className="max-w-[110px] sm:max-w-[150px] rounded-lg"
                 />
               ))}
             </div>
