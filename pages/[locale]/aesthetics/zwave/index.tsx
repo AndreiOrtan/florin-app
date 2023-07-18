@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 
 export default function ZLipo() {
-  const t = useTranslations("physiotherapy");
+  const t = useTranslations("aesthetics");
   const images = [
     "/aesthetics/zwave/galery1.jpeg",
     "/aesthetics/zwave/galery2.jpeg",
@@ -26,26 +26,18 @@ export default function ZLipo() {
           />
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4 text-center">
-              ZWave Pro & ZWave Med
+              {t("cards.card5.p1")}
             </h1>
 
             <div className="my-auto text-justify text-lg font-normal">
-              The high energy radial shockwaves scientifically proved to have a
-              large impact on collagen structure and the skin connective tissue,
-              improving blood circulation. It stimulates collagen formation,
-              while the skin becomes more elastic and its firmness is visible
-              after only a few treatments.Thanks to the ZWave radial shockwave
-              unit, it is also possible to significantly improve skin firmness,
-              skin elasticity and collagen regeneration. Fat reduction, for
-              example, after CryolipolysisTM or injection lipolysis is also
-              enhanced by using the ZWave.
+              {t("cards.card5.p2")}
             </div>
           </div>
         </div>
 
         <div className="w-full bg-orange">
           <div className="flex flex-col items-center py-24">
-            <h1 className="text-5xl text-white">The way it works</h1>
+            <h1 className="text-5xl text-white">{t("cards.card5.p3")}</h1>
             <div className="videos flex flex-col sm:flex-row items-center justify-center">
               <iframe
                 src="https://www.youtube.com/embed/LDUUobwbMAI"
@@ -61,19 +53,9 @@ export default function ZLipo() {
 
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-24">
-            <h1 className="text-5xl">
-              ZWave & ZLipo – the perfect combination
-            </h1>
+            <h1 className="text-5xl">{t("cards.card5.p4")}</h1>
             <div>
-              <p>
-                Skin tightening and body contouring are becoming increasingly
-                important in the modern practice. After several treatments for
-                fat reduction, such as e.g. CryolipolysisTM, liposuction, or
-                injection lipolysis, a more extensive application for skin
-                tightening is urgently recommended and expected by the patient.
-                Various studies and user observations have proven its
-                effectiveness.
-              </p>
+              <p>{t("cards.card5.p5")}</p>
               <div className="flex justify-center flex-col sm:flex-row my-8">
                 <img
                   src="/aesthetics/zwave/comb1.jpeg"
@@ -97,52 +79,39 @@ export default function ZLipo() {
 
         <div className="w-full">
           <div className="w-9/12 mx-auto py-8">
-            <h2 className="text-2xl font-semibold">Application range</h2>
-            <h2 className="font-medium text-lg">
-              Skin tightening and body contouring
-            </h2>
-            <h2 className="font-normal text-lg">
-              ZWave is used as a “stand-alone” application or in combination
-              with other, mostly fat reduction methods. In the case of the
-              “stand-alone” application, the focus is generally on improving the
-              skin structure and connective tissue. Typical application areas
-              are, e.g. cellulite, connective tissue weakness (upper arm,
-              underbelly, etc.) and stretch marks (striae).
-            </h2>
+            <h2 className="text-2xl font-semibold">{t("cards.card5.p6")}</h2>
+            <h2 className="font-medium text-lg">{t("cards.card5.p7")}</h2>
+            <h2 className="font-normal text-lg">{t("cards.card5.p8")}</h2>
             <div className="flex sm:flex-row flex-col py-8 mt-8 justify-around">
               <div className="w-1/2">
-                <h2 className="font-semibold text-lg">
-                  Patient-friendly application
-                </h2>
+                <h2 className="font-semibold text-lg">{t("cards.card5.p9")}</h2>
                 <h2 className="font-normal text-base">
-                  Using radial shockwaves for skin tightening, cellulite and
-                  general connective tissue tightening treatments has the
-                  following advantages:
+                  {t("cards.card5.p10")}
                 </h2>
                 <ul className="list-disc ml-6 mb-4 py-2">
-                  <li className="mb-1"> non-invasive treatment</li>
-                  <li className="mb-1"> no down time</li>
-                  <li className="mb-1"> pain-free application</li>
-                  <li className="mb-1"> simple application</li>
-                  <li className="mb-1"> visible results</li>
-                  <li className="mb-1"> versatile</li>
+                  <li className="mb-1"> {t("cards.card5.p11")}</li>
+                  <li className="mb-1"> {t("cards.card5.p12")}</li>
+                  <li className="mb-1"> {t("cards.card5.p13")}</li>
+                  <li className="mb-1"> {t("cards.card5.p14")}</li>
+                  <li className="mb-1"> {t("cards.card5.p15")}</li>
+                  <li className="mb-1"> {t("cards.card5.p16")}</li>
                 </ul>
               </div>
               <div>
                 <h2 className="font-semibold text-lg">
-                  Preset treatment recommendations:
+                  {t("cards.card5.p17")}
                 </h2>
 
                 <ul className="list-disc ml-6 mb-4 py-2">
-                  <li className="mb-1"> Cellulite</li>
-                  <li className="mb-1"> Stretch marks</li>
-                  <li className="mb-1"> Combination with CryolipolysisTM</li>
-                  <li className="mb-1"> Combination with radio frequency</li>
-                  <li className="mb-1"> Combination with ultrasound</li>
-                  <li className="mb-1"> Combination with laser (Softlaser)</li>
-                  <li className="mb-1"> Skin tightening (general)</li>
-                  <li className="mb-1"> Aesthetic scar treatment</li>
-                  <li className="mb-1"> Supporting lymphatic drainage</li>
+                  <li className="mb-1"> {t("cards.card5.p18")}</li>
+                  <li className="mb-1"> {t("cards.card5.p19")}</li>
+                  <li className="mb-1"> {t("cards.card5.p20")}</li>
+                  <li className="mb-1"> C{t("cards.card5.p21")}</li>
+                  <li className="mb-1"> {t("cards.card5.p22")}</li>
+                  <li className="mb-1"> {t("cards.card5.p23")}</li>
+                  <li className="mb-1"> {t("cards.card5.p24")}</li>
+                  <li className="mb-1"> {t("cards.card5.p25")}</li>
+                  <li className="mb-1"> {t("cards.card5.p26")}</li>
                 </ul>
               </div>
             </div>
@@ -152,18 +121,9 @@ export default function ZLipo() {
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-16">
             <h2 className="text-2xl font-semibold mb-3">
-              ZWave – visible results
+              {t("cards.card5.p27")}
             </h2>
-            <h2 className="text-xl font-normal mb-2">
-              The high energy radial shockwaves consists of two different parts
-              – positive pressure pulse and a comparatively small tensile wave
-              component. The shockwave squeezes the surrounding tissue and
-              breaks the grid structure of the molecules. The tensile wave leads
-              to a collapse of the gas bubbles within the fat structures
-              (cavitation), which re-expand after the high energy radial
-              shockwaves and thus ensure a destabilization of the fat
-              structures.
-            </h2>
+            <h2 className="text-xl font-normal mb-2">{t("cards.card5.p28")}</h2>
 
             <div className="flex flex-wrap sm:flex-row flex-col justify-center">
               <div className="flex m-4">
@@ -207,13 +167,7 @@ export default function ZLipo() {
                 </div>
               </div>
             </div>
-            <p className="flont-light text-lg">
-              Thanks to its 39 mm applicator head, the ZWave transmits the
-              radial shockwaves directly and with a high precision into the
-              tissue. It was observed and documented that the introduction of a
-              mechanical pressure wave triggers various tissue reactions that
-              have a beneficial effect on the skin structure.
-            </p>
+            <p className="flont-light text-lg">{t("cards.card5.p29")}</p>
           </div>
         </div>
 

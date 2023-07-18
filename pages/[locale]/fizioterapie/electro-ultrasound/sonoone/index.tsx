@@ -21,7 +21,7 @@ export default function Physys() {
             <div>
               <header className="py-4">
                 <div className="container mx-auto px-4">
-                  <h1 className="text-blue700 text-3xl font-bold">SonoOne</h1>
+                  <h1 className="text-3xl font-bold">SonoOne</h1>
                 </div>
               </header>
             </div>

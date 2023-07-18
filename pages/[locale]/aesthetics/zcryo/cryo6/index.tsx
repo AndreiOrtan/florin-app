@@ -1,8 +1,8 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export default function enPuls() {
-  const t = useTranslations("physiotherapy");
+export default function Cryo6() {
+  const t = useTranslations("aesthetics");
   const images = [
     "/aesthetics/zcryo/cryo6/galery1.jpeg",
     "/aesthetics/zcryo/cryo6/galery2.jpeg",
@@ -28,19 +28,11 @@ export default function enPuls() {
           />
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4 text-center">
-              Cryo 6, the cold air device from the world leader
+              {t("cards.card1.card2.p1")}
             </h1>
 
             <div className="my-auto text-justify text-lg font-normal">
-              Cryo 6 is intended to minimize pain and thermal injury during
-              laser and dermatological treatments and for temporary topical
-              anesthetic relief during injections. Unlike other cooling methods,
-              such as contact cooling, cryogen spray or ice packs, the Cryo 6
-              can cool the epidermis before, during and after the laser energy
-              has been applied, without interfering with the laser beam. Studies
-              also have shown that chilling with the Cryo 6 cold air device
-              reduces the patient’s pain sensitivity. This means much better
-              tolerance of the treatment.
+              {t("cards.card1.card2.p2")}
             </div>
           </div>
         </div>
@@ -49,35 +41,14 @@ export default function enPuls() {
           <div className="w-9/12 mx-auto py-8">
             <div>
               <h1 className="text-4xl font-semibold mb-4">
-                User Defined Programs
+                {t("cards.card1.card2.p3")}
               </h1>
 
-              <p className="font-light">
-                3 supplementary storage possibilities are available for user
-                defined programs. Storage possibility is available for the
-                user’s favorite program. This program appears when the Cryo 6 is
-                turned on and at the conclusion of each treatment.
-              </p>
-              <h3 className="font-semibold">
-                The skin cooling system designed for superficial laser skin
-                procedures.
-              </h3>
-              <p className="font-light">
-                The Cryo 6 cold air device is intended to minimize pain and
-                thermal injury during laser and dermatological treatments and
-                for temporary topical anesthetic relief before injections.
-              </p>
-              <p className="font-light">
-                Unlike other cooling methods, such as contact cooling, cryogen
-                spray or ice packs, the Cryo 6 can cool the epidermis before,
-                during and after the laser energy has been applied, without
-                interfering with the laser beam.
-              </p>
-              <p className="font-light">
-                Studies also have shown that chilling with the Cryo 6 cold air
-                device reduces the patient’s pain sensitivity. This means much
-                better tolerance of the treatment
-              </p>
+              <p className="font-light">{t("cards.card1.card2.p4")}</p>
+              <h3 className="font-semibold">{t("cards.card1.card2.p5")}</h3>
+              <p className="font-light">{t("cards.card1.card2.p6")}</p>
+              <p className="font-light">{t("cards.card1.card2.p7")}</p>
+              <p className="font-light">{t("cards.card1.card2.p8")}</p>
             </div>
             <img
               src="/aesthetics/zcryo/cryo6/scale1.jpeg"

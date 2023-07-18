@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 
 export default function ZLipo() {
-  const t = useTranslations("physiotherapy");
+  const t = useTranslations("aesthetics");
   const images = [
     "/aesthetics/conticure/galery1.png",
     "/aesthetics/conticure/galery2.png",
@@ -25,28 +25,18 @@ export default function ZLipo() {
           />
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4 text-center">
-              Muscle training through magnetic field therapy
+              {t("cards.card6.p1")}
             </h1>
 
             <div className="my-auto text-justify text-lg font-normal">
-              Using magnetic field therapy, a current is induced in the cell
-              which causes a contraction of the pelvic floor muscles. This
-              strengthening of the muscles leads to improvement of incontinence
-              problems. ContiCure offers the appropriate treatment parameters
-              for each patient. Select the treatment goal from one of the 4
-              predefined programmes. This enables treatment of stress, mixed,
-              and urge incontinence, and general pelvic floor training can be
-              selected. ContiCure has a large applicator which is inserted in
-              the treatment chair for the therapy. The intensity can be
-              individually adjusted during therapy depending on the patient’s
-              sensation.
+              {t("cards.card6.p2")}
             </div>
           </div>
         </div>
 
         <div className="w-full bg-orange">
           <div className="flex flex-col items-center py-24">
-            <h1 className="text-5xl text-white">The way it works</h1>
+            <h1 className="text-5xl text-white">{t("cards.card6.p3")}</h1>
             <div className="videos flex flex-col sm:flex-row items-center justify-center">
               <iframe
                 src="https://www.youtube.com/embed/ACD4SVZDsXI"
@@ -62,82 +52,45 @@ export default function ZLipo() {
 
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-24">
-            <h1 className="text-5xl">
-              Meet the next generation of Body Toning
-            </h1>
-            <h2 className="text-3xl my-4">Therapy with ContiCure</h2>
+            <h1 className="text-5xl">{t("cards.card6.p4")}</h1>
+            <h2 className="text-3xl my-4">{t("cards.card6.p5")}</h2>
             <div className="mb-2">
-              <h2 className="font-medium">Application time</h2>
-              <p className="font-light">
-                The application lasts between 20 to a maximum of 30 minutes,
-                depending on the programme. However, the user also has the
-                option to create individual programmes for the patient in order
-                to address the patient’s needs in a targeted manner.
-              </p>
+              <h2 className="font-medium">{t("cards.card6.p6")}</h2>
+              <p className="font-light">{t("cards.card6.p7")}</p>
             </div>
             <div className="mb-2">
-              <h2 className="font-medium">Therapy</h2>
-              <p className="font-light">
-                The patient sits comfortably on the chair while the pelvic floor
-                muscles are optimally stimulated during the entire treatment
-                time.
-              </p>
+              <h2 className="font-medium">{t("cards.card6.p8")}</h2>
+              <p className="font-light">{t("cards.card6.p9")}</p>
             </div>
             <div className="mb-2">
-              <h2 className="font-medium">Treatment recommendation</h2>
-              <p className="font-light">
-                Depending on the patient, between 8-10 treatments are
-                recommended. Some patients report an improvement in their
-                incontinence problems after just the first few treatments.
-              </p>
+              <h2 className="font-medium">{t("cards.card6.p10")}</h2>
+              <p className="font-light">{t("cards.card6.p11")}</p>
             </div>
           </div>
         </div>
 
         <div className="w-full">
           <div className="w-9/12 mx-auto py-8">
-            <h1 className="text-4xl mb-4">
-              The chair – The central focus in your practice
-            </h1>
+            <h1 className="text-4xl mb-4">{t("cards.card6.p12")}</h1>
             <div className="flex flex-col sm:flex-row">
               <div>
                 <div>
-                  <h2 className="font-semibold">Interchangeable inlays</h2>
-                  <p className="font-light">
-                    The sitting position can be adjusted using the three
-                    different inlays, depending on the patient’s size.
-                  </p>
+                  <h2 className="font-semibold">{t("cards.card6.p13")}</h2>
+                  <p className="font-light">{t("cards.card6.p14")}</p>
                   <h2 className="font-semibold">Hygiene</h2>
-                  <p className="font-light">
-                    The biocompatible cover can be disinfected with conventional
-                    cleaning agents and ensures a hygienic treatment.
-                  </p>
-                  <h2 className="font-semibold">High-quality design</h2>
-                  <p className="font-light">
-                    The chair is entirely manufactured in Germany and covered by
-                    hand with a high-quality fabric.
-                  </p>
+                  <p className="font-light">{t("cards.card6.p15")}</p>
+                  <h2 className="font-semibold">{t("cards.card6.p16")}</h2>
+                  <p className="font-light">{t("cards.card6.p17")}</p>
                 </div>
               </div>
               <div>
                 <div>
-                  <h2 className="font-semibold">
-                    Simple design for intuitive operation
-                  </h2>
-                  <p className="font-light">
-                    Control knob to adjust intensities
-                  </p>
-                  <h2 className="font-semibold">Predefined protocols</h2>
-                  <p className="font-light">
-                    Predefined protocols for the professional treatment of
-                    stress, urge, and mixed incontinence as well as general
-                    pelvic floor training are available to the user.
-                  </p>
-                  <h2 className="font-semibold">Individual protocols</h2>
-                  <p className="font-light">
-                    It is also possible to store individual protocols with
-                    parameters that were explicitly configured for the patient.
-                  </p>
+                  <h2 className="font-semibold">{t("cards.card6.p18")}</h2>
+                  <p className="font-light">{t("cards.card6.p19")}</p>
+                  <h2 className="font-semibold">{t("cards.card6.p20")}</h2>
+                  <p className="font-light">{t("cards.card6.p21")}</p>
+                  <h2 className="font-semibold">{t("cards.card6.p22")}</h2>
+                  <p className="font-light">{t("cards.card6.p23")}</p>
                 </div>
               </div>
             </div>

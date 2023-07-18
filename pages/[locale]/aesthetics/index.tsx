@@ -21,7 +21,7 @@ export default function Aesthetic({ locale }: { locale: string }) {
             linkUrl={`/${locale}/aesthetics/zcryo`}
             imageUrl="/aesthetics/zcryo.jpeg"
             cardHeader="ZCryo"
-            cardDescription="Cold air for highest patient´s comfort during laser, IPL treatments and injections"
+            cardDescription={`${t("cards.card1.description")}`}
             orange
           />
           <Card
@@ -29,7 +29,7 @@ export default function Aesthetic({ locale }: { locale: string }) {
             linkUrl={`/${locale}/aesthetics/zlipo`}
             imageUrl="/aesthetics/zlipo.jpeg"
             cardHeader="ZLipo"
-            cardDescription="Send a cold message to your fat deposits"
+            cardDescription={`${t("cards.card2.description")}`}
             orange
           />
           <Card
@@ -37,7 +37,7 @@ export default function Aesthetic({ locale }: { locale: string }) {
             linkUrl={`/${locale}/aesthetics/zfield-dual`}
             imageUrl="/aesthetics/zfield-dual.jpeg"
             cardHeader="ZField Dual"
-            cardDescription="Body Shaping with High-Energy Inductive Therapy"
+            cardDescription={`${t("cards.card3.description")}`}
             orange
           />
           <Card
@@ -45,7 +45,7 @@ export default function Aesthetic({ locale }: { locale: string }) {
             linkUrl={`/${locale}/aesthetics/ztone`}
             imageUrl="/aesthetics/ztone.jpeg"
             cardHeader="ZTone"
-            cardDescription="Thousands of muscle contractions through electromagnetic pulses"
+            cardDescription={`${t("cards.card4.description")}`}
             orange
           />
           <Card
@@ -53,7 +53,7 @@ export default function Aesthetic({ locale }: { locale: string }) {
             linkUrl={`/${locale}/aesthetics/zwave`}
             imageUrl="/aesthetics/zwave.jpeg"
             cardHeader="ZWave"
-            cardDescription="Shockwave for skin tightening and body contouring"
+            cardDescription={`${t("cards.card5.description")}`}
             orange
           />
           <Card
@@ -61,7 +61,7 @@ export default function Aesthetic({ locale }: { locale: string }) {
             linkUrl={`/${locale}/aesthetics/conti-cure`}
             imageUrl="/aesthetics/conti-cure.jpeg"
             cardHeader="ContiCure"
-            cardDescription="Pelvic floor training – Start your training today and get your laughter back."
+            cardDescription={`${t("cards.card6.description")}`}
             orange
           />
           <Card
@@ -69,7 +69,7 @@ export default function Aesthetic({ locale }: { locale: string }) {
             linkUrl={`/${locale}/aesthetics/zfill`}
             imageUrl="/aesthetics/zfill.jpeg"
             cardHeader="ZFill"
-            cardDescription="Hyaluronic acid dermal fillers for youthful, wrinkle-free skin"
+            cardDescription={`${t("cards.card7.description")}`}
             orange
           />
           <Card
@@ -77,7 +77,7 @@ export default function Aesthetic({ locale }: { locale: string }) {
             linkUrl={`/${locale}/aesthetics/gentlepro`}
             imageUrl="/aesthetics/gentlepro.jpeg"
             cardHeader="GentlePro"
-            cardDescription="Shockwave treatment for erectile dysfunction"
+            cardDescription={`${t("cards.card8.description")}`}
             orange
           />
         </div>

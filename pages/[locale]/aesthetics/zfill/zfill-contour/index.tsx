@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 
 export default function ZLipo() {
-  const t = useTranslations("physiotherapy");
+  const t = useTranslations("aesthetics");
   const images = [
     "/aesthetics/ztone/galery1.jpeg",
     "/aesthetics/ztone/galery2.jpeg",
@@ -18,7 +18,7 @@ export default function ZLipo() {
         <header className="py-4">
           <div className="container mx-auto px-4">
             <h1 className="text-3xl font-bold">
-              Z Fill contour² und Z Fill contour+
+              Z Fill contour² and Z Fill contour+
             </h1>
           </div>
         </header>
@@ -30,28 +30,27 @@ export default function ZLipo() {
           />
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4 text-center">
-              For the mid and deep dermis
+              {t("cards.card7.card2.p1")}
             </h1>
 
             <div className="my-auto text-justify text-lg font-normal">
-              The gel implant made of crosslinked hyaluronic acid corrects
-              moderate and deep nasolabial folds. It fills the moisture depots
-              and rejuvenates the skin through long-lasting hydration. With Z
-              Fill contour⁺ you correct wrinkles and increase lip volume.
+              {t("cards.card7.card2.p2")}
             </div>
           </div>
         </div>
 
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-8">
-            <h2 className="text-2xl font-semibold">Properties</h2>
+            <h2 className="text-2xl font-semibold">
+              {t("cards.card7.card1.p3")}
+            </h2>
             <div className="flex sm:flex-row flex-col py-8">
               <ul className="list-disc ml-6 mb-4 py-2">
-                <li className="mb-1"> Sterile</li>
-                <li className="mb-1"> Isotonic and biodegradable</li>
-                <li className="mb-1"> Viscoelastic</li>
-                <li className="mb-1"> Clear and transparent</li>
-                <li className="mb-1"> Homogenised</li>
+                <li className="mb-1"> {t("cards.card7.card1.p4")}</li>
+                <li className="mb-1"> {t("cards.card7.card1.p5")}</li>
+                <li className="mb-1"> {t("cards.card7.card1.p6")}</li>
+                <li className="mb-1"> {t("cards.card7.card1.p7")}</li>
+                <li className="mb-1"> {t("cards.card7.card1.p8")}</li>
               </ul>
             </div>
           </div>

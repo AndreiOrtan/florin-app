@@ -30,22 +30,18 @@ export default function LocaleSwitcher() {
   return (
     <div className="relative">
       {locale === "en" ? (
-        <Image
+        <img
           src="/ro.png"
           alt="ro"
-          width={44}
-          height={44}
           onClick={() => onSelectChange("ro")}
-          className="hover:cursor-pointer"
+          className="hover:cursor-pointer w-[50px]"
         />
       ) : (
-        <Image
+        <img
           src="/en.png"
           alt="en"
-          width={44}
-          height={44}
           onClick={() => onSelectChange("en")}
-          className="hover:cursor-pointer"
+          className="hover:cursor-pointer w-[50px]"
         />
       )}
     </div>

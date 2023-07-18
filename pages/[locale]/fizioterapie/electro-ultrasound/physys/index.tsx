@@ -18,7 +18,7 @@ export default function Physys() {
       <div className="flex flex-col items-center my-4 w-full text-gray600">
         <header className="py-4">
           <div className="container mx-auto px-4">
-            <h1 className="text-blue700 text-3xl font-bold">PhySys</h1>
+            <h1 className="text-3xl font-bold">PhySys</h1>
           </div>
         </header>
 

@@ -1,8 +1,8 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export default function enPuls() {
-  const t = useTranslations("physiotherapy");
+export default function Cryo7() {
+  const t = useTranslations("aesthetics");
   const images = [
     "/aesthetics/zcryo/cryo7/galery1.jpeg",
     "/aesthetics/zcryo/cryo7/galery2.jpeg",
@@ -26,18 +26,11 @@ export default function enPuls() {
           />
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4 text-center">
-              The new Cryo 7: Ultramodern technology and over 25 years of
-              experience
+              {t("cards.card1.card1.description")}
             </h1>
 
             <div className="my-auto text-justify text-lg">
-              Cryo is the perfect system for cooling the skin during laser
-              applications and injections of all types. The cold air device
-              provides lasting pain reduction and prevents thermal damage to the
-              skin during laser and IPL applications.Unlike in other cooling
-              methods, such as contact cooling, cooling sprays, or ice packs,
-              the skin can be cooled with Cryo before, during, and after the
-              laser application without impeding the effect of the laser.
+              {t("cards.card1.card1.p1")}
             </div>
           </div>
         </div>
@@ -45,26 +38,12 @@ export default function enPuls() {
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-8">
             <h1 className="text-4xl font-semibold mb-4">
-              {t("cards.card6.card2.p3")}
+              {t("cards.card1.card1.p2")}
             </h1>
 
-            <p>{t("cards.card6.card2.p4")}</p>
-            <p className="pt-4">
-              Operating the new Cryo 7 entails only low consumption costs for
-              you. The new standby mode additionally minimises energy costs.
-            </p>
-            <p className="pt-4">
-              Cryo 7 is designed for reliable use all day long. The defrosting
-              function and software-controlled monitoring of the amount of
-              defrost water ensure smooth operation. In addition, the air filter
-              is easily accessible and can be quickly replaced if soiled.
-            </p>
-            <p className="pt-4">
-              Numerous technical innovations allow the Cryo 7 to be operated
-              even more quietly. This makes the treatment significantly more
-              pleasant for everyone: for your patients and also for the medical
-              staff.
-            </p>
+            <p className="pt-4">{t("cards.card1.card1.p3")}</p>
+            <p className="pt-4">{t("cards.card1.card1.p4")}</p>
+            <p className="pt-4">{t("cards.card1.card1.p5")}</p>
           </div>
         </div>
 
@@ -72,52 +51,39 @@ export default function enPuls() {
           <div className="w-9/12 mx-auto py-8">
             <div>
               <h1 className="text-4xl font-semibold mb-4">
-                Maximum operating convenience
+                {t("cards.card1.card1.p6")}
               </h1>
-              <p className="font-light">User-friendly design</p>
+              <p className="font-light">{t("cards.card1.card1.p7")}</p>
               <ul className="list-disc ml-6 mb-4">
-                <li className="pb-1">Energy-saving eco standby operation</li>
-                <li className="pb-1"> Storage space for 100 Favourites</li>
-                <li className="pb-1"> High-resolution 10-inch touch display</li>
-                <li className="pb-1"> Colours and presettings as desired</li>
+                <li className="pb-1">{t("cards.card1.card1.p8")}</li>
+                <li className="pb-1">{t("cards.card1.card1.p9")}</li>
+                <li className="pb-1">{t("cards.card1.card1.p10")}</li>
+                <li className="pb-1">{t("cards.card1.card1.p11")}</li>
               </ul>
             </div>
             <div>
               <h1 className="text-4xl font-semibold mb-4">
-                Easier to operate than ever
+                {t("cards.card1.card1.p12")}
               </h1>
-              <p className="font-light">Runs effortlessly for you</p>
+              <p className="font-light">{t("cards.card1.card1.p13")}</p>
               <ul className="list-disc ml-6 mb-4">
-                <li className="pb-1">
-                  Software reminder if the water tank is full
-                </li>
-                <li className="pb-1">
-                  {" "}
-                  Air filter can be quickly and easily changed
-                </li>
-                <li className="pb-1"> Magnetic tube attachment</li>
-                <li className="pb-1"> Automatic maintenance reminder</li>
+                <li className="pb-1">{t("cards.card1.card1.p14")}</li>
+                <li className="pb-1"> {t("cards.card1.card1.p15")}</li>
+                <li className="pb-1"> {t("cards.card1.card1.p16")}</li>
+                <li className="pb-1">{t("cards.card1.card1.p17")}</li>
               </ul>
             </div>
             <div>
               <h1 className="text-4xl font-semibold mb-4">
-                Form meets function
+                {t("cards.card1.card1.p18")}
               </h1>
-              <p className="font-light">Ergonomic & stylish</p>
+              <p className="font-light">{t("cards.card1.card1.p19")}</p>
               <ul className="list-disc ml-6 mb-4">
-                <li className="pb-1">
-                  Easier on the back due to the ergonomic height
-                </li>
-                <li className="pb-1">
-                  {" "}
-                  Swivelling spring arm allows one-hand operation
-                </li>
-                <li className="pb-1"> Quiet operation</li>
-                <li className="pb-1"> Space-saving with a narrow footprint</li>
-                <li className="pb-1">
-                  {" "}
-                  A real eyecatcher in the modern practice
-                </li>
+                <li className="pb-1">{t("cards.card1.card1.p20")}</li>
+                <li className="pb-1"> {t("cards.card1.card1.p21")}</li>
+                <li className="pb-1"> {t("cards.card1.card1.p22")}</li>
+                <li className="pb-1"> {t("cards.card1.card1.p23")}</li>
+                <li className="pb-1"> {t("cards.card1.card1.p24")}</li>
               </ul>
             </div>
           </div>

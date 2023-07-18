@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 
 export default function ZLipo() {
-  const t = useTranslations("physiotherapy");
+  const t = useTranslations("aesthetics");
   const images = [
     "/aesthetics/gentlepro/galery1.png",
     "/aesthetics/gentlepro/galery2.jpeg",
@@ -26,42 +26,27 @@ export default function ZLipo() {
           />
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4 text-center">
-              GentlePro – performance enhancement
+              {t("cards.card8.p1")}
             </h1>
 
             <div className="my-auto text-justify text-lg font-normal">
-              Various clinical studies on erectile dysfunction demonstrated a
-              significant improvement in perfusion and the formation of new
-              vessels which is crucial for a high level of patient acceptance
-              and a successful application.
+              {t("cards.card8.p2")}
             </div>
           </div>
         </div>
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-24">
-            <h1 className="text-3xl">Rapid results</h1>
+            <h1 className="text-3xl">{t("cards.card8.p3")}</h1>
             <div>
-              <p className="my-2 font-light">
-                In general, 5 to 8 treatments are needed to ensure a successful
-                application. A positive change and a longer or stronger erection
-                is often reported after just the first application.
-              </p>
-              <p className="font-light">
-                Shockwave treatment for erectile dysfunction is successful as a
-                stand-alone application and can also be used in combination with
-                other forms of treatment. Shockwave treatment can therefore be
-                successfully combined with PRP applications, vacuum pumps or
-                also PDE-5 inhibitors (vasodilators), among others. The
-                application is also virtually painless and has no known adverse
-                effects.
-              </p>
+              <p className="my-2 font-light">{t("cards.card8.p4")}</p>
+              <p className="font-light">{t("cards.card8.p5")}</p>
             </div>
           </div>
         </div>
 
         <div className="w-full bg-orange">
           <div className="flex flex-col items-center py-24">
-            <h1 className="text-5xl text-white">The way it works</h1>
+            <h1 className="text-5xl text-white">{t("cards.card8.p6")}</h1>
             <div className="videos flex flex-col sm:flex-row items-center justify-center">
               <iframe
                 src="https://www.youtube.com/embed/qCbuz4EuICU"
@@ -77,32 +62,11 @@ export default function ZLipo() {
 
         <div className="w-full">
           <div className="w-9/12 mx-auto py-24">
-            <h1 className="text-5xl">
-              A successful form of application for erectile dysfunction
-            </h1>
+            <h1 className="text-5xl">{t("cards.card8.p7")}</h1>
             <div>
-              <p className="my-2 font-normal">
-                Since the male penis is not a muscle, good perfusion of the
-                corpus cavernosum is extremely important and significantly
-                contributes to the male erection.
-              </p>
-              <p className="my-2 font-normal">
-                With shockwave treatment, it is possible to significantly
-                promote increased perfusion and stimulate the formation of new
-                vascular structures at the same time. The radial shockwaves,
-                which are emitted on the shaft of the penis as well as on the
-                area around the genitals, support the natural stimulation of the
-                area to be treated, particularly in the case of erectile
-                dysfunction due to vascular causes. Even patients with severe
-                erectile dysfunction who are taking so-called PDE-5 inhibitors
-                achieve significantly better therapeutic success.
-              </p>
-              <p className="my-2 font-normal">
-                Depending on the degree of erectile dysfunction, an average of
-                about 5 to 8 treatments are needed to achieve a lasting
-                improvement in the erection. Shockwave therapy takes up to 25
-                minutes and should be performed 2-3 times per week.
-              </p>
+              <p className="my-2 font-normal">{t("cards.card8.p8")}</p>
+              <p className="my-2 font-normal">{t("cards.card8.p9")}</p>
+              <p className="my-2 font-normal">{t("cards.card8.p10")}</p>
             </div>
             <div className="flex justify-center">
               <img
@@ -121,41 +85,36 @@ export default function ZLipo() {
 
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-8">
-            <h2 className="text-2xl font-semibold">
-              Patient-friendly application
-            </h2>
+            <h2 className="text-2xl font-semibold">{t("cards.card8.p11")}</h2>
             <div className="flex sm:flex-row flex-col py-8">
               <div>
-                <h2 className="font-semibold text-lg">Advantages:</h2>
+                <h2 className="font-semibold text-lg">
+                  {t("cards.card8.p12")}:
+                </h2>
                 <ul className="list-disc ml-6 mb-4 py-2">
-                  <li className="mb-1"> non-invasive treatment</li>
-                  <li className="mb-1"> no down time</li>
-                  <li className="mb-1"> virtually painless application</li>
-                  <li className="mb-1"> user-friendly application</li>
-                  <li className="mb-1"> improvement in the erection</li>
-                  <li className="mb-1"> more spontaneous sex life</li>
-                  <li className="mb-1"> no painful prostaglandin injections</li>
-                  <li className="mb-1"> almost no risks or adverse effects</li>
-                  <li className="mb-1"> well-tolerated treatment method</li>
+                  <li className="mb-1"> {t("cards.card8.p13")}</li>
+                  <li className="mb-1"> {t("cards.card8.p14")}</li>
+                  <li className="mb-1"> {t("cards.card8.p15")}</li>
+                  <li className="mb-1"> {t("cards.card8.p16")}</li>
+                  <li className="mb-1"> {t("cards.card8.p17")}</li>
+                  <li className="mb-1"> {t("cards.card8.p18")}</li>
+                  <li className="mb-1"> {t("cards.card8.p19")}</li>
+                  <li className="mb-1"> {t("cards.card8.p20")}</li>
+                  <li className="mb-1"> {t("cards.card8.p21")}</li>
                 </ul>
               </div>
               <div>
-                <h2 className="font-semibold text-lg">Effects and reaction:</h2>
+                <h2 className="font-semibold text-lg">
+                  {t("cards.card8.p22")}:
+                </h2>
 
                 <ul className="list-disc ml-6 mb-4 py-2">
-                  <li className="mb-1"> longer erection</li>
-                  <li className="mb-1"> improved penile stiffness</li>
-                  <li className="mb-1">
-                    {" "}
-                    promotes the development of new blood vessels
-                    (neoangiogensis)
-                  </li>
-                  <li className="mb-1"> mechanical pulses on the penis</li>
-                  <li className="mb-1"> no need for PDE-5 inhibitors</li>
-                  <li className="mb-1">
-                    {" "}
-                    stimulation of the corpus cavernous of the penis
-                  </li>
+                  <li className="mb-1"> {t("cards.card8.p23")}</li>
+                  <li className="mb-1"> {t("cards.card8.p24")}</li>
+                  <li className="mb-1"> {t("cards.card8.p25")}</li>
+                  <li className="mb-1"> {t("cards.card8.p26")}</li>
+                  <li className="mb-1"> {t("cards.card8.p27")}</li>
+                  <li className="mb-1"> {t("cards.card8.p28")}</li>
                 </ul>
               </div>
             </div>

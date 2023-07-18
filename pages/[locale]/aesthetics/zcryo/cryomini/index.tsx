@@ -1,8 +1,8 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export default function enPuls() {
-  const t = useTranslations("physiotherapy");
+export default function Cryomini() {
+  const t = useTranslations("aesthetics");
   const images = [
     "/aesthetics/zcryo/cryomini/galery1.jpeg",
     "/aesthetics/zcryo/cryomini/galery2.jpeg",
@@ -27,16 +27,11 @@ export default function enPuls() {
           />
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4 text-center">
-              Small, flexible and always ready to use
+              {t("cards.card1.card3.p1")}
             </h1>
 
             <div className="my-auto text-justify text-lg font-normal">
-              CryoMini with -10° C cold air the CryoMini is developed especially
-              for short and less painful and shorter treatments. Unlike other
-              cooling methods, such as contact cooling, cryogen spray or ice
-              packs, the Cryo 6 can cool the epidermis before, during and after
-              the laser energy has been applied, without interfering with the
-              laser beam.
+              {t("cards.card1.card3.p2")}
             </div>
           </div>
         </div>
@@ -45,15 +40,11 @@ export default function enPuls() {
           <div className="w-9/12 mx-auto py-8">
             <div className="text-container my-8 sm:pr-12">
               <h1 className="text-4xl font-semibold mb-4">
-                Easy and quick application for satisfied patients
+                {t("cards.card1.card3.p3")}
               </h1>
 
               <div className="my-auto text-justify text-lg font-normal">
-                With the CryoMini Zimmer MedizinSysteme offers a compact medical
-                system to a more compact and flexible cold air system for short
-                and less painful treatments. Whether Laser, IPL applications or
-                injections, cold air is designed to reduces the pain long term.
-                Treatments are thus significantly better tolerated.
+                {t("cards.card1.card3.p4")}
               </div>
             </div>
           </div>

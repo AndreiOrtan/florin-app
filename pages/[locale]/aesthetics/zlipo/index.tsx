@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 
 export default function ZLipo() {
-  const t = useTranslations("physiotherapy");
+  const t = useTranslations("aesthetics");
   const images = [
     "/aesthetics/zlipo/galery1.jpeg",
     "/aesthetics/zlipo/galery2.jpeg",
@@ -33,21 +33,17 @@ export default function ZLipo() {
           />
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4 text-center">
-              ZLipo – chilling your way to your dream figure
+              {t("cards.card2.p1")}
             </h1>
 
             <div className="my-auto text-justify text-lg font-normal">
-              The highly innovative Cryolipolysis™ – ZLipo system makes it
-              possible to target fat depots and reduce them permanently and
-              non-invasively. This method cools fat deposits over a longer
-              period of time to a controlled and safe temperature range. ZLipo
-              convinces with its simple, safe and user-friendly handling.
+              {t("cards.card2.p2")}
             </div>
           </div>
         </div>
         <div className="w-full bg-orange">
           <div className="flex flex-col items-center py-24">
-            <h1 className="text-5xl text-white">The way it works</h1>
+            <h1 className="text-5xl text-white">{t("cards.card2.p3")}</h1>
             <div className="videos flex flex-col sm:flex-row items-center justify-center">
               <iframe
                 src="https://www.youtube.com/embed/UFFgKlObqb8"
@@ -64,19 +60,11 @@ export default function ZLipo() {
         <div className="w-full">
           <div className="w-9/12 mx-auto py-8">
             <div>
-              <h1 className="text-4xl font-semibold mb-4">Application range</h1>
+              <h1 className="text-4xl font-semibold mb-4">
+                {t("cards.card2.p4")}
+              </h1>
 
-              <p className="font-light">
-                For years, Cryolipolysis™ has been successfully used to reduce
-                fat deposits on thighs, hips, belly, buttocks, love handles, and
-                men‘s chests. The targeted removal of energy by means of a cold
-                treatment causes the apoptosis of the fat cells. This ultimately
-                leads to their destruction. The complete breakdown and removal
-                of fat cells the natural way through the lymphatic system takes
-                about 10–12 weeks. Since the surrounding tissue does not respond
-                to the cold treatment in the same way as fatty tissue, the
-                treatment is considered safe, gentle and non-invasive.
-              </p>
+              <p className="font-light">{t("cards.card2.p5")}</p>
             </div>
             <img
               src="/aesthetics/zlipo/range1.jpeg"
@@ -88,37 +76,37 @@ export default function ZLipo() {
 
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-8">
-            <h1 className="text-4xl ml-16">Visible achievements</h1>
+            <h1 className="text-4xl ml-16">{t("cards.card2.p6")}</h1>
             <div className="flex flex-col text-center items-center my-4">
               <div className="max-w-[300px] py-2 flex flex-col">
                 <div>
                   <img src="/aesthetics/zlipo/progress1.jpeg" alt="" />
                 </div>
-                <p>before and after 8 weeks of treatment</p>
+                <p>{t("cards.card2.eight")}</p>
               </div>
               <div className="max-w-[300px] py-2 flex flex-col">
                 <div>
                   <img src="/aesthetics/zlipo/progress3.jpeg" alt="" />
                 </div>
-                <p>before and after 8 weeks of treatment</p>
+                <p>{t("cards.card2.eight")}</p>
               </div>
               <div className="max-w-[300px] py-2 flex flex-col">
                 <div>
                   <img src="/aesthetics/zlipo/progress5.jpeg" alt="" />
                 </div>
-                <p>before and after 8 weeks of treatment</p>
+                <p>{t("cards.card2.eight")}</p>
               </div>
               <div className="max-w-[300px] py-2 flex flex-col">
                 <div>
                   <img src="/aesthetics/zlipo/progress7.jpeg" alt="" />
                 </div>
-                <p>before and after 8 weeks of treatment</p>
+                <p>{t("cards.card2.eight")}</p>
               </div>
               <div className="max-w-[300px] py-2 flex flex-col">
                 <div>
                   <img src="/aesthetics/zlipo/progress9.jpeg" alt="" />
                 </div>
-                <p>before and after 8 weeks of treatment</p>
+                <p>{t("cards.card2.eight")}</p>
               </div>
               <div className="max-w-[300px] py-2 flex flex-col">
                 <div>
@@ -133,22 +121,12 @@ export default function ZLipo() {
         <div className="w-full">
           <div className="w-9/12 mx-auto py-8">
             <div>
-              <h1 className="text-4xl font-semibold mb-4">Highlights</h1>
+              <h1 className="text-4xl font-semibold mb-4">
+                {t("cards.card2.p7")}
+              </h1>
 
-              <p className="font-light">
-                The applicator for the ZLipo system comes in three sizes to
-                apply pain-less suction to the desired treatment area. The
-                ability to use pulsating suction increases the positive effect
-                on lymphatic drainage and metabolism. The intensity can be set
-                to one of ten different levels that can even be adjusted during
-                treatment.
-              </p>
-              <p className="font-light mt-4">
-                The large 10.2“ touch-screen colour display allows users to
-                adjust the application time, suction level and suction mode
-                (continuous or pulsed) safely and intuitively. The selected
-                parameters are clearly displayed during treatment.
-              </p>
+              <p className="font-light">{t("cards.card2.p8")}</p>
+              <p className="font-light mt-4">{t("cards.card2.p9")}</p>
             </div>
           </div>
         </div>
@@ -156,18 +134,8 @@ export default function ZLipo() {
         <div className="w-full">
           <div className="w-9/12 mx-auto py-8">
             <div className="flex flex-col items-center py-24">
-              <h1 className="text-5xl">
-                ZLipo & ZWavePro – the cool combination
-              </h1>
-              <p className="font-light my-2">
-                By combining ZLipo and ZWave Pro (Cryolipolysis™ and shockwave)
-                we offer the perfect combination treatment for significantly
-                better fat reduction. Studies and reports have shown that
-                intensive, pain-free shockwave treatment after Cryolipolysis™
-                not only ensures better fat loss, but also stimulates lymphatic
-                drainage and tightens the skin. The world’s leading operators
-                have been using this concept for a long time.
-              </p>
+              <h1 className="text-5xl">{t("cards.card2.p10")}</h1>
+              <p className="font-light my-2">{t("cards.card2.p11")}</p>
               <div className="videos flex flex-col sm:flex-row items-center justify-center">
                 <iframe
                   src="https://www.youtube.com/embed/nOKoVpRg90c"

@@ -16,7 +16,7 @@ export default function Nav({ locale }: { locale: string }) {
   return (
     <nav className="bg-lightgray fixed top-0 left-0 right-0 z-[9999]">
       <div className="flex lg:justify-center h-[114px] justify-between">
-        <div className="flex items-center lg:mr-16 ml-4">
+        <div className="flex items-center lg:mr-16 ml-6">
           <Link
             href={`/${locale}`}
             className="flex flex-row items-center justify-center"
@@ -27,11 +27,11 @@ export default function Nav({ locale }: { locale: string }) {
               alt="text"
               className="h-auto lg:w-[100px] w-[60px] max-w-full"
             />
-            <div className="relative flex flex-col lg:items-center lg:h-12 h-9 min-w-[214px]">
+            <div className="relative flex flex-col lg:items-center lg:h-12 h-9 min-w-[250px]">
               <p className="text-blue500 lg:text-2xl text-lg tracking-wide font-bold">
                 Suhard Biomedical
               </p>
-              <p className="text-gray600 lg:text-base text-xs font-normal italic absolute lg:bottom-[3.5px] lg:right-0 bottom-[2px] right-[55px]">
+              <p className="text-gray600 lg:text-base text-xs font-normal italic absolute lg:bottom-[3.5px] lg:right-1 bottom-[2px] right-[64px]">
                 HighTech Medical Equipment
               </p>
             </div>

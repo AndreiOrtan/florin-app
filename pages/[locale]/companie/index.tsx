@@ -2,10 +2,9 @@ import { useTranslations } from "next-intl";
 import { readFile } from "fs/promises";
 import { GetStaticPropsContext } from "next";
 import path from "path";
-import PhysioLayout from "@/components/PhysioLayout";
 
 export default function Home() {
-  const t = useTranslations("Index");
+  const t = useTranslations("companie");
 
   return (
     <>
@@ -19,61 +18,43 @@ export default function Home() {
         </div>
         <div className="mx-auto py-10">
           <div className="w-9/12 mx-auto text-gray800">
-            <h1 className="text-3xl font-bold mb-6">Despre noi</h1>
-            <p className="text-xl font-light leading-7 mt-6">
-              Suntem dedicați să furnizăm soluții și echipamente medicale de
-              ultimă generație, care să sprijine profesioniștii din domeniul
-              sănătății în oferirea celei mai bune îngrijiri pacienților.
+            <h1 className="text-3xl font-bold mb-6">{t("p1")}</h1>
+            <p className="text-justify text-xl font-light leading-7 mt-6">
+              {t("p2")}
             </p>
-            <p className="text-xl font-light leading-7 mt-2">
-              La <span className="font-bold">Suhard Biomedical</span>, ne-am
-              concentrat pe selectarea celor mai fiabile și inovatoare produse
-              medicale disponibile pe piață. Suntem{" "}
-              <span className="font-bold">distribuitori unici in Romania</span>{" "}
-              pentru cu cei mai reputați producători de aparatura medicală. Gama
-              noastră include echipamente de diagnostic cu inteligență
-              artificială, mașini isokinetice, combine de fizioterapie si
-              dispozitive de estetica medicală. Partenerii nostrii de top sunt:{" "}
+            <p className="text-justify text-xl font-light leading-7 mt-2">
+              {t("p3")} <span className="font-bold">Suhard Biomedical</span>,{" "}
+              {t("p4")} <span className="font-bold">{t("p5")}</span> {t("p6")}{" "}
               <span className="font-bold">
-                Zimmer Medizin Systeme, Minato Medical și MKB Medical System
+                Zimmer Medizin Systeme, Minato Medical {t("p7")} MKB Medical
+                System
               </span>
-              . Oferim servicii de{" "}
-              <span className="font-bold">
-                consultanță, instalare, mentenanță și instruire
-              </span>{" "}
-              pentru produsele noastre.
+              . {t("p8")} <span className="font-bold">{t("p9")}</span>{" "}
+              {t("p10")}
             </p>
           </div>
         </div>
         <div className="mx-auto py-10 bg-lightgray">
           <div className="w-9/12 mx-auto text-gray800">
             <div className="flex flex-col sm:flex-row items-center">
-              <div className="order-2 mb-4">
-                <p className="text-xl font-light leading-7 mt-6">
-                  Ești o persoană energică, orientată către rezultate, cu
-                  abilități excelente de comunicare și negociere și o pasiune
-                  pentru domeniul medical ?
+              <div className="sm:order-1 order-2 mb-4">
+                <p className="text-justify text-xl font-light leading-7 mt-6">
+                  {t("p11")}
                 </p>
-                <p className="text-xl font-light leading-7">
-                  In acest caz,{" "}
-                  <span className="font-bold">Suhard Biomedical</span> este
-                  locul în care să-ți dezvolți o carieră de succes în vânzări.
-                  Alătură-te echipei noastre și fii parte dintr-o misiune care
-                  face o diferență reală în lumea sănătății! Aplică acum și ia
-                  parte la viitorul aparatelor medicale!
+                <p className="text-justify text-xl font-light leading-7">
+                  {t("p12")}{" "}
+                  <span className="font-bold">Suhard Biomedical</span>{" "}
+                  {t("p13")}
                 </p>
               </div>
               <img
                 src="/poza cariere.jpg"
                 alt="cariera"
-                className="w-[250px] rounded-lg order-1"
+                className="w-[250px] rounded-lg order-1 sm:order-2 sm:ml-4"
               />
             </div>
-            <p className="text-xl font-light leading-7">
-              Oferim un mediu de lucru flexibil și avantaje competitive, care
-              includ pachete de compensații atractive, comisioane și bonusuri în
-              funcție de performanță, și posibilitatea de a-ți gestiona propriul
-              portofoliu de clienți și de a-ți stabili propriul ritm de lucru.
+            <p className="text-justify text-xl font-light leading-7">
+              {t("p14")}
             </p>
           </div>
         </div>

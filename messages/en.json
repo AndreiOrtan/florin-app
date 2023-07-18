@@ -1,8 +1,36 @@
 {
   "Index": {
-    "title": "Hello world!"
+    "title": "Hello world!",
+    "p1": "Why us?",
+    "p2": "Cutting-edge medical products",
+    "p3": "Exclusive distributors in Romania",
+    "p4": "Consultancy, installation, maintenance, and training",
+    "p5": "At",
+    "p6": "we have focused on selecting the most reliable and innovative medical products available on the market. We are",
+    "p7": "exclusive distributors in Romania",
+    "p8": "for the most reputable manufacturers of medical equipment for recovery and medical aesthetics:",
+    "p9": "and",
+    "p10": "We provide",
+    "p11": "consultancy, installation, maintenance, and training",
+    "p12": "for our products.",
+    "p13": "We invite you to explore our diverse range of products and contact us for any questions or special requests!"
   },
-
+  "companie": {
+    "p1": "About us",
+    "p2": "We are dedicated to providing state-of-the-art medical solutions and equipment that support healthcare professionals in delivering the best patient care.",
+    "p3": "At",
+    "p4": "we have focused on selecting the most reliable and innovative medical products available on the market. We are",
+    "p5": "exclusive distributors in Romania",
+    "p6": "for the most reputable manufacturers of medical equipment. Our range includes AI-powered diagnostic equipment, isokinetic machines, physiotherapy units, and medical aesthetics devices. Our top partners are:",
+    "p7": "and",
+    "p8": "We provide",
+    "p9": "consultancy, installation, maintenance, and training",
+    "p10": "for our products.",
+    "p11": "Are you an energetic, results-oriented individual with excellent communication and negotiation skills and a passion for the medical field?",
+    "p12": "In that case,",
+    "p13": "is the place to develop a successful career in sales. Join our team and be part of a mission that makes a real difference in the world of healthcare! Apply now and be part of the future of medical devices!",
+    "p14": "We offer a flexible work environment and competitive benefits, including attractive compensation packages, performance-based commissions and bonuses, and the opportunity to manage your own client portfolio and set your own pace of work."
+  },
   "navbar": {
     "header1": "Products",
     "header2": "Company",
@@ -1045,56 +1073,260 @@
     }
   },
   "aesthetics": {
+    "pictureGallery": "Picture Gallery",
     "cards": {
       "card1": {
         "header": "ZCryo",
         "description": "Cold air for highest patient´s comfort during laser, IPL treatments and injections",
         "card1": {
-          "description": "The new Cryo 7: Ultramodern technology and over 25 years of experience."
+          "description": "The new Cryo 7: Ultramodern technology and over 25 years of experience.",
+
+          "p1": "Cryo is the perfect system for cooling the skin during laser applications and injections of all types. The cold air device provides lasting pain reduction and prevents thermal damage to the skin during laser and IPL applications. Unlike in other cooling methods, such as contact cooling, cooling sprays, or ice packs, the skin can be cooled with Cryo before, during, and after the laser application without impeding the effect of the laser.",
+          "p2": "Energy- and cost-efficient",
+          "p3": "Operating the new Cryo 7 entails only low consumption costs for you. The new standby mode additionally minimizes energy costs.",
+          "p4": "Cryo 7 is designed for reliable use all day long. The defrosting function and software-controlled monitoring of the amount of defrost water ensure smooth operation. In addition, the air filter is easily accessible and can be quickly replaced if soiled.",
+          "p5": "Numerous technical innovations allow the Cryo 7 to be operated even more quietly. This makes the treatment significantly more pleasant for everyone: for your patients and also for the medical staff.",
+          "p6": "Maximum operating convenience",
+          "p7": "User-friendly design",
+          "p8": "Energy-saving eco standby operation",
+          "p9": "Storage space for 100 Favourites",
+          "p10": "High-resolution 10-inch touch display",
+          "p11": "Colours and presettings as desired",
+          "p12": "Easier to operate than ever",
+          "p13": "Runs effortlessly for you",
+          "p14": "Software reminder if the water tank is full",
+          "p15": "Air filter can be quickly and easily changed",
+          "p16": "Magnetic tube attachment",
+          "p17": "Automatic maintenance reminder",
+          "p18": "Form meets function",
+          "p19": "Ergonomic & stylish",
+          "p20": "Easier on the back due to the ergonomic height",
+          "p21": "Swivelling spring arm allows one-hand operation",
+          "p22": "Quiet operation",
+          "p23": "Space-saving with a narrow footprint",
+          "p24": "A real eyecatcher in the modern practice"
         },
         "card2": {
-          "description": "Cryo 6 – the perfect system for skin cooling"
+          "description": "Cryo 6 – the perfect system for skin cooling",
+
+          "p1": "Cryo 6, the cold air device from the world leader",
+          "p2": "Cryo 6 is intended to minimize pain and thermal injury during laser and dermatological treatments and for temporary topical anesthetic relief during injections. Unlike other cooling methods, such as contact cooling, cryogen spray, or ice packs, the Cryo 6 can cool the epidermis before, during, and after the laser energy has been applied, without interfering with the laser beam. Studies have also shown that chilling with the Cryo 6 cold air device reduces the patient’s pain sensitivity. This means much better tolerance of the treatment.",
+          "p3": "User Defined Programs",
+          "p4": "3 supplementary storage possibilities are available for user-defined programs. Storage possibility is available for the user's favorite program. This program appears when the Cryo 6 is turned on and at the conclusion of each treatment.",
+          "p5": "The skin cooling system designed for superficial laser skin procedures.",
+          "p6": "The Cryo 6 cold air device is intended to minimize pain and thermal injury during laser and dermatological treatments and for temporary topical anesthetic relief before injections.",
+          "p7": "Unlike other cooling methods, such as contact cooling, cryogen spray, or ice packs, the Cryo 6 can cool the epidermis before, during, and after the laser energy has been applied, without interfering with the laser beam.",
+          "p8": "Studies have also shown that chilling with the Cryo 6 cold air device reduces the patient’s pain sensitivity. This means much better tolerance of the treatment."
         },
         "card3": {
-          "description": "The compact system for short & less painful treatments"
-        }
+          "description": "The compact system for short & less painful treatments",
+
+          "p1": "Small, flexible and always ready to use",
+          "p2": "CryoMini with -10° C cold air is developed especially for short and less painful treatments. Unlike other cooling methods, such as contact cooling, cryogen spray, or ice packs, the Cryo 6 can cool the epidermis before, during, and after the laser energy has been applied, without interfering with the laser beam.",
+          "p3": "Easy and quick application for satisfied patients",
+          "p4": "With the CryoMini, Zimmer MedizinSysteme offers a compact medical system and a more flexible cold air system for short and less painful treatments. Whether it's laser, IPL applications, or injections, cold air is designed to reduce long-term pain. Treatments are thus significantly better tolerated."
+        },
+
+        "p1": "The Cryo 6 cold air device is intended to minimize pain and thermal injury during laser and dermatological treatments and for temporary topical anesthetic before relief for injections.",
+        "p2": "Easy to operate",
+        "p3": "A large display clearly indicates all treatment parameters. Cryo 6 features a tactile glass keyboard, which is very easy to use. Just press Start. That‘s it!",
+        "p4": "An optional articulating arm facilitates hand-free operation. The lightweight application hose can be connected to selected laser handpieces. The user can easily regulate the airflow as needed.",
+        "p5": "Quick and efficient application",
+        "p6": "The cold air can be more selectively directed onto localized treatment areas by utilizing the laser handpiece adapter. An optional support arm is available to gently hold and guide the air tube to provide the operator with hands-free operation.",
+        "p7": "Cryo 6 and CryoMini require only normal room air, which is filtered and chilled up to -30°C. There are no consumables or additional costs. The customized glass plate provides a compact location for various accessories, IPL laser systems, or smoke evacuator."
       },
       "card2": {
         "header": "ZLipo",
-        "description": "Send a cold message to your fat deposits"
+        "description": "Send a cold message to your fat deposits",
+
+        "eight": "before and after 8 weeks of treatment",
+        "p1": "ZLipo - chilling your way to your dream figure",
+        "p2": "The highly innovative Cryolipolysis™ - ZLipo system makes it possible to target fat depots and reduce them permanently and non-invasively. This method cools fat deposits over a longer period of time to a controlled and safe temperature range. ZLipo convinces with its simple, safe, and user-friendly handling.",
+        "p3": "The way it works",
+        "p4": "Application range",
+        "p5": "For years, Cryolipolysis™ has been successfully used to reduce fat deposits on thighs, hips, belly, buttocks, love handles, and men's chests. The targeted removal of energy by means of a cold treatment causes the apoptosis of the fat cells. This ultimately leads to their destruction. The complete breakdown and removal of fat cells the natural way through the lymphatic system takes about 10-12 weeks. Since the surrounding tissue does not respond to the cold treatment in the same way as fatty tissue, the treatment is considered safe, gentle, and non-invasive.",
+        "p6": "Visible achievements",
+        "p7": "Highlights",
+        "p8": "The applicator for the ZLipo system comes in three sizes to apply painless suction to the desired treatment area. The ability to use pulsating suction increases the positive effect on lymphatic drainage and metabolism. The intensity can be set to one of ten different levels that can even be adjusted during treatment.",
+        "p9": "The large 10.2'' touch-screen color display allows users to adjust the application time, suction level, and suction mode (continuous or pulsed) safely and intuitively. The selected parameters are clearly displayed during treatment.",
+        "p10": "ZLipo & ZWavePro - the cool combination",
+        "p11": "By combining ZLipo and ZWave Pro (Cryolipolysis™ and shockwave), we offer the perfect combination treatment for significantly better fat reduction. Studies and reports have shown that intensive, pain-free shockwave treatment after Cryolipolysis™ not only ensures better fat loss but also stimulates lymphatic drainage and tightens the skin. The world's leading operators have been using this concept for a long time."
       },
       "card3": {
         "header": "ZField Dual",
-        "description": "Body Shaping with High-Energy Inductive Therapy"
+        "description": "Body Shaping with High-Energy Inductive Therapy",
+
+        "p1": "Z Field Dual - improved success for non-invasive body shaping",
+        "p2": "Z Field Dual, the innovative product for targeted muscle development from Zimmer Aesthetic Division. The High-Energy Inductive Treatment with Z Field Dual is performed using electromagnetic pulses and is able to contract the muscles. In combination with other treatments, such as after fat reduction applications through cold, the High-Energy Inductive Treatment is an ideally suitable application for improving and highlighting the result.",
+        "p3": "The way it works",
+        "p4": "Application range",
+        "p5": "Safe, simple, and fast",
+        "p6": "The treatment is performed with the patient lying down and is extremely comfortable for him or her. A session generally lasts between 20 and 30 minutes. As a result of the non-invasive and virtually painless treatment, the patient can resume his or her normal daily activities immediately after the treatment.",
+        "p7": "The benefits of Z Field Dual",
+        "p8": "Safe application",
+        "p9": "No downtime",
+        "p10": "Virtually painless",
+        "p11": "Short treatment times",
+        "p12": "Simple operation",
+        "p13": "The treatment region",
+        "p14": "Abdomen",
+        "p15": "Buttocks",
+        "p16": "Upper legs",
+        "p17": "Highlights",
+        "p18": "Z Field Dual, the perfect combination for satisfied patients.",
+        "p19": "Z Field Dual has two applicators of the same size. Both applicators are used at the same time with identical application parameters in order to stimulate opposing sections of muscle synchronously, for example. The use of a single applicator is also possible.",
+        "p20": "The combined benefits of Z Field Dual: Muscle development and support in fat reduction",
+        "p21": "Z Field Dual has pre-set programs which allow the user to perform the various treatments quickly and reliably. In addition, the modern and simple menu navigation of the software enables the user to create individual protocols for the patient and treatment. All of the relevant treatment parameters can be set, saved, and adjusted with just a few clicks."
       },
       "card4": {
         "header": "ZTone",
-        "description": "Thousands of muscle contractions through electromagnetic pulses"
+        "description": "Thousands of muscle contractions through electromagnetic pulses",
+
+        "p1": "Z Tone - Thousands of muscle contractions through electromagnetic pulses",
+        "p2": "The High Energy Inductive Treatment with Z Tone is performed using electromagnetic pulses and is able to contract the muscles. Electromagnetic fields can penetrate cells, tissues, organs, and bones without deformation or loss, activate the electrochemistry of tissues, and improve the function of cells and cell membranes. The magnetic field consequently stimulates nerve cells, muscles, and blood vessels.",
+        "p3": "Meet the next generation of Body Toning",
+        "p4": "Z Tone enables the user to select one of 3 desired training levels for each region appropriately for the patient.",
+        "p5": "Z Tone has two applicators of the same size. Both applicators can be individually controlled and operated. This feature allows the user to treat two different regions with different intensities at the same time. The device also offers the option of connecting the applicators and operating them at the same intensity.",
+        "p6": "Performance and Design taken right to the edge",
+        "p7": "Z Tone has two applicators of the same size. Both applicators are used at the same time with identical application parameters or separately from each other. All relevant treatment parameters can be set, saved, and adjusted with a few clicks. Z Tone allows treatment with two different intensities at the same time. For example, the left and right biceps can be treated with different intensities without any problems.",
+        "p8": "The use of a single applicator is also possible",
+        "p9": "Treatment advantages",
+        "p10": "Increased efficiency",
+        "p11": "Maximum flexibility",
+        "p12": "Separate control of the applicators",
+        "p13": "Two treatments at the same time",
+        "p14": "Ergonomic, stylish, high-performance",
+        "p15": "Designed for modern practice",
+        "p16": "Large display with intuitive software interface",
+        "p17": "Individual protocols adapted to the muscle region",
+        "p18": "Wrap-around handle for maximum mobility",
+        "p19": "Practical applicator holder always close to the treatment area",
+        "p20": "Maintenance-friendly",
+        "p21": "Time for the essentials",
+        "p22": "Removable applicators make replacement easy",
+        "p23": "Application range"
       },
       "card5": {
         "header": "ZWave",
-        "description": "Shockwave for skin tightening and body contouring"
+        "description": "Shockwave for skin tightening and body contouring",
+
+        "p1": "ZWave Pro & ZWave Med",
+        "p2": "The high-energy radial shockwaves have been scientifically proven to have a significant impact on collagen structure and the skin's connective tissue, improving blood circulation. It stimulates collagen formation, while the skin becomes more elastic and firmness becomes visible after only a few treatments. Thanks to the ZWave radial shockwave unit, it is also possible to significantly improve skin firmness, skin elasticity, and collagen regeneration. Fat reduction, for example, after CryolipolysisTM or injection lipolysis, is also enhanced by using the ZWave.",
+        "p3": "The way it works",
+        "p4": "ZWave & ZLipo - the perfect combination",
+        "p5": "Skin tightening and body contouring are becoming increasingly important in modern practice. After several treatments for fat reduction, such as CryolipolysisTM, liposuction, or injection lipolysis, a more extensive application for skin tightening is strongly recommended and expected by the patient. Various studies and user observations have proven its effectiveness.",
+        "p6": "Application range",
+        "p7": "Skin tightening and body contouring",
+        "p8": "ZWave is used as a 'stand-alone' application or in combination with other, mostly fat reduction methods. In the case of the 'stand-alone' application, the focus is generally on improving the skin structure and connective tissue. Typical application areas are, for example, cellulite, connective tissue weakness (upper arm, abdomen, etc.), and stretch marks.",
+        "p9": "Patient-friendly application",
+        "p10": "Using radial shockwaves for skin tightening, cellulite reduction, and general connective tissue tightening treatments has the following advantages:",
+        "p11": "Non-invasive treatment",
+        "p12": "No downtime",
+        "p13": "Pain-free application",
+        "p14": "Simple application",
+        "p15": "Visible results",
+        "p16": "Versatile",
+        "p17": "Preset treatment recommendations:",
+        "p18": "Cellulite",
+        "p19": "Stretch marks",
+        "p20": "Combination with CryolipolysisTM",
+        "p21": "Combination with radiofrequency",
+        "p22": "Combination with ultrasound",
+        "p23": "Combination with laser (Softlaser)",
+        "p24": "Skin tightening (general)",
+        "p25": "Aesthetic scar treatment",
+        "p26": "Supporting lymphatic drainage",
+        "p27": "ZWave - Visible results",
+        "p28": "The high-energy radial shockwaves consist of two different parts - the positive pressure pulse and a relatively small tensile wave component. The shockwave compresses the surrounding tissue and breaks the grid structure of the molecules. The tensile wave leads to the collapse of gas bubbles within the fat structures (cavitation), which re-expand after the high-energy radial shockwaves and thus ensure the destabilization of the fat structures.",
+        "p29": "Thanks to its 39mm applicator head, ZWave transmits the radial shockwaves directly and with high precision into the tissue. It has been observed and documented that the introduction of a mechanical pressure wave triggers various tissue reactions that have a beneficial effect on the skin structure."
       },
       "card6": {
         "header": "ContiCure",
-        "description": "Pelvic floor training – Start your training today and get your laughter back."
+        "description": "Pelvic floor training – Start your training today and get your laughter back.",
+
+        "p1": "Muscle training through magnetic field therapy",
+        "p2": "Using magnetic field therapy, a current is induced in the cell which causes a contraction of the pelvic floor muscles. This strengthening of the muscles leads to improvement in incontinence problems. ContiCure offers the appropriate treatment parameters for each patient. Select the treatment goal from one of the 4 predefined programs. This enables treatment of stress, mixed, and urge incontinence, as well as general pelvic floor training. ContiCure has a large applicator which is inserted in the treatment chair for therapy. The intensity can be individually adjusted during therapy depending on the patient's sensation.",
+        "p3": "The way it works",
+        "p4": "Meet the next generation of Body Toning",
+        "p5": "Therapy with ContiCure",
+        "p6": "Application time",
+        "p7": "The application lasts between 20 to a maximum of 30 minutes, depending on the program. However, the user also has the option to create individual programs for the patient in order to address the patient's needs in a targeted manner.",
+        "p8": "Therapy",
+        "p9": "The patient sits comfortably on the chair while the pelvic floor muscles are optimally stimulated during the entire treatment time.",
+        "p10": "Treatment recommendation",
+        "p11": "Depending on the patient, between 8-10 treatments are recommended. Some patients report an improvement in their incontinence problems after just the first few treatments.",
+        "p12": "The chair - The central focus in your practice",
+        "p13": "Interchangeable inlays",
+        "p14": "The sitting position can be adjusted using the three different inlays, depending on the patient's size.",
+        "p15": "The biocompatible cover can be disinfected with conventional cleaning agents and ensures a hygienic treatment.",
+        "p16": "High-quality design",
+        "p17": "The chair is entirely manufactured in Germany and covered by hand with high-quality fabric.",
+        "p18": "Simple design for intuitive operation",
+        "p19": "Control knob to adjust intensities",
+        "p20": "Predefined protocols",
+        "p21": "Predefined protocols for the professional treatment of stress, urge, and mixed incontinence, as well as general pelvic floor training, are available to the user.",
+        "p22": "Individual protocols",
+        "p23": "It is also possible to store individual protocols with parameters that were explicitly configured for the patient."
       },
       "card7": {
         "header": "ZFill",
         "description": "Hyaluronic acid dermal fillers for youthful, wrinkle-free skin",
         "card1": {
-          "description": "Natural skin regeneration – Mesotherapy"
+          "description": "Natural skin regeneration – Mesotherapy",
+
+          "p1": "For the natural regeneration and revitalization of the skin",
+          "p2": "The gel consists of highly concentrated hyaluronic acid and the natural moisturizer glycerine. This non-crosslinked, biologically active hyaluronic acid enriched with the additional ingredient causes a lasting increase in skin moisture. Hyaluronic acid which is lost through the natural aging process is returned to the skin. At the same time, the glycerine binds water and hydrates the skin. In this way, your skin regains tone and visible signs of skin aging decrease.",
+          "p3": "Properties",
+          "p4": "Sterile",
+          "p5": "Isotonic and biodegradable",
+          "p6": "Viscoelastic",
+          "p7": "Clear and transparent",
+          "p8": "Homogenized"
         },
         "card2": {
-          "description": "For the mid and deep dermis"
+          "description": "For the mid and deep dermis",
+          "p1": "For the mid and deep dermis",
+          "p2": "The gel implant made of crosslinked hyaluronic acid corrects moderate and deep nasolabial folds. It fills the moisture depots and rejuvenates the skin through long-lasting hydration. With Z Fill contour⁺ you correct wrinkles and increase lip volume."
         },
         "card3": {
-          "description": "Gives new fullness and more volume"
+          "description": "Gives new fullness and more volume",
+
+          "p1": "Gel implant for new fullness and more volume",
+          "p2": "Z Fill deep² and Z Fill deep⁺ are suitable for the correction of deep nasolabial folds. Thanks to the outstanding viscoelastic properties, the gel implant can be injected easily and very precisely with a thin needle."
         }
       },
       "card8": {
         "header": "GentlePro",
-        "description": "Shockwave treatment for erectile dysfunction"
+        "description": "Shockwave treatment for erectile dysfunction",
+
+        "p1": "GentlePro – performance enhancement",
+        "p2": "Various clinical studies on erectile dysfunction demonstrated a significant improvement in perfusion and the formation of new vessels which is crucial for a high level of patient acceptance and a successful application.",
+        "p3": "Rapid results",
+        "p4": "In general, 5 to 8 treatments are needed to ensure a successful application. A positive change and a longer or stronger erection is often reported after just the first application.",
+        "p5": "Shockwave treatment for erectile dysfunction is successful as a stand-alone application and can also be used in combination with other forms of treatment. Shockwave treatment can therefore be successfully combined with PRP applications, vacuum pumps or also PDE-5 inhibitors (vasodilators), among others. The application is also virtually painless and has no known adverse effects.",
+        "p6": "The way it works",
+        "p7": "A successful form of application for erectile dysfunction",
+        "p8": "Since the male penis is not a muscle, good perfusion of the corpus cavernosum is extremely important and significantly contributes to the male erection.",
+        "p9": "With shockwave treatment, it is possible to significantly promote increased perfusion and stimulate the formation of new vascular structures at the same time. The radial shockwaves, which are emitted on the shaft of the penis as well as on the area around the genitals, support the natural stimulation of the area to be treated, particularly in the case of erectile dysfunction due to vascular causes. Even patients with severe erectile dysfunction who are taking so-called PDE-5 inhibitors achieve significantly better therapeutic success.",
+        "p10": "Depending on the degree of erectile dysfunction, an average of about 5 to 8 treatments are needed to achieve a lasting improvement in the erection. Shockwave therapy takes up to 25 minutes and should be performed 2-3 times per week.",
+        "p11": "Patient-friendly application",
+        "p12": "Advantages",
+        "p13": "non-invasive treatment",
+        "p14": "no down time",
+        "p15": "virtually painless application",
+        "p16": "user-friendly application",
+        "p17": "improvement in the erection",
+        "p18": "more spontaneous sex life",
+        "p19": "no painful prostaglandin injections",
+        "p20": "almost no risks or adverse effects",
+        "p21": "well-tolerated treatment method",
+        "p22": "Effects and reaction:",
+        "p23": "longer erection",
+        "p24": "improved penile stiffness",
+        "p25": "promotes the development of new blood vessels (neoangiogenesis)",
+        "p26": "mechanical pulses on the penis",
+        "p27": "no need for PDE-5 inhibitors",
+        "p28": "stimulation of the corpus cavernosum of the penis"
       }
     }
   }

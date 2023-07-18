@@ -38,7 +38,7 @@ export default function Aesthetic({ locale }: { locale: string }) {
             linkUrl={`/${locale}/aesthetics/zcryo/cryomini`}
             imageUrl="/aesthetics/zcryo/cryomini.jpeg"
             cardHeader="CryoMini"
-            cardDescription={t("cards.card1.card3.description")}
+            cardDescription={t("cards.card1.card3.p1")}
             orange
           />
         </div>
@@ -46,43 +46,17 @@ export default function Aesthetic({ locale }: { locale: string }) {
           <div className="w-9/12 mx-auto my-8">
             <div className="mb-12">
               <h1 className="text-lg font-semibold">ZCryo – real cold air</h1>
-              <p className="mb-4">
-                The Cryo 6 cold air device is intended to minimize pain and
-                thermal injury during laser and dermatological treatments and
-                for temporary topical anesthetic before relief for injections.
-              </p>
+              <p className="mb-4">{t("cards.card1.p2")}</p>
             </div>
             <div className="mb-12">
               <h1 className="text-lg font-semibold">Easy to operate</h1>
-              <p className="mb-4">
-                A large display clearly indicates all treatment parameters. Cryo
-                6 features a tactile glass keyboard, which is very easy to use.
-                just press Start. That‘s it!
-              </p>
-              <p className="mb-4">
-                An optional articulating arm facilitates hand free operation.
-                The light weight application hose can be connected to selected
-                laser hand-pieces. The user can easily regulate the air flow as
-                needed.
-              </p>
+              <p className="mb-4">{t("cards.card1.p3")}</p>
+              <p className="mb-4">{t("cards.card1.p4")}</p>
             </div>
             <div className="mb-12">
-              <h1 className="text-lg font-semibold">
-                Quick and efficient application
-              </h1>
-              <p className="mb-4">
-                The cold air can be more selectively directed onto localized
-                treatment areas by utilizing the laser handpiece adapter. An
-                optional support arm is available to gently hold and guide the
-                air tube to provide the operator with hands-free operation.
-              </p>
-              <p className="mb-4">
-                Cryo 6 and CryoMini requires only normal room air, which is
-                filtered and chilled up to -30°C. There are no consumables or
-                additional costs. The customized glass plate provides a compact
-                location for various accessories, IPL laser systems, or smoke
-                evacuator.
-              </p>
+              <h1 className="text-lg font-semibold">{t("cards.card1.p5")}</h1>
+              <p className="mb-4">{t("cards.card1.p6")}</p>
+              <p className="mb-4">{t("cards.card1.p7")}</p>
             </div>
           </div>
         </div>

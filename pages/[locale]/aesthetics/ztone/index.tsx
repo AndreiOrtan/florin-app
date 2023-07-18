@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 
 export default function ZLipo() {
-  const t = useTranslations("physiotherapy");
+  const t = useTranslations("aesthetics");
   const images = [
     "/aesthetics/ztone/galery1.jpeg",
     "/aesthetics/ztone/galery2.jpeg",
@@ -28,58 +28,29 @@ export default function ZLipo() {
           />
           <div className="text-container my-8 sm:pr-12">
             <h1 className="text-4xl font-semibold mb-4 text-center">
-              Z Tone – Thousands of muscle contractions through electromagnetic
-              pulses
+              {t("cards.card4.p1")}
             </h1>
 
             <div className="my-auto text-justify text-lg font-normal">
-              The High Energy Inductive Treatment with Z Tone is performed using
-              electromagnetic pulses and is able to contract the muscles.
-              Electromagnetic fields can penetrate cells, tissues, organs and
-              bones without deformation or loss, activate the electrochemistry
-              of tissues and improve the function of cells and cell membranes.
-              The magnetic field consequently stimulates nerve cells, muscles
-              and blood vessels.
+              {t("cards.card4.p2")}
             </div>
           </div>
         </div>
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-24">
-            <h1 className="text-5xl">
-              Meet the next generation of Body Toning
-            </h1>
+            <h1 className="text-5xl">{t("cards.card4.p3")}</h1>
             <div>
-              <p>
-                Z Tone enables the user to select one of 3 desired training
-                levels for each region appropriately for the patient.
-              </p>
-              <p>
-                Z Tone has two applicators of the same size. Both applicators
-                can be individually controlled and operated. This feature allows
-                the user to treat two different regions with different
-                intensities at the same time. The device also offers the option
-                of connecting the applicators and operating them at the same
-                intensity.
-              </p>
+              <p>{t("cards.card4.p4")}</p>
+              <p>{t("cards.card4.p5")}</p>
             </div>
           </div>
         </div>
         <div className="w-full">
           <div className="w-9/12 mx-auto py-24">
-            <h1 className="text-5xl">
-              Performance and Design taken right to the edge
-            </h1>
+            <h1 className="text-5xl">{t("cards.card4.p6")}</h1>
             <div>
-              <p>
-                Z Tone has two applicators of the same size. Both applicators
-                are used at the same time with identical application parameters
-                or separately from each other. All relevant treatment parameters
-                can be set, saved and adjusted with a few clicks. Z Tone allows
-                treatment with two different intensities at the same time. For
-                example, the left and right biceps can be treated with different
-                intensities without any problems.
-              </p>
-              <p>The use of a single applicator is also possible.</p>
+              <p>{t("cards.card4.p7")}</p>
+              <p>{t("cards.card4.p8")}</p>
             </div>
             <img src="/aesthetics/ztone/news1.png" alt="" />
           </div>
@@ -87,53 +58,43 @@ export default function ZLipo() {
 
         <div className="w-full bg-lightgray">
           <div className="w-9/12 mx-auto py-8">
-            <h2 className="text-2xl font-semibold">Treatment advantages</h2>
+            <h2 className="text-2xl font-semibold">{t("cards.card4.p9")}</h2>
             <div className="flex sm:flex-row flex-col py-8">
               <div>
-                <h2 className="font-semibold text-lg">Increased efficiency</h2>
-                <h2 className="font-normal text-base">Maximum flexibility</h2>
+                <h2 className="font-semibold text-lg">
+                  {t("cards.card4.p10")}
+                </h2>
+                <h2 className="font-normal text-base">
+                  {t("cards.card4.p11")}
+                </h2>
                 <ul className="list-disc ml-6 mb-4 py-2">
-                  <li className="mb-1"> Separate control of the applicators</li>
-                  <li className="mb-1"> Two treatments at the same time </li>
+                  <li className="mb-1"> {t("cards.card4.p12")}</li>
+                  <li className="mb-1"> {t("cards.card4.p13")}</li>
                 </ul>
               </div>
               <div>
                 <h2 className="font-semibold text-lg">
-                  Ergonomic, stylish, high-performance
+                  {t("cards.card4.p14")}
                 </h2>
                 <h2 className="font-normal text-base">
-                  Designed for modern practice
+                  {t("cards.card4.p15")}
                 </h2>
                 <ul className="list-disc ml-6 mb-4 py-2">
-                  <li className="mb-1">
-                    {" "}
-                    Large display with intuitive software interface
-                  </li>
-                  <li className="mb-1">
-                    {" "}
-                    Individual protocols adapted to the muscle region{" "}
-                  </li>
-                  <li className="mb-1">
-                    {" "}
-                    Wrap-around handle for maximum mobility{" "}
-                  </li>
-                  <li className="mb-1">
-                    {" "}
-                    Practical applicator holder always close to the treatment
-                    area{" "}
-                  </li>
+                  <li className="mb-1"> {t("cards.card4.p16")}</li>
+                  <li className="mb-1"> {t("cards.card4.p17")} </li>
+                  <li className="mb-1"> {t("cards.card4.p18")} </li>
+                  <li className="mb-1"> {t("cards.card4.p19")} </li>
                 </ul>
               </div>
               <div>
-                <h2 className="font-semibold text-lg">Maintenance-friendly</h2>
+                <h2 className="font-semibold text-lg">
+                  {t("cards.card4.p20")}
+                </h2>
                 <h2 className="font-normal text-base">
-                  Time for the essentials
+                  {t("cards.card4.p21")}
                 </h2>
                 <ul className="list-disc ml-6 mb-4 py-2">
-                  <li className="mb-1">
-                    {" "}
-                    Removable applicators make replacement easy
-                  </li>
+                  <li className="mb-1"> {t("cards.card4.p22")}</li>
                 </ul>
               </div>
             </div>
@@ -143,7 +104,9 @@ export default function ZLipo() {
         <div className="w-full">
           <div className="w-9/12 mx-auto py-16">
             <div>
-              <h1 className="text-4xl font-semibold mb-1">Application range</h1>
+              <h1 className="text-4xl font-semibold mb-1">
+                {t("cards.card4.p23")}
+              </h1>
             </div>
 
             <img

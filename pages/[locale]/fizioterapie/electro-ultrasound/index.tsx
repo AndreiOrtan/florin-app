@@ -11,9 +11,7 @@ export default function ElectroAndUltrasound({ locale }: { locale: string }) {
       <div className="flex flex-col items-center my-4 text-gray800">
         <header className="py-4">
           <div className="container mx-auto px-4">
-            <h1 className="text-blue700 text-3xl font-bold">
-              Electro & Ultrasound
-            </h1>
+            <h1 className="text-3xl font-bold">Electro & Ultrasound</h1>
           </div>
         </header>
         <div className="w-full">
@@ -23,7 +21,7 @@ export default function ElectroAndUltrasound({ locale }: { locale: string }) {
               imageUrl="/fizioterapiePhotos/electro-ultrasound/physys.jpg"
               cardHeader={t("cards.card1.card1.header")}
               cardDescription={t("cards.card1.card1.description")}
-              minH={320}
+              minH={336}
             />
 
             <Card
@@ -31,7 +29,7 @@ export default function ElectroAndUltrasound({ locale }: { locale: string }) {
               imageUrl="/fizioterapiePhotos/electro-ultrasound/soleo-sonostim.jpg"
               cardHeader={t("cards.card1.card2.header")}
               cardDescription={t("cards.card1.card2.description")}
-              minH={320}
+              minH={336}
             />
 
             <Card
@@ -39,7 +37,7 @@ export default function ElectroAndUltrasound({ locale }: { locale: string }) {
               imageUrl="/fizioterapiePhotos/electro-ultrasound/sonoone.jpg"
               cardHeader={t("cards.card1.card3.header")}
               cardDescription={t("cards.card1.card3.description")}
-              minH={320}
+              minH={336}
             />
           </div>
         </div>
