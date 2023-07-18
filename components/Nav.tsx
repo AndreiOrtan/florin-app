@@ -39,7 +39,7 @@ export default function Nav({ locale }: { locale: string }) {
         </div>
 
         <div
-          className={`lg:flex lg:w-min w-full justify-center bg-lightgray items-center lg:ml-24 lg:static absolute bottom-[-144px] ${
+          className={`lg:flex lg:w-min w-full justify-center bg-lightgray items-center lg:ml-24 lg:static absolute bottom-[-178px] ${
             isOpen ? "" : "hidden"
           }`}
         >
@@ -55,7 +55,7 @@ export default function Nav({ locale }: { locale: string }) {
             collapseDropdown={collapseDropdown}
             routes={["Fizioterapie", "Kineto", "Aquatizer", "Mecanoterapie"]}
           />
-          <MenuHeader header="Aesthetics" self locale={locale} />
+          <MenuHeader header="Aesthetics" self={true} locale={locale} />
           <MenuHeader
             header={t("header2")}
             options={[`${t("about-us")}`, "Cariere"]}
@@ -63,15 +63,16 @@ export default function Nav({ locale }: { locale: string }) {
             routes={["Companie", "Companie"]}
             locale={locale}
           />
-
-          <button
-            className={`text-gray900 rounded-lg text-lg font-semibold px-4 hover:text-blue700 py-2.5 text-center flex justify-center items-center`}
-            type="button"
-          >
-            <Link href={`#contact-form`} scroll={false}>
-              Contact
-            </Link>
-          </button>
+          <div className="relative flex justify-center">
+            <button
+              className={`text-gray900 m-0 rounded-lg text-lg font-semibold px-4 hover:text-blue700 py-2.5 text-center flex justify-center items-center`}
+              type="button"
+            >
+              <Link href={`#contact-form`} scroll={false}>
+                Contact
+              </Link>
+            </button>
+          </div>
         </div>
         <div className="flex justify-center mr-4">
           <span

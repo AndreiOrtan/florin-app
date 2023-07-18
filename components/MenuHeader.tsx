@@ -52,7 +52,10 @@ const MenuHeader = ({
         type="button"
       >
         {self ? (
-          <Link href={`/${locale}/${header?.toLocaleLowerCase()}`}>
+          <Link
+            href={`/${locale}/${header?.toLocaleLowerCase()}`}
+            onClick={() => setIsOpen(false)}
+          >
             {header}
           </Link>
         ) : (

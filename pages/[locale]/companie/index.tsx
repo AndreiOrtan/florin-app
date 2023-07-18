@@ -47,8 +47,8 @@ export default function Home() {
         </div>
         <div className="mx-auto py-10 bg-lightgray">
           <div className="w-9/12 mx-auto text-gray800">
-            <div className="flex">
-              <div>
+            <div className="flex flex-col sm:flex-row items-center">
+              <div className="order-2 mb-4">
                 <p className="text-xl font-light leading-7 mt-6">
                   Ești o persoană energică, orientată către rezultate, cu
                   abilități excelente de comunicare și negociere și o pasiune
@@ -66,7 +66,7 @@ export default function Home() {
               <img
                 src="/poza cariere.jpg"
                 alt="cariera"
-                className="w-[250px] rounded-lg"
+                className="w-[250px] rounded-lg order-1"
               />
             </div>
             <p className="text-xl font-light leading-7">

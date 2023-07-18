@@ -36,7 +36,7 @@ const Slider = () => {
   ];
 
   return (
-    <div className="h-auto mb-8 sm:mb-0">
+    <div className="h-auto">
       <Carousel
         responsive={responsive}
         showDots={true}
