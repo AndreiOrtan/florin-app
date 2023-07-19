@@ -27,8 +27,8 @@ export default function OptonPro() {
                 {t("p1")} <span className="font-bold">„Aquatizer QZ”</span>{" "}
                 {t("p1Rest")}
               </p>
-              <p className="my-auto text-justify">{t("p2")} </p>
-              <p className="my-auto text-justify">{t("p3")}</p>
+              {/* <p className="my-auto text-justify">{t("p2")} </p>
+              <p className="my-auto text-justify">{t("p3")}</p> */}
             </div>
             <Image
               src="/aquatizer/aqua.jpeg"

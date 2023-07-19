@@ -55,6 +55,7 @@ const MenuHeader = ({
           <Link
             href={`/${locale}/${header?.toLocaleLowerCase()}`}
             onClick={() => setIsOpen(false)}
+            className={`${locale === "ro" ? "min-w-[192px]" : ""}`}
           >
             {header}
           </Link>

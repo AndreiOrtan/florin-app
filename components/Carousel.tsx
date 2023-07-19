@@ -18,7 +18,9 @@ const Slider = () => {
     {
       imgPath: "/carousel_mkb.png",
       url: `/${router.query.locale}/mecanoterapie`,
-      header: "Inteligență artificială in recuperare medicală ",
+      header: "O noutate mondială!",
+      description:
+        "Dinamometrele digitale isokinetice cu inteligenta artificiala pentru recuperare medicală",
       videoSrc: "/mkb_video.mp4",
     },
     {
@@ -50,6 +52,7 @@ const Slider = () => {
               videoSrc={img.videoSrc}
               header={img.header}
               imgPath={img.imgPath}
+              description={img.description}
               imgUrl={img.url}
               key={index}
             />

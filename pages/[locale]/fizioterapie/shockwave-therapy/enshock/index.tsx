@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export default function enPulsPro() {
+export default function EnShock() {
   const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/shockwave-therapy/enShock/galery1.jpeg",
@@ -165,98 +165,70 @@ export default function enPulsPro() {
             </h2>
             <div className="flex">
               <div>
-                <h2 className="mb-4 font-bold"> enShock:</h2>
-
-                <h2 className="font-semibold"> Technology</h2>
-                <p className="mb-4 font-light">
-                  {" "}
-                  Piezoelectrically focused shock waves
-                </p>
+                <h2 className="font-bold"> enShock:</h2>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d1")}</h2>
+                <p className="mb-4 font-light"> {t("cards.card3.card3.d2")}</p>
 
                 <h2 className="font-semibold"> Energy</h2>
-                <p className="mb-4 font-light">
-                  0.005 – 0.500 mJ/mm2, freely adjustable in 0.005 mJ increments
-                </p>
+                <p className="mb-4 font-light">{t("cards.card3.card3.d3")}</p>
 
-                <h2 className="font-semibold"> Frequency</h2>
-                <p className="mb-4 font-light">
-                  {" "}
-                  1 to 12 Hz; can be adjusted in 1-Hz increments
-                </p>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d4")}</h2>
+                <p className="mb-4 font-light"> {t("cards.card3.card3.d5")}</p>
 
-                <h2 className="font-semibold"> Programmes</h2>
-                <p className="mb-4 font-light">
-                  19 preset programmes which can be individually adapted
-                </p>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d6")}</h2>
+                <p className="mb-4 font-light">{t("cards.card3.card3.d7")}</p>
 
-                <h2 className="font-semibold"> Controller</h2>
-                <p className="mb-4 font-light">
-                  11“ colour touch screen and central knob
-                </p>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d8")}</h2>
+                <p className="mb-4 font-light">{t("cards.card3.card3.d9")}</p>
 
-                <h2 className="font-semibold"> Dimensions</h2>
-                <p className="mb-4 font-light">
-                  405 x 207 x 424 mm (L/W/H), without trolley
-                </p>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d10")}</h2>
+                <p className="mb-4 font-light">{t("cards.card3.card3.d11")}</p>
 
-                <h2 className="font-semibold"> Weight</h2>
-                <p className="mb-4 font-light">23 kg (without handpiece)</p>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d12")}</h2>
+                <p className="mb-4 font-light">{t("cards.card3.card3.d13")}</p>
               </div>
               <div>
-                <h2 className="font-bold mb-4"> enShock Handpiece:</h2>
-
-                <h2 className="font-semibold"> Ergonomic</h2>
-                <p className="mb-4 font-light">
+                <h2 className="font-bold mb-4">
                   {" "}
-                  Plastic and aluminium housing
-                </p>
+                  {t("cards.card3.card3.d14")}
+                </h2>
 
-                <h2 className="font-semibold"> Generator</h2>
-                <p className="mb-4 font-light"> Piezoelectric elements</p>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d15")}</h2>
+                <p className="mb-4 font-light"> {t("cards.card3.card3.d16")}</p>
 
-                <h2 className="font-semibold"> Service life</h2>
-                <p className="mb-4 font-light">
-                  {" "}
-                  Guaranteed for 3,000,000 shocks, 2 years
-                </p>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d17")}</h2>
+                <p className="mb-4 font-light"> {t("cards.card3.card3.d18")}</p>
 
-                <h2 className="font-semibold"> Dimensions</h2>
-                <p className="mb-4 font-light">
-                  {" "}
-                  14 cm long, 11 cm diameter (max.)
-                </p>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d19")}</h2>
+                <p className="mb-4 font-light"> {t("cards.card3.card3.d20")}</p>
 
-                <h2 className="font-semibold"> Gel pads</h2>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d21")}</h2>
+                <p className="mb-4 font-light"> {t("cards.card3.card3.d22")}</p>
+
+                <h2 className="font-semibold"> {t("cards.card3.card3.d23")}</h2>
                 <p className="font-light">
                   {" "}
                   Diameter of 5, 10, 15, 20, 25, 30, 35 and 40 mm
                 </p>
-                <p className="mb-4 font-light"> Can be changed without tools</p>
+                <p className="mb-4 font-light"> {t("cards.card3.card3.d24")}</p>
 
-                <h2 className="font-semibold"> Power consumption</h2>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d25")}</h2>
                 <p className="mb-4 font-light">
                   {" "}
                   220 – 230 V; 50/60 Hz, max. 300 VA
                 </p>
 
-                <h2 className="font-semibold"> Contents</h2>
-                <p className="mb-4 font-light">
-                  {" "}
-                  enShock control unit, handpiece, set of 8 gel pads, power
-                  cable, 1 bottle of conductive gel, instructions for use
-                </p>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d26")}</h2>
+                <p className="mb-4 font-light"> {t("cards.card3.card3.d27")}</p>
 
-                <h2 className="font-semibold"> Transport</h2>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d28")}</h2>
                 <p className="mb-4 font-light">
                   {" "}
                   -10°C to 50°C, 20% to 85% humidity
                 </p>
 
-                <h2 className="font-semibold"> Storage</h2>
-                <p className="mb-4 font-light">
-                  {" "}
-                  Without condensation; 700 hPa – 1060 hPa
-                </p>
+                <h2 className="font-semibold"> {t("cards.card3.card3.d29")}</h2>
+                <p className="mb-4 font-light"> {t("cards.card3.card3.d30")}</p>
               </div>
             </div>
           </div>

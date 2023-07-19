@@ -1,6 +1,7 @@
 import emailjs from "@emailjs/browser";
 import { useTranslations } from "next-intl";
 import { FormEvent, useState } from "react";
+import AnimatedContent from "./AnimatedContent";
 
 export default function ContactForm() {
   const [isSent, setIsSent] = useState(false);
@@ -43,11 +44,14 @@ export default function ContactForm() {
     }
   };
   return (
-    <div className="" id="contact-form">
+    <div className="relative">
+      <div className="absolute top-[-100px]" id="contact-form"></div>
       <div className="w-9/12 mx-auto">
-        <h1 className="text-gray800 sm:text-4xl text-2xl font-bold py-4">
-          {t("header")}
-        </h1>
+        <AnimatedContent direction="XL">
+          <h1 className="text-gray800 sm:text-4xl text-2xl font-bold py-4">
+            {t("header")}
+          </h1>
+        </AnimatedContent>
       </div>
       <form className="w-9/12 mx-auto mb-8" onSubmit={sendEmail}>
         <div className="grid md:grid-cols-2 md:gap-6">

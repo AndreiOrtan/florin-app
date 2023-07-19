@@ -43,18 +43,17 @@ export default function Physys() {
         <div className="bg-lightgray w-full">
           <div className="mx-auto py-8 flex flex-col items-center w-9/12">
             <div>
-              <h2 className="text-2xl font-semibold mb-4">Appliance</h2>
+              <h2 className="text-2xl font-semibold mb-4">
+                {" "}
+                {t("cards.card1.card1.d1")}
+              </h2>
               <ul className="list-disc list-inside">
-                <li>Pain Treatment</li>
-                <li>Muscle Relaxing Therapy</li>
-                <li>Muscle Toning Therapy</li>
-                <li>Metabolism Stimulation</li>
+                <li>{t("cards.card1.card1.d2")}</li>
+                <li>{t("cards.card1.card1.d3")}</li>
+                <li>{t("cards.card1.card1.d4")}</li>
+                <li>{t("cards.card1.card1.d5")}</li>
               </ul>
-              <p className="mt-4">
-                PhySys broadens the range of all requested therapies for
-                optimized treatments with its electrostimulation and ultrasound
-                therapy programs in mono or dual channels.
-              </p>
+              <p className="mt-4">{t("cards.card1.card1.d6")}</p>
             </div>
             {/* <div className="flex">
             <Image

@@ -63,7 +63,7 @@ export default function Physys() {
                 {t("cards.card1.card3.header4")}
               </h2>
               <p>{t("cards.card1.card3.p5")}</p>
-              <p className="py-8">{t("cards.card1.card3.header5")}</p>
+
               <ul className="list-disc list-inside">
                 <li>{t("cards.card1.card3.p6")}</li>
                 <li>{t("cards.card1.card3.p7")}</li>

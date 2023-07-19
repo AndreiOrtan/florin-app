@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export default function enPulsPro() {
+export default function EnPulsPro() {
   const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/shockwave-therapy/enPulsPro/galery1.jpeg",
@@ -241,95 +241,88 @@ export default function enPulsPro() {
             </h2>
             <div className="flex">
               <div>
-                <h2 className="font-semibold text-lg pb-0.5"> Technology</h2>
-                <p className="mb-4">
-                  Compressor free ballistic radial shockwave therapy-system with
-                  electromagnetic generator as projectile accelerator
-                </p>
                 <h2 className="font-semibold text-lg pb-0.5">
-                  Power Levels / Energy
+                  {" "}
+                  {t("cards.card3.card1.d1")}
+                </h2>
+                <p className="mb-4">{t("cards.card3.card1.d2")}</p>
+                <h2 className="font-semibold text-lg pb-0.5">
+                  {t("cards.card3.card1.d3")}
                 </h2>
                 <ul className="list-disc ml-6 mb-4">
-                  <li>60 to 185 mJ (equivalent to 1-5 bar)</li>
-                  <li>
-                    Can be precisely set in 10 mJ intervals (depending on the
-                    frequency of 60 mJ to max. 185 mJ)
-                  </li>
-                </ul>
-                <h2 className="font-semibold text-lg pb-0.5">Modes</h2>
-                <ul className="list-disc ml-6 mb-4">
-                  <li>Frequencies from 1 to 22 Hz</li>
-                  <li>3 Burst modes (4 / 8 / 12 pulses)</li>
-                </ul>
-                <h2 className="font-semibold text-lg pb-0.5">Programmes</h2>
-                <p className="mb-4">7 preset programmes, adjustable</p>
-                <h2 className="font-semibold text-lg pb-0.5">Protocols</h2>
-                <p className="mb-4">
-                  More than 25 illustrated preset treatment recommendations
-                </p>
-                <h2 className="font-semibold text-lg pb-0.5">Controls</h2>
-                <ul className="list-disc ml-6 mb-4">
-                  <li> 12” Colour touch-screen for all software operations</li>
-                  <li>Rotary control for Energy level and for frequency</li>
-                  <li>Handpiece operation with multi-directional footswitch</li>
+                  <li>{t("cards.card3.card1.d4")}</li>
+                  <li>{t("cards.card3.card1.d5")}</li>
                 </ul>
                 <h2 className="font-semibold text-lg pb-0.5">
-                  Memory / Update
+                  {t("cards.card3.card1.d6")}
                 </h2>
                 <ul className="list-disc ml-6 mb-4">
-                  <li> SD-card for indication menu memory</li>
-                  <li> Favourites and adapted programmes (120 places).</li>
-                  <li> Error log / Firmware-Update</li>
+                  <li>{t("cards.card3.card1.d7")}</li>
+                  <li>{t("cards.card3.card1.d8")}</li>
+                </ul>
+                <h2 className="font-semibold text-lg pb-0.5">
+                  {t("cards.card3.card1.d9")}
+                </h2>
+                <p className="mb-4">{t("cards.card3.card1.d10")}</p>
+                <h2 className="font-semibold text-lg pb-0.5">
+                  {t("cards.card3.card1.d11")}
+                </h2>
+                <p className="mb-4">{t("cards.card3.card1.d12")}</p>
+                <h2 className="font-semibold text-lg pb-0.5">
+                  {t("cards.card3.card1.d13")}
+                </h2>
+                <ul className="list-disc ml-6 mb-4">
+                  <li> {t("cards.card3.card1.d14")}</li>
+                  <li>{t("cards.card3.card1.d15")}</li>
+                  <li>{t("cards.card3.card1.d16")}</li>
+                </ul>
+                <h2 className="font-semibold text-lg pb-0.5">
+                  {t("cards.card3.card1.d17")}
+                </h2>
+                <ul className="list-disc ml-6 mb-4">
+                  <li> {t("cards.card3.card1.d18")}</li>
+                  <li> {t("cards.card3.card1.d19")}</li>
+                  <li> {t("cards.card3.card1.d20")}</li>
                 </ul>
               </div>
               <div className="ml-8">
                 <h2 className="font-semibold text-lg pb-0.5"> Dimensions</h2>
                 <p className="mb-4"> 20 x 35 x 30 cm (L/W/H) </p>
-                <h2 className="font-semibold text-lg pb-0.5"> Weight</h2>
+                <h2 className="font-semibold text-lg pb-0.5">
+                  {" "}
+                  {t("cards.card3.card1.d21")}
+                </h2>
                 <p className="mb-4"> 3.8 kg (without handpiece) </p>
                 <h2 className="font-semibold text-lg pb-0.5">
-                  Shockwave Applicator Hand Piece
+                  {t("cards.card3.card1.d22")}
                 </h2>
 
                 <ul className="list-disc ml-6 mb-4">
-                  <li>
-                    Ergonomic, with anodized aluminium casing and fan cooling
-                  </li>
-
-                  <li> Dimensions 23 cm length, 5 cm diameter (max.)</li>
-                  <li> Weight 0.85 kg (without cable)</li>
-                  <li> Lifetime Minimum warranty for 2.000.000 shocks</li>
-                  <li>
-                    Maintenance Only necessary when performance drops, not
-                    obligatory at a certain amount of shocks. Exchange of
-                    generator by service
-                  </li>
-                  <li>
-                    Applicator heads Diameters of 6 / 15 (2 pieces) / 25 mm
-                  </li>
-                  <li> Tool free exchange possibility</li>
-                  <li>
-                    {" "}
-                    Minimum warranty of 150.000 shocks per applicator head
-                  </li>
+                  <li>{t("cards.card3.card1.d23")}</li>
+                  <li> {t("cards.card3.card1.d24")}</li>
+                  <li> {t("cards.card3.card1.d25")}</li>
+                  <li> {t("cards.card3.card1.d26")}</li>
+                  <li> {t("cards.card3.card1.d27")}</li>
+                  <li>{t("cards.card3.card1.d28")}</li>
+                  <li>{t("cards.card3.card1.d29")}</li>
+                  <li> {t("cards.card3.card1.d30")}</li>
+                  <li> {t("cards.card3.card1.d31")}</li>
                 </ul>
 
                 <h2 className="font-semibold text-lg pb-0.5">
-                  Power Consumption
+                  {" "}
+                  {t("cards.card3.card1.d32")}
                 </h2>
-                <p className="py-1">100 – 240 V / 50/60 Hz, max. 250 VA </p>
-                <p className="mb-4">220 V / 60 Hz </p>
-
-                <h2 className="font-semibold text-lg pb-0.5">Optional</h2>
-                <ul className="list-disc ml-6 mb-4">
-                  <li>
-                    Trolley SysCart incl. holder for 2 handpieces and lotion
-                  </li>
-
-                  <li> Tray for applicators</li>
-                  <li> 2nd Handpiece</li>
-                  <li> Swivel base</li>
-                </ul>
+                <p className="mb-4">
+                  100 – 240 V / 50/60 Hz, max. 250 VA 220 V / 60 Hz{" "}
+                </p>
+                <div>
+                  <h2 className="font-semibold text-lg pb-0.5"> Optional</h2>
+                  <p> {t("cards.card3.card1.o1")}</p>
+                  <p> {t("cards.card3.card1.o2")}</p>
+                  <p> {t("cards.card3.card1.o3")}</p>
+                  <p> {t("cards.card3.card1.o4")}</p>
+                </div>
               </div>
             </div>
           </div>

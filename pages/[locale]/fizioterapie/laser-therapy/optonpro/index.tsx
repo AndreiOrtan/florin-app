@@ -289,45 +289,63 @@ export default function OptonPro() {
                 {t("technicalData")}
               </h2>
               <h2 className="text-lg font-semibold mb-1">OptonPro 10 W</h2>
-              <p> Laser diodes: 810 nm / 980 nm</p>
-              <p> Emitted output: Max. 10 W</p>
-              <p>Power consumption: 1,0 A</p>
+              <p> {t("cards.card2.card1.d1")} 810 nm / 980 nm</p>
+              <p> {t("cards.card2.card1.d2")} Max. 10 W</p>
+              <p>{t("cards.card2.card1.d3")} 1,0 A</p>
 
               <h2 className="text-lg font-semibold mb-1"> OptonPro 15 W</h2>
-              <p> Laser diodes: 810 nm / 980 nm / 1064 nm</p>
-              <p> Emitted output, max.: Max. 15 W</p>
-              <p> Power consumption: 1,2 A</p>
+              <p> {t("cards.card2.card1.d1")} 810 nm / 980 nm / 1064 nm</p>
+              <p> {t("cards.card2.card1.d2")} Max. 15 W</p>
+              <p> {t("cards.card2.card1.d3")} 1,2 A</p>
 
               <h2 className="text-lg font-semibold mb-1">OptonPro 25 W</h2>
-              <p> Laser diodes: 810 nm / 980 nm / 1064 nm</p>
-              <p> Emitted output, max.: Max. 25 W</p>
-              <p> Power consumption: 1,8 A</p>
+              <p> {t("cards.card2.card1.d1")} 810 nm / 980 nm / 1064 nm</p>
+              <p> {t("cards.card2.card1.d2")} Max. 25 W</p>
+              <p> {t("cards.card2.card1.d3")} 1,8 A</p>
             </div>
 
             <div>
               <h2 className="text-2xl font-semibold mb-4">
-                The following data apply to all models:
+                {t("cards.card2.card1.d4")}
               </h2>
-              <h2 className="text-lg font-semibold mb-1"> Treatment area</h2>
+              <h2 className="text-lg font-semibold mb-1">
+                {" "}
+                {t("cards.card2.card1.d5")}
+              </h2>
               <p className="mb-2"> Min. Ø 10 mm</p>
 
-              <h2 className="text-lg font-semibold mb-1"> Operating voltage</h2>
+              <h2 className="text-lg font-semibold mb-1">
+                {" "}
+                {t("cards.card2.card1.d6")}
+              </h2>
               <p className="mb-2"> 100 – 240 V~, 50 Hz / 60 Hz</p>
 
-              <h2 className="text-lg font-semibold mb-1"> Protection class</h2>
+              <h2 className="text-lg font-semibold mb-1">
+                {" "}
+                {t("cards.card2.card1.d7")}
+              </h2>
               <p className="mb-2"> II</p>
 
               <h2 className="text-lg font-semibold mb-1"> Applied part</h2>
               <p className="mb-2">Typ B according to EN 60601-1</p>
 
-              <h2 className="text-lg font-semibold mb-1"> Dimensions</h2>
+              <h2 className="text-lg font-semibold mb-1">
+                {" "}
+                {t("cards.card2.card1.d8")}
+              </h2>
               <p className="mb-2">H 30 cm, B 35 cm, L 20 cm</p>
 
-              <h2 className="text-lg font-semibold mb-1"> Weight</h2>
+              <h2 className="text-lg font-semibold mb-1">
+                {" "}
+                {t("cards.card2.card1.d9")}
+              </h2>
               <p className="mb-2"> 3,8 kg</p>
 
-              <h2 className="text-lg font-semibold mb-1"> Laser class</h2>
-              <p className="mb-2"> 4, observe special regulations</p>
+              <h2 className="text-lg font-semibold mb-1">
+                {" "}
+                {t("cards.card2.card1.d10")}
+              </h2>
+              <p className="mb-2"> 4, {t("cards.card2.card1.d11")}</p>
             </div>
           </div>
         </div>

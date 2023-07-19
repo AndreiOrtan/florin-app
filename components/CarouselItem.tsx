@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "./CarouselItem.module.css";
 import Spinner from "./Spinner";
+import AnimatedContent from "./AnimatedContent";
 
 interface CarouselItm {
   videoSrc: string;
@@ -24,9 +25,9 @@ export default function CarouselItem({
 
   function restart() {
     setIsEnd(true);
-    setTimeout(() => {
-      setIsEnd(false);
-    }, 16000);
+    // setTimeout(() => {
+    //   setIsEnd(false);
+    // }, 16000);
   }
 
   return (
@@ -59,23 +60,33 @@ export default function CarouselItem({
           <div
             className={`w-9/12 h-full relative mx-auto flex flex-col justify-start sm:justify-center pt-4 z-50 ${styles.fadee}`}
           >
-            <div className="flex sm:justify-center">
+            <div className="flex sm:justify-between">
               <div>
-                <h1 className="text-2xl font-normal">{header}</h1>
-                <p className="font-thin">{description}</p>
-                <div className="my-2 sm:static absolute bottom-0 w-full mb-8">
+                <AnimatedContent direction="XL">
+                  <h1 className="sm:text-2xl text-lg font-medium">{header}</h1>
+                  {description && (
+                    <h2 className="text-sm">
+                      Dinamometrele digitale isokinetice cu inteligenta
+                      artificiala pentru recuperare medicală
+                    </h2>
+                  )}
+                </AnimatedContent>
+
+                <div className="my-2  absolute sm:bottom-11 bottom-0 w-full mb-8">
                   <Link href={imgUrl}>
-                    <button className="py-4 px-8 bg-blue500 hover:bg-blue800 rounded-lg text-white font-medium w-full sm:max-w-max">
+                    <button className="py-5 px-10 bg-blue500 hover:bg-blue800 rounded-lg text-white text-lg font-medium w-full sm:max-w-max">
                       Detalii
                     </button>
                   </Link>
                 </div>
               </div>
-              <img
-                src={`${imgPath}`}
-                alt="asd"
-                className="sm:max-w-[350px] max-w-[150px] ml-auto "
-              />
+              <AnimatedContent direction="XR">
+                <img
+                  src={`${imgPath}`}
+                  alt="asd"
+                  className="sm:max-w-[380px] max-w-[120px] ml-auto "
+                />
+              </AnimatedContent>
             </div>
           </div>
         </div>

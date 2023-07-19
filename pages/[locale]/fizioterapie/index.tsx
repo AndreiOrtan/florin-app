@@ -6,6 +6,7 @@ import { readFile } from "fs/promises";
 import path from "path";
 import PhysioLayout from "@/components/PhysioLayout";
 import Card from "@/components/Card";
+import AnimatedContent from "@/components/AnimatedContent";
 
 export default function PhysicalTherapy({ locale }: { locale: string }) {
   const t = useTranslations("physiotherapy");
@@ -72,10 +73,11 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
 
         <section className="mt-16 flex justify-center">
           <div className="w-9/12 py-8">
-            <h1 className="mb-8 text-3xl font-semibold leading-none text-center text-gray-900 ">
-              {t("secondHeader")}
-            </h1>
-
+            <AnimatedContent direction="XL">
+              <h1 className="mb-8 text-3xl font-semibold leading-none text-center text-gray-900 ">
+                {t("secondHeader")}
+              </h1>
+            </AnimatedContent>
             <div className="flex sm:flex-row flex-col justify-center mb-4">
               <Image
                 src="/fizioterapiePhotos/physical-therapy-man.jpeg"
@@ -86,10 +88,12 @@ export default function PhysicalTherapy({ locale }: { locale: string }) {
                 placeholder="blur"
                 className="mr-4 rounded-lg"
               />
-              <div>
-                <p className="leading-relaxed mb-8 text-justify">{t("p1")}</p>
-                <p className="leading-relaxed text-justify">{t("p2")}</p>
-              </div>
+              <AnimatedContent direction="XR">
+                <div>
+                  <p className="leading-relaxed mb-8 text-justify">{t("p1")}</p>
+                  <p className="leading-relaxed text-justify">{t("p2")}</p>
+                </div>
+              </AnimatedContent>
             </div>
             <div>
               <p className="mb-4 text-lg leading-relaxed text-justify">

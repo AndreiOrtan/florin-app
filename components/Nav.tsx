@@ -28,7 +28,7 @@ export default function Nav({ locale }: { locale: string }) {
               className="h-auto lg:w-[100px] w-[60px] max-w-full"
             />
             <div className="relative flex flex-col lg:items-center lg:h-12 h-9 min-w-[200px]">
-              <p className="text-blue500 lg:text-2xl text-lg tracking-wide font-bold">
+              <p className="text-blue500 lg:text-2xl text-lg tracking-wide font-bold ml-1">
                 Suhard Biomedical
               </p>
               <p className="text-gray600 lg:text-base text-xs font-normal italic absolute w-full lg:bottom-[3.5px] lg:right-[-5px] bottom-[2px] right-[-4px]">
@@ -46,8 +46,8 @@ export default function Nav({ locale }: { locale: string }) {
           <MenuHeader
             options={[
               `${t("physiotherapy")}`,
-              "Kineto",
-              "Aquatizer",
+              `${t("kineto")}`,
+              `${t("aquatizer")}`,
               `${t("mechanotherapy")}`,
             ]}
             locale={locale}
@@ -55,7 +55,12 @@ export default function Nav({ locale }: { locale: string }) {
             collapseDropdown={collapseDropdown}
             routes={["Fizioterapie", "Kineto", "Aquatizer", "Mecanoterapie"]}
           />
-          <MenuHeader header="Aesthetics" self={true} locale={locale} />
+
+          <MenuHeader
+            header={`${t("aesthetics")}`}
+            self={true}
+            locale={locale}
+          />
           <MenuHeader
             header={t("header2")}
             options={[`${t("about-us")}`, "Cariere"]}
