@@ -51,9 +51,9 @@ const MenuHeader = ({
         } rounded-lg text-lg font-semibold px-4 hover:text-blue700 py-2.5 text-center flex justify-center items-center`}
         type="button"
       >
-        {self ? (
+        {self && routes ? (
           <Link
-            href={`/${locale}/${header?.toLocaleLowerCase()}`}
+            href={`/${locale}/${routes[0]?.toLocaleLowerCase()}`}
             onClick={() => setIsOpen(false)}
             className={`${locale === "ro" ? "min-w-[192px]" : ""}`}
           >

@@ -14,13 +14,13 @@ export default function Home() {
 
       <div className="mx-auto py-10">
         <div className="w-9/12 mx-auto text-gray800">
-          <div className="flex sm:flex-row flex-col justify-between mt-8 mb-16">
+          <div className="flex sm:flex-row flex-col justify-around mt-8 mb-16 sm:mx-24">
             <AnimatedContent direction="XL">
               <div className="flex flex-col justify-center items-center w-[200px] h-[200px] mx-auto border-double border rounded-md shadow-lg">
                 <img
                   src="/noun-innovative-2338321 (1).png"
                   alt=""
-                  className="w-[85px] rounded-full p-2"
+                  className="w-[85px] rounded-full"
                 />
                 <p className="font-medium text-sm mt-4 text-center">
                   {t("p2")}

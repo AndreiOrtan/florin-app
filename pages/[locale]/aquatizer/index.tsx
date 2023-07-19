@@ -374,61 +374,42 @@ export default function OptonPro() {
         <>
           <div className="w-full">
             <div className="w-9/12 mx-auto py-8">
-              <h2 className="text-2xl font-semibold mb-4">Technical Data</h2>
+              <h2 className="text-2xl font-semibold mb-4">{t("d1")}</h2>
               <div className="flex">
                 <div>
-                  <h2 className="font-semibold pb-0.5">Model Number</h2>
+                  <h2 className="font-semibold pb-0.5">{t("d2")}</h2>
 
                   <p className="mb-4 font-light">Aquatizer QZ-240SG</p>
 
-                  <h2 className="font-semibold text-lg pb-0.5">
-                    Classification of protection against electric shock
-                  </h2>
+                  <h2 className="font-semibold text-lg pb-0.5">{t("d3")}</h2>
                   <p className="mb-4 font-light">Class 1 Type B</p>
 
-                  <h2 className="font-semibold  pb-0.5">Mains Supply</h2>
-                  <p className="font-light">single phase 230Vac 50/60Hz</p>
+                  <h2 className="font-semibold  pb-0.5">{t("d4")}</h2>
+                  <p className="font-light">{t("d5")}</p>
 
-                  <h2 className="font-semibold text-lg pb-0.5">Power input</h2>
+                  <h2 className="font-semibold text-lg pb-0.5">{t("d6")}</h2>
                   <p className="mb-4 font-light">4,500VA</p>
 
                   <h2 className="font-semibold text-lg pb-0.5">
                     Intensity Massage
                   </h2>
-                  <p className="mb-4 font-light">6 levels： 530 kPa or less</p>
-                  <h2 className="font-semibold text-lg pb-0.5">
-                    Treatment timer
-                  </h2>
+                  <p className="mb-4 font-light">{t("d7")}</p>
+                  <h2 className="font-semibold text-lg pb-0.5">{t("d8")}</h2>
                   <p className="mb-4 font-light">1 to 99 minutes</p>
                 </div>
 
                 <div className="ml-8">
-                  <h2 className="font-semibold">
-                    {" "}
-                    Preheating temperature setting
-                  </h2>
+                  <h2 className="font-semibold"> {t("d9")}</h2>
                   <p className="mb-4 font-light">25 to 40℃</p>
-                  <h2 className="font-semibold"> Other function</h2>
-                  <p className="mb-4 font-light">
-                    Nozzle switching, automatic height detection, feet hold,
-                    preheating weekly timer, treatment melody setting, automatic
-                    air bleeding, high temperature operation, and air cooling
-                    function.
-                  </p>
-                  <h2 className="font-semibold"> Floor load</h2>
-                  <p className="mb-4 font-light">
-                    not less than 3.5kPa（350kgf/m2）
-                  </p>
-                  <h2 className="font-semibold"> Dimensions</h2>
-                  <p className="mb-4 font-light">
-                    length 2290 × width 820 × height 1075 [mm] Bed height: 500
-                    [mm]
-                  </p>
-                  <h2 className="font-semibold"> Weight</h2>
-                  <p className="mb-4 font-light">
-                    Approx. 230kg (approx. 450 kg at water filled)
-                  </p>
-                  <h2 className="font-semibold"> Water tank capacity</h2>
+                  <h2 className="font-semibold"> {t("d10")}</h2>
+                  <p className="mb-4 font-light">{t("d11")}</p>
+                  <h2 className="font-semibold"> {t("d12")}</h2>
+                  <p className="mb-4 font-light">{t("d13")}</p>
+                  <h2 className="font-semibold"> {t("d14")}</h2>
+                  <p className="mb-4 font-light">{t("d15")}</p>
+                  <h2 className="font-semibold"> {t("d16")}</h2>
+                  <p className="mb-4 font-light">{t("d17")}</p>
+                  <h2 className="font-semibold"> {t("d18")}</h2>
                   <p className="mb-4 font-light">Approx. 220L</p>
                 </div>
               </div>

@@ -15,7 +15,7 @@ export default function Nav({ locale }: { locale: string }) {
   }
   return (
     <nav className="bg-lightgray fixed top-0 left-0 right-0 z-[9999]">
-      <div className="flex  h-[114px]">
+      <div className="flex lg:justify-center h-[114px] justify-between">
         <div className="flex items-center lg:mr-16 ml-6">
           <Link
             href={`/${locale}`}
@@ -60,6 +60,7 @@ export default function Nav({ locale }: { locale: string }) {
             header={`${t("aesthetics")}`}
             self={true}
             locale={locale}
+            routes={["aesthetics"]}
           />
           <MenuHeader
             header={t("header2")}

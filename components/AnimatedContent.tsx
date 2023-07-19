@@ -24,7 +24,7 @@ const AnimatedContentY = ({
           }
         });
       },
-      { threshold: 0.5 } // Adjust the threshold value as needed (0.2 means 20% of the element is visible)
+      { threshold: 0.4 } // Adjust the threshold value as needed (0.2 means 20% of the element is visible)
     );
 
     if (element) {
