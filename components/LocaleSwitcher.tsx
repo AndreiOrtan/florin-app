@@ -34,14 +34,14 @@ export default function LocaleSwitcher() {
           src="/ro.png"
           alt="ro"
           onClick={() => onSelectChange("ro")}
-          className="hover:cursor-pointer w-[50px]"
+          className="hover:cursor-pointer w-[42px]"
         />
       ) : (
         <img
           src="/en.png"
           alt="en"
           onClick={() => onSelectChange("en")}
-          className="hover:cursor-pointer w-[50px]"
+          className="hover:cursor-pointer w-[42px]"
         />
       )}
     </div>

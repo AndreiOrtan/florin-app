@@ -20,6 +20,12 @@
   ); /* Move the content outside the left side of the screen */
   transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Define the transition */
 }
+
+@media (max-width: 640px) {
+  .animated-contentXR {
+    transform: translateX(0); /* Reset the transform for mobile */
+  }
+}
 .animated-contentYB {
   opacity: 0; /* Start with the content hidden */
   transform: translateY(

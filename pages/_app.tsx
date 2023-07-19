@@ -19,7 +19,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
         <title>Suhard Biomedical</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen">
         <Layout>
           <Nav locale={`${pageProps.locale}`} />
           <div className="mt-[114px]">
