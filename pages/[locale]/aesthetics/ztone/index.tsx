@@ -143,32 +143,42 @@ export default function ZLipo() {
             <div className="flex">
               <div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Channels</h2>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card3.d1")}
+                  </h2>
                   <p className="font-light">2</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Frequency</h2>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card3.d2")}
+                  </h2>
                   <p className="font-light">1 – 100 Hz</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Magnetic field</h2>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card3.magnetic")}
+                  </h2>
                   <p className="font-light">3.0 Tesla</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Treatment protocols</h2>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card3.d3")}
+                  </h2>
                   <p className="font-light">Regions</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Medical Device</h2>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card3.medicalDevice")}
+                  </h2>
                   <p className="font-light">Class IIa</p>
                 </div>
               </div>
               <div className="ml-8">
-                <h2 className="font-semibold">Surface</h2>
-                <p className="mb-4 font-light">LCD touch screen</p>
-                <h2 className="font-semibold">Dimensions</h2>
+                <h2 className="font-semibold">{t("cards.card3.d5")}</h2>
+                <p className="mb-4 font-light">{t("cards.card3.d6")}</p>
+                <h2 className="font-semibold">{t("cards.card3.d7")}</h2>
                 <p className="mb-4 font-light">H 118 cm x W 70 cm x L 57 cm</p>
-                <h2 className="font-semibold">Weight</h2>
+                <h2 className="font-semibold">{t("cards.card3.d8")}</h2>
                 <p className="mb-4 font-light">81 kg</p>
               </div>
             </div>

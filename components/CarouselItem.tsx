@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "./CarouselItem.module.css";
 import Spinner from "./Spinner";
 import AnimatedContent from "./AnimatedContent";
+import { useTranslations } from "next-intl";
 
 interface CarouselItm {
   videoSrc: string;
@@ -22,6 +23,7 @@ export default function CarouselItem({
 }: CarouselItm) {
   const [isEnd, setIsEnd] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const t = useTranslations("carousel");
 
   function restart() {
     setIsEnd(true);
@@ -63,19 +65,18 @@ export default function CarouselItem({
             <div className="flex sm:justify-between">
               <div>
                 <AnimatedContent direction="XL">
-                  <h1 className="sm:text-2xl text-lg font-medium">{header}</h1>
+                  <h1 className="sm:text-2xl text-lg font-semibold">
+                    {header}
+                  </h1>
                   {description && (
-                    <h2 className="text-sm">
-                      Dinamometrele digitale isokinetice cu inteligenta
-                      artificiala pentru recuperare medicală
-                    </h2>
+                    <h2 className="text-sm sm:text-base">{description}</h2>
                   )}
                 </AnimatedContent>
 
                 <div className="my-2  absolute sm:bottom-11 bottom-0 w-full mb-8">
                   <Link href={imgUrl}>
                     <button className="py-5 px-10 bg-blue500 hover:bg-blue800 rounded-lg text-white text-lg font-medium w-full sm:max-w-max">
-                      Detalii
+                      {t("details")}
                     </button>
                   </Link>
                 </div>

@@ -176,54 +176,48 @@ export default function ZLipo() {
             <div className="flex">
               <div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Technology</h2>
-                  <p className="font-light">
-                    cooling unit with cooling pad technology
-                  </p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card2.d1")}
+                  </h2>
+                  <p className="font-light">{t("cards.card2.d2")}</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Programmes</h2>
-                  <p className="font-light">
-                    freely adjustable programmes or standard programmes
-                  </p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card2.d3")}
+                  </h2>
+                  <p className="font-light">{t("cards.card2.d4")}</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Controller</h2>
-                  <p className="font-light">
-                    10.2“ touch-screen colour display
-                  </p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card2.d5")}
+                  </h2>
+                  <p className="font-light">{t("cards.card2.d6")}</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Applicators</h2>
-                  <p className="font-light">
-                    applicators available in size S, M and L and with 360°
-                    cooling in sizes mini, S and M
-                  </p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card2.d7")}
+                  </h2>
+                  <p className="font-light">{t("cards.card2.d8")}</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Suction</h2>
-                  <p className="font-light">
-                    up to about 250 mmHg, 10 suction levels
-                  </p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card2.d9")}
+                  </h2>
+                  <p className="font-light">{t("cards.card2.d10")}</p>
                 </div>
               </div>
               <div className="ml-8">
-                <h2 className="font-semibold">Updates</h2>
-                <p className="mb-4 font-light">
-                  USB port for service and updates
-                </p>
-                <h2 className="font-semibold">Voltage</h2>
+                <h2 className="font-semibold">{t("cards.card2.d11")}</h2>
+                <p className="mb-4 font-light">{t("cards.card2.d12")}</p>
+                <h2 className="font-semibold">{t("cards.card2.d13")}</h2>
                 <p className="mb-4 font-light">220 – 240 V, 50 Hz</p>
-                <h2 className="font-semibold">
-                  Meets the requirements of the Low Voltage Directive
-                </h2>
+                <h2 className="font-semibold">{t("cards.card2.d14")}</h2>
                 <p className="mb-4 font-light">2006/95/EG</p>
                 <h2 className="font-semibold"> Protection class</h2>
                 <p className="mb-4 font-light">I</p>
-                <h2 className="font-semibold">Dimensions</h2>
+                <h2 className="font-semibold">{t("cards.card2.d15")}</h2>
                 <p className="mb-4 font-light">
-                  weight W 66,5 cm / D 62,9 cm / H 1 m, ca. 84 kg (with
-                  handpieces)
+                  W 66,5 cm / D 62,9 cm / H 1 m, ca. 84 kg (with handpieces)
                 </p>
               </div>
             </div>

@@ -63,15 +63,19 @@ export default function ZLipo() {
               <div>
                 <div>
                   <h2 className="font-semibold pb-0.5">
-                    Crosslinked hyaluronic acid
+                    {t("cards.card7.card2.d1")}
                   </h2>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Concentration of HA</h2>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card7.card1.d2")}
+                  </h2>
                   <p className="font-light">23 mg/ml</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Stabiliser</h2>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card7.card1.d3")}
+                  </h2>
                   <p className="font-light">BDDE</p>
                 </div>
                 <div>
@@ -79,25 +83,27 @@ export default function ZLipo() {
                   <p className="font-light">6.8 – 7.6</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Sterility</h2>
-                  <p className="font-light">Sterile</p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card7.card1.d5")}
+                  </h2>
+                  <p className="font-light">{t("cards.card7.card1.d6")}</p>
                 </div>
               </div>
               <div className="ml-8">
-                <h2 className="font-semibold">Package</h2>
+                <h2 className="font-semibold">{t("cards.card7.card1.d7")}</h2>
                 <p className="mb-4 font-light">1x 1 ml</p>
-                <h2 className="font-semibold">Degree of cross-linking</h2>
+                <h2 className="font-semibold">{t("cards.card7.card1.d11")}</h2>
                 <p className="mb-4 font-light">+</p>
-                <h2 className="font-semibold">Needle</h2>
+                <h2 className="font-semibold">{t("cards.card7.card1.d8")}</h2>
                 <p className="mb-4 font-light">2x 27G 1⁄2</p>
-                <h2 className="font-semibold">Duration of effect</h2>
+                <h2 className="font-semibold">{t("cards.card7.card1.d12")}</h2>
                 <p className="mb-4 font-light">5-9 months</p>
               </div>
             </div>
             <h2 className="text-2xl font-semibold mb-4">Z Fill contour⁺</h2>
             <div>
               <h2 className="font-semibold pb-0.5">
-                Additionally lidocaine hydrochloride
+                {t("cards.card7.card2.d4")}
               </h2>
               <p className="font-light">0.3%</p>
             </div>

@@ -1,7 +1,8 @@
 {
   "Index": {
     "title": "Salutare lume!",
-    "p1": "De ce noi?",
+    "n1": "NOI?",
+    "p1": "DE CE",
     "p2": "Produse medicale de ultimă generație",
     "p3": "Distribuitori unici în România",
     "p4": "Consultanță, instalare, mentenanță și instruire",
@@ -14,6 +15,13 @@
     "p11": "consultanță, instalare, mentenanță și instruire",
     "p12": "pentru produsele noastre.",
     "p13": "Vă invităm să explorați gama noastră variată de produse și să ne contactați pentru orice întrebări sau solicitări speciale!"
+  },
+  "carousel": {
+    "details": "Detalii",
+    "noutate": "O noutate mondială!",
+    "description": "Dinamometrele digitale isokinetice cu inteligenta artificiala pentru recuperare medicală",
+    "zimmer": "Dispozitive inovatoare de fizioterapie",
+    "aqua": "Robot de Hidromasaj de ultimă generație"
   },
   "companie": {
     "p1": "Despre noi",
@@ -525,6 +533,7 @@
         "li4": "Creșterea mobilității",
         "li5": "Stimularea circulației sângelui",
         "card1": {
+          "ddd": "Tensiune de retea",
           "p1": "Căldură profundă prin electroterapie de înaltă frecvență",
           "p2": "Căldura profundă prin electroterapie de înaltă frecvență este o metodă folosită în mod larg și dovedită internațional în terapia fizică. Lucrăm continuu alături de experți pentru a dezvolta în continuare această formă de terapie. Ca rezultat, suntem în măsură să stabilescem standarde noi mereu, fie în performanță, siguranță în utilizare sau simplitatea operațiunii.",
           "p3": "Inspirat de cele mai înalte standarde",
@@ -545,7 +554,20 @@
           "p18": "Extensii și accesorii practice",
           "p19": "Coșul mobil",
           "p20": "ușor deplasabil",
-          "p21": "design modern"
+          "p21": "design modern",
+          "m1": "Putere de ieșire",
+          "m2": "150 W eficient la 500 Ω în modul rezistiv",
+          "m3": "250 VA eficient la 500 Ω în modul capacitiv",
+          "m4": "60 W eficient la 500 Ω în modul fără mâini",
+          "m5": "Frecvență",
+          "m6": "Precizie",
+          "m7": "Moduri de operare",
+          "m8": "Continuu / pulsatoriu",
+          "m9": "Moduri",
+          "m10": "Rezistiv / capacitiv",
+          "m11": "Dimensiuni carcasa",
+          "m12": "Greutate",
+          "m13": "3.5 kg fără accesorii"
         },
         "card2": {
           "p1": "Terapie cu microunde - terapie blândă cu căldură",
@@ -566,7 +588,16 @@
           "p16": "Radiator cu câmp longitudinal",
           "p17": "Radiator cu câmp circular",
           "p18": "Radiator în formă de căldăruș",
-          "p19": "Radiator focalizat"
+          "p19": "Radiator focalizat",
+          "m1": "Dispozitiv medical",
+          "m2": "Putere nominală HF",
+          "m3": "Frecvența de funcționare",
+          "m4": "Indicație de putere",
+          "m5": "Putere eficientă",
+          "m6": "Cronometru",
+          "m7": "1-30 minute (pași de 1 minut)",
+          "m8": "Dimensiuni",
+          "m9": "Greutate"
         }
       },
       "card6": {
@@ -589,7 +620,13 @@
           "p6": "Leziuni sportive",
           "p7": "Stări postoperatorii",
           "p8": "Tulburări neurologice",
-          "p9": "Spre deosebire de alte metode de răcire, cum ar fi răcirea prin contact, pulverizarea criogenică sau compresele de gheață, CryoMini scade temperatura pielii mai rapid, cu mai puțină riscul de arsuri cutanate și menține o dozare constantă pe toată durata tratamentului."
+          "p9": "Spre deosebire de alte metode de răcire, cum ar fi răcirea prin contact, pulverizarea criogenică sau compresele de gheață, CryoMini scade temperatura pielii mai rapid, cu mai puțină riscul de arsuri cutanate și menține o dozare constantă pe toată durata tratamentului.",
+          "powerSupply": "Sursă de alimentare",
+          "tube": "Lungimea tubului de tratament",
+          "length": "Dimensiuni carcasă (L x l x Î)",
+          "weight": "Greutate",
+          "airFlow": "Flux de aer",
+          "levels": "nivele"
         },
         "card2": {
           "p1": "Crioterapie de ultimă generație cu aer la -30°C",
@@ -725,6 +762,7 @@
     "d18": "Capacitate rezervor de apă"
   },
   "mecanoterapie": {
+    "thera": "R2000 Masa Inclinata kinetoterapie divizata in trei parti; ajustata electric",
     "mainHeader": "Echipament Mecanoterapie",
     "card1Description": "Masini Isokinetice",
     "card2Description": "Dinamometre Isokinetice",
@@ -1198,6 +1236,17 @@
     }
   },
   "aesthetics": {
+    "technicalData": "Date Tehnice",
+    "powerSupply": "Sursă de alimentare",
+    "input": "Putere maxima",
+    "standBy": "Functie asteptare",
+    "protection": "Protrectie",
+    "tube": "Lungimea tubului de tratament",
+    "length": "Dimensiuni carcasă (L x l x Î)",
+    "weight": "Greutate",
+    "fan": "Nivele Ventilatoare",
+    "airFlow": "Flux de aer",
+    "levels": "nivele",
     "pictureGallery": "Galerie Foto",
     "cards": {
       "card1": {
@@ -1262,7 +1311,21 @@
       "card2": {
         "header": "ZLipo",
         "description": "Trimite un mesaj rece depozitelor tale de grăsime",
-
+        "d1": "Tehnologie",
+        "d2": "unitate de răcire cu tehnologie de placă de răcire",
+        "d3": "Programe",
+        "d4": "programe reglabile liber sau programe standard",
+        "d5": "Controler",
+        "d6": "ecran tactil color de 10,2",
+        "d7": "Aplicatoare",
+        "d8": "aplicatoare disponibile în dimensiunile S, M și L și cu răcire la 360° în dimensiunile mini, S și M",
+        "d9": "Aspirație",
+        "d10": "până la aproximativ 250 mmHg, 10 niveluri de aspirație",
+        "d11": "Actualizări",
+        "d12": "Port USB pentru service și actualizări",
+        "d13": "Tensiune",
+        "d14": "Îndeplinește cerințele Directivei privind Tensiunea Scăzută",
+        "d15": "Dimensiuni",
         "eight": "înainte și după 8 săptămâni de tratament",
         "p1": "ZLipo - îți răcorește drumul către silueta visată",
         "p2": "Sistemul inovator Cryolipolysis™ - ZLipo permite să se vizeze depozitele de grăsime și să le reducă permanent și non-invaziv. Această metodă răcește depozitele de grăsime pe o perioadă mai lungă de timp, la o temperatură controlată și sigură. ZLipo impresionează prin manevrabilitatea sa simplă, sigură și prietenoasă utilizatorului.",
@@ -1279,7 +1342,16 @@
       "card3": {
         "header": "ZField Dual",
         "description": "Modelarea corpului cu terapie inductivă de înaltă energie",
-
+        "d1": "Canale",
+        "d2": "Frecvență",
+        "d3": "Protocoale de tratament",
+        "d4": "Programe, regiuni, mod manual",
+        "d5": "Suprafață",
+        "d6": "Ecran tactil LCD (8 inch) și un buton central",
+        "d7": "Dimensiuni",
+        "d8": "Greutate",
+        "medicalDevice": "Medical Device",
+        "magnetic": "Camp magnetic",
         "p1": "Z Field Dual - succes îmbunătățit pentru remodelarea corporală non-invazivă",
         "p2": "Z Field Dual, produsul inovator pentru dezvoltarea musculară țintită de la Zimmer Aesthetic Division. Tratamentul inductiv cu energie înaltă folosind Z Field Dual se realizează cu ajutorul impulsurilor electromagnetice și poate contracta mușchii. În combinație cu alte tratamente, cum ar fi cele de reducere a grăsimii prin răcire, tratamentul inductiv cu energie înaltă este o aplicație ideală pentru îmbunătățirea și evidențierea rezultatului.",
         "p3": "Modul de funcționare",
@@ -1333,7 +1405,18 @@
       "card5": {
         "header": "ZWave",
         "description": "Undă de șoc pentru întărirea pielii și conturarea corpului",
-
+        "d1": "Tehnologie",
+        "d2": "Sistem cu unde de șoc balistice fără compresor, cu generator electromagnetic ca accelerator de proiectile, 1 - 22 Hz, 60 - 185 mJ",
+        "d3": "Programe",
+        "d4": "10 domenii de aplicații presetate plus respectivele recomandări detaliate de tratament",
+        "d5": "Unitate de control",
+        "d6": "Ecran tactil color de 12″ pentru toate operațiile software. Controler pentru energie și frecvență. Operațiunea aparatului cu ajutorul comutatorului multi-direcțional pentru picior.",
+        "d7": "Memorie și actualizare",
+        "d8": "Card SD pentru memorie meniu aplicații, favorite și programe adaptate (240 de locuri) / jurnal de erori / actualizare firmware",
+        "d9": "Tensiune de alimentare, Clasă de protecție",
+        "d10": "Dimensiuni, greutate",
+        "d11": "Garantie",
+        "d12": "2.000.000 de șocuri pentru fiecare generator de unde de șoc și două ani pentru unitate",
         "p1": "ZWave Pro & ZWave Med",
         "p2": "Undele de șoc radială cu energie ridicată au fost dovedite științific că au un impact semnificativ asupra structurii colagenului și a țesutului conjunctiv al pielii, îmbunătățind circulația sanguină. Stimulează formarea de colagen, în timp ce pielea devine mai elastică și fermitatea sa este vizibilă după doar câteva tratamente. Datorită unității de unde de șoc radial ZWave, este posibilă îmbunătățirea semnificativă a fermității pielii, elasticității pielii și regenerării colagenului. Reducerea grăsimii, de exemplu, după CryolipolysisTM sau lipoliza prin injecție, este, de asemenea, îmbunătățită prin utilizarea ZWave.",
         "p3": "Modul de funcționare",
@@ -1367,7 +1450,14 @@
       "card6": {
         "header": "ContiCure",
         "description": "Antrenament al planșeului pelvin - Începeți antrenamentul azi și redobândiți-vă bucuria de a râde.",
-
+        "d1": "Tensiune de retea",
+        "d2": "Frecvență",
+        "d3": "Canal",
+        "d4": "Protocoale de tratament",
+        "d5": "4 protocoale diferite",
+        "d6": "Dispozitiv Medical",
+        "d7": "ContiCure | Dimensiuni carcasă (cm)",
+        "d8": "Greutate",
         "p1": "Antrenament muscular prin terapie cu câmp magnetic",
         "p2": "Prin utilizarea terapiei cu câmp magnetic, se induce o curent în celulă care determină contractarea mușchilor planului pelvian. Această întărire a mușchilor duce la îmbunătățirea problemelor de incontinență. ContiCure oferă parametrii de tratament potriviți pentru fiecare pacient. Selectați obiectivul tratamentului din unul dintre cele 4 programe predefinite. Aceasta permite tratarea incontinenței de stres, mixte și de urgență, precum și antrenamentul general al planului pelvian. ContiCure are un aplicator mare care este introdus în scaunul de tratament pentru terapie. Intensitatea poate fi ajustată individual în timpul terapiei, în funcție de senzațiile pacientului.",
         "p3": "Modul de funcționare",
@@ -1394,10 +1484,22 @@
       },
       "card7": {
         "header": "ZFill",
+
         "description": "Umplere dermică cu acid hialuronic pentru o piele tânără, fără riduri",
         "card1": {
           "description": "Regenerare naturală a pielii - Mezoterapie",
-
+          "d1": "Hialuronat",
+          "d2": "Concentrație de HA",
+          "d3": "Stabilizator",
+          "d4": "Glicerol",
+          "d5": "Sterilitate",
+          "d6": "Steril",
+          "d7": "Ambalaj",
+          "d8": "Ac",
+          "d9": "Plan de tratament recomandat:",
+          "d10": "În primele două luni, se recomandă trei tratamente.",
+          "d11": "Grad de reticulare",
+          "d12": "Durata de efect",
           "p1": "Pentru regenerarea naturală și revitalizarea pielii",
           "p2": "Gelul este compus din acid hialuronic foarte concentrat și glicerina, un hidratant natural. Acest acid hialuronic biologic activ, neinterconectat, îmbogățit cu ingredientul suplimentar, provoacă o creștere durabilă a hidratării pielii. Acidul hialuronic pierdut în procesul natural de îmbătrânire este restituit pielii. În același timp, glicerina leagă apa și hidratează pielea. Astfel, pielea recâștigă tonusul și semnele vizibile ale îmbătrânirii pielii scad.",
           "p3": "Proprietăți",
@@ -1409,6 +1511,10 @@
         },
         "card2": {
           "description": "Pentru dermul mediu și profund",
+          "d1": "Acid hialuronic reticulat",
+          "d2": "Concentrația de AH",
+          "d3": "Stabilizator",
+          "d4": "Cu adăugarea clorhidratului de lidocaină",
 
           "p1": "Pentru dermul mediu și adânc",
           "p2": "Implantul de gel realizat din acid hialuronic interconectat corectează cutele nazolabiale moderate și adânci. Aceasta umple depozitele de hidratare și revitalizează pielea prin hidratare de lungă durată. Cu Z Fill contour⁺, puteți corecta ridurile și crește volumul buzelor."
@@ -1423,6 +1529,18 @@
       "card8": {
         "header": "GentlePro",
         "description": "Tratament cu unde de șoc pentru disfuncția erectilă",
+        "d1": "Tehnologie",
+        "d2": "Sistem de undă șoc balistic fără compresor cu generator electromagnetic ca accelerator de proiectil, 1 - 22 Hz, 60 - 185 mJ",
+        "d3": "Programe",
+        "d4": "5 domenii de aplicare presetate plus protocoale de tratament detaliate corespunzătoare",
+        "d5": "Unitate de control",
+        "d6": "Ecran tactil color de 12″ pentru toate operațiunile software, butoane pentru nivelul de energie și frecvență. Funcționarea dispozitivului prin intermediul comutatorului multidirecțional al pedalierului.",
+        "d7": "Memorie și actualizare",
+        "d8": "Card SD pentru memorarea meniului de aplicații, preferințe și programe adaptate (99 de locuri) / jurnal de erori / actualizare firmware",
+        "d9": "Tensiunea de alimentare, Clasa de protecție",
+        "d10": "Dimensiuni, greutate",
+        "d11": "Garanție",
+        "d12": "2.000.000 de șocuri pentru fiecare generator de undă șoc și doi ani pentru unitate",
 
         "p1": "GentlePro - îmbunătățirea performanței",
         "p2": "Diverse studii clinice privind disfuncția erectilă au demonstrat o îmbunătățire semnificativă a perfuziei și formarea de noi vase de sânge, ceea ce este crucial pentru un nivel ridicat de acceptare de către pacienți și o aplicare de succes.",

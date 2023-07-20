@@ -1,7 +1,8 @@
 {
   "Index": {
     "title": "Hello world!",
-    "p1": "Why us?",
+    "n1": "US?",
+    "p1": "WHY",
     "p2": "Cutting-edge medical products",
     "p3": "Exclusive distributors in Romania",
     "p4": "Consultancy, installation, maintenance, and training",
@@ -14,6 +15,13 @@
     "p11": "consultancy, installation, maintenance, and training",
     "p12": "for our products.",
     "p13": "We invite you to explore our diverse range of products and contact us for any questions or special requests!"
+  },
+  "carousel": {
+    "details": "Details",
+    "noutate": "A world premiere!",
+    "description": "Digital isokinetic dynamometers with artificial intelligence for medical rehabilitation",
+    "zimmer": "Innovative physiotherapy devices",
+    "aqua": "State-of-the-art Hydro Massage Robot"
   },
   "companie": {
     "p1": "About us",
@@ -47,8 +55,6 @@
     "label": "Change language",
     "locale": "{locale, select, ro {Romanian} en {English} other {Unknown}}"
   },
-
-  "common": "",
 
   "contactForm": {
     "header": "Get in touch with us!",
@@ -504,6 +510,7 @@
         "li4": "Increase in mobility",
         "li5": "Stimulation of blood circulation",
         "card1": {
+          "ddd": "Mains Voltage",
           "p1": "Deep heat through high-frequency electrotherapy",
           "p2": "Deep heat through high-frequency electrotherapy is an internationally widely used and proven method in physical therapy. We work continuously along with experts to further develop this form of therapy. As a result, we are able to set new standards again and again, whether in performance, safety during use, or simplicity of operation",
           "p3": "Inspired by the highest standards",
@@ -524,7 +531,20 @@
           "p18": "Practical extensions and accessories",
           "p19": "Move cart",
           "p20": "smoothly movable",
-          "p21": "modern design"
+          "p21": "modern design",
+          "m1": "Output power",
+          "m2": "150 W effective at 500 Ω in resistive mode",
+          "m3": "250 VA effective at 500 Ω in capacitive mode",
+          "m4": "60 W effective at 500 Ω in hands-free mode",
+          "m5": "Frequency",
+          "m6": "Accuracy",
+          "m7": "Operating modes",
+          "m8": "Continuous / pulsed",
+          "m9": "Modes",
+          "m10": "Resistive / capacitive",
+          "m11": "Housing dimensions",
+          "m12": "Weight",
+          "m13": "3.5 kg without accessories"
         },
         "card2": {
           "p1": "Microwave Therapy – the gentle heat therapy",
@@ -545,7 +565,16 @@
           "p16": "Longitudinal-field radiator",
           "p17": "Circular-field radiator",
           "p18": "Cradle radiator",
-          "p19": "Focus radiator"
+          "p19": "Focus radiator",
+          "m1": "Medical device",
+          "m2": "HF nominal power",
+          "m3": "Operating frequency",
+          "m4": "Power indication",
+          "m5": "Effective power",
+          "m6": "Timer",
+          "m7": "1–30 min. (1 min steps)",
+          "m8": "Dimensions",
+          "m9": "Weight"
         }
       },
 
@@ -569,7 +598,13 @@
           "p6": "Sports injuries",
           "p7": "Postoperative conditions",
           "p8": "Neurological disorders",
-          "p9": "Unlike other cooling methods, such as contact cooling, cryogen spray or ice packs, the CryoMini decreases the skin temperature quicker, with less risk of skin burns and keeps a constant dosage throughout the entire treatment time."
+          "p9": "Unlike other cooling methods, such as contact cooling, cryogen spray or ice packs, the CryoMini decreases the skin temperature quicker, with less risk of skin burns and keeps a constant dosage throughout the entire treatment time.",
+          "powerSupply": "Power supply",
+          "tube": "Treatment tube length",
+          "length": "Housing dimensions (LxWxH)",
+          "weight": "Weight",
+          "airFlow": "Air flow",
+          "levels": "levels"
         },
         "card2": {
           "p1": "State of the art cryotherapy with -30°C air",
@@ -705,6 +740,7 @@
     "d18": "Water tank capacity"
   },
   "mecanoterapie": {
+    "thera": "R2000 Therapy Table divided into three parts; electric adjustment",
     "mainHeader": "Mechanotherapy Equipment",
     "card1Description": "Isokinetic Machines",
     "card2Description": "Isokinetic Dynamometers",
@@ -1178,6 +1214,17 @@
     }
   },
   "aesthetics": {
+    "technicalData": "Technical Data",
+    "powerSupply": "Power supply",
+    "input": "Power input max.",
+    "standBy": "Stand-by function",
+    "protection": "Protection according",
+    "tube": "Treatment tube length",
+    "length": "Housing dimensions (LxWxH)",
+    "weight": "Weight",
+    "fan": "Fan levels",
+    "airFlow": "Air flow",
+    "levels": "levels",
     "pictureGallery": "Picture Gallery",
     "cards": {
       "card1": {
@@ -1243,6 +1290,21 @@
       "card2": {
         "header": "ZLipo",
         "description": "Send a cold message to your fat deposits",
+        "d1": "Technology",
+        "d2": "Cooling unit with cooling pad technology",
+        "d3": "Programs",
+        "d4": "Freely adjustable programs or standard programs",
+        "d5": "Controller",
+        "d6": "10.2\" touch-screen color display",
+        "d7": "Applicators",
+        "d8": "Applicators available in sizes S, M, and L and with 360° cooling in sizes mini, S, and M",
+        "d9": "Suction",
+        "d10": "Up to about 250 mmHg, 10 suction levels",
+        "d11": "Updates",
+        "d12": "USB port for service and updates",
+        "d13": "Voltage",
+        "d14": "Meets the requirements of the Low Voltage Directive",
+        "d15": "Dimensions",
 
         "eight": "before and after 8 weeks of treatment",
         "p1": "ZLipo - chilling your way to your dream figure",
@@ -1260,6 +1322,16 @@
       "card3": {
         "header": "ZField Dual",
         "description": "Body Shaping with High-Energy Inductive Therapy",
+        "d1": "Channels",
+        "d2": "Frequency",
+        "d3": "Treatment protocols",
+        "d4": "Programs, regions, manual mode",
+        "d5": "Surface",
+        "d6": "LCD touch screen (8 inches) and a central knob",
+        "d7": "Dimensions",
+        "d8": "Weight",
+        "medicalDevice": "Medical Device",
+        "magnetic": "Magnetic field",
 
         "p1": "Z Field Dual - improved success for non-invasive body shaping",
         "p2": "Z Field Dual, the innovative product for targeted muscle development from Zimmer Aesthetic Division. The High-Energy Inductive Treatment with Z Field Dual is performed using electromagnetic pulses and is able to contract the muscles. In combination with other treatments, such as after fat reduction applications through cold, the High-Energy Inductive Treatment is an ideally suitable application for improving and highlighting the result.",
@@ -1314,6 +1386,18 @@
       "card5": {
         "header": "ZWave",
         "description": "Shockwave for skin tightening and body contouring",
+        "d1": "Technology",
+        "d2": "Compressor-free ballistic shockwave system with electromagnetic generator as projectile accelerator, 1 - 22 Hz, 60 - 185 mJ",
+        "d3": "Programs",
+        "d4": "10 preset application fields plus respective detailed treatment recommendations",
+        "d5": "Control unit",
+        "d6": "12″ color touch-screen for all software operations. Controller for energy and frequency. Handpiece operation via multi-directional foot switch.",
+        "d7": "Memory and update",
+        "d8": "SD card for application menu memory, favorites and adapted programs (240 places) / error log / firmware update",
+        "d9": "Mains voltage, Protection class",
+        "d10": "Dimensions, weight",
+        "d11": "Guarantee",
+        "d12": "2.000.000 shocks on each shockwave generator and two years for the unit",
 
         "p1": "ZWave Pro & ZWave Med",
         "p2": "The high-energy radial shockwaves have been scientifically proven to have a significant impact on collagen structure and the skin's connective tissue, improving blood circulation. It stimulates collagen formation, while the skin becomes more elastic and firmness becomes visible after only a few treatments. Thanks to the ZWave radial shockwave unit, it is also possible to significantly improve skin firmness, skin elasticity, and collagen regeneration. Fat reduction, for example, after CryolipolysisTM or injection lipolysis, is also enhanced by using the ZWave.",
@@ -1348,7 +1432,14 @@
       "card6": {
         "header": "ContiCure",
         "description": "Pelvic floor training – Start your training today and get your laughter back.",
-
+        "d1": "Mains Voltage",
+        "d2": "Frequency",
+        "d3": "Channel",
+        "d4": "Treatment protocols",
+        "d5": "4 different protocols",
+        "d6": "Medical Device",
+        "d7": "ContiCure | Housing dimensions (cm)",
+        "d8": "Weight",
         "p1": "Muscle training through magnetic field therapy",
         "p2": "Using magnetic field therapy, a current is induced in the cell which causes a contraction of the pelvic floor muscles. This strengthening of the muscles leads to improvement in incontinence problems. ContiCure offers the appropriate treatment parameters for each patient. Select the treatment goal from one of the 4 predefined programs. This enables treatment of stress, mixed, and urge incontinence, as well as general pelvic floor training. ContiCure has a large applicator which is inserted in the treatment chair for therapy. The intensity can be individually adjusted during therapy depending on the patient's sensation.",
         "p3": "The way it works",
@@ -1378,7 +1469,18 @@
         "description": "Hyaluronic acid dermal fillers for youthful, wrinkle-free skin",
         "card1": {
           "description": "Natural skin regeneration – Mesotherapy",
-
+          "d1": "Hyaluronate",
+          "d2": "Concentration of HA",
+          "d3": "Stabilizer",
+          "d4": "Glycerine",
+          "d5": "Sterility",
+          "d6": "Sterile",
+          "d7": "Package",
+          "d8": "Needle",
+          "d9": "Recommended treatment plan:",
+          "d10": "In the first two months, three treatments are recommended.",
+          "d11": "Degree of cross-linking",
+          "d12": "Duration of effect",
           "p1": "For the natural regeneration and revitalization of the skin",
           "p2": "The gel consists of highly concentrated hyaluronic acid and the natural moisturizer glycerine. This non-crosslinked, biologically active hyaluronic acid enriched with the additional ingredient causes a lasting increase in skin moisture. Hyaluronic acid which is lost through the natural aging process is returned to the skin. At the same time, the glycerine binds water and hydrates the skin. In this way, your skin regains tone and visible signs of skin aging decrease.",
           "p3": "Properties",
@@ -1390,6 +1492,10 @@
         },
         "card2": {
           "description": "For the mid and deep dermis",
+          "d1": "Crosslinked hyaluronic acid",
+          "d2": "Concentration of HA",
+          "d3": "Stabilizer",
+          "d4": "Additionally lidocaine hydrochloride",
           "p1": "For the mid and deep dermis",
           "p2": "The gel implant made of crosslinked hyaluronic acid corrects moderate and deep nasolabial folds. It fills the moisture depots and rejuvenates the skin through long-lasting hydration. With Z Fill contour⁺ you correct wrinkles and increase lip volume."
         },
@@ -1403,6 +1509,18 @@
       "card8": {
         "header": "GentlePro",
         "description": "Shockwave treatment for erectile dysfunction",
+        "d1": "Technology",
+        "d2": "Compressor-free ballistic shockwave system with electromagnetic generator as projectile accelerator, 1 - 22 Hz, 60 - 185 mJ",
+        "d3": "Programs",
+        "d4": " 5 pre-set application fields plus respective detailed treatment protocols",
+        "d5": "Control unit",
+        "d6": "12″ colour touch-screen for all software operations, knops for energy and frequency. Handpiece operation via multidirectional foot switch.",
+        "d7": "Memory and update",
+        "d8": "SD card for application menu memory, favorites and adapted programs (99 places) / error log / firmware update",
+        "d9": "Mains voltage, Protection class",
+        "d10": "Dimensions, weight",
+        "d11": "Guarantee",
+        "d12": "2.000.000 shocks on each shockwave generator and two years for the unit",
 
         "p1": "GentlePro – performance enhancement",
         "p2": "Various clinical studies on erectile dysfunction demonstrated a significant improvement in perfusion and the formation of new vessels which is crucial for a high level of patient acceptance and a successful application.",

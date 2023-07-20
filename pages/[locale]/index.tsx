@@ -56,7 +56,9 @@ export default function Home() {
           </div>
 
           <AnimatedContent direction="XL">
-            <h1 className="text-3xl font-bold mb-6">{t("p1")}</h1>
+            <h1 className="text-3xl font-normal mb-6">
+              {t("p1")} <span className="font-bold"> {t("n1")}</span>
+            </h1>
             <p className="text-xl font-light leading-7">
               {t("p5")} <span className="font-bold">Suhard Biomedical</span>,{" "}
               {t("p6")} <span className="font-bold">{t("p7")}</span> {t("p8")}{" "}

@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export default function enPuls() {
+export default function EnPuls() {
   const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/diathermy-therapy/thermotk/galery1.png",
@@ -166,44 +166,43 @@ export default function enPuls() {
             </h2>
             <div className="flex">
               <div>
-                <h2 className="font-semibold pb-0.5"> Mains voltage</h2>
+                <h2 className="font-semibold pb-0.5">
+                  {" "}
+                  {t("cards.card5.card1.ddd")}
+                </h2>
                 <p className="font-light">100-240V ~ /50/60 Hz</p>
 
-                <h2 className="font-semibold text-lg pb-0.5">
-                  Power consumption
-                </h2>
+                <h2 className="font-semibold text-lg pb-0.5">Consum.:</h2>
                 <p className="mb-4 font-light">300 VA max</p>
 
-                <h2 className="font-semibold  pb-0.5">Output power</h2>
-                <p className="font-light">
-                  150 W effective at 500 Ω in resistive mode
-                </p>
-                <p className="font-light">
-                  250 VA effective at 500 Ω in capacitive mode
-                </p>
-                <p className="font-light mb-4">
-                  60 W effective at 500 Ω in hands-free mode
-                </p>
+                <h2 className="font-semibold  pb-0.5">
+                  {t("cards.card5.card1.m1")}
+                </h2>
+                <p className="font-light">{t("cards.card5.card1.m2")}</p>
+                <p className="font-light">{t("cards.card5.card1.m3")}</p>
+                <p className="font-light mb-4">{t("cards.card5.card1.m4")}</p>
 
-                <h2 className="font-semibold text-lg pb-0.5">Frequenzy</h2>
+                <h2 className="font-semibold text-lg pb-0.5">
+                  {t("cards.card5.card1.m5")}
+                </h2>
                 <p className="font-light">460 kHz / 540 kHz</p>
                 <h2 className="font-semibold text-lg pb-0.5">Accuracy</h2>
                 <p className="font-light">± 20 %</p>
               </div>
 
               <div className="ml-8">
-                <h2 className="font-semibold"> Protection class</h2>
+                <h2 className="font-semibold"> {t("cards.card5.card1.m6")}</h2>
                 <p className="mb-4 font-light">I</p>
-                <h2 className="font-semibold"> Operating modes</h2>
-                <p className="mb-4 font-light">Continuous / pulsed</p>
-                <h2 className="font-semibold"> Modes</h2>
-                <p className="mb-4 font-light">Resistive / capacitive</p>
-                <h2 className="font-semibold"> Housing dimensions</h2>
+                <h2 className="font-semibold"> {t("cards.card5.card1.m7")}</h2>
+                <p className="mb-4 font-light">{t("cards.card5.card1.m8")}</p>
+                <h2 className="font-semibold"> {t("cards.card5.card1.m9")}</h2>
+                <p className="mb-4 font-light">{t("cards.card5.card1.m10")}</p>
+                <h2 className="font-semibold"> {t("cards.card5.card1.m11")}</h2>
                 <p className="mb-4 font-light">
                   W 322 mm / D 234 mm / H 135 mm
                 </p>
-                <h2 className="font-semibold"> Weight</h2>
-                <p className="mb-4 font-light">3.5 kg without accessories</p>
+                <h2 className="font-semibold"> {t("cards.card5.card1.m12")}</h2>
+                <p className="mb-4 font-light">{t("cards.card5.card1.m13")}</p>
               </div>
             </div>
           </div>

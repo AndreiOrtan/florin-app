@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import { useRouter } from "next/router";
 import "react-multi-carousel/lib/styles.css";
 import CarouselItem from "./CarouselItem";
+import { useTranslations } from "next-intl";
 
 const responsive = {
   desktop: {
@@ -13,26 +14,26 @@ const responsive = {
 };
 
 const Slider = () => {
+  const t = useTranslations("carousel");
   const router = useRouter();
   const content = [
     {
       imgPath: "/carousel_mkb.png",
       url: `/${router.query.locale}/mecanoterapie`,
-      header: "O noutate mondială!",
-      description:
-        "Dinamometrele digitale isokinetice cu inteligenta artificiala pentru recuperare medicală",
+      header: `${t("noutate")}`,
+      description: `${t("description")}`,
       videoSrc: "/mkb_video.mp4",
     },
     {
       imgPath: "/carousel_zimmer.png",
       url: `/${router.query.locale}/fizioterapie`,
-      header: "Dispozitive inovatoare de fizioterapie ",
+      header: `${t("zimmer")}`,
       videoSrc: "/zimmer_video.mp4",
     },
     {
       imgPath: "/carousel_aquatizer.png",
       url: `/${router.query.locale}/aquatizer`,
-      header: "Robot de Hidromasaj de ultimă generație",
+      header: `${t("aqua")}`,
       videoSrc: "/aquatizer_video.mp4",
     },
   ];

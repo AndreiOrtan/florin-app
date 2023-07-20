@@ -12,6 +12,15 @@ export default function OptonPro() {
 
   return (
     <div className="flex flex-col items-center w-full">
+      <video
+        src="/aquatizer_video_page.mp4"
+        autoPlay
+        muted
+        loop
+        className={`w-full sm:h-[520px] h-[280px] object-cover`}
+        // poster={videoSrc}
+        playsInline
+      ></video>
       <div className="w-9/12 py-4">
         <div className="flex flex-col items-center ">
           <div>

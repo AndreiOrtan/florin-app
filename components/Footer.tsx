@@ -20,7 +20,7 @@ const Footer = ({ locale }: { locale: string }) => {
                   <p className="text-blue500 text-2xl tracking-wide font-bold">
                     Suhard Biomedical
                   </p>
-                  <p className="text-gray600 lg:text-base font-normal italic absolute bottom-[3px] right-1">
+                  <p className="text-gray600 lg:text-base font-normal italic absolute bottom-[2px] right-1">
                     HighTech Medical Equipment
                   </p>
                 </div>

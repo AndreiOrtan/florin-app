@@ -129,51 +129,41 @@ export default function ZLipo() {
             <div className="flex">
               <div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Technology</h2>
-                  <p className="font-light">
-                    Compressor-free ballistic shockwave system with
-                    electromagnetic generator as projectile accelerator, 1 – 22
-                    Hz, 60 – 185 mJ
-                  </p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card8.d1")}
+                  </h2>
+                  <p className="font-light">{t("cards.card8.d2")}</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Programmes</h2>
-                  <p className="font-light">
-                    5 pre-set application fields plus respective detailed
-                    treatment protocols
-                  </p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card8.d3")}
+                  </h2>
+                  <p className="font-light">{t("cards.card8.d4")}</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Control unit</h2>
-                  <p className="font-light">
-                    12″ colour touch-screen for all software operations, knops
-                    for energy and frequency. Handpiece operation via
-                    multidirectional foot switch.
-                  </p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card8.d5")}
+                  </h2>
+                  <p className="font-light">{t("cards.card8.d6")}</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Memory and update</h2>
-                  <p className="font-light">
-                    SD card for application menu memory, favourites and adapted
-                    programmes (99 places) / error log / firmware update
-                  </p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card8.d7")}
+                  </h2>
+                  <p className="font-light">{t("cards.card8.d8")}</p>
                 </div>
               </div>
               <div className="ml-8">
-                <h2 className="font-semibold">
-                  Mains voltage, Protection class
-                </h2>
+                <h2 className="font-semibold">{t("cards.card8.d9")}</h2>
                 <p className="mb-4 font-light">
                   100 – 240 V / 50/60 Hz; 220 V / 60 Hz, I
                 </p>
-                <h2 className="font-semibold">Dimensions, weight</h2>
+                <h2 className="font-semibold">{t("cards.card8.d10")}</h2>
                 <p className="mb-4 font-light">
                   L 53 cm / W 54 cm / H 139 cm, 21 kg (without handpiece)
                 </p>
-                <h2 className="font-semibold">Guarantee</h2>
-                <p className="mb-4 font-light">
-                  2.000.000 shocks on each shockwave generator
-                </p>
+                <h2 className="font-semibold">{t("cards.card8.d11")}</h2>
+                <p className="mb-4 font-light">{t("cards.card8.d12")}</p>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 
-export default function enPuls() {
+export default function EnPuls() {
   const t = useTranslations("physiotherapy");
   const images = [
     "/fizioterapiePhotos/diathermy-therapy/micropro/galery1.jpeg",
@@ -134,33 +134,38 @@ export default function enPuls() {
             </h2>
             <div className="flex">
               <div>
-                <h2 className="font-semibold pb-0.5"> Medical device</h2>
+                <h2 className="font-semibold pb-0.5">
+                  {" "}
+                  {t("cards.card5.card2.m1")}
+                </h2>
                 <p className="font-light">IIa</p>
 
                 <h2 className="font-semibold text-lg pb-0.5">
-                  HF nominal power
+                  {t("cards.card5.card2.m2")}
                 </h2>
                 <p className="mb-4 font-light">200/200 W (CW/pulse)</p>
 
-                <h2 className="font-semibold  pb-0.5">Operating frequency</h2>
+                <h2 className="font-semibold  pb-0.5">
+                  {t("cards.card5.card2.m3")}
+                </h2>
 
                 <p className="font-light mb-4">2.45 GHz ± 1.5 %</p>
 
                 <h2 className="font-semibold text-lg pb-0.5">
-                  Power indication
+                  {t("cards.card5.card2.m4")}
                 </h2>
-                <p className="font-light">Effective power</p>
+                <p className="font-light">{t("cards.card5.card2.m5")}</p>
               </div>
 
               <div className="ml-16">
-                <h2 className="font-semibold"> Timer</h2>
-                <p className="mb-4 font-light">1–30 min. (1 min steps)</p>
+                <h2 className="font-semibold"> {t("cards.card5.card2.m6")}</h2>
+                <p className="mb-4 font-light">{t("cards.card5.card2.m7")}</p>
 
-                <h2 className="font-semibold"> Dimensions </h2>
+                <h2 className="font-semibold"> {t("cards.card5.card2.m8")} </h2>
                 <p className="mb-4 font-light">
                   450 x 1110 x 530 mm (B x H x T)
                 </p>
-                <h2 className="font-semibold"> Weight</h2>
+                <h2 className="font-semibold"> {t("cards.card5.card2.m9")}</h2>
                 <p className="mb-4 font-light">44 kg</p>
               </div>
             </div>

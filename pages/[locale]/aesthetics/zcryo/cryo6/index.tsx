@@ -107,34 +107,36 @@ export default function Cryo6() {
             <div className="flex">
               <div>
                 <div>
-                  <h2 className="font-semibold pb-0.5"> Power supply</h2>
+                  <h2 className="font-semibold pb-0.5"> {t("powerSupply")}</h2>
                   <p className="font-light"> 230 V / 50 Hz</p>
                   <p className="font-light"> 230 V / 60 Hz</p>
                   <p className="font-light"> 115 V / 60 Hz</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Power input max.</h2>
+                  <h2 className="font-semibold pb-0.5">{t("input")}</h2>
                   <p className="font-light"> 1 KW</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Stand-by function</h2>
+                  <h2 className="font-semibold pb-0.5">{t("standBy")}</h2>
                   <p className="font-light">260 W / h</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Protection according</h2>
+                  <h2 className="font-semibold pb-0.5">{t("protection")}</h2>
                   <p className="font-light">EN 60601-1 I, Type B</p>
                   <p className="font-light">MDD / MPG Class IIa</p>
                 </div>
               </div>
               <div className="ml-8">
-                <h2 className="font-semibold"> Treatment tube length</h2>
+                <h2 className="font-semibold"> {t("tube")}</h2>
                 <p className="mb-4 font-light">1,80 m</p>
-                <h2 className="font-semibold"> Housing dimensions</h2>
+                <h2 className="font-semibold"> {t("length")}</h2>
                 <p className="mb-4 font-light">H 64,5 cm / W 39 cm / L 68 cm</p>
-                <h2 className="font-semibold"> Weight</h2>
+                <h2 className="font-semibold"> {t("weight")}</h2>
                 <p className="mb-4 font-light">60 kg</p>
-                <h2 className="font-semibold"> Fan levels</h2>
-                <p className="mb-4 font-light">9 levels, max. 1000 l / min</p>
+                <h2 className="font-semibold"> {t("fan")}</h2>
+                <p className="mb-4 font-light">
+                  9 {t("levels")}, max. 1000 l / min
+                </p>
               </div>
             </div>
           </div>

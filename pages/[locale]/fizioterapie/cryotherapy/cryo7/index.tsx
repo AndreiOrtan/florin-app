@@ -177,21 +177,38 @@ export default function enPuls() {
             </h2>
             <div className="flex">
               <div>
-                <h2 className="font-semibold pb-0.5"> Power supply</h2>
+                <h2 className="font-semibold pb-0.5">
+                  {" "}
+                  {t("cards.card6.card1.powerSupply")}
+                </h2>
                 <p className="font-light"> 220-240 V / 50 Hz</p>
                 <p className="font-light"> 240 V / 60 Hz</p>
                 <p className="font-light"> 100-120 V / 50Hz/60 Hz</p>
               </div>
 
               <div className="ml-8">
-                <h2 className="font-semibold"> Treatment tube length</h2>
+                <h2 className="font-semibold">
+                  {" "}
+                  {t("cards.card6.card1.tube")}
+                </h2>
                 <p className="mb-4 font-light">1,80 m</p>
-                <h2 className="font-semibold"> Housing dimensions (LxWxH)</h2>
+                <h2 className="font-semibold">
+                  {" "}
+                  {t("cards.card6.card1.length")}
+                </h2>
                 <p className="mb-4 font-light">68 cm x 39 cm x 64,5 cm</p>
-                <h2 className="font-semibold"> Weight</h2>
+                <h2 className="font-semibold">
+                  {" "}
+                  {t("cards.card6.card1.weight")}
+                </h2>
                 <p className="mb-4 font-light">75 kg</p>
-                <h2 className="font-semibold"> Air flow</h2>
-                <p className="mb-4 font-light">9 levels, max. 1000 l / min</p>
+                <h2 className="font-semibold">
+                  {" "}
+                  {t("cards.card6.card1.airFlow")}
+                </h2>
+                <p className="mb-4 font-light">
+                  9 {t("cards.card6.card1.levels")}, max. 1000 l / min
+                </p>
               </div>
             </div>
           </div>

@@ -130,28 +130,32 @@ export default function ZLipo() {
             <div className="flex">
               <div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Channels</h2>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card3.d1")}
+                  </h2>
                   <p className="font-light">2</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Frequency</h2>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card3.d2")}
+                  </h2>
                   <p className="font-light">1 – 150 Hz</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Treatment protocols</h2>
-                  <p className="font-light">programs, regions, manual mode</p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card3.d3")}
+                  </h2>
+                  <p className="font-light">{t("cards.card3.d4")}</p>
                 </div>
               </div>
               <div className="ml-8">
-                <h2 className="font-semibold">Surface</h2>
-                <p className="mb-4 font-light">
-                  LCD touch screen (8 inches) and a central knob
-                </p>
-                <h2 className="font-semibold">Dimensions</h2>
+                <h2 className="font-semibold">{t("cards.card3.d5")}</h2>
+                <p className="mb-4 font-light">{t("cards.card3.d6")}</p>
+                <h2 className="font-semibold">{t("cards.card3.d7")}</h2>
                 <p className="mb-4 font-light">
                   542 mm (L) × 501 mm (W) × 993 (H) mm
                 </p>
-                <h2 className="font-semibold">Weight</h2>
+                <h2 className="font-semibold">{t("cards.card3.d8")}</h2>
                 <p className="mb-4 font-light">approx. 60 kg</p>
               </div>
             </div>

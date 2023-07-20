@@ -138,37 +138,33 @@ export default function Cryo7() {
             <div className="flex">
               <div>
                 <div>
-                  <h2 className="font-semibold pb-0.5"> Power supply</h2>
+                  <h2 className="font-semibold pb-0.5"> {t("powerSupply")}</h2>
                   <p className="font-light"> 220-240 V / 50-60 Hz</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">
-                    Max. power consumption during therapy
-                  </h2>
+                  <h2 className="font-semibold pb-0.5">{t("input")}</h2>
                   <p className="font-light"> 1,2 kW</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">
-                    Eco standby operation
-                  </h2>
+                  <h2 className="font-semibold pb-0.5">{t("standBy")}</h2>
                   <p className="font-light">
                     0,55 kWh (Values are based on an internal test)
                   </p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Medical product</h2>
+                  <h2 className="font-semibold pb-0.5">{t("protection")}</h2>
                   <p className="font-light"> Class IIa</p>
                 </div>
               </div>
               <div className="ml-8">
-                <h2 className="font-semibold"> Treatment tube length</h2>
+                <h2 className="font-semibold"> {t("tube")}</h2>
                 <p className="mb-4 font-light">250 cm</p>
-                <h2 className="font-semibold"> Housing dimensions</h2>
+                <h2 className="font-semibold"> {t("length")}</h2>
                 <p className="mb-4 font-light">H 106 cm / W 50 cm / L 56 cm</p>
-                <h2 className="font-semibold"> Weight</h2>
+                <h2 className="font-semibold"> {t("weight")}</h2>
                 <p className="mb-4 font-light">60 kg</p>
-                <h2 className="font-semibold"> Fan levels</h2>
-                <p className="mb-4 font-light">9 levels</p>
+                <h2 className="font-semibold"> {t("fan")}</h2>
+                <p className="mb-4 font-light">9 {t("levels")}</p>
               </div>
             </div>
           </div>

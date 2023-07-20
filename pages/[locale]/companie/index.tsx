@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex items-center flex-col">
         <div className="w-full">
           <img
-            src="/scott-graham-OQMZwNd3ThU-unsplash.jpg"
+            src="/Office-Hands.jpeg"
             alt="Zimmer"
             className="w-full sm:h-[380px] h-[200px] opacity-95 "
           />

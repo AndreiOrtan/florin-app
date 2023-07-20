@@ -123,30 +123,36 @@ export default function ZLipo() {
             <div className="flex">
               <div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Mains voltage</h2>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card6.d1")}
+                  </h2>
                   <p className="font-light">100-240 V / 50-60 Hz</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Frequency</h2>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card6.d2")}
+                  </h2>
                   <p className="font-light">1-150 Hz</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Channel</h2>
-                  <p className="font-light">1 Channel</p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card6.d3")}
+                  </h2>
+                  <p className="font-light">1 {t("cards.card6.d3")}</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Treatment protocols</h2>
-                  <p className="font-light">4 different protocols</p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card6.d4")}
+                  </h2>
+                  <p className="font-light">{t("cards.card6.d5")}</p>
                 </div>
               </div>
               <div className="ml-8">
-                <h2 className="font-semibold">Medical Device</h2>
+                <h2 className="font-semibold">{t("cards.card6.d6")}</h2>
 
-                <h2 className="font-semibold">
-                  ContiCure | Housing dimensions (cm)
-                </h2>
+                <h2 className="font-semibold">{t("cards.card6.d7")}</h2>
                 <p className="mb-4 font-light">H 118 cm / W 70 cm / L 57 cm</p>
-                <h2 className="font-semibold">Weight</h2>
+                <h2 className="font-semibold">{t("cards.card6.d8")}</h2>
                 <p className="mb-4 font-light">60 kg</p>
               </div>
             </div>

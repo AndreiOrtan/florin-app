@@ -25,10 +25,10 @@ export default function ContactForm() {
     if (isValidEmail) {
       emailjs
         .sendForm(
-          "service_7jyespo",
-          "template_mrmdy0t",
+          "service_4450y1v",
+          "template_rsv3yle",
           e.currentTarget,
-          "AOlcQlyZTbCB3SpNY"
+          "19DK4O-FnOXxPy5Jz"
         )
         .then(
           (result) => {

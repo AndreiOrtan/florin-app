@@ -56,20 +56,28 @@ export default function ZLipo() {
 
         <div className="w-full">
           <div className="w-9/12 mx-auto py-8">
-            <h2 className="text-2xl font-semibold mb-4">Hyaluronate</h2>
+            <h2 className="text-2xl font-semibold mb-4">
+              {t("cards.card7.card1.d1")}
+            </h2>
             <div className="flex">
               <div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Concentration of HA</h2>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card7.card1.d2")}
+                  </h2>
                   <p className="font-light">18 mg/ml</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Stabiliser</h2>
-                  <p className="font-light">Glycerine</p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card7.card1.d3")}
+                  </h2>
+                  <p className="font-light">{t("cards.card7.card1.d4")}</p>
                 </div>
                 <div>
-                  <h2 className="font-semibold pb-0.5">Sterility</h2>
-                  <p className="font-light">Sterile</p>
+                  <h2 className="font-semibold pb-0.5">
+                    {t("cards.card7.card1.d5")}
+                  </h2>
+                  <p className="font-light">{t("cards.card7.card1.d6")}</p>
                 </div>
                 <div>
                   <h2 className="font-semibold pb-0.5">pH</h2>
@@ -77,14 +85,12 @@ export default function ZLipo() {
                 </div>
               </div>
               <div className="ml-8">
-                <h2 className="font-semibold">Package</h2>
+                <h2 className="font-semibold">{t("cards.card7.card1.d7")}</h2>
                 <p className="mb-4 font-light">1x 1 ml</p>
-                <h2 className="font-semibold">Needle</h2>
+                <h2 className="font-semibold">{t("cards.card7.card1.d8")}</h2>
                 <p className="mb-4 font-light">2x 30 G 1⁄2”</p>
-                <h2 className="font-semibold">Recommended treatment plan:</h2>
-                <p className="mb-4 font-light">
-                  In the first two months, three treatments are recommended.
-                </p>
+                <h2 className="font-semibold">{t("cards.card7.card1.d9")}</h2>
+                <p className="mb-4 font-light">{t("cards.card7.card1.d10")}</p>
               </div>
             </div>
           </div>
